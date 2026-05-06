@@ -1,0 +1,3 @@
+{"id": "m001", "task": "Open Settings and enable dark mode", "platform": "mobile", "benchmark": "androidworld"}
+{"id": "m002", "task": "Send a WhatsApp message to the first contact saying 'Hello'", "platform": "mobile", "benchmark": "androidworld"}
+{"id": "m003", "task": "Take a screenshot and share it via Gmail to test@example.com", "platform": "mobile", "benchmark": "androidworld"}

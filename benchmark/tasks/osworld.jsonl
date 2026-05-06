@@ -1,0 +1,3 @@
+{"id": "d001", "task": "Open a text editor and write 'Hello World', then save the file as hello.txt on the Desktop", "platform": "desktop", "benchmark": "osworld"}
+{"id": "d002", "task": "Open the terminal and list all files in the home directory", "platform": "desktop", "benchmark": "osworld"}
+{"id": "d003", "task": "Open the calculator application and compute 123 * 456", "platform": "desktop", "benchmark": "osworld"}

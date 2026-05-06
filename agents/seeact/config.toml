@@ -1,0 +1,12 @@
+# SeeAct configuration
+# Full config options: https://github.com/OSU-NLP-Group/SeeAct
+
+[model]
+provider = "openai"   # openai | anthropic | gemini
+model    = "gpt-4o"
+
+[browser]
+headless = false
+
+[logging]
+# log_path = "/path/to/seeact.log"  # uncomment to enable; needed by runner.py discovery

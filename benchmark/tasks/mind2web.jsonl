@@ -1,0 +1,3 @@
+{"id": "w001", "task": "Find the cheapest flight from NYC to Berlin departing next Friday", "platform": "web", "benchmark": "mind2web"}
+{"id": "w002", "task": "Search for a hotel in Paris for two adults, check-in June 1, check-out June 5", "platform": "web", "benchmark": "mind2web"}
+{"id": "w003", "task": "Add the first result for 'wireless headphones' on Amazon to the cart", "platform": "web", "benchmark": "mind2web"}

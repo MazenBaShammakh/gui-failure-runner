@@ -1,0 +1,36 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual envs
+venv/
+.venv/
+agents/agent_s/venv/
+
+# Conda
+*.conda
+
+# Results (runtime output — large, machine-generated)
+results/runs/*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

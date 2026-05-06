@@ -1,0 +1,10 @@
+# Agent S dependencies — plain pip (no conda; required for Linux compat)
+# Install: pip install -e path/to/Agent-S
+# Then:    pip install -r this file (for any extras not in Agent S setup.py)
+
+# Heavy deps pulled in by Agent S:
+# paddleocr, paddlepaddle, pyautogui, pytesseract
+
+# Platform-conditional (install manually based on OS):
+# macOS:   pip install pyobjc
+# Windows: pip install pywinauto pywin32
