@@ -18,6 +18,9 @@ venv/
 .venv/
 agents/agent_s/venv/
 
+# Cloned agent repos
+agents/mobilerun/mobilerun-src/
+
 # Conda
 *.conda
 

@@ -1,9 +1,20 @@
-import argparse, subprocess, json, os, shutil
+import argparse, subprocess, json, os, shutil, sys
 from datetime import datetime, timezone
 from pathlib import Path
 from benchmark_loader import load_tasks
 from agent_registry import AGENT_REGISTRY, get_agents_for_task
 from result_schema import TaskResult, make_skip_record
+
+
+def resolve_python(env_name: str) -> str:
+    """Return the python executable for a venv path or fall back to sys.executable."""
+    p = Path(env_name)
+    if len(p.parts) > 1:
+        # Looks like a venv path — pick the right bin location per OS
+        if sys.platform == "win32":
+            return str(p / "Scripts" / "python.exe")
+        return str(p / "bin" / "python")
+    return sys.executable
 
 BENCHMARK_DIR = Path("benchmark/tasks")
 RESULTS_DIR   = Path("results/runs")
@@ -25,9 +36,10 @@ def run_task(run_id, agent, task, run_dir, timeout=120) -> TaskResult:
     env = {**os.environ, **agent.extra_env}
 
     try:
+        python = resolve_python(agent.env_name)
         with open(stdout_path, "w") as out, open(stderr_path, "w") as err:
             proc = subprocess.run(
-                ["python", agent.runner_script,
+                [python, agent.runner_script,
                  "--task",    task_payload,
                  "--model",   agent.default_model,
                  "--raw-dir", str(raw_dir)],

@@ -1,0 +1,2 @@
+# Installed via: pip install -e mobilerun-src  (see setup.bat / setup.sh)
+# The cloned repo at agents/mobilerun/mobilerun-src/ is the source of truth.
