@@ -27,6 +27,9 @@ agents/mobilerun/mobilerun-src/
 # Results (runtime output — large, machine-generated)
 results/runs/*/
 
+# Agent test output
+agents/seeact/seeact_test_output/
+
 # Jupyter
 .ipynb_checkpoints/
 

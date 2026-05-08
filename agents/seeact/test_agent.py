@@ -1,8 +1,13 @@
 import asyncio
-import os
+from pathlib import Path
 from seeact.agent import SeeActAgent
 
-os.environ["OPENAI_API_KEY"] = "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"
+# Load .env from repo root if python-dotenv is available
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parents[2] / ".env")
+except ImportError:
+    pass  # set env vars manually or export them in your shell
 
 
 async def main():
@@ -21,5 +26,6 @@ async def main():
     await agent.stop()
     print("complete_flag:", agent.complete_flag)
     print("steps:", steps)
+
 
 asyncio.run(main())
