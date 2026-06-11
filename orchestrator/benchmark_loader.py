@@ -9,7 +9,7 @@ def load_tasks(benchmark_dir: str | Path) -> list[BenchmarkTask]:
     seen_ids = {}
 
     for jsonl_file in sorted(benchmark_dir.glob("**/*.jsonl")):
-        with open(jsonl_file) as f:
+        with open(jsonl_file, encoding="utf-8") as f:
             for line_num, line in enumerate(f, 1):
                 line = line.strip()
                 if not line:
@@ -19,6 +19,10 @@ def load_tasks(benchmark_dir: str | Path) -> list[BenchmarkTask]:
                 except json.JSONDecodeError:
                     print(f"[WARN] Malformed JSON: {jsonl_file}:{line_num}")
                     continue
+
+                # gui-failure-suite uses platform_type; fall back to it
+                if "platform" not in raw and "platform_type" in raw:
+                    raw["platform"] = raw["platform_type"]
 
                 missing = [k for k in ("id", "task", "platform") if k not in raw]
                 if missing:
@@ -35,12 +39,16 @@ def load_tasks(benchmark_dir: str | Path) -> list[BenchmarkTask]:
                     print(f"[WARN] Duplicate id '{task_id}' in {jsonl_file}, "
                           f"overrides {seen_ids[task_id]}")
 
-                known_keys = {"id", "task", "platform", "benchmark"}
+                known_keys = {"id", "task", "platform", "platform_type",
+                              "benchmark", "benchmark_id", "split", "app"}
                 task = BenchmarkTask(
                     id=task_id,
                     task=raw["task"],
                     platform=platform,
                     benchmark=raw.get("benchmark"),
+                    benchmark_id=raw.get("benchmark_id"),
+                    split=raw.get("split"),
+                    app=raw.get("app"),
                     source_file=str(jsonl_file.relative_to(benchmark_dir)),
                     extra={k: v for k, v in raw.items() if k not in known_keys}
                 )

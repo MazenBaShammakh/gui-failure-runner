@@ -12,9 +12,15 @@ except ImportError:
 
 async def main():
     agent = SeeActAgent(
-        model="gpt-4o",
-        default_task="Go to google.com and search for 'weather in Munich'",
-        default_website="https://www.google.com/",
+        config_path=Path(__file__).parent / "config.toml",
+        model="gpt-5-mini",
+        # model="gemini-2.5-flash",
+        default_task="Search for the current weather in Munich",
+        default_website="https://www.accuweather.com/",
+        viewport={
+            "width": 1536,
+            "height": 1024
+        },
         save_file_dir="seeact_test_output",
     )
     await agent.start()

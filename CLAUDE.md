@@ -9,11 +9,13 @@ for later analysis.
 ## Repo layout
 
 ```
-orchestrator/   — main entry point + all shared logic (loader, registry, schemas)
-agents/         — one subdirectory per agent; each has runner.py + env spec
-benchmark/tasks — .jsonl task files (id, task, platform, benchmark)
-results/runs/   — written at runtime, one timestamped dir per run
-analysis/       — Jupyter notebook for cross-agent comparison
+orchestrator/              — main entry point + all shared logic (loader, registry, schemas)
+agents/                    — one subdirectory per agent; each has runner.py + env spec
+benchmark/tasks/           — original .jsonl task files (id, task, platform, benchmark)
+benchmark/gui-failure-suite/ — gui-failure-suite .jsonl files (platform_type, benchmark_id, split, app)
+batches/                   — saved .json lists of task IDs, selectable via --batch
+results/runs/              — written at runtime, one timestamped dir per run
+analysis/                  — Jupyter notebook for cross-agent comparison
 ```
 
 ## Key design decisions
@@ -34,6 +36,9 @@ python orchestrator/run_benchmark.py --agents seeact --dry-run
 # real run, web tasks only
 python orchestrator/run_benchmark.py --agents seeact --platform web
 
+# gui-failure-suite only, test split
+python orchestrator/run_benchmark.py --agents seeact --benchmark AITW --split test
+
 # all agents
 python orchestrator/run_benchmark.py --agents seeact mobilerun agent_s
 ```
@@ -42,6 +47,8 @@ python orchestrator/run_benchmark.py --agents seeact mobilerun agent_s
 
 - `build_agent_command()` in each `agents/*/runner.py`
 - `parse_agent_output()` in each runner — depends on discovering each agent's log format
-- `analysis/compare_results.ipynb`
+
+Implemented: `analysis/load_results.py` (DataFrame loader, dedupes to latest attempt per
+task/agent, optional failure-category join) + `analysis/compare_results.ipynb`.
 
 See `DESIGN.md` for the full spec.

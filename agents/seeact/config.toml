@@ -1,12 +1,42 @@
-# SeeAct configuration
-# Full config options: https://github.com/OSU-NLP-Group/SeeAct
+# SeeAct agent configuration — matches SeeActAgent.__init__ parameter structure.
+# Sections and keys must match exactly; missing keys fall back to constructor defaults.
 
-[model]
-provider = "openai"   # openai | anthropic | gemini
-model    = "gpt-4o"
+[basic]
+save_file_dir      = "seeact_test_output"
+default_task       = "Search for the current weather in Munich"
+default_website    = "https://www.accuweather.com/"
+crawler_mode       = false
+crawler_max_steps  = 10
+
+[agent]
+input_info           = ["screenshot"]
+grounding_strategy   = "text_choice_som"
+max_auto_op          = 50
+max_continuous_no_op = 5
+highlight            = false
+
+[openai]
+rate_limit  = -1
+model       = "gemini-flash-latest"
+temperature = 0.9
+# api_key is intentionally omitted — set OPENAI_API_KEY in your environment or .env
+# api_key     = "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"
+api_key = "AIzaSyChopED94sBnPd_lVpG_BzDWFkmqnFfSjg"
 
 [browser]
-headless = false
+headless             = true
+args                 = []
+browser_app          = "chrome"
+persistant           = false
+persistant_user_path = ""
+save_video           = false
+tracing              = false
 
-[logging]
-# log_path = "/path/to/seeact.log"  # uncomment to enable; needed by runner.py discovery
+[browser.viewport]
+width  = 1536
+height = 1024
+
+[browser.trace]
+screenshots = true
+snapshots   = true
+sources     = true

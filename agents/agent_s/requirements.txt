@@ -1,10 +1,12 @@
-# Agent S dependencies — plain pip (no conda; required for Linux compat)
-# Install: pip install -e path/to/Agent-S
-# Then:    pip install -r this file (for any extras not in Agent S setup.py)
+# Agent S (Simular) dependencies — plain pip (no conda)
+# Upstream: https://github.com/simular-ai/Agent-S
+# The published package is `gui-agents` (module: gui_agents.s3). It pulls in the
+# heavy GUI deps itself (pyautogui, paddleocr/pytesseract, etc.).
+gui-agents
 
-# Heavy deps pulled in by Agent S:
-# paddleocr, paddlepaddle, pyautogui, pytesseract
+# python-dotenv: runner.py loads the repo-root .env for API keys (same as seeact).
+python-dotenv
 
-# Platform-conditional (install manually based on OS):
-# macOS:   pip install pyobjc
-# Windows: pip install pywinauto pywin32
+# Windows desktop automation backends Agent S uses to read/drive the UI.
+pywinauto
+pywin32
