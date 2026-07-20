@@ -1,0 +1,3228 @@
+# snapshot 1 @ 2026-06-08T11:06:15
+# filter=DetailedFilter formatter=IndexedFormatter screen=1080x1920 elements=15
+
+================================================================================
+[1] RAW a11y_tree (from Portal, pre-filter)
+================================================================================
+{
+  "resourceId": "",
+  "className": "android.widget.FrameLayout",
+  "packageName": "com.google.android.apps.nexuslauncher",
+  "text": "",
+  "contentDescription": "",
+  "hint": "",
+  "stateDescription": "",
+  "tooltipText": "",
+  "paneTitle": "",
+  "error": "",
+  "boundsInScreen": {
+    "left": 0,
+    "top": 0,
+    "right": 1080,
+    "bottom": 1920
+  },
+  "boundsInParent": {
+    "left": 0,
+    "top": 0,
+    "right": 1080,
+    "bottom": 1920
+  },
+  "isClickable": false,
+  "isLongClickable": false,
+  "isContextClickable": false,
+  "isFocusable": false,
+  "isFocused": false,
+  "isAccessibilityFocused": false,
+  "isSelected": false,
+  "isCheckable": false,
+  "isChecked": false,
+  "isEnabled": true,
+  "isVisibleToUser": true,
+  "isEditable": false,
+  "isPassword": false,
+  "isShowingHintText": false,
+  "isScrollable": false,
+  "isDismissable": false,
+  "isMultiLine": false,
+  "isImportantForAccessibility": true,
+  "isScreenReaderFocusable": false,
+  "isHeading": false,
+  "isTextSelectable": false,
+  "inputType": 0,
+  "liveRegion": 0,
+  "windowId": 15,
+  "drawingOrder": 0,
+  "maxTextLength": -1,
+  "movementGranularities": 0,
+  "childCount": 8,
+  "actionCount": 4,
+  "actionList": [
+    {
+      "id": 4,
+      "label": "",
+      "name": "SELECT"
+    },
+    {
+      "id": 8,
+      "label": "",
+      "name": "CLEAR_SELECTION"
+    },
+    {
+      "id": 64,
+      "label": "",
+      "name": "UNKNOWN_64"
+    },
+    {
+      "id": 16908342,
+      "label": "",
+      "name": "UNKNOWN_16908342"
+    }
+  ],
+  "children": [
+    {
+      "resourceId": "com.google.android.apps.nexuslauncher:id/workspace",
+      "className": "android.widget.ScrollView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "",
+      "contentDescription": "",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 0,
+        "top": 0,
+        "right": 1080,
+        "bottom": 1920
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 1080,
+        "bottom": 1920
+      },
+      "isClickable": false,
+      "isLongClickable": false,
+      "isContextClickable": false,
+      "isFocusable": false,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": true,
+      "isDismissable": false,
+      "isMultiLine": false,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 2,
+      "maxTextLength": -1,
+      "movementGranularities": 0,
+      "childCount": 1,
+      "actionCount": 4,
+      "actionList": [
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        }
+      ],
+      "children": [
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/smartspace_card_pager",
+          "className": "androidx.viewpager.widget.ViewPager",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "At a glance",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 48,
+            "top": 72,
+            "right": 1032,
+            "bottom": 274
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 1520,
+            "bottom": 312
+          },
+          "isClickable": false,
+          "isLongClickable": true,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 1,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 1,
+          "actionCount": 9,
+          "extras": {
+            "AccessibilityNodeInfo.roleDescription": "View"
+          },
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 32,
+              "label": "",
+              "name": "LONG_CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": [
+            {
+              "resourceId": "com.google.android.apps.nexuslauncher:id/base_template_card_with_date",
+              "className": "android.view.ViewGroup",
+              "packageName": "com.google.android.apps.nexuslauncher",
+              "text": "",
+              "contentDescription": "",
+              "hint": "",
+              "stateDescription": "",
+              "tooltipText": "",
+              "paneTitle": "",
+              "error": "",
+              "boundsInScreen": {
+                "left": 48,
+                "top": 72,
+                "right": 1032,
+                "bottom": 274
+              },
+              "boundsInParent": {
+                "left": 0,
+                "top": 0,
+                "right": 1520,
+                "bottom": 312
+              },
+              "isClickable": true,
+              "isLongClickable": false,
+              "isContextClickable": false,
+              "isFocusable": true,
+              "isFocused": false,
+              "isAccessibilityFocused": false,
+              "isSelected": false,
+              "isCheckable": false,
+              "isChecked": false,
+              "isEnabled": true,
+              "isVisibleToUser": true,
+              "isEditable": false,
+              "isPassword": false,
+              "isShowingHintText": false,
+              "isScrollable": false,
+              "isDismissable": false,
+              "isMultiLine": false,
+              "isImportantForAccessibility": true,
+              "isScreenReaderFocusable": false,
+              "isHeading": false,
+              "isTextSelectable": false,
+              "inputType": 0,
+              "liveRegion": 0,
+              "windowId": 15,
+              "drawingOrder": 1,
+              "maxTextLength": -1,
+              "movementGranularities": 0,
+              "childCount": 1,
+              "actionCount": 6,
+              "hasTouchDelegate": true,
+              "touchDelegateRegionCount": 1,
+              "extras": {
+                "AccessibilityNodeInfo.roleDescription": " "
+              },
+              "actionList": [
+                {
+                  "id": 1,
+                  "label": "",
+                  "name": "FOCUS"
+                },
+                {
+                  "id": 4,
+                  "label": "",
+                  "name": "SELECT"
+                },
+                {
+                  "id": 8,
+                  "label": "",
+                  "name": "CLEAR_SELECTION"
+                },
+                {
+                  "id": 16,
+                  "label": "",
+                  "name": "CLICK"
+                },
+                {
+                  "id": 64,
+                  "label": "",
+                  "name": "UNKNOWN_64"
+                },
+                {
+                  "id": 16908342,
+                  "label": "",
+                  "name": "UNKNOWN_16908342"
+                }
+              ],
+              "children": [
+                {
+                  "resourceId": "com.google.android.apps.nexuslauncher:id/date",
+                  "className": "android.widget.TextView",
+                  "packageName": "com.google.android.apps.nexuslauncher",
+                  "text": "Mon, Jun 8",
+                  "contentDescription": "Mon, Jun 8",
+                  "hint": "",
+                  "stateDescription": "",
+                  "tooltipText": "",
+                  "paneTitle": "",
+                  "error": "",
+                  "boundsInScreen": {
+                    "left": 52,
+                    "top": 150,
+                    "right": 242,
+                    "bottom": 196
+                  },
+                  "boundsInParent": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 294,
+                    "bottom": 71
+                  },
+                  "isClickable": true,
+                  "isLongClickable": false,
+                  "isContextClickable": false,
+                  "isFocusable": true,
+                  "isFocused": false,
+                  "isAccessibilityFocused": false,
+                  "isSelected": false,
+                  "isCheckable": false,
+                  "isChecked": false,
+                  "isEnabled": true,
+                  "isVisibleToUser": true,
+                  "isEditable": false,
+                  "isPassword": false,
+                  "isShowingHintText": false,
+                  "isScrollable": false,
+                  "isDismissable": false,
+                  "isMultiLine": true,
+                  "isImportantForAccessibility": true,
+                  "isScreenReaderFocusable": false,
+                  "isHeading": false,
+                  "isTextSelectable": false,
+                  "textSelectionStart": -1,
+                  "textSelectionEnd": -1,
+                  "inputType": 0,
+                  "liveRegion": 0,
+                  "windowId": 15,
+                  "drawingOrder": 1,
+                  "maxTextLength": -1,
+                  "movementGranularities": 31,
+                  "childCount": 0,
+                  "actionCount": 9,
+                  "actionList": [
+                    {
+                      "id": 1,
+                      "label": "",
+                      "name": "FOCUS"
+                    },
+                    {
+                      "id": 4,
+                      "label": "",
+                      "name": "SELECT"
+                    },
+                    {
+                      "id": 8,
+                      "label": "",
+                      "name": "CLEAR_SELECTION"
+                    },
+                    {
+                      "id": 16,
+                      "label": "",
+                      "name": "CLICK"
+                    },
+                    {
+                      "id": 64,
+                      "label": "",
+                      "name": "UNKNOWN_64"
+                    },
+                    {
+                      "id": 256,
+                      "label": "",
+                      "name": "UNKNOWN_256"
+                    },
+                    {
+                      "id": 512,
+                      "label": "",
+                      "name": "UNKNOWN_512"
+                    },
+                    {
+                      "id": 131072,
+                      "label": "",
+                      "name": "UNKNOWN_131072"
+                    },
+                    {
+                      "id": 16908342,
+                      "label": "",
+                      "name": "UNKNOWN_16908342"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceId": "com.google.android.apps.nexuslauncher:id/accessibility_action_view",
+      "className": "android.view.View",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "",
+      "contentDescription": "Home",
+      "hint": "",
+      "stateDescription": "Home screen 1 of 1",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 0,
+        "top": 72,
+        "right": 1080,
+        "bottom": 1848
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 1080,
+        "bottom": 1776
+      },
+      "isClickable": false,
+      "isLongClickable": false,
+      "isContextClickable": false,
+      "isFocusable": false,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": false,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 1,
+      "maxTextLength": -1,
+      "movementGranularities": 11,
+      "childCount": 0,
+      "actionCount": 11,
+      "actionList": [
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131951692,
+          "label": "Apps list",
+          "name": "UNKNOWN_2131951692"
+        },
+        {
+          "id": 2131952225,
+          "label": "Home settings",
+          "name": "UNKNOWN_2131952225"
+        },
+        {
+          "id": 2131952269,
+          "label": "Wallpaper & style",
+          "name": "UNKNOWN_2131952269"
+        },
+        {
+          "id": 2131952344,
+          "label": "Widgets",
+          "name": "UNKNOWN_2131952344"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Phone",
+      "contentDescription": "Phone",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 54,
+        "top": 1395,
+        "right": 210,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 3,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Messages",
+      "contentDescription": "Messages",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 258,
+        "top": 1395,
+        "right": 414,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 4,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Play Store",
+      "contentDescription": "Play Store",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 462,
+        "top": 1395,
+        "right": 618,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 5,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Chrome",
+      "contentDescription": "Chrome",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 666,
+        "top": 1395,
+        "right": 822,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 6,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Camera",
+      "contentDescription": "Camera",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 870,
+        "top": 1395,
+        "right": 1026,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 7,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "com.google.android.apps.nexuslauncher:id/search_container_hotseat",
+      "className": "android.widget.FrameLayout",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "",
+      "contentDescription": "Google search",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 60,
+        "top": 1605,
+        "right": 1020,
+        "bottom": 1794
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 960,
+        "bottom": 189
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": false,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 8,
+      "maxTextLength": -1,
+      "movementGranularities": 11,
+      "childCount": 3,
+      "actionCount": 11,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131952315,
+          "label": "Swipe to access Google app",
+          "name": "UNKNOWN_2131952315"
+        }
+      ],
+      "children": [
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/g_icon",
+          "className": "android.widget.ImageView",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "Google app",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 72,
+            "top": 1627,
+            "right": 216,
+            "bottom": 1771
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 144,
+            "bottom": 144
+          },
+          "isClickable": true,
+          "isLongClickable": false,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 1,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 0,
+          "actionCount": 9,
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 16,
+              "label": "",
+              "name": "CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": []
+        },
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/mic_icon",
+          "className": "android.widget.ImageView",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "Voice search",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 720,
+            "top": 1605,
+            "right": 864,
+            "bottom": 1794
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 144,
+            "bottom": 189
+          },
+          "isClickable": true,
+          "isLongClickable": false,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 3,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 0,
+          "actionCount": 9,
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 16,
+              "label": "",
+              "name": "CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": []
+        },
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/lens_icon",
+          "className": "android.widget.ImageButton",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "Google Lens",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 864,
+            "top": 1605,
+            "right": 1008,
+            "bottom": 1794
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 144,
+            "bottom": 189
+          },
+          "isClickable": true,
+          "isLongClickable": false,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 4,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 0,
+          "actionCount": 9,
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 16,
+              "label": "",
+              "name": "CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+[2] FILTERED tree (after DetailedFilter)
+================================================================================
+{
+  "resourceId": "",
+  "className": "android.widget.FrameLayout",
+  "packageName": "com.google.android.apps.nexuslauncher",
+  "text": "",
+  "contentDescription": "",
+  "hint": "",
+  "stateDescription": "",
+  "tooltipText": "",
+  "paneTitle": "",
+  "error": "",
+  "boundsInScreen": {
+    "left": 0,
+    "top": 0,
+    "right": 1080,
+    "bottom": 1920
+  },
+  "boundsInParent": {
+    "left": 0,
+    "top": 0,
+    "right": 1080,
+    "bottom": 1920
+  },
+  "isClickable": false,
+  "isLongClickable": false,
+  "isContextClickable": false,
+  "isFocusable": false,
+  "isFocused": false,
+  "isAccessibilityFocused": false,
+  "isSelected": false,
+  "isCheckable": false,
+  "isChecked": false,
+  "isEnabled": true,
+  "isVisibleToUser": true,
+  "isEditable": false,
+  "isPassword": false,
+  "isShowingHintText": false,
+  "isScrollable": false,
+  "isDismissable": false,
+  "isMultiLine": false,
+  "isImportantForAccessibility": true,
+  "isScreenReaderFocusable": false,
+  "isHeading": false,
+  "isTextSelectable": false,
+  "inputType": 0,
+  "liveRegion": 0,
+  "windowId": 15,
+  "drawingOrder": 0,
+  "maxTextLength": -1,
+  "movementGranularities": 0,
+  "childCount": 8,
+  "actionCount": 4,
+  "actionList": [
+    {
+      "id": 4,
+      "label": "",
+      "name": "SELECT"
+    },
+    {
+      "id": 8,
+      "label": "",
+      "name": "CLEAR_SELECTION"
+    },
+    {
+      "id": 64,
+      "label": "",
+      "name": "UNKNOWN_64"
+    },
+    {
+      "id": 16908342,
+      "label": "",
+      "name": "UNKNOWN_16908342"
+    }
+  ],
+  "children": [
+    {
+      "resourceId": "com.google.android.apps.nexuslauncher:id/workspace",
+      "className": "android.widget.ScrollView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "",
+      "contentDescription": "",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 0,
+        "top": 0,
+        "right": 1080,
+        "bottom": 1920
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 1080,
+        "bottom": 1920
+      },
+      "isClickable": false,
+      "isLongClickable": false,
+      "isContextClickable": false,
+      "isFocusable": false,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": true,
+      "isDismissable": false,
+      "isMultiLine": false,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 2,
+      "maxTextLength": -1,
+      "movementGranularities": 0,
+      "childCount": 1,
+      "actionCount": 4,
+      "actionList": [
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        }
+      ],
+      "children": [
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/smartspace_card_pager",
+          "className": "androidx.viewpager.widget.ViewPager",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "At a glance",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 48,
+            "top": 72,
+            "right": 1032,
+            "bottom": 274
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 1520,
+            "bottom": 312
+          },
+          "isClickable": false,
+          "isLongClickable": true,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 1,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 1,
+          "actionCount": 9,
+          "extras": {
+            "AccessibilityNodeInfo.roleDescription": "View"
+          },
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 32,
+              "label": "",
+              "name": "LONG_CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": [
+            {
+              "resourceId": "com.google.android.apps.nexuslauncher:id/base_template_card_with_date",
+              "className": "android.view.ViewGroup",
+              "packageName": "com.google.android.apps.nexuslauncher",
+              "text": "",
+              "contentDescription": "",
+              "hint": "",
+              "stateDescription": "",
+              "tooltipText": "",
+              "paneTitle": "",
+              "error": "",
+              "boundsInScreen": {
+                "left": 48,
+                "top": 72,
+                "right": 1032,
+                "bottom": 274
+              },
+              "boundsInParent": {
+                "left": 0,
+                "top": 0,
+                "right": 1520,
+                "bottom": 312
+              },
+              "isClickable": true,
+              "isLongClickable": false,
+              "isContextClickable": false,
+              "isFocusable": true,
+              "isFocused": false,
+              "isAccessibilityFocused": false,
+              "isSelected": false,
+              "isCheckable": false,
+              "isChecked": false,
+              "isEnabled": true,
+              "isVisibleToUser": true,
+              "isEditable": false,
+              "isPassword": false,
+              "isShowingHintText": false,
+              "isScrollable": false,
+              "isDismissable": false,
+              "isMultiLine": false,
+              "isImportantForAccessibility": true,
+              "isScreenReaderFocusable": false,
+              "isHeading": false,
+              "isTextSelectable": false,
+              "inputType": 0,
+              "liveRegion": 0,
+              "windowId": 15,
+              "drawingOrder": 1,
+              "maxTextLength": -1,
+              "movementGranularities": 0,
+              "childCount": 1,
+              "actionCount": 6,
+              "hasTouchDelegate": true,
+              "touchDelegateRegionCount": 1,
+              "extras": {
+                "AccessibilityNodeInfo.roleDescription": " "
+              },
+              "actionList": [
+                {
+                  "id": 1,
+                  "label": "",
+                  "name": "FOCUS"
+                },
+                {
+                  "id": 4,
+                  "label": "",
+                  "name": "SELECT"
+                },
+                {
+                  "id": 8,
+                  "label": "",
+                  "name": "CLEAR_SELECTION"
+                },
+                {
+                  "id": 16,
+                  "label": "",
+                  "name": "CLICK"
+                },
+                {
+                  "id": 64,
+                  "label": "",
+                  "name": "UNKNOWN_64"
+                },
+                {
+                  "id": 16908342,
+                  "label": "",
+                  "name": "UNKNOWN_16908342"
+                }
+              ],
+              "children": [
+                {
+                  "resourceId": "com.google.android.apps.nexuslauncher:id/date",
+                  "className": "android.widget.TextView",
+                  "packageName": "com.google.android.apps.nexuslauncher",
+                  "text": "Mon, Jun 8",
+                  "contentDescription": "Mon, Jun 8",
+                  "hint": "",
+                  "stateDescription": "",
+                  "tooltipText": "",
+                  "paneTitle": "",
+                  "error": "",
+                  "boundsInScreen": {
+                    "left": 52,
+                    "top": 150,
+                    "right": 242,
+                    "bottom": 196
+                  },
+                  "boundsInParent": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 294,
+                    "bottom": 71
+                  },
+                  "isClickable": true,
+                  "isLongClickable": false,
+                  "isContextClickable": false,
+                  "isFocusable": true,
+                  "isFocused": false,
+                  "isAccessibilityFocused": false,
+                  "isSelected": false,
+                  "isCheckable": false,
+                  "isChecked": false,
+                  "isEnabled": true,
+                  "isVisibleToUser": true,
+                  "isEditable": false,
+                  "isPassword": false,
+                  "isShowingHintText": false,
+                  "isScrollable": false,
+                  "isDismissable": false,
+                  "isMultiLine": true,
+                  "isImportantForAccessibility": true,
+                  "isScreenReaderFocusable": false,
+                  "isHeading": false,
+                  "isTextSelectable": false,
+                  "textSelectionStart": -1,
+                  "textSelectionEnd": -1,
+                  "inputType": 0,
+                  "liveRegion": 0,
+                  "windowId": 15,
+                  "drawingOrder": 1,
+                  "maxTextLength": -1,
+                  "movementGranularities": 31,
+                  "childCount": 0,
+                  "actionCount": 9,
+                  "actionList": [
+                    {
+                      "id": 1,
+                      "label": "",
+                      "name": "FOCUS"
+                    },
+                    {
+                      "id": 4,
+                      "label": "",
+                      "name": "SELECT"
+                    },
+                    {
+                      "id": 8,
+                      "label": "",
+                      "name": "CLEAR_SELECTION"
+                    },
+                    {
+                      "id": 16,
+                      "label": "",
+                      "name": "CLICK"
+                    },
+                    {
+                      "id": 64,
+                      "label": "",
+                      "name": "UNKNOWN_64"
+                    },
+                    {
+                      "id": 256,
+                      "label": "",
+                      "name": "UNKNOWN_256"
+                    },
+                    {
+                      "id": 512,
+                      "label": "",
+                      "name": "UNKNOWN_512"
+                    },
+                    {
+                      "id": 131072,
+                      "label": "",
+                      "name": "UNKNOWN_131072"
+                    },
+                    {
+                      "id": 16908342,
+                      "label": "",
+                      "name": "UNKNOWN_16908342"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceId": "com.google.android.apps.nexuslauncher:id/accessibility_action_view",
+      "className": "android.view.View",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "",
+      "contentDescription": "Home",
+      "hint": "",
+      "stateDescription": "Home screen 1 of 1",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 0,
+        "top": 72,
+        "right": 1080,
+        "bottom": 1848
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 1080,
+        "bottom": 1776
+      },
+      "isClickable": false,
+      "isLongClickable": false,
+      "isContextClickable": false,
+      "isFocusable": false,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": false,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 1,
+      "maxTextLength": -1,
+      "movementGranularities": 11,
+      "childCount": 0,
+      "actionCount": 11,
+      "actionList": [
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131951692,
+          "label": "Apps list",
+          "name": "UNKNOWN_2131951692"
+        },
+        {
+          "id": 2131952225,
+          "label": "Home settings",
+          "name": "UNKNOWN_2131952225"
+        },
+        {
+          "id": 2131952269,
+          "label": "Wallpaper & style",
+          "name": "UNKNOWN_2131952269"
+        },
+        {
+          "id": 2131952344,
+          "label": "Widgets",
+          "name": "UNKNOWN_2131952344"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Phone",
+      "contentDescription": "Phone",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 54,
+        "top": 1395,
+        "right": 210,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 3,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Messages",
+      "contentDescription": "Messages",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 258,
+        "top": 1395,
+        "right": 414,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 4,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Play Store",
+      "contentDescription": "Play Store",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 462,
+        "top": 1395,
+        "right": 618,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 5,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Chrome",
+      "contentDescription": "Chrome",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 666,
+        "top": 1395,
+        "right": 822,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 6,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "",
+      "className": "android.widget.TextView",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "Camera",
+      "contentDescription": "Camera",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 870,
+        "top": 1395,
+        "right": 1026,
+        "bottom": 1571
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 156,
+        "bottom": 176
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": true,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "textSelectionStart": -1,
+      "textSelectionEnd": -1,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 7,
+      "maxTextLength": -1,
+      "movementGranularities": 31,
+      "childCount": 0,
+      "actionCount": 13,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131361857,
+          "label": "Add to home screen",
+          "name": "UNKNOWN_2131361857"
+        },
+        {
+          "id": 2131361877,
+          "label": "Shortcut Menu",
+          "name": "UNKNOWN_2131361877"
+        },
+        {
+          "id": 2131361892,
+          "label": "Move item",
+          "name": "UNKNOWN_2131361892"
+        }
+      ],
+      "children": []
+    },
+    {
+      "resourceId": "com.google.android.apps.nexuslauncher:id/search_container_hotseat",
+      "className": "android.widget.FrameLayout",
+      "packageName": "com.google.android.apps.nexuslauncher",
+      "text": "",
+      "contentDescription": "Google search",
+      "hint": "",
+      "stateDescription": "",
+      "tooltipText": "",
+      "paneTitle": "",
+      "error": "",
+      "boundsInScreen": {
+        "left": 60,
+        "top": 1605,
+        "right": 1020,
+        "bottom": 1794
+      },
+      "boundsInParent": {
+        "left": 0,
+        "top": 0,
+        "right": 960,
+        "bottom": 189
+      },
+      "isClickable": true,
+      "isLongClickable": true,
+      "isContextClickable": false,
+      "isFocusable": true,
+      "isFocused": false,
+      "isAccessibilityFocused": false,
+      "isSelected": false,
+      "isCheckable": false,
+      "isChecked": false,
+      "isEnabled": true,
+      "isVisibleToUser": true,
+      "isEditable": false,
+      "isPassword": false,
+      "isShowingHintText": false,
+      "isScrollable": false,
+      "isDismissable": false,
+      "isMultiLine": false,
+      "isImportantForAccessibility": true,
+      "isScreenReaderFocusable": false,
+      "isHeading": false,
+      "isTextSelectable": false,
+      "inputType": 0,
+      "liveRegion": 0,
+      "windowId": 15,
+      "drawingOrder": 8,
+      "maxTextLength": -1,
+      "movementGranularities": 11,
+      "childCount": 3,
+      "actionCount": 11,
+      "actionList": [
+        {
+          "id": 1,
+          "label": "",
+          "name": "FOCUS"
+        },
+        {
+          "id": 4,
+          "label": "",
+          "name": "SELECT"
+        },
+        {
+          "id": 8,
+          "label": "",
+          "name": "CLEAR_SELECTION"
+        },
+        {
+          "id": 16,
+          "label": "",
+          "name": "CLICK"
+        },
+        {
+          "id": 32,
+          "label": "",
+          "name": "LONG_CLICK"
+        },
+        {
+          "id": 64,
+          "label": "",
+          "name": "UNKNOWN_64"
+        },
+        {
+          "id": 256,
+          "label": "",
+          "name": "UNKNOWN_256"
+        },
+        {
+          "id": 512,
+          "label": "",
+          "name": "UNKNOWN_512"
+        },
+        {
+          "id": 131072,
+          "label": "",
+          "name": "UNKNOWN_131072"
+        },
+        {
+          "id": 16908342,
+          "label": "",
+          "name": "UNKNOWN_16908342"
+        },
+        {
+          "id": 2131952315,
+          "label": "Swipe to access Google app",
+          "name": "UNKNOWN_2131952315"
+        }
+      ],
+      "children": [
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/g_icon",
+          "className": "android.widget.ImageView",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "Google app",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 72,
+            "top": 1627,
+            "right": 216,
+            "bottom": 1771
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 144,
+            "bottom": 144
+          },
+          "isClickable": true,
+          "isLongClickable": false,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 1,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 0,
+          "actionCount": 9,
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 16,
+              "label": "",
+              "name": "CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": []
+        },
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/mic_icon",
+          "className": "android.widget.ImageView",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "Voice search",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 720,
+            "top": 1605,
+            "right": 864,
+            "bottom": 1794
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 144,
+            "bottom": 189
+          },
+          "isClickable": true,
+          "isLongClickable": false,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 3,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 0,
+          "actionCount": 9,
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 16,
+              "label": "",
+              "name": "CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": []
+        },
+        {
+          "resourceId": "com.google.android.apps.nexuslauncher:id/lens_icon",
+          "className": "android.widget.ImageButton",
+          "packageName": "com.google.android.apps.nexuslauncher",
+          "text": "",
+          "contentDescription": "Google Lens",
+          "hint": "",
+          "stateDescription": "",
+          "tooltipText": "",
+          "paneTitle": "",
+          "error": "",
+          "boundsInScreen": {
+            "left": 864,
+            "top": 1605,
+            "right": 1008,
+            "bottom": 1794
+          },
+          "boundsInParent": {
+            "left": 0,
+            "top": 0,
+            "right": 144,
+            "bottom": 189
+          },
+          "isClickable": true,
+          "isLongClickable": false,
+          "isContextClickable": false,
+          "isFocusable": true,
+          "isFocused": false,
+          "isAccessibilityFocused": false,
+          "isSelected": false,
+          "isCheckable": false,
+          "isChecked": false,
+          "isEnabled": true,
+          "isVisibleToUser": true,
+          "isEditable": false,
+          "isPassword": false,
+          "isShowingHintText": false,
+          "isScrollable": false,
+          "isDismissable": false,
+          "isMultiLine": false,
+          "isImportantForAccessibility": true,
+          "isScreenReaderFocusable": false,
+          "isHeading": false,
+          "isTextSelectable": false,
+          "inputType": 0,
+          "liveRegion": 0,
+          "windowId": 15,
+          "drawingOrder": 4,
+          "maxTextLength": -1,
+          "movementGranularities": 11,
+          "childCount": 0,
+          "actionCount": 9,
+          "actionList": [
+            {
+              "id": 1,
+              "label": "",
+              "name": "FOCUS"
+            },
+            {
+              "id": 4,
+              "label": "",
+              "name": "SELECT"
+            },
+            {
+              "id": 8,
+              "label": "",
+              "name": "CLEAR_SELECTION"
+            },
+            {
+              "id": 16,
+              "label": "",
+              "name": "CLICK"
+            },
+            {
+              "id": 64,
+              "label": "",
+              "name": "UNKNOWN_64"
+            },
+            {
+              "id": 256,
+              "label": "",
+              "name": "UNKNOWN_256"
+            },
+            {
+              "id": 512,
+              "label": "",
+              "name": "UNKNOWN_512"
+            },
+            {
+              "id": 131072,
+              "label": "",
+              "name": "UNKNOWN_131072"
+            },
+            {
+              "id": 16908342,
+              "label": "",
+              "name": "UNKNOWN_16908342"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+[3] FORMATTED text (LLM input, after IndexedFormatter)
+================================================================================
+**Current Phone State:**
+• **App:** Pixel Launcher (com.google.android.apps.nexuslauncher)
+• **Keyboard:** Hidden
+• **Focused Element:** ''
+
+Current Clickable UI elements:
+'index. className: resourceId; checkedState, text - bounds(x1,y1,x2,y2)':
+1. FrameLayout: "android.widget.FrameLayout" - (0,0,1080,1920)
+2. ScrollView: "com.google.android.apps.nexuslauncher:id/workspace", "com.google.android.apps.nexuslauncher:id/workspace" - (0,0,1080,1920)
+3. ViewPager: "com.google.android.apps.nexuslauncher:id/smartspace_card_pager", "At a glance" - (48,72,1032,274)
+4. ViewGroup: "com.google.android.apps.nexuslauncher:id/base_template_card_with_date", "com.google.android.apps.nexuslauncher:id/base_template_card_with_date" - (48,72,1032,274)
+5. TextView: "com.google.android.apps.nexuslauncher:id/date", "Mon, Jun 8" - (52,150,242,196)
+6. View: "com.google.android.apps.nexuslauncher:id/accessibility_action_view", "Home" - (0,72,1080,1848)
+7. TextView: "Phone" - (54,1395,210,1571)
+8. TextView: "Messages" - (258,1395,414,1571)
+9. TextView: "Play Store" - (462,1395,618,1571)
+10. TextView: "Chrome" - (666,1395,822,1571)
+11. TextView: "Camera" - (870,1395,1026,1571)
+12. FrameLayout: "com.google.android.apps.nexuslauncher:id/search_container_hotseat", "Google search" - (60,1605,1020,1794)
+13. ImageView: "com.google.android.apps.nexuslauncher:id/g_icon", "Google app" - (72,1627,216,1771)
+14. ImageView: "com.google.android.apps.nexuslauncher:id/mic_icon", "Voice search" - (720,1605,864,1794)
+15. ImageButton: "com.google.android.apps.nexuslauncher:id/lens_icon", "Google Lens" - (864,1605,1008,1794)
+
+focused_text: ''

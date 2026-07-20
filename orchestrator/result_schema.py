@@ -12,7 +12,7 @@ class TaskResult:
     platform:     str
     benchmark:    str | None
     source_file:  str | None
-    status:       Literal["success", "failure", "error", "skipped", "aborted", "timeout", "blocked", "human_failure"]
+    status:       Literal["success", "failure", "error", "skipped", "aborted", "timeout", "blocked", "human_failure", "human_success"]
     skip_reason:  str | None
     agent_status: str | None
     score:        float | None
@@ -78,6 +78,7 @@ def make_aborted_record(
     stop_reason: str = "user_abort",
     modality: str | None = None,
     app_variant: str = "baseline",
+    duration_s: float | None = None,
 ) -> TaskResult:
     """Record a task that was interrupted mid-run (Ctrl+C, 'q' to abort the run,
     or 's' to skip to the next task). Not a COMPLETE_STATUS, so it will be re-run
@@ -94,7 +95,7 @@ def make_aborted_record(
         status="aborted",
         skip_reason=None,
         agent_status=None,
-        score=None, steps=None, duration_s=None,
+        score=None, steps=None, duration_s=duration_s,
         model=model,
         error_msg=reason,
         raw_log_path=None,
@@ -113,6 +114,7 @@ def make_blocked_record(
     reason: str = "Flagged blocked by user (pressed 'b'): site blocks agent use",
     modality: str | None = None,
     app_variant: str = "baseline",
+    duration_s: float | None = None,
 ) -> TaskResult:
     """Record a task the user flagged as running on an agent-hostile site (a
     CAPTCHA wall, bot detection, etc.). Unlike 'aborted', 'blocked' is treated as
@@ -130,7 +132,7 @@ def make_blocked_record(
         status="blocked",
         skip_reason=None,
         agent_status=None,
-        score=None, steps=None, duration_s=None,
+        score=None, steps=None, duration_s=duration_s,
         model=model,
         error_msg=reason,
         raw_log_path=None,
@@ -149,6 +151,7 @@ def make_human_failure_record(
     reason: str = "Failure flagged by human observer (pressed 'f')",
     modality: str | None = None,
     app_variant: str = "baseline",
+    duration_s: float | None = None,
 ) -> TaskResult:
     """Record a task the human watching judged as failed, regardless of what the
     agent reported. Distinct from agent 'failure' (the agent's own self-report):
@@ -166,12 +169,49 @@ def make_human_failure_record(
         status="human_failure",
         skip_reason=None,
         agent_status=None,
-        score=None, steps=None, duration_s=None,
+        score=None, steps=None, duration_s=duration_s,
         model=model,
         error_msg=reason,
         raw_log_path=raw_log_path,
         timestamp=datetime.now(timezone.utc).isoformat(),
         stop_reason="user_failure",
+        modality=modality,
+        benchmark_id=task.benchmark_id,
+        split=task.split,
+        app=task.app,
+        app_variant=app_variant,
+    )
+
+
+def make_human_success_record(
+    run_id, agent_name, task, model: str | None, raw_log_path: str | None = None,
+    reason: str = "Success flagged by human observer (pressed 'd')",
+    modality: str | None = None,
+    app_variant: str = "baseline",
+    duration_s: float | None = None,
+) -> TaskResult:
+    """Record a task the human watching judged as succeeded, regardless of what
+    the agent reported. Distinct from agent 'success' (the agent's own self-report):
+    this is a ground-truth label, valuable for catching false failure / agent
+    under-reporting. Terminal (see RERUN_SKIP_STATUSES) — skipped on re-run."""
+    from datetime import datetime, timezone
+    return TaskResult(
+        run_id=run_id,
+        agent=agent_name,
+        task_id=task.id,
+        task=task.task,
+        platform=task.platform,
+        benchmark=task.benchmark,
+        source_file=task.source_file,
+        status="human_success",
+        skip_reason=None,
+        agent_status=None,
+        score=None, steps=None, duration_s=duration_s,
+        model=model,
+        error_msg=reason,
+        raw_log_path=raw_log_path,
+        timestamp=datetime.now(timezone.utc).isoformat(),
+        stop_reason="user_success",
         modality=modality,
         benchmark_id=task.benchmark_id,
         split=task.split,

@@ -5,7 +5,7 @@ from benchmark_loader import load_tasks
 from agent_registry import AGENT_REGISTRY, get_agents_for_task, resolve_modality
 from result_schema import (
     TaskResult, make_skip_record, make_aborted_record, make_blocked_record,
-    make_human_failure_record,
+    make_human_failure_record, make_human_success_record,
 )
 
 
@@ -90,10 +90,10 @@ BATCHES_DIR      = Path("batches")
 RESULTS_DIR      = Path("results/runs")
 COMPLETE_STATUSES = {"success", "failure"}
 # Statuses that count as "don't run this again": genuine completions plus tasks the
-# user flagged as blocked (agent-hostile site) or as a human-judged failure. These
-# are terminal even though they aren't agent completions, so re-runs skip them
+# user flagged as blocked (agent-hostile site) or as a human-judged success/failure.
+# These are terminal even though they aren't agent completions, so re-runs skip them
 # unless --rerun-completed is passed.
-RERUN_SKIP_STATUSES = COMPLETE_STATUSES | {"blocked", "human_failure"}
+RERUN_SKIP_STATUSES = COMPLETE_STATUSES | {"blocked", "human_failure", "human_success"}
 
 
 def load_batch_ids(names: list[str]) -> list[str]:
@@ -117,10 +117,19 @@ def load_batch_ids(names: list[str]) -> list[str]:
     return ids
 
 
-def load_completed(results_dir: Path, agents: list[str]) -> dict[str, set[str]]:
-    """Scan all past runs and return {agent: {task_id}} for records that should not
-    be re-run (success/failure, plus user-flagged 'blocked')."""
-    completed: dict[str, set[str]] = {name: set() for name in agents}
+# A completed-task key is the full combination a task was run under, not just its
+# id: the same task is "done" only for the exact (modality, app_variant, model)
+# it already ran with, so changing any of those dimensions re-runs it.
+CompletedKey = tuple[str, str | None, str | None, str | None]  # (task_id, modality, app_variant, model)
+
+
+def load_completed(results_dir: Path, agents: list[str]) -> dict[str, set[CompletedKey]]:
+    """Scan all past runs and return {agent: {(task_id, modality, app_variant, model)}}
+    for records that should not be re-run (success/failure, plus user-flagged
+    'blocked'/'human_failure'). Keying on the whole combination — not just task_id —
+    means a task already done under one modality/variant/model is still executed
+    when any of those change."""
+    completed: dict[str, set[CompletedKey]] = {name: set() for name in agents}
     for run_dir in results_dir.glob("*"):
         for agent_name in agents:
             jsonl = run_dir / agent_name / f"{agent_name}.jsonl"
@@ -134,7 +143,12 @@ def load_completed(results_dir: Path, agents: list[str]) -> dict[str, set[str]]:
                     try:
                         rec = json.loads(line)
                         if rec.get("status") in RERUN_SKIP_STATUSES:
-                            completed[agent_name].add(rec["task_id"])
+                            completed[agent_name].add((
+                                rec["task_id"],
+                                rec.get("modality"),
+                                rec.get("app_variant"),
+                                rec.get("model"),
+                            ))
                     except (json.JSONDecodeError, KeyError):
                         continue
     return completed
@@ -175,8 +189,15 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
     stdout_path = raw_dir / "stdout.txt"
     stderr_path = raw_dir / "stderr.txt"
 
+    # gui-failure-suite mobile tasks confine the agent to the pre-launched app, so
+    # tell the mobile agent not to wander into other apps. benchmark_id is the
+    # gui-failure-suite marker; mobilerun is the only mobile agent.
+    task_text = task.task
+    if agent.name == "mobilerun" and task.benchmark_id:
+        task_text = f"{task_text}\nUse the currently opened app only."
+
     task_payload = json.dumps({
-        "id": task.id, "task": task.task,
+        "id": task.id, "task": task_text,
         "platform": task.platform,
         "app": task.app,
         "extra": task.extra
@@ -249,6 +270,13 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
                             err.write("\n[orchestrator] killed: user flagged this task as failed ('f')\n")
                             _terminate(proc)
                             break
+                        if k == "d":
+                            print("\n  [HUMAN-SUCCESS] user pressed 'd' — flagging task as a "
+                                  "human-judged success (won't be re-run)", flush=True)
+                            outcome = "human_success"
+                            err.write("\n[orchestrator] killed: user flagged this task as succeeded ('d')\n")
+                            _terminate(proc)
+                            break
                         if k == "q":
                             print("\n  [QUIT] user pressed 'q' — aborting run", flush=True)
                             outcome = "quit"
@@ -272,17 +300,22 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
             run_id, agent.name, task, model,
             reason="Skipped by user (pressed 's') before completion",
             stop_reason="user_skip", modality=recorded_modality,
-            app_variant=app_variant)
+            app_variant=app_variant, duration_s=duration)
 
     if outcome == "blocked":
         return make_blocked_record(run_id, agent.name, task, model,
                                    modality=recorded_modality,
-                                   app_variant=app_variant)
+                                   app_variant=app_variant, duration_s=duration)
 
     if outcome == "human_failure":
         return make_human_failure_record(run_id, agent.name, task, model,
                                          raw_log_path=raw_prefix, modality=recorded_modality,
-                                         app_variant=app_variant)
+                                         app_variant=app_variant, duration_s=duration)
+
+    if outcome == "human_success":
+        return make_human_success_record(run_id, agent.name, task, model,
+                                         raw_log_path=raw_prefix, modality=recorded_modality,
+                                         app_variant=app_variant, duration_s=duration)
 
     if outcome == "timeout":
         # Distinct "timeout" status (not "error") so wall-clock truncation is never
@@ -406,7 +439,8 @@ def main():
                              "record")
     parser.add_argument("--no-interactive",  action="store_true",
                         help="Disable live keyboard controls ('s' skip / 'f' human-failure / "
-                             "'b' blocked / 'q' quit) even when running in an interactive terminal")
+                             "'d' human-success / 'b' blocked / 'q' quit) even when running in "
+                             "an interactive terminal")
     # Mobilerun-only device reset (benchmark isolation). Ignored by other agents.
     # ON by default: each task starts from a clean state (HOME + force-stop every
     # open app) instead of inheriting the previous task's screen.
@@ -486,7 +520,8 @@ def main():
     completed = {} if args.rerun_completed else load_completed(RESULTS_DIR, args.agents)
     if completed:
         total_done = sum(len(v) for v in completed.values())
-        print(f"[INFO] {total_done} task/agent pair(s) already completed or blocked — will be skipped "
+        print(f"[INFO] {total_done} completed task/agent/modality/variant/model record(s) found — "
+              f"a task is skipped only when re-run under the same combination "
               f"(pass --rerun-completed to override)")
 
     print(f"[INFO] Run {run_id} | {len(tasks)} tasks | agents: {args.agents}")
@@ -508,8 +543,8 @@ def main():
             print("[INFO] Mobilerun preferred-app pre-launch disabled (--no-mobile-prelaunch) — "
                   "the agent opens apps on its own from the goal text")
     if interactive and not args.dry_run:
-        print("[INFO] Live controls: 's' skip | 'f' flag human failure | 'b' flag blocked "
-              "| 'q' abort run   ('f'/'b' are terminal — skipped on re-run)")
+        print("[INFO] Live controls: 's' skip | 'f' flag human failure | 'd' flag human success "
+              "| 'b' flag blocked | 'q' abort run   ('f'/'d'/'b' are terminal — skipped on re-run)")
 
     interrupted = False
     try:
@@ -520,8 +555,20 @@ def main():
             for agent_name in args.agents:
                 agent = AGENT_REGISTRY[agent_name]
 
-                if task.id in completed.get(agent_name, set()):
-                    print(f"  [DONE] {agent_name} <- {task.id} (already completed, skipping)")
+                # Skip only when this exact combination was already completed: same
+                # task AND modality AND app_variant AND model. The recorded values
+                # are resolve_modality(...) / args.app_variant / the effective model,
+                # so they line up with what load_completed() read back.
+                done_key: CompletedKey = (
+                    task.id,
+                    resolve_modality(agent, args.modality),
+                    args.app_variant,
+                    args.model or agent.default_model,
+                )
+                if done_key in completed.get(agent_name, set()):
+                    print(f"  [DONE] {agent_name} <- {task.id} (already completed for "
+                          f"modality={done_key[1]}, variant={done_key[2]}, "
+                          f"model={done_key[3]}; skipping)")
                     continue
 
                 if agent_name not in matched_names:
@@ -540,10 +587,12 @@ def main():
 
                 if args.dry_run:
                     print(f"  [DRY]  {agent_name} <- {task.id} "
-                          f"({task.platform}, {task.benchmark})")
+                          f"({task.platform}, {task.benchmark}): {task.task}")
                     continue
 
-                print(f"  [RUN]  {agent_name} <- {task.id} ...", end=" ", flush=True)
+                print(f"  [RUN]  {agent_name} <- {task.id}: {task.task} ...",
+                      end=" ", flush=True)
+                task_start = datetime.now(timezone.utc)
                 try:
                     result = run_task(run_id, agent, task, run_dir, args.model,
                                       timeout_s=args.timeout or None,
@@ -557,10 +606,11 @@ def main():
                     # subprocess.run already forwarded the SIGINT to (and reaped)
                     # the child. Record the in-flight task as aborted before exiting
                     # so it isn't silently lost — then propagate to stop the run.
+                    task_duration = (datetime.now(timezone.utc) - task_start).total_seconds()
                     record = make_aborted_record(
                         run_id, agent_name, task, args.model or agent.default_model,
                         modality=resolve_modality(agent, args.modality),
-                        app_variant=args.app_variant)
+                        app_variant=args.app_variant, duration_s=task_duration)
                     result_files[agent_name].write(record.to_jsonl() + "\n")
                     result_files[agent_name].flush()
                     print("aborted")

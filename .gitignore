@@ -40,3 +40,14 @@ agents/seeact/seeact_test_output/
 # OS
 .DS_Store
 Thumbs.db
+
+seeact_test_output/
+logs/
+.playwright-mcp/
+.claude/
+viewer_full_page.png
+REPO_DOCUMENTATION.md
+CLAUDE.md
+DESIGN.md
+slides.md
+benchmark/(del) gui-failure-suite - Copy

@@ -45,6 +45,37 @@ AGENT_REGISTRY: dict[str, AgentConfig] = {
         # Runner reads GUI_AGENT_MODALITY; unset → accessibility-tree-only (text).
         flag_default_modality="text_only",
     ),
+    "browser_use": AgentConfig(
+        name="browser_use",
+        platforms={"web"},
+        modality="multimodal",
+        # browser-use has no headless single-task CLI (its CLI only launches an
+        # interactive REPL or the browser-use-web-ui Gradio server), so — like
+        # seeact/agent_s — the runner drives the browser_use.Agent SDK in-process.
+        run_method="python",
+        env_name="agents/browser_use/venv",
+        runner_script="agents/browser_use/runner.py",
+        default_model="gemini-3.5-flash",
+        # Provider for browser_use's bundled LLM wrappers (browser_use.llm), read by
+        # runner._build_llm(); each wrapper reads its own standard API-key env var
+        # so no separate key var is needed here — ChatGoogle falls back to
+        # GOOGLE_API_KEY/GEMINI_API_KEY (both already in the repo .env) when no
+        # api_key is passed explicitly. Telemetry is opt-out (PostHog) — disabled
+        # for benchmark runs. --model must stay a Gemini model name to match this
+        # provider (e.g. gemini-2.5-flash/-pro); switching provider back to
+        # "openai"/"anthropic" needs a matching model name too.
+        extra_env={
+            "BROWSER_USE_PROVIDER": "google",
+            "ANONYMIZED_TELEMETRY": "false",
+        },
+        # Runner reads GUI_AGENT_MODALITY and maps it to use_vision: text -> False,
+        # multimodal -> True. 'vision' has no faithful implementation (browser_use
+        # always addresses elements by index into its DOM/accessibility tree, so
+        # that tree is never optional) and the runner raises rather than silently
+        # mislabeling a multimodal run as vision_only. Unset -> multimodal, matching
+        # the previous fixed behavior.
+        flag_default_modality="multimodal",
+    ),
     "agent_s": AgentConfig(
         name="agent_s",
         platforms={"desktop", "desktop_windows", "cross_platform"},
@@ -55,8 +86,9 @@ AGENT_REGISTRY: dict[str, AgentConfig] = {
         env_name="agents/agent_s/venv",
         runner_script="agents/agent_s/runner.py",
         # Planner model (gui_agents' "generation"/worker model). Its provider comes
-        # from AGENT_S_PROVIDER below; --model is this value.
-        default_model="gpt-4o",
+        # from AGENT_S_PROVIDER below; --model overrides this value. Must match the
+        # provider — kept on Gemini to pair with AGENT_S_PROVIDER=gemini.
+        default_model="gemini-3.5-flash",
         # Agent S splits the planner (any chat model) from the grounding model
         # (turns "click Save" into pixel coords). Read by runner._build_engine_params().
         #   Phase 1 (no GPU): planner=OpenAI, grounding=Gemini via API, GROUND_URL

@@ -395,6 +395,37 @@ def _install_dom_optimization() -> None:
     import seeact.agent as agent_mod
     agent_mod.get_interactive_elements_with_playwright = _fast_get_interactive_elements_with_playwright
     agent_mod.select_option = _fast_select_option
+    _install_predictions_sanitizer()
+
+
+def _install_predictions_sanitizer() -> None:
+    """Keep a successful run from being reported as "error" at the save step.
+
+    agent.stop() (seeact/agent.py) does
+    `json.dump(self.predictions, f, default=locator_serializer, indent=4)` to write
+    all_predictions.json, and locator_serializer only knows how to stringify a
+    Playwright Locator — anything else raises TypeError. Our fast DOM extraction
+    (_fast_get_element_data) stores the raw ElementHandle in each element's
+    "selector" field (needed for perform_action during the run), so that dump
+    always fails on a real run, and the resulting exception propagates out of
+    agent.stop() in _run()'s try block and gets reported as status="error" even
+    though agent.complete_flag was already True. Stringify those handles right
+    before the library's own stop() runs its json.dump.
+    """
+    from playwright.async_api import ElementHandle
+    from seeact.agent import SeeActAgent
+
+    orig_stop = SeeActAgent.stop
+
+    async def sanitized_stop(self):
+        for prediction in self.predictions:
+            element = prediction.get("element")
+            selector = element.get("selector") if element else None
+            if isinstance(selector, ElementHandle):
+                element["selector"] = repr(selector)
+        return await orig_stop(self)
+
+    SeeActAgent.stop = sanitized_stop
 
 
 def main():
