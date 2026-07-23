@@ -104,6 +104,66 @@ AGENT_REGISTRY: dict[str, AgentConfig] = {
             "GROUND_URL":       "",
         },
     ),
+    "pc_agent": AgentConfig(
+        name="pc_agent",
+        platforms={"desktop", "desktop_windows", "cross_platform"},
+        # PC-Agent can send a SoM-annotated screenshot alongside an OCR +
+        # accessibility-tree-derived text list, but the runner defaults
+        # PC_AGENT_USE_PERCEPTION_INFO to off (no OCR calls at all, Aliyun or
+        # local) — see agents/pc_agent/setup_notes.md — so by default it's a bare
+        # screenshot, same as agent_s. Static vision_only to match; doesn't honor
+        # GUI_AGENT_MODALITY (unlike mobilerun/browser_use). Set
+        # PC_AGENT_USE_PERCEPTION_INFO=1 to get the hybrid representation and
+        # reclassify this as multimodal for analysis.
+        modality="vision_only",
+        # PC-Agent (X-PLUG/MobileAgent) isn't a pip package or importable SDK —
+        # run.py parses sys.argv and loads config.json at module scope, so the
+        # runner shells out to the vendored script rather than driving an SDK
+        # in-process (unlike seeact/agent_s/mobilerun).
+        run_method="cli",
+        env_name="agents/pc_agent/venv",
+        runner_script="agents/pc_agent/runner.py",
+        # PC-Agent's client only speaks the OpenAI chat-completions shape, but that
+        # works against any OpenAI-compatible endpoint. PC_AGENT_PROVIDER=gemini
+        # (runner._resolve_api_config()) routes it to Google's OpenAI-compatible
+        # endpoint using GEMINI_API_KEY/GOOGLE_API_KEY — switched from the OpenAI
+        # default after the configured OPENAI_API_KEY turned out to have no quota
+        # (RateLimitError/insufficient_quota during integration testing).
+        default_model="gemini-2.5-flash",
+        extra_env={"PC_AGENT_PROVIDER": "gemini"},
+    ),
+    "ufo": AgentConfig(
+        name="ufo",
+        # Windows-only (deep UIA/Win32/WinCOM integration; primary Session class
+        # is WindowsBaseSession) — unlike agent_s/pc_agent this isn't cross-platform,
+        # so it doesn't claim "desktop" or "cross_platform".
+        platforms={"desktop_windows"},
+        modality="multimodal",
+        # The runner drives ufo.module.session_pool's SessionFactory/SessionPool
+        # in-process (the installed CLI, `python -m ufo`, is a separate process
+        # with its own argparse/asyncio.run — no advantage over importing the
+        # same classes directly, and in-process gives us the HostAgentStatus
+        # object instead of having to scrape stdout/logs for it).
+        run_method="python",
+        env_name="agents/ufo/venv",
+        runner_script="agents/ufo/runner.py",
+        # Must pair with UFO_PROVIDER below — runner.py's --model override only
+        # changes API_MODEL, not API_TYPE, so a mismatched pair (e.g. a gemini
+        # model name with UFO_PROVIDER=openai) sends the model name to the wrong
+        # provider's endpoint and 404s (confirmed via a real run).
+        default_model="gemini-3.5-flash",
+        # Provider for the HOST_AGENT/APP_AGENT credentials runner.py writes into
+        # vendor/UFO/config/ufo/agents.yaml before each task (UFO has no env-var
+        # hook for these). Matches this repo's other agents' default provider
+        # (mobilerun/browser_use/agent_s/pc_agent all default to Gemini).
+        extra_env={"UFO_PROVIDER": "gemini"},
+        # Runner reads GUI_AGENT_MODALITY and maps it to VISUAL_MODE: text -> False,
+        # multimodal -> True. 'vision' has no faithful implementation (actions
+        # address UIA controls by ID from a control list that's always sent as
+        # text, same situation as browser_use) and the runner raises rather than
+        # silently mislabeling a multimodal run as vision_only. Unset -> multimodal.
+        flag_default_modality="multimodal",
+    ),
 }
 
 

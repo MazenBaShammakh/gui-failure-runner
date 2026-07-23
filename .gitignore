@@ -20,6 +20,8 @@ agents/agent_s/venv/
 
 # Cloned agent repos
 agents/mobilerun/mobilerun-src/
+agents/pc_agent/vendor/
+agents/ufo/vendor/
 
 # Conda
 *.conda
@@ -29,6 +31,7 @@ results/runs/*/
 
 # Agent test output
 agents/seeact/seeact_test_output/
+agents/pc_agent/pc_agent_test_output/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -50,4 +53,7 @@ REPO_DOCUMENTATION.md
 CLAUDE.md
 DESIGN.md
 slides.md
-benchmark/(del) gui-failure-suite - Copy
+benchmark/(del) gui-failure-suite - Copy/
+cleanup/
+benchmark/tasks/
+scripts/

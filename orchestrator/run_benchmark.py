@@ -226,7 +226,16 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
     # subprocess.run so we can watch the timeout deadline and the keyboard at once.
     outcome  = "completed"
     deadline = time.monotonic() + timeout_s if timeout_s else None
-    with open(stdout_path, "w") as out, open(stderr_path, "w") as err:
+    # encoding="utf-8": every runner forces its subprocess's stdout/stderr to UTF-8
+    # (Windows' cp1252 default can't hold the emoji/box-drawing glyphs several
+    # agents' libraries emit), so the files these streams get redirected into must
+    # be read back the same way — the default locale encoding will raise
+    # UnicodeDecodeError on read otherwise. Popen(stdout=out) writes the child's
+    # raw bytes straight through regardless of how `out` itself was opened, so
+    # this only matters for the read side below, but declaring it here too keeps
+    # write/read consistent for the orchestrator's own err.write() calls.
+    with open(stdout_path, "w", encoding="utf-8") as out, \
+         open(stderr_path, "w", encoding="utf-8") as err:
         proc = subprocess.Popen(
             [python, agent.runner_script,
              "--task",    task_payload,
@@ -339,7 +348,7 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
             app_variant=app_variant,
         )
 
-    raw_stdout = stdout_path.read_text()
+    raw_stdout = stdout_path.read_text(encoding="utf-8", errors="replace")
 
     # Runner prints a single JSON line as the last line of stdout
     bridge = {}
@@ -388,7 +397,7 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
             status="error", skip_reason=None, agent_status=None,
             score=None, steps=None, duration_s=duration,
             model=model,
-            error_msg=stderr_path.read_text()[:500],
+            error_msg=stderr_path.read_text(encoding="utf-8", errors="replace")[:500],
             raw_log_path=raw_prefix,
             timestamp=start.isoformat(),
             stop_reason="error",

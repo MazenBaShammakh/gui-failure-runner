@@ -1,0 +1,23 @@
+# Microsoft UFO (microsoft/UFO) — plain pip (no conda), matches agent_s/pc_agent.
+# Upstream: https://github.com/microsoft/UFO
+#
+# UFO is not published on PyPI — it's a script repo meant to be run from its own
+# repo root (`python -m ufo`), with top-level `ufo/` and `config/` packages that
+# import each other by absolute name (`from config.config_loader import ...`,
+# `from ufo.module import interactor`). setup.bat/setup.sh git-clone the upstream
+# repo into vendor/UFO and install *its* requirements.txt into this venv;
+# runner.py then sys.path-inserts vendor/UFO before importing so those absolute
+# imports resolve. This file only pins what runner.py itself needs beyond that.
+
+# runner.py loads the repo-root .env for API keys (same pattern as the other agents).
+python-dotenv
+
+# runner.py writes vendor/UFO/config/ufo/agents.yaml fresh before every task
+# (HOST_AGENT/APP_AGENT credentials — UFO has no env-var hook for these).
+PyYAML
+
+# UFO's ufo/llm/gemini.py does `from google import genai` unconditionally when
+# API_TYPE="gemini" is selected, but upstream's own requirements.txt has this
+# commented out ("##For Gemini"). Installed here instead of patching the
+# vendored file, since this is enabling a supported provider, not fixing a bug.
+google-genai==1.12.1
