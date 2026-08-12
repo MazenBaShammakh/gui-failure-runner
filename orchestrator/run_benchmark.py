@@ -1,4 +1,10 @@
-import argparse, subprocess, json, os, shutil, sys, time
+import argparse
+import subprocess
+import json
+import os
+import shutil
+import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from benchmark_loader import load_tasks
@@ -33,7 +39,8 @@ class _KeyPoller:
                 pass
         else:
             try:
-                import termios, tty
+                import termios
+                import tty
                 self._termios = termios
                 self._fd = sys.stdin.fileno()
                 self._old = termios.tcgetattr(self._fd)
@@ -45,7 +52,8 @@ class _KeyPoller:
 
     def __exit__(self, *exc):
         if self.enabled and not self._win and self._old is not None:
-            self._termios.tcsetattr(self._fd, self._termios.TCSADRAIN, self._old)
+            self._termios.tcsetattr(
+                self._fd, self._termios.TCSADRAIN, self._old)
 
     def poll(self) -> str | None:
         if not self.enabled:
@@ -75,6 +83,30 @@ def _terminate(proc: subprocess.Popen) -> None:
         proc.wait()
 
 
+def _rescue_agent_logs(agent, task_id: str, raw_dir: Path) -> None:
+    """Copy an agent's own per-task log tree into raw_dir when its runner didn't.
+
+    UFO keeps its logs (screenshots, response.log, ui_trees) under its vendored
+    repo at vendor/UFO/logs/<task_id>/, and agents/ufo/runner.py copies them into
+    raw_dir once the session finishes. But every kill path below (timeout, the
+    's'/'b'/'f'/'d'/'q' keys, Ctrl+C) ends in TerminateProcess on Windows, which
+    the child cannot trap — so without this a killed run loses its screenshots
+    entirely, which are exactly the ones worth inspecting after a human flags a
+    failure. No-op when the runner already made the copy, or when the agent keeps
+    nothing outside raw_dir.
+    """
+    if agent.name != "ufo":
+        return
+    src = Path(agent.runner_script).parent / "vendor" / "UFO" / "logs" / task_id
+    dest = raw_dir / f"{task_id}_ufo_logs"
+    if not src.is_dir() or dest.exists():
+        return
+    try:
+        shutil.copytree(src, dest)
+    except OSError as exc:
+        print(f"  [WARN] could not rescue UFO logs for {task_id}: {exc}", flush=True)
+
+
 def resolve_python(env_name: str) -> str:
     """Return the python executable for a venv path or fall back to sys.executable."""
     p = Path(env_name)
@@ -85,15 +117,17 @@ def resolve_python(env_name: str) -> str:
         return str(p / "bin" / "python")
     return sys.executable
 
-BENCHMARK_DIR    = Path("benchmark/gui-failure-suite")
-BATCHES_DIR      = Path("batches")
-RESULTS_DIR      = Path("results/runs")
+
+BENCHMARK_DIR = Path("benchmark/gui-failure-suite")
+BATCHES_DIR = Path("batches")
+RESULTS_DIR = Path("results/runs")
 COMPLETE_STATUSES = {"success", "failure"}
 # Statuses that count as "don't run this again": genuine completions plus tasks the
 # user flagged as blocked (agent-hostile site) or as a human-judged success/failure.
 # These are terminal even though they aren't agent completions, so re-runs skip them
 # unless --rerun-completed is passed.
-RERUN_SKIP_STATUSES = COMPLETE_STATUSES | {"blocked", "human_failure", "human_success"}
+RERUN_SKIP_STATUSES = COMPLETE_STATUSES | {
+    "blocked", "human_failure", "human_success"}
 
 
 def load_batch_ids(names: list[str]) -> list[str]:
@@ -120,7 +154,8 @@ def load_batch_ids(names: list[str]) -> list[str]:
 # A completed-task key is the full combination a task was run under, not just its
 # id: the same task is "done" only for the exact (modality, app_variant, model)
 # it already ran with, so changing any of those dimensions re-runs it.
-CompletedKey = tuple[str, str | None, str | None, str | None]  # (task_id, modality, app_variant, model)
+# (task_id, modality, app_variant, model)
+CompletedKey = tuple[str, str | None, str | None, str | None]
 
 
 def load_completed(results_dir: Path, agents: list[str]) -> dict[str, set[CompletedKey]]:
@@ -175,14 +210,14 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
              reset_cfg: dict | None = None, max_steps: int | None = None,
              modality: str | None = None, prelaunch: bool = True,
              app_variant: str = "baseline") -> TaskResult:
-    model     = model_override or agent.default_model
-    start     = datetime.now(timezone.utc)
+    model = model_override or agent.default_model
+    start = datetime.now(timezone.utc)
     # One folder per task (run_dir/<agent>/raw/<task_id>/) holding all of that
     # task's artifacts — stdout/stderr/agent.log and any agent-created subdirs.
     # Avoids the old behaviour where each invocation dumped a separate timestamp
     # folder loose in the shared raw/ dir with no link to which task it was.
     task_slug = _safe_name(task.id)
-    raw_dir   = run_dir / agent.name / "raw" / task_slug
+    raw_dir = run_dir / agent.name / "raw" / task_slug
     raw_dir.mkdir(parents=True, exist_ok=True)
     raw_prefix = str((Path(agent.name) / "raw" / task_slug))
 
@@ -194,7 +229,17 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
     # gui-failure-suite marker; mobilerun is the only mobile agent.
     task_text = task.task
     if agent.name == "mobilerun" and task.benchmark_id:
-        task_text = f"{task_text}\nUse the currently opened app only."
+        task_text = f"{task_text}\nUse the currently opened app only, which includes a springboard of subapps."
+    # gui-failure-suite desktop.exe tasks run inside a single harness app that
+    # simulates its own sub-apps (Settings, Files, Notes, Store, ...). Keep the
+    # agent inside it: the real Windows equivalents are present on the desktop
+    # and are the obvious wrong target. Also suppresses launch attempts —
+    # desktop.exe is in no desktop agent's launch allow-list (UFO's run_shell
+    # rejects it outright), so those only burn steps.
+    if task.app == "desktop.exe":
+        task_text = (f"{task_text}\nUse only the already-open desktop.exe application window, "
+                     f"which contains all the sub-apps referenced by this task. Do not select "
+                     f"or launch any other application.")
 
     task_payload = json.dumps({
         "id": task.id, "task": task_text,
@@ -224,7 +269,7 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
     # outcome drives what record we write below: a clean exit parses the bridge
     # line; "timeout"/"skip"/"quit" short-circuit. We poll instead of blocking on
     # subprocess.run so we can watch the timeout deadline and the keyboard at once.
-    outcome  = "completed"
+    outcome = "completed"
     deadline = time.monotonic() + timeout_s if timeout_s else None
     # encoding="utf-8": every runner forces its subprocess's stdout/stderr to UTF-8
     # (Windows' cp1252 default can't hold the emoji/box-drawing glyphs several
@@ -235,7 +280,7 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
     # this only matters for the read side below, but declaring it here too keeps
     # write/read consistent for the orchestrator's own err.write() calls.
     with open(stdout_path, "w", encoding="utf-8") as out, \
-         open(stderr_path, "w", encoding="utf-8") as err:
+            open(stderr_path, "w", encoding="utf-8") as err:
         proc = subprocess.Popen(
             [python, agent.runner_script,
              "--task",    task_payload,
@@ -252,7 +297,8 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
                         # A hung runner (e.g. SeeAct's unbounded backoff retrying a
                         # 429 forever) must not stall the whole benchmark.
                         outcome = "timeout"
-                        err.write(f"\n[orchestrator] killed: exceeded timeout of {timeout_s}s\n")
+                        err.write(
+                            f"\n[orchestrator] killed: exceeded timeout of {timeout_s}s\n")
                         _terminate(proc)
                         break
                     key = keys.poll() if interactive else None
@@ -262,40 +308,51 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
                             print("\n  [SKIP] user pressed 's' — terminating current task",
                                   flush=True)
                             outcome = "skip"
-                            err.write("\n[orchestrator] killed: user skipped this task ('s')\n")
+                            err.write(
+                                "\n[orchestrator] killed: user skipped this task ('s')\n")
                             _terminate(proc)
                             break
                         if k == "b":
                             print("\n  [BLOCKED] user pressed 'b' — flagging task as blocked "
                                   "(won't be re-run)", flush=True)
                             outcome = "blocked"
-                            err.write("\n[orchestrator] killed: user flagged this task blocked ('b')\n")
+                            err.write(
+                                "\n[orchestrator] killed: user flagged this task blocked ('b')\n")
                             _terminate(proc)
                             break
                         if k == "f":
                             print("\n  [HUMAN-FAIL] user pressed 'f' — flagging task as a "
                                   "human-judged failure (won't be re-run)", flush=True)
                             outcome = "human_failure"
-                            err.write("\n[orchestrator] killed: user flagged this task as failed ('f')\n")
+                            err.write(
+                                "\n[orchestrator] killed: user flagged this task as failed ('f')\n")
                             _terminate(proc)
                             break
                         if k == "d":
                             print("\n  [HUMAN-SUCCESS] user pressed 'd' — flagging task as a "
                                   "human-judged success (won't be re-run)", flush=True)
                             outcome = "human_success"
-                            err.write("\n[orchestrator] killed: user flagged this task as succeeded ('d')\n")
+                            err.write(
+                                "\n[orchestrator] killed: user flagged this task as succeeded ('d')\n")
                             _terminate(proc)
                             break
                         if k == "q":
-                            print("\n  [QUIT] user pressed 'q' — aborting run", flush=True)
+                            print(
+                                "\n  [QUIT] user pressed 'q' — aborting run", flush=True)
                             outcome = "quit"
-                            err.write("\n[orchestrator] killed: user aborted the run ('q')\n")
+                            err.write(
+                                "\n[orchestrator] killed: user aborted the run ('q')\n")
                             _terminate(proc)
                             break
                     time.sleep(0.1)
         except KeyboardInterrupt:
             _terminate(proc)
+            _rescue_agent_logs(agent, task.id, raw_dir)
             raise
+
+    # Covers every path that killed the runner before it could copy its own logs
+    # (timeout / 's' / 'b' / 'f' / 'd' / 'q'); no-op on a clean exit.
+    _rescue_agent_logs(agent, task.id, raw_dir)
 
     duration = (datetime.now(timezone.utc) - start).total_seconds()
 
@@ -397,7 +454,8 @@ def run_task(run_id, agent, task, run_dir, model_override: str | None = None,
             status="error", skip_reason=None, agent_status=None,
             score=None, steps=None, duration_s=duration,
             model=model,
-            error_msg=stderr_path.read_text(encoding="utf-8", errors="replace")[:500],
+            error_msg=stderr_path.read_text(
+                encoding="utf-8", errors="replace")[:500],
             raw_log_path=raw_prefix,
             timestamp=start.isoformat(),
             stop_reason="error",
@@ -415,13 +473,19 @@ def main():
                         choices=list(AGENT_REGISTRY.keys()))
     parser.add_argument("--tasks-dir",    type=Path, default=BENCHMARK_DIR,
                         help=f"Directory to load .jsonl tasks from (default: {BENCHMARK_DIR})")
-    parser.add_argument("--model",        help="Override the default model for all selected agents")
+    parser.add_argument(
+        "--model",        help="Override the default model for all selected agents")
     parser.add_argument("--platform",     help="Filter tasks to one platform")
-    parser.add_argument("--benchmark",    help="Filter to one benchmark source")
-    parser.add_argument("--benchmark-id", help="Filter to one benchmark_id (gui-failure-suite)")
-    parser.add_argument("--split",        help="Filter to one split, e.g. test/train/val")
-    parser.add_argument("--app",          help="Filter to one app (gui-failure-suite)")
-    parser.add_argument("--task-ids",        nargs="+", help="Run specific task IDs only")
+    parser.add_argument(
+        "--benchmark",    help="Filter to one benchmark source")
+    parser.add_argument(
+        "--benchmark-id", help="Filter to one benchmark_id (gui-failure-suite)")
+    parser.add_argument(
+        "--split",        help="Filter to one split, e.g. test/train/val")
+    parser.add_argument(
+        "--app",          help="Filter to one app (gui-failure-suite)")
+    parser.add_argument("--task-ids",        nargs="+",
+                        help="Run specific task IDs only")
     parser.add_argument("--batch",           nargs="+",
                         help="Batch name(s) under batches/ (or path to a .json list of "
                              "task IDs); merged with --task-ids")
@@ -489,9 +553,10 @@ def main():
     prelaunch = not args.no_mobile_prelaunch
 
     # Live controls only make sense when stdin is a real terminal.
-    interactive = not args.no_interactive and bool(sys.stdin and sys.stdin.isatty())
+    interactive = not args.no_interactive and bool(
+        sys.stdin and sys.stdin.isatty())
 
-    run_id  = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+    run_id = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     run_dir = RESULTS_DIR / run_id
 
     result_files = {}
@@ -526,7 +591,8 @@ def main():
                   f"{', '.join(sorted(missing))}")
         tasks = [t for t in tasks if t.id in id_set]
 
-    completed = {} if args.rerun_completed else load_completed(RESULTS_DIR, args.agents)
+    completed = {} if args.rerun_completed else load_completed(
+        RESULTS_DIR, args.agents)
     if completed:
         total_done = sum(len(v) for v in completed.values())
         print(f"[INFO] {total_done} completed task/agent/modality/variant/model record(s) found — "
@@ -540,7 +606,8 @@ def main():
             if reset_cfg["close_all_apps"]:
                 bits.append("close all open apps")
             if reset_cfg["force_stop_packages"]:
-                bits.append(f"force-stop {', '.join(reset_cfg['force_stop_packages'])}")
+                bits.append(
+                    f"force-stop {', '.join(reset_cfg['force_stop_packages'])}")
             print(f"[INFO] Mobilerun device reset enabled: {'; '.join(bits)}")
         else:
             print("[INFO] Mobilerun device reset disabled (--no-mobile-reset) — tasks inherit "
@@ -558,7 +625,7 @@ def main():
     interrupted = False
     try:
         for task in tasks:
-            matched       = get_agents_for_task(task.platform, args.agents)
+            matched = get_agents_for_task(task.platform, args.agents)
             matched_names = {a.name for a in matched}
 
             for agent_name in args.agents:
@@ -589,9 +656,11 @@ def main():
                         app_variant=args.app_variant,
                     )
                     if not args.dry_run:
-                        result_files[agent_name].write(record.to_jsonl() + "\n")
+                        result_files[agent_name].write(
+                            record.to_jsonl() + "\n")
                         result_files[agent_name].flush()
-                    print(f"  [SKIP] {agent_name} <- {task.id} ({task.platform})")
+                    print(
+                        f"  [SKIP] {agent_name} <- {task.id} ({task.platform})")
                     continue
 
                 if args.dry_run:
@@ -615,7 +684,8 @@ def main():
                     # subprocess.run already forwarded the SIGINT to (and reaped)
                     # the child. Record the in-flight task as aborted before exiting
                     # so it isn't silently lost — then propagate to stop the run.
-                    task_duration = (datetime.now(timezone.utc) - task_start).total_seconds()
+                    task_duration = (datetime.now(
+                        timezone.utc) - task_start).total_seconds()
                     record = make_aborted_record(
                         run_id, agent_name, task, args.model or agent.default_model,
                         modality=resolve_modality(agent, args.modality),

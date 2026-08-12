@@ -56,4 +56,4 @@ slides.md
 benchmark/(del) gui-failure-suite - Copy/
 cleanup/
 benchmark/tasks/
-scripts/
+# scripts/

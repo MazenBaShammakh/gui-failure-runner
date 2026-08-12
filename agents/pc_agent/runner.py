@@ -250,7 +250,12 @@ def main():
         pass
 
     task    = json.loads(args.task)
-    raw_dir = Path(args.raw_dir)
+    # Absolute, because run.py is launched with cwd=VENDOR_DIR: the orchestrator
+    # passes --raw-dir relative to the repo root (RESULTS_DIR = "results/runs"),
+    # and a relative --screenshot_root would resolve under the vendor dir, where
+    # the intermediate directories don't exist -> run.py's non-recursive
+    # os.mkdir() fails with WinError 3.
+    raw_dir = Path(args.raw_dir).resolve()
     raw_dir.mkdir(parents=True, exist_ok=True)
 
     result = _run(task, args.model, raw_dir)

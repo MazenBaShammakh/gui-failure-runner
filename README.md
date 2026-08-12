@@ -1,8 +1,8 @@
 # GUI Agent Benchmark Runner
 
 A unified benchmark runner that routes tasks from `.jsonl` datasets to GUI agents
-(SeeAct, Mobilerun, Agent S), captures their raw output, and writes structured result
-records for later analysis.
+(SeeAct, Mobilerun, Agent S, browser-use, PC-Agent, UFO), captures their raw output,
+and writes structured result records for later analysis.
 
 ---
 
@@ -10,8 +10,11 @@ records for later analysis.
 
 - Python 3.11+
 - Git
-- API keys for the LLM providers you intend to use (see [Configuration](#configuration))
+- API keys for the LLM providers you intend to use — the agents default to a mix of
+  OpenAI, Anthropic, and Gemini models, so `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, and
+  `GEMINI_API_KEY` cover the full set (see [Setup](#setup))
 - **Mobilerun only:** ADB and a connected Android device with USB debugging enabled
+- **UFO only:** Windows (it drives native UIA/Win32/WinCOM automation)
 
 ---
 
@@ -21,8 +24,11 @@ records for later analysis.
 orchestrator/              main entry point + shared logic
 agents/
   seeact/                  web agent (SeeAct + Playwright/Chromium)
-  mobilerun/               mobile agent (Mobilerun + ADB)
-  agent_s/                 desktop agent (not yet implemented)
+  mobilerun/                mobile agent (Mobilerun + ADB)
+  agent_s/                  desktop agent (Agent S3, planner + grounding split)
+  browser_use/               web agent (browser-use SDK)
+  pc_agent/                   desktop agent (PC-Agent / X-PLUG MobileAgent, vendored script)
+  ufo/                         Windows-only desktop agent (native UIA/Win32 automation)
 benchmark/
   tasks/                   original .jsonl task files
   gui-failure-suite/       gui-failure-suite .jsonl files
@@ -42,17 +48,24 @@ Copy the example and fill in your keys:
 ```
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
-GOOGLE_API_KEY=...
+GEMINI_API_KEY=...
+
+# PC-Agent OCR mode only (PC_AGENT_USE_PERCEPTION_INFO=1) — not needed by default
+OCR_SERVER_ADDRESS=http://localhost:8000
 
 # Mobilerun: optional — defaults to first ADB device found
 ANDROID_DEVICE_ID=
 ```
 
-The runners load `.env` automatically from the repo root on startup.
+The runners load `.env` automatically from the repo root on startup. Agent S, browser-use,
+PC-Agent, and UFO default to Gemini-family models for at least part of their pipeline, so
+`GEMINI_API_KEY` needs to be set to use them with their default config — each agent's
+provider/model can be overridden per run (see [CLI reference](#cli-reference)).
 
 ### 2. Set up each agent environment
 
-Each agent has an isolated venv. Run the setup script once per machine.
+Each agent has an isolated venv (the agent SDKs have conflicting dependencies). Run the
+setup script once per machine, for whichever agents you plan to use — you don't need all six.
 
 **SeeAct (web tasks):**
 
@@ -92,6 +105,57 @@ mobilerun ping    # confirm device is reachable — must succeed before running 
 ```
 
 See `agents/mobilerun/setup_notes.md` for ADB troubleshooting.
+
+**Agent S (desktop tasks):**
+
+```bash
+# Windows
+agents\agent_s\setup.bat
+
+# macOS / Linux
+bash agents/agent_s/setup.sh
+```
+
+Defaults to a split planner/grounding setup (`AGENT_S_PROVIDER=openai`,
+`GROUND_PROVIDER=gemini`) — override via `--model` or by editing
+`orchestrator/agent_registry.py`.
+
+**browser-use (web tasks):**
+
+```bash
+# Windows
+agents\browser_use\setup.bat
+
+# macOS / Linux
+bash agents/browser_use/setup.sh
+```
+
+Drives the `browser_use.Agent` SDK in-process against a Gemini model by default
+(`BROWSER_USE_PROVIDER=google`); telemetry is disabled for benchmark runs.
+
+**PC-Agent (desktop tasks):**
+
+```bash
+# Windows
+agents\pc_agent\setup.bat
+
+# macOS / Linux
+bash agents/pc_agent/setup.sh
+```
+
+Vendored script (X-PLUG/MobileAgent), run via CLI rather than an importable SDK. Uses a
+bare screenshot by default; see `agents/pc_agent/setup_notes.md` to enable the OCR +
+accessibility-tree hybrid representation (`PC_AGENT_USE_PERCEPTION_INFO=1`).
+
+**UFO (Windows desktop tasks):**
+
+```bash
+agents\ufo\setup.bat
+```
+
+Windows-only. Drives `ufo`'s `SessionFactory`/`SessionPool` in-process for native
+UIA/Win32/WinCOM automation. See `agents/ufo/FLOW.md` for how it resolves the host/app
+agent credentials it needs.
 
 ---
 
@@ -279,6 +343,7 @@ The orchestrator passes this to the runner via the `MOBILERUN_PRELAUNCH` environ
 ```
 python orchestrator/run_benchmark.py
   --agents           seeact mobilerun agent_s   one or more agent names (required)
+                     browser_use pc_agent ufo
   --tasks-dir        benchmark/tasks | …        dir to load .jsonl tasks from
                                                 (default: benchmark/gui-failure-suite)
   --model            gpt-4o-mini | gemini-…     override default model for all agents
@@ -314,13 +379,13 @@ python orchestrator/run_benchmark.py
 Tasks are routed to agents by the `platform` field in each task record.
 Platform mismatches are always recorded as `skipped` — never silently dropped.
 
-| Task platform     | seeact  | mobilerun | agent_s |
-| ----------------- | ------- | --------- | ------- |
-| `web`             | runs    | skipped   | skipped |
-| `mobile`          | skipped | runs      | skipped |
-| `desktop`         | skipped | skipped   | runs    |
-| `desktop_windows` | skipped | skipped   | runs    |
-| `cross_platform`  | skipped | skipped   | runs    |
+| Task platform     | seeact  | mobilerun | agent_s | browser_use | pc_agent | ufo     |
+| ----------------- | ------- | --------- | ------- | ----------- | -------- | ------- |
+| `web`             | runs    | skipped   | skipped | runs        | skipped  | skipped |
+| `mobile`          | skipped | runs      | skipped | skipped     | skipped  | skipped |
+| `desktop`         | skipped | skipped   | runs    | skipped     | runs     | skipped |
+| `desktop_windows` | skipped | skipped   | runs    | skipped     | runs     | runs    |
+| `cross_platform`  | skipped | skipped   | runs    | skipped     | runs     | skipped |
 
 ---
 
@@ -433,14 +498,23 @@ analysis time from the external failure-category repo, keyed by `task_id`.
 
 ## Agent defaults
 
-| Agent     | Default model  | Platform(s)             |
-| --------- | -------------- | ----------------------- |
-| seeact    | gpt-4o         | web                     |
-| mobilerun | gemini-2.5-pro | mobile                  |
-| agent_s   | gpt-4o         | desktop, cross_platform |
+| Agent       | Default model   | Modality    | Platform(s)                          |
+| ----------- | --------------- | ----------- | ------------------------------------- |
+| seeact      | gpt-4o          | multimodal  | web                                    |
+| mobilerun   | gemini-2.5-pro  | multimodal* | mobile                                 |
+| agent_s     | gemini-3.5-flash | multimodal  | desktop, desktop_windows, cross_platform |
+| browser_use | gemini-3.5-flash | multimodal  | web                                     |
+| pc_agent    | gemini-2.5-flash | vision_only* | desktop, desktop_windows, cross_platform |
+| ufo         | gemini-3.5-flash | multimodal  | desktop_windows                         |
+
+\* Mobilerun and PC-Agent honor the `--modality` flag (`GUI_AGENT_MODALITY`) and can run
+text-only / with OCR respectively — the table shows each agent's default when the flag is
+unset. browser_use and UFO also honor the flag; seeact and agent_s have a fixed modality.
 
 The model is passed to each runner via `--model`. Pass `--model <name>` on the CLI to
-override the default for a run without editing the registry.
+override the default for a run without editing the registry — note that `--model` must stay
+compatible with that agent's configured provider (e.g. a Gemini model name for the agents
+above that default to Gemini).
 
 ---
 

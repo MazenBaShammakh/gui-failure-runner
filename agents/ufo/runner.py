@@ -231,6 +231,15 @@ async def _run(task: dict, model: str, raw_dir: Path) -> dict:
         _write_agents_yaml(model)
         _patch_system_yaml()
 
+        # UFO keys its log dir by task id alone (logs/<task_id>/) with no run id,
+        # and does not clear it on session start — it just overwrites file by file.
+        # Re-running a task that takes fewer steps than a previous attempt therefore
+        # leaves the older attempt's action_step<N>.png behind, and the result is a
+        # log dir silently mixing two runs. Confirmed in real runs: a run recording
+        # steps=0 left behind a 3-screenshot log dir inherited from an earlier
+        # successful attempt. Wipe first so the dir holds exactly one run.
+        shutil.rmtree(VENDOR_DIR / "logs" / task_id, ignore_errors=True)
+
         # UFO's config/prompt paths (e.g. "ufo/prompts/share/base/host_agent.yaml")
         # and its logs/<task>/ output dir are resolved relative to the current
         # working directory, not the package location — mirrors how `python -m ufo`
