@@ -242,7 +242,7 @@ python orchestrator/run_benchmark.py --agents seeact --batch smoke regression --
 By default, Mobilerun's agent **starts from whatever is currently on the device** — it
 takes a screenshot of the live screen and plans from there. It does not return to the home
 screen or relaunch a target app first. That means a task inherits whatever app/screen the
-*previous* task left behind, so runs are not isolated unless you reset the device yourself.
+_previous_ task left behind, so runs are not isolated unless you reset the device yourself.
 
 To make each task start from a known state, Mobilerun runs a reset once after the driver
 connects but **before** any observation or planning. **When run through the orchestrator this
@@ -250,12 +250,12 @@ is ON by default** (press HOME + force-stop every open app); pass `--no-mobile-r
 out. The underlying knobs live in `MobileConfig.device.reset` (Android only), and the library
 default there is off — only the orchestrator turns it on:
 
-| Field                 | Default | Effect                                                                                              |
-| --------------------- | ------- | --------------------------------------------------------------------------------------------------- |
-| `enabled`             | `False` | Master switch. When `False`, the reset is a no-op.                                                   |
-| `press_home`          | `True`  | Press HOME to return to the launcher.                                                                |
-| `force_stop_packages` | `[]`    | `am force-stop` a known list of packages (fully closes them, not just backgrounds).                 |
-| `close_all_apps`      | `False` | `am force-stop` **every app in the recents/task list** — including preinstalled *system* apps.       |
+| Field                 | Default | Effect                                                                                         |
+| --------------------- | ------- | ---------------------------------------------------------------------------------------------- |
+| `enabled`             | `False` | Master switch. When `False`, the reset is a no-op.                                             |
+| `press_home`          | `True`  | Press HOME to return to the launcher.                                                          |
+| `force_stop_packages` | `[]`    | `am force-stop` a known list of packages (fully closes them, not just backgrounds).            |
+| `close_all_apps`      | `False` | `am force-stop` **every app in the recents/task list** — including preinstalled _system_ apps. |
 
 `close_all_apps` reads the open apps from `dumpsys activity recents` (the `realActivity=`
 field), so it closes preinstalled system apps like Settings or Chrome too — a
@@ -263,7 +263,7 @@ field), so it closes preinstalled system apps like Settings or Chrome too — a
 (accessibility tree, screenshots, IME) and the **launcher** are always preserved.
 
 > **Note:** `am force-stop` kills the app's process and clears its state, so it can't resume
-> mid-task. The recents *thumbnail* may linger in the UI until swiped away — that is cosmetic;
+> mid-task. The recents _thumbnail_ may linger in the UI until swiped away — that is cosmetic;
 > reopening the app starts it fresh. Android has no reliable scriptable "clear all recents".
 
 ### Controlling it from the CLI
@@ -498,14 +498,14 @@ analysis time from the external failure-category repo, keyed by `task_id`.
 
 ## Agent defaults
 
-| Agent       | Default model   | Modality    | Platform(s)                          |
-| ----------- | --------------- | ----------- | ------------------------------------- |
-| seeact      | gpt-4o          | multimodal  | web                                    |
-| mobilerun   | gemini-2.5-pro  | multimodal* | mobile                                 |
-| agent_s     | gemini-3.5-flash | multimodal  | desktop, desktop_windows, cross_platform |
-| browser_use | gemini-3.5-flash | multimodal  | web                                     |
-| pc_agent    | gemini-2.5-flash | vision_only* | desktop, desktop_windows, cross_platform |
-| ufo         | gemini-3.5-flash | multimodal  | desktop_windows                         |
+| Agent       | Default model    | Modality      | Platform(s)                              |
+| ----------- | ---------------- | ------------- | ---------------------------------------- |
+| seeact      | gpt-4o           | multimodal    | web                                      |
+| mobilerun   | gemini-2.5-pro   | multimodal\*  | mobile                                   |
+| agent_s     | gemini-3.5-flash | multimodal    | desktop, desktop_windows, cross_platform |
+| browser_use | gemini-3.5-flash | multimodal    | web                                      |
+| pc_agent    | gemini-2.5-flash | vision_only\* | desktop, desktop_windows, cross_platform |
+| ufo         | gemini-3.5-flash | multimodal    | desktop_windows                          |
 
 \* Mobilerun and PC-Agent honor the `--modality` flag (`GUI_AGENT_MODALITY`) and can run
 text-only / with OCR respectively — the table shows each agent's default when the flag is
