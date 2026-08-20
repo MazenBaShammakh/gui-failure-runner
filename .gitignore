@@ -27,7 +27,7 @@ agents/ufo/vendor/
 *.conda
 
 # Results (runtime output — large, machine-generated)
-results/runs/*/
+results/runs/
 
 # Agent test output
 agents/seeact/seeact_test_output/
@@ -56,4 +56,5 @@ slides.md
 benchmark/(del) gui-failure-suite - Copy/
 cleanup/
 benchmark/tasks/
-# scripts/
+scripts/
+drafts/
