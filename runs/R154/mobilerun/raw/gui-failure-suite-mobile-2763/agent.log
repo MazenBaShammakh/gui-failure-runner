@@ -1,0 +1,6 @@
+12:48:53 INFO mobilerun: LLM for task gui-failure-suite-mobile-2763: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile
+12:49:03 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Banking app, open Card Application, fill in the form, and submit your application.
+Use the currently opened app only.
+12:49:05 INFO mobilerun: Portal not installed, running auto-setup...
+12:50:10 INFO mobilerun: Installing Portal APK...
+12:50:13 ERROR mobilerun: Portal setup failed: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\mazen\\AppData\\Local\\Temp\\tmpi9it66i1.apk'

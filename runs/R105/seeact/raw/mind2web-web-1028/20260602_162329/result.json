@@ -1,0 +1,8 @@
+{
+    "task": [
+        "Browse newly released movies and filter by genre to find a comedy to rent."
+    ],
+    "website": "https://www.redbox.com",
+    "num_step": 0,
+    "action_history": []
+}

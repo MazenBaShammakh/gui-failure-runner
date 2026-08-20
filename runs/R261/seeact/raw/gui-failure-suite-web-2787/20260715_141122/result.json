@@ -1,0 +1,11 @@
+{
+    "task": [
+        "Dismiss the domain renewal reminder."
+    ],
+    "website": "http://localhost:3000/failures/gesture-only-no-visible-cue",
+    "num_step": 2,
+    "action_history": [
+        "[button type=\"button\"] Dismiss -> CLICK",
+        "TERMINATE"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "task": [
+        "Subscribe to the Weekly Newsletter."
+    ],
+    "website": "http://localhost:3000/failures/low-contrast-boundary",
+    "num_step": 2,
+    "action_history": [
+        "[button type=\"button\"] Subscribe -> CLICK",
+        "TERMINATE"
+    ]
+}

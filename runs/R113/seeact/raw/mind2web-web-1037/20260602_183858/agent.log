@@ -1,0 +1,1959 @@
+2026-06-02 18:39:05,968 - Loaded website: https://www.rottentomatoes.com
+2026-06-02 18:40:48,813 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_1.png
+2026-06-02 18:40:50,176 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:40:50,176 - Previous:
+2026-06-02 18:40:50,176 - calling generate
+2026-06-02 18:40:55,585 - ----------
+2026-06-02 18:40:55,600 - To view all of the Most Popular TV on Rotten Tomatoes, I will start by hovering over the "TV SHOWS" category in the navigation menu.
+2026-06-02 18:40:55,600 - 
+2026-06-02 18:40:55,600 - Action: HOVER on element `R` (TV SHOWS).
+2026-06-02 18:40:55,600 - ----------
+2026-06-02 18:40:55,600 - If none of these elements match your target element or your target action doesn't involve an element, please select DI.
+2026-06-02 18:40:55,600 - A. (0.495, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in...</header>
+2026-06-02 18:40:55,600 - B. (0.807, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:40:55,600 - C. (0.662, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:40:55,600 - D. (0.746, 0.118) <a">Critics</a>
+2026-06-02 18:40:55,600 - E. (0.807, 0.118) <button">Login/signup</button>
+2026-06-02 18:40:55,600 - F. (0.662, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:40:55,600 - G. (0.746, 0.12) <li">Critics</li>
+2026-06-02 18:40:55,600 - H. (0.807, 0.12) <li">Login/signup</li>
+2026-06-02 18:40:55,600 - I. (0.724, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:40:55,600 - J. (0.495, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header>
+2026-06-02 18:40:55,600 - K. (0.721, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:40:55,600 - L. (0.206, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:40:55,600 - M. (0.291, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:40:55,600 - N. (0.397, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:40:55,600 - O. (0.291, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:40:55,600 - P. (0.553, 0.163) <button">parent_node: MOVIESTV SHOWSRT APP aria-label="Open aRTi"</button>
+2026-06-02 18:40:55,600 - Q. (0.594, 0.163) <a">Movies</a>
+2026-06-02 18:40:55,600 - R. (0.652, 0.163) <a">Tv shows</a>
+2026-06-02 18:40:55,600 - S. (0.686, 0.163) <rt-header-nav">MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header-nav>
+2026-06-02 18:40:55,600 - T. (0.709, 0.163) <a">RT App New</a>
+2026-06-02 18:40:55,600 - U. (0.756, 0.163) <a">News</a>
+2026-06-02 18:40:55,600 - V. (0.813, 0.163) <a">Showtimes</a>
+2026-06-02 18:40:55,600 - W. (0.553, 0.164) <img">alt="arti"</img>
+2026-06-02 18:40:55,600 - X. (0.255, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:40:55,600 - Y. (0.344, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:40:55,600 - Z. (0.418, 0.207) <a">Free Movies</a>
+2026-06-02 18:40:55,600 - AA. (0.482, 0.207) <a">Women in Focus</a>
+2026-06-02 18:40:55,600 - AB. (0.178, 0.208) <li">Trending on RT</li>
+2026-06-02 18:40:55,600 - AC. (0.256, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:40:55,600 - AD. (0.332, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:40:55,600 - AE. (0.345, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:40:55,600 - AF. (0.419, 0.208) <li">Free Movies</li>
+2026-06-02 18:40:55,600 - AG. (0.483, 0.208) <li">Women in Focus</li>
+2026-06-02 18:40:55,600 - AH. (0.495, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:40:55,600 - AI. (0.757, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:40:55,600 - AJ. (0.774, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:40:55,600 - AK. (0.791, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:40:55,600 - AL. (0.808, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:40:55,600 - AM. (0.825, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:40:55,600 - AN. (0.842, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:40:55,600 - AO. (0.16, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:40:55,600 - AP. (0.316, 0.372) <a">BOX OFFICE: BACKROOMS SHATTERS EXPECTATIONS Kane Parsons gives A24 its biggest debut ever</a>
+2026-06-02 18:40:55,600 - AQ. (0.472, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:40:55,600 - AR. (0.495, 0.372) <section">MOST ANTICIPATED MOVIES OF JUNE Vote for the movies you're looking forward to most! BOX OFFICE: BACKROOMS SHATTERS EXPECTATIONS Kane Parsons gives A24 its biggest debut ever ALL MARILYN MONROE...</section>
+2026-06-02 18:40:55,600 - AS. (0.584, 0.372) <a">Backrooms Audience Reviews "Get lost in a nightmare maze."</a>
+2026-06-02 18:40:55,600 - AT. (0.673, 0.372) <a">ALL MARILYN MONROE MOVIES RANKED BY TOMATOMETER The Academy’s special exhibit, honoring Monroe’s 100th birthday, is now open!</a>
+2026-06-02 18:40:55,600 - AU. (0.674, 0.372) <editorial-spotlight-tile">BACKROOMS AUDIENCE REVIEWS Viewers are drawn to its unsettling visuals, even if you’re left searching for answers.</editorial-spotlight-tile>
+2026-06-02 18:40:55,600 - AV. (0.764, 0.372) <a">Curry Barker Talks Franchising Obsession and that shocking ending!</a>
+2026-06-02 18:40:55,600 - AW. (0.495, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:40:55,600 - AX. (0.495, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:40:55,600 - AY. (0.826, 0.572) <a">Sign Up</a>
+2026-06-02 18:40:55,600 - AZ. (0.213, 0.577) <rt-text">Throwbacks on Disney+</rt-text>
+2026-06-02 18:40:55,600 - BA. (0.341, 0.582) <a">Sponsored by</a>
+2026-06-02 18:40:55,600 - BB. (0.117, 0.586) <a">Versant</a>
+2026-06-02 18:40:55,600 - BC. (0.324, 0.586) <a">Terms</a>
+2026-06-02 18:40:55,600 - BD. (0.108, 0.605) <a">Privacy Policy</a>
+2026-06-02 18:40:55,600 - BE. (0.029, 0.624) <a">here</a>
+2026-06-02 18:40:55,600 - BF. (0.486, 0.653) <button">IAB and Google Vendors</button>
+2026-06-02 18:40:55,600 - BG. (0.88, 0.709) <button">I Accept</button>
+2026-06-02 18:40:55,600 - BH. (0.2, 0.722) <poster-tile">parent_node: The Parent Trap</poster-tile>
+2026-06-02 18:40:55,600 - BI. (0.313, 0.722) <poster-tile">parent_node: Glee</poster-tile>
+2026-06-02 18:40:55,600 - BJ. (0.427, 0.722) <poster-tile">parent_node: The Devil Wears Prada</poster-tile>
+2026-06-02 18:40:55,600 - BK. (0.54, 0.722) <poster-tile">parent_node: The Lizzie McGuire Movie</poster-tile>
+2026-06-02 18:40:55,600 - BL. (0.653, 0.722) <poster-tile">parent_node: Camp Rock</poster-tile>
+2026-06-02 18:40:55,600 - BM. (0.767, 0.722) <poster-tile">parent_node: Freaky Friday</poster-tile>
+2026-06-02 18:40:55,600 - BN. (0.88, 0.722) <poster-tile">parent_node: High School Musical 2</poster-tile>
+2026-06-02 18:40:55,600 - BO. (0.837, 0.728) <button">parent_node: The Parent Trap</button>
+2026-06-02 18:40:55,600 - BP. (0.495, 0.738) <section">Throwbacks on Disney+ Sponsored by SIGN UP The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</section>
+2026-06-02 18:40:55,600 - BQ. (0.2, 0.757) <media-info-tile">The Parent Trap Watchlist</media-info-tile>
+2026-06-02 18:40:55,600 - BR. (0.313, 0.757) <media-info-tile">Glee Watchlist</media-info-tile>
+2026-06-02 18:40:55,600 - BS. (0.427, 0.757) <media-info-tile">The Devil Wears Prada Watchlist</media-info-tile>
+2026-06-02 18:40:55,600 - BT. (0.495, 0.757) <tiles-carousel-responsive-deprecated">The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</tiles-carousel-responsive-deprecated>
+2026-06-02 18:40:55,600 - BU. (0.54, 0.757) <media-info-tile">The Lizzie McGuire Movie Watchlist</media-info-tile>
+2026-06-02 18:40:55,600 - BV. (0.653, 0.757) <media-info-tile">Camp Rock Watchlist</media-info-tile>
+2026-06-02 18:40:55,600 - BW. (0.767, 0.757) <media-info-tile">Freaky Friday Watchlist</media-info-tile>
+2026-06-02 18:40:55,600 - BX. (0.88, 0.757) <media-info-tile">High School Musical 2 Watchlist</media-info-tile>
+2026-06-02 18:40:55,600 - BY. (0.88, 0.777) <button">Reject All</button>
+2026-06-02 18:40:55,600 - BZ. (0.88, 0.846) <button">Manage Choices</button>
+2026-06-02 18:40:55,600 - CA. (0.2, 0.862) <a">The Parent Trap</a>
+2026-06-02 18:40:55,600 - CB. (0.313, 0.862) <a">Glee</a>
+2026-06-02 18:40:55,600 - CC. (0.427, 0.862) <a">The Devil Wears Prada</a>
+2026-06-02 18:40:55,600 - CD. (0.54, 0.862) <a">The Lizzie McGuire Movie</a>
+2026-06-02 18:40:55,600 - CE. (0.653, 0.862) <a">Camp Rock</a>
+2026-06-02 18:40:55,600 - CF. (0.767, 0.862) <a">Freaky Friday</a>
+2026-06-02 18:40:55,600 - CG. (0.88, 0.862) <a">High School Musical 2</a>
+2026-06-02 18:40:55,600 - CH. (0.381, 0.891) <a">Cookie Notice</a>
+2026-06-02 18:40:55,600 - CI. (0.196, 0.897) <button">Watchlist</button>
+2026-06-02 18:40:55,600 - CJ. (0.2, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:40:55,600 - CK. (0.309, 0.897) <button">Watchlist</button>
+2026-06-02 18:40:55,600 - CL. (0.313, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:40:55,600 - CM. (0.422, 0.897) <button">Watchlist</button>
+2026-06-02 18:40:55,600 - CN. (0.427, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:40:55,600 - CO. (0.535, 0.897) <button">Watchlist</button>
+2026-06-02 18:40:55,600 - CP. (0.54, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:40:55,600 - CQ. (0.649, 0.897) <button">Watchlist</button>
+2026-06-02 18:40:55,600 - CR. (0.653, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:40:55,600 - CS. (0.762, 0.897) <button">Watchlist</button>
+2026-06-02 18:40:55,600 - CT. (0.767, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:40:55,600 - CU. (0.875, 0.897) <button">Watchlist</button>
+2026-06-02 18:40:55,600 - CV. (0.88, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:40:55,600 - CW. (0.169, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - CX. (0.282, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - CY. (0.395, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - CZ. (0.508, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - DA. (0.622, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - DB. (0.735, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - DC. (0.848, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - DD. (0.961, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:40:55,600 - DE. (0.062, 0.91) <a">Privacy Policy</a>
+2026-06-02 18:40:55,600 - DF. (0.824, 0.962) <a">View all</a>
+2026-06-02 18:40:55,600 - DG. (0.199, 0.967) <rt-text">Movies in Theaters</rt-text>
+2026-06-02 18:40:55,600 - DH. (0.321, 0.972) <a">Brought to you by</a>
+2026-06-02 18:40:55,600 - DI. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:41:00,603 - ELEMENT: R
+2026-06-02 18:41:00,603 - 
+2026-06-02 18:41:00,603 - ACTION: HOVER
+2026-06-02 18:41:00,606 - 
+2026-06-02 18:41:00,606 - VALUE: None
+2026-06-02 18:41:02,659 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:42:27,437 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_2.png
+2026-06-02 18:42:28,465 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:42:28,465 - Previous:
+2026-06-02 18:42:28,465 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:42:28,465 - calling generate
+2026-06-02 18:42:34,402 - ----------
+2026-06-02 18:42:34,406 - To bypass the cookie consent banner that is blocking pointer events on the webpage, I will click the "Reject All" button.
+2026-06-02 18:42:34,406 - 
+2026-06-02 18:42:34,406 - **First target element:** "Reject All" button (labeled as `BY`).
+2026-06-02 18:42:34,406 - **Action:** CLICK on `BY`.
+2026-06-02 18:42:34,406 - ----------
+2026-06-02 18:42:34,406 - If none of these elements match your target element or your target action doesn't involve an element, please select DI.
+2026-06-02 18:42:34,406 - A. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in...</header>
+2026-06-02 18:42:34,406 - B. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:42:34,406 - C. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:42:34,406 - D. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:42:34,406 - E. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:42:34,406 - F. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:42:34,406 - G. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:42:34,406 - H. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:42:34,406 - I. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:42:34,406 - J. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header>
+2026-06-02 18:42:34,406 - K. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:42:34,406 - L. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:42:34,406 - M. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:42:34,406 - N. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:42:34,406 - O. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:42:34,406 - P. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWSRT APP aria-label="Open aRTi"</button>
+2026-06-02 18:42:34,406 - Q. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:42:34,406 - R. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:42:34,406 - S. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header-nav>
+2026-06-02 18:42:34,406 - T. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:42:34,412 - U. (0.758, 0.163) <a">News</a>
+2026-06-02 18:42:34,412 - V. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:42:34,412 - W. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:42:34,412 - X. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:42:34,413 - Y. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:42:34,413 - Z. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:42:34,413 - AA. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:42:34,413 - AB. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:42:34,413 - AC. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:42:34,413 - AD. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:42:34,413 - AE. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:42:34,413 - AF. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:42:34,413 - AG. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:42:34,413 - AH. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:42:34,413 - AI. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:42:34,413 - AJ. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:42:34,413 - AK. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:42:34,413 - AL. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:42:34,413 - AM. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:42:34,413 - AN. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:42:34,413 - AO. (0.162, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:42:34,413 - AP. (0.318, 0.372) <a">BACKROOMS AUDIENCE REVIEWS Viewers are drawn to its unsettling visuals, even if you’re left searching for answers.</a>
+2026-06-02 18:42:34,413 - AQ. (0.474, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:42:34,413 - AR. (0.497, 0.372) <section">MOST ANTICIPATED MOVIES OF JUNE Vote for the movies you're looking forward to most! BOX OFFICE: BACKROOMS SHATTERS EXPECTATIONS Kane Parsons gives A24 its biggest debut ever ALL MARILYN MONROE...</section>
+2026-06-02 18:42:34,413 - AS. (0.586, 0.372) <a">Backrooms Audience Reviews "Get lost in a nightmare maze."</a>
+2026-06-02 18:42:34,413 - AT. (0.675, 0.372) <editorial-spotlight-tile">ALL MARILYN MONROE MOVIES RANKED BY TOMATOMETER The Academy’s special exhibit, honoring Monroe’s 100th birthday, is now open!</editorial-spotlight-tile>
+2026-06-02 18:42:34,413 - AU. (0.676, 0.372) <a">Most Anticipated TV of June Vote for the shows you're looking forward to most!</a>
+2026-06-02 18:42:34,413 - AV. (0.766, 0.372) <a">Curry Barker Talks Franchising Obsession and that shocking ending!</a>
+2026-06-02 18:42:34,413 - AW. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:42:34,413 - AX. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:42:34,413 - AY. (0.828, 0.572) <a">Sign Up</a>
+2026-06-02 18:42:34,413 - AZ. (0.214, 0.577) <rt-text">Throwbacks on Disney+</rt-text>
+2026-06-02 18:42:34,413 - BA. (0.343, 0.582) <a">Sponsored by</a>
+2026-06-02 18:42:34,413 - BB. (0.117, 0.586) <a">Versant</a>
+2026-06-02 18:42:34,413 - BC. (0.324, 0.586) <a">Terms</a>
+2026-06-02 18:42:34,413 - BD. (0.108, 0.605) <a">Privacy Policy</a>
+2026-06-02 18:42:34,413 - BE. (0.029, 0.624) <a">here</a>
+2026-06-02 18:42:34,413 - BF. (0.488, 0.653) <button">IAB and Google Vendors</button>
+2026-06-02 18:42:34,413 - BG. (0.884, 0.709) <button">I Accept</button>
+2026-06-02 18:42:34,413 - BH. (0.202, 0.722) <poster-tile">parent_node: The Parent Trap</poster-tile>
+2026-06-02 18:42:34,413 - BI. (0.315, 0.722) <poster-tile">parent_node: Glee</poster-tile>
+2026-06-02 18:42:34,413 - BJ. (0.429, 0.722) <poster-tile">parent_node: The Devil Wears Prada</poster-tile>
+2026-06-02 18:42:34,413 - BK. (0.542, 0.722) <poster-tile">parent_node: The Lizzie McGuire Movie</poster-tile>
+2026-06-02 18:42:34,413 - BL. (0.655, 0.722) <poster-tile">parent_node: Camp Rock</poster-tile>
+2026-06-02 18:42:34,413 - BM. (0.768, 0.722) <poster-tile">parent_node: Freaky Friday</poster-tile>
+2026-06-02 18:42:34,413 - BN. (0.882, 0.722) <poster-tile">parent_node: High School Musical 2</poster-tile>
+2026-06-02 18:42:34,413 - BO. (0.839, 0.728) <button">parent_node: The Parent Trap</button>
+2026-06-02 18:42:34,413 - BP. (0.497, 0.738) <section">Throwbacks on Disney+ Sponsored by SIGN UP The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</section>
+2026-06-02 18:42:34,413 - BQ. (0.202, 0.757) <media-info-tile">The Parent Trap Watchlist</media-info-tile>
+2026-06-02 18:42:34,413 - BR. (0.315, 0.757) <media-info-tile">Glee Watchlist</media-info-tile>
+2026-06-02 18:42:34,413 - BS. (0.429, 0.757) <media-info-tile">The Devil Wears Prada Watchlist</media-info-tile>
+2026-06-02 18:42:34,413 - BT. (0.497, 0.757) <tiles-carousel-responsive-deprecated">The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</tiles-carousel-responsive-deprecated>
+2026-06-02 18:42:34,413 - BU. (0.542, 0.757) <media-info-tile">The Lizzie McGuire Movie Watchlist</media-info-tile>
+2026-06-02 18:42:34,413 - BV. (0.655, 0.757) <media-info-tile">Camp Rock Watchlist</media-info-tile>
+2026-06-02 18:42:34,413 - BW. (0.768, 0.757) <media-info-tile">Freaky Friday Watchlist</media-info-tile>
+2026-06-02 18:42:34,413 - BX. (0.882, 0.757) <media-info-tile">High School Musical 2 Watchlist</media-info-tile>
+2026-06-02 18:42:34,413 - BY. (0.884, 0.777) <button">Reject All</button>
+2026-06-02 18:42:34,413 - BZ. (0.884, 0.846) <button">Manage Choices</button>
+2026-06-02 18:42:34,413 - CA. (0.202, 0.862) <a">The Parent Trap</a>
+2026-06-02 18:42:34,413 - CB. (0.315, 0.862) <a">Glee</a>
+2026-06-02 18:42:34,413 - CC. (0.429, 0.862) <a">The Devil Wears Prada</a>
+2026-06-02 18:42:34,413 - CD. (0.542, 0.862) <a">The Lizzie McGuire Movie</a>
+2026-06-02 18:42:34,413 - CE. (0.655, 0.862) <a">Camp Rock</a>
+2026-06-02 18:42:34,413 - CF. (0.768, 0.862) <a">Freaky Friday</a>
+2026-06-02 18:42:34,413 - CG. (0.882, 0.862) <a">High School Musical 2</a>
+2026-06-02 18:42:34,413 - CH. (0.381, 0.891) <a">Cookie Notice</a>
+2026-06-02 18:42:34,413 - CI. (0.197, 0.897) <button">Watchlist</button>
+2026-06-02 18:42:34,413 - CJ. (0.202, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:42:34,413 - CK. (0.311, 0.897) <button">Watchlist</button>
+2026-06-02 18:42:34,413 - CL. (0.315, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:42:34,413 - CM. (0.424, 0.897) <button">Watchlist</button>
+2026-06-02 18:42:34,413 - CN. (0.429, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:42:34,413 - CO. (0.537, 0.897) <button">Watchlist</button>
+2026-06-02 18:42:34,413 - CP. (0.542, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:42:34,413 - CQ. (0.651, 0.897) <button">Watchlist</button>
+2026-06-02 18:42:34,413 - CR. (0.655, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:42:34,413 - CS. (0.764, 0.897) <button">Watchlist</button>
+2026-06-02 18:42:34,413 - CT. (0.768, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:42:34,413 - CU. (0.877, 0.897) <button">Watchlist</button>
+2026-06-02 18:42:34,413 - CV. (0.882, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:42:34,413 - CW. (0.17, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - CX. (0.284, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - CY. (0.397, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - CZ. (0.51, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - DA. (0.623, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - DB. (0.737, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - DC. (0.85, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - DD. (0.963, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:42:34,413 - DE. (0.062, 0.91) <a">Privacy Policy</a>
+2026-06-02 18:42:34,413 - DF. (0.826, 0.962) <a">View all</a>
+2026-06-02 18:42:34,413 - DG. (0.201, 0.967) <rt-text">Movies in Theaters</rt-text>
+2026-06-02 18:42:34,413 - DH. (0.323, 0.972) <a">Brought to you by</a>
+2026-06-02 18:42:34,413 - DI. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:42:38,707 - ELEMENT: BY
+2026-06-02 18:42:38,709 - 
+2026-06-02 18:42:38,709 - ACTION: CLICK
+2026-06-02 18:42:38,709 - 
+2026-06-02 18:42:38,709 - VALUE: None
+2026-06-02 18:42:39,944 - Clicked on element: Reject All
+2026-06-02 18:44:07,227 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_3.png
+2026-06-02 18:44:08,271 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:44:08,271 - Previous:
+2026-06-02 18:44:08,271 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:44:08,271 - [button] Reject All -> CLICK
+2026-06-02 18:44:08,271 - calling generate
+2026-06-02 18:44:15,052 - ----------
+2026-06-02 18:44:15,060 - To view the Most Popular TV shows on Rotten Tomatoes, I will hover over the "TV SHOWS" navigation link to reveal the dropdown menu.
+2026-06-02 18:44:15,060 - 
+2026-06-02 18:44:15,060 - Action: **HOVER** on the "TV SHOWS" element (labeled **S**).
+2026-06-02 18:44:15,060 - ----------
+2026-06-02 18:44:15,060 - If none of these elements match your target element or your target action doesn't involve an element, please select CY.
+2026-06-02 18:44:15,060 - A. (0.497, 0.049) <ad-unit">mps._execAd('_oop');</ad-unit>
+2026-06-02 18:44:15,060 - B. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in...</header>
+2026-06-02 18:44:15,060 - C. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:44:15,060 - D. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:44:15,060 - E. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:44:15,060 - F. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:44:15,060 - G. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:44:15,060 - H. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:44:15,060 - I. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:44:15,060 - J. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:44:15,060 - K. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header>
+2026-06-02 18:44:15,060 - L. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:44:15,060 - M. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:44:15,060 - N. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:44:15,060 - O. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:44:15,060 - P. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:44:15,060 - Q. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWSRT APP aria-label="Open aRTi"</button>
+2026-06-02 18:44:15,060 - R. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:44:15,060 - S. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:44:15,060 - T. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header-nav>
+2026-06-02 18:44:15,060 - U. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:44:15,060 - V. (0.758, 0.163) <a">News</a>
+2026-06-02 18:44:15,060 - W. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:44:15,060 - X. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:44:15,060 - Y. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:44:15,060 - Z. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:44:15,060 - AA. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:44:15,060 - AB. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:44:15,060 - AC. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:44:15,060 - AD. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:44:15,060 - AE. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:44:15,060 - AF. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:44:15,060 - AG. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:44:15,060 - AH. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:44:15,060 - AI. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:44:15,060 - AJ. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:44:15,060 - AK. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:44:15,060 - AL. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:44:15,060 - AM. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:44:15,060 - AN. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:44:15,060 - AO. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:44:15,060 - AP. (0.162, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:44:15,060 - AQ. (0.318, 0.372) <a">ALL MARILYN MONROE MOVIES RANKED BY TOMATOMETER The Academy’s special exhibit, honoring Monroe’s 100th birthday, is now open!</a>
+2026-06-02 18:44:15,060 - AR. (0.474, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:44:15,060 - AS. (0.497, 0.372) <section">MOST ANTICIPATED MOVIES OF JUNE Vote for the movies you're looking forward to most! BOX OFFICE: BACKROOMS SHATTERS EXPECTATIONS Kane Parsons gives A24 its biggest debut ever ALL MARILYN MONROE...</section>
+2026-06-02 18:44:15,060 - AT. (0.586, 0.372) <a">Backrooms Audience Reviews "Get lost in a nightmare maze."</a>
+2026-06-02 18:44:15,060 - AU. (0.675, 0.372) <a">BACKROOMS AUDIENCE REVIEWS Viewers are drawn to its unsettling visuals, even if you’re left searching for answers.</a>
+2026-06-02 18:44:15,060 - AV. (0.766, 0.372) <a">Curry Barker Talks Franchising Obsession and that shocking ending!</a>
+2026-06-02 18:44:15,060 - AW. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:44:15,060 - AX. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:44:15,060 - AY. (0.828, 0.572) <a">Sign Up</a>
+2026-06-02 18:44:15,060 - AZ. (0.214, 0.577) <rt-text">Throwbacks on Disney+</rt-text>
+2026-06-02 18:44:15,060 - BA. (0.343, 0.582) <a">Sponsored by</a>
+2026-06-02 18:44:15,060 - BB. (0.202, 0.722) <poster-tile">parent_node: The Parent Trap</poster-tile>
+2026-06-02 18:44:15,060 - BC. (0.315, 0.722) <poster-tile">parent_node: Glee</poster-tile>
+2026-06-02 18:44:15,060 - BD. (0.429, 0.722) <poster-tile">parent_node: The Devil Wears Prada</poster-tile>
+2026-06-02 18:44:15,060 - BE. (0.542, 0.722) <poster-tile">parent_node: The Lizzie McGuire Movie</poster-tile>
+2026-06-02 18:44:15,060 - BF. (0.655, 0.722) <poster-tile">parent_node: Camp Rock</poster-tile>
+2026-06-02 18:44:15,060 - BG. (0.768, 0.722) <poster-tile">parent_node: Freaky Friday</poster-tile>
+2026-06-02 18:44:15,060 - BH. (0.882, 0.722) <poster-tile">parent_node: High School Musical 2</poster-tile>
+2026-06-02 18:44:15,060 - BI. (0.839, 0.728) <button">parent_node: The Parent Trap</button>
+2026-06-02 18:44:15,060 - BJ. (0.497, 0.738) <section">Throwbacks on Disney+ Sponsored by SIGN UP The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</section>
+2026-06-02 18:44:15,060 - BK. (0.202, 0.757) <media-info-tile">The Parent Trap Watchlist</media-info-tile>
+2026-06-02 18:44:15,060 - BL. (0.315, 0.757) <media-info-tile">Glee Watchlist</media-info-tile>
+2026-06-02 18:44:15,060 - BM. (0.429, 0.757) <media-info-tile">The Devil Wears Prada Watchlist</media-info-tile>
+2026-06-02 18:44:15,060 - BN. (0.497, 0.757) <tiles-carousel-responsive-deprecated">The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</tiles-carousel-responsive-deprecated>
+2026-06-02 18:44:15,060 - BO. (0.542, 0.757) <media-info-tile">The Lizzie McGuire Movie Watchlist</media-info-tile>
+2026-06-02 18:44:15,060 - BP. (0.655, 0.757) <media-info-tile">Camp Rock Watchlist</media-info-tile>
+2026-06-02 18:44:15,060 - BQ. (0.768, 0.757) <media-info-tile">Freaky Friday Watchlist</media-info-tile>
+2026-06-02 18:44:15,060 - BR. (0.882, 0.757) <media-info-tile">High School Musical 2 Watchlist</media-info-tile>
+2026-06-02 18:44:15,060 - BS. (0.202, 0.862) <a">The Parent Trap</a>
+2026-06-02 18:44:15,060 - BT. (0.315, 0.862) <a">Glee</a>
+2026-06-02 18:44:15,060 - BU. (0.429, 0.862) <a">The Devil Wears Prada</a>
+2026-06-02 18:44:15,060 - BV. (0.542, 0.862) <a">The Lizzie McGuire Movie</a>
+2026-06-02 18:44:15,060 - BW. (0.655, 0.862) <a">Camp Rock</a>
+2026-06-02 18:44:15,060 - BX. (0.768, 0.862) <a">Freaky Friday</a>
+2026-06-02 18:44:15,060 - BY. (0.882, 0.862) <a">High School Musical 2</a>
+2026-06-02 18:44:15,060 - BZ. (0.197, 0.897) <button">Watchlist</button>
+2026-06-02 18:44:15,060 - CA. (0.202, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:44:15,060 - CB. (0.311, 0.897) <button">Watchlist</button>
+2026-06-02 18:44:15,060 - CC. (0.315, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:44:15,060 - CD. (0.424, 0.897) <button">Watchlist</button>
+2026-06-02 18:44:15,060 - CE. (0.429, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:44:15,060 - CF. (0.537, 0.897) <button">Watchlist</button>
+2026-06-02 18:44:15,060 - CG. (0.542, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:44:15,060 - CH. (0.651, 0.897) <button">Watchlist</button>
+2026-06-02 18:44:15,060 - CI. (0.655, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:44:15,060 - CJ. (0.764, 0.897) <button">Watchlist</button>
+2026-06-02 18:44:15,060 - CK. (0.768, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:44:15,060 - CL. (0.877, 0.897) <button">Watchlist</button>
+2026-06-02 18:44:15,060 - CM. (0.882, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:44:15,060 - CN. (0.17, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CO. (0.284, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CP. (0.397, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CQ. (0.51, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CR. (0.623, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CS. (0.737, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CT. (0.85, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CU. (0.963, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:44:15,060 - CV. (0.826, 0.962) <a">View all</a>
+2026-06-02 18:44:15,060 - CW. (0.201, 0.967) <rt-text">Movies in Theaters</rt-text>
+2026-06-02 18:44:15,060 - CX. (0.323, 0.972) <a">Brought to you by</a>
+2026-06-02 18:44:15,060 - CY. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:44:20,685 - ELEMENT: S
+2026-06-02 18:44:20,685 - 
+2026-06-02 18:44:20,685 - ACTION: HOVER
+2026-06-02 18:44:20,685 - 
+2026-06-02 18:44:20,685 - VALUE: None
+2026-06-02 18:44:20,879 - Hovered over element: Tv shows
+2026-06-02 18:45:49,515 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_4.png
+2026-06-02 18:45:50,633 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:45:50,633 - Previous:
+2026-06-02 18:45:50,633 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:45:50,633 - [button] Reject All -> CLICK
+2026-06-02 18:45:50,633 - [a] Tv shows -> HOVER
+2026-06-02 18:45:50,633 - calling generate
+2026-06-02 18:45:58,076 - ----------
+2026-06-02 18:45:58,085 - To view all of the Most Popular TV on Rotten Tomatoes, I will click on the "VIEW ALL" link next to the "MOST POPULAR TV ON RT" section.
+2026-06-02 18:45:58,085 - 
+2026-06-02 18:45:58,085 - Action:
+2026-06-02 18:45:58,085 - CLICK on the element with label "DA" (VIEW ALL link).
+2026-06-02 18:45:58,085 - ----------
+2026-06-02 18:45:58,087 - If none of these elements match your target element or your target action doesn't involve an element, please select GA.
+2026-06-02 18:45:58,087 - A. (0.497, 0.049) <ad-unit">mps._execAd('_oop');</ad-unit>
+2026-06-02 18:45:58,087 - B. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season...</header>
+2026-06-02 18:45:58,087 - C. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:45:58,087 - D. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:45:58,087 - E. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:45:58,087 - F. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:45:58,087 - G. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:45:58,087 - H. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:45:58,087 - I. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:45:58,087 - J. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:45:58,089 - K. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear:...</rt-header>
+2026-06-02 18:45:58,089 - L. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:45:58,089 - M. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:45:58,089 - N. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:45:58,089 - O. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:45:58,089 - P. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:45:58,089 - Q. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWS aria-label="Open aRTi"</button>
+2026-06-02 18:45:58,089 - R. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:45:58,089 - S. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:45:58,089 - T. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1...</rt-header-nav>
+2026-06-02 18:45:58,089 - U. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:45:58,089 - V. (0.758, 0.163) <a">News</a>
+2026-06-02 18:45:58,089 - W. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:45:58,089 - X. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:45:58,089 - Y. (0.324, 0.199) <a">View All</a>
+2026-06-02 18:45:58,089 - Z. (0.525, 0.199) <a">View All</a>
+2026-06-02 18:45:58,089 - AA. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:45:58,089 - AB. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:45:58,089 - AC. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:45:58,089 - AD. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:45:58,089 - AE. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:45:58,089 - AF. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:45:58,089 - AG. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:45:58,089 - AH. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:45:58,089 - AI. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:45:58,091 - AJ. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:45:58,091 - AK. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:45:58,091 - AL. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:45:58,091 - AM. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:45:58,091 - AN. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:45:58,091 - AO. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:45:58,091 - AP. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:45:58,091 - AQ. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:45:58,091 - AR. (0.16, 0.232) <score-icon-critics">parent_node: 100%</score-icon-critics>
+2026-06-02 18:45:58,091 - AS. (0.181, 0.232) <rt-text">100%</rt-text>
+2026-06-02 18:45:58,091 - AT. (0.361, 0.232) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:45:58,091 - AU. (0.379, 0.232) <rt-text">92%</rt-text>
+2026-06-02 18:45:58,091 - AV. (0.248, 0.233) <a">100% The Legend of Vox Machina: Season 4</a>
+2026-06-02 18:45:58,091 - AW. (0.449, 0.233) <a">92% Spider-Noir: Season 1</a>
+2026-06-02 18:45:58,091 - AX. (0.627, 0.234) <a">What to WatchNew</a>
+2026-06-02 18:45:58,091 - AY. (0.634, 0.234) <rt-badge">New</rt-badge>
+2026-06-02 18:45:58,091 - AZ. (0.16, 0.256) <score-icon-critics">parent_node: 50%</score-icon-critics>
+2026-06-02 18:45:58,091 - BA. (0.178, 0.256) <rt-text">50%</rt-text>
+2026-06-02 18:45:58,091 - BB. (0.361, 0.256) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:45:58,091 - BC. (0.378, 0.256) <rt-text">97%</rt-text>
+2026-06-02 18:45:58,091 - BD. (0.248, 0.257) <a">50% Not Suitable for Work: Season 1</a>
+2026-06-02 18:45:58,091 - BE. (0.449, 0.257) <a">97% The Boroughs: Season 1</a>
+2026-06-02 18:45:58,091 - BF. (0.627, 0.26) <a">Best TV Shows</a>
+2026-06-02 18:45:58,091 - BG. (0.16, 0.279) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:45:58,091 - BH. (0.172, 0.279) <rt-text">--</rt-text>
+2026-06-02 18:45:58,091 - BI. (0.361, 0.279) <score-icon-critics">parent_node: 96%</score-icon-critics>
+2026-06-02 18:45:58,091 - BJ. (0.379, 0.279) <rt-text">96%</rt-text>
+2026-06-02 18:45:58,093 - BK. (0.248, 0.28) <a">-- Cape Fear: Season 1</a>
+2026-06-02 18:45:58,093 - BL. (0.449, 0.28) <a">96% Star City: Season 1</a>
+2026-06-02 18:45:58,093 - BM. (0.627, 0.286) <a">Most Popular TV</a>
+2026-06-02 18:45:58,093 - BN. (0.16, 0.302) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:45:58,093 - BO. (0.172, 0.302) <rt-text">--</rt-text>
+2026-06-02 18:45:58,093 - BP. (0.361, 0.302) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:45:58,093 - BQ. (0.378, 0.302) <rt-text">97%</rt-text>
+2026-06-02 18:45:58,093 - BR. (0.248, 0.303) <a">-- The Witness: Season 1</a>
+2026-06-02 18:45:58,093 - BS. (0.449, 0.303) <a">97% Widow's Bay: Season 1</a>
+2026-06-02 18:45:58,093 - BT. (0.627, 0.312) <a">Fandango at Home</a>
+2026-06-02 18:45:58,093 - BU. (0.775, 0.312) <rt-img">parent_node: 96% alt="Star City: Season 1 poster image"</rt-img>
+2026-06-02 18:45:58,093 - BV. (0.248, 0.315) <ul">100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael Jackson: The Verdict:...</ul>
+2026-06-02 18:45:58,093 - BW. (0.627, 0.325) <ul">What to Watch New Best TV Shows Most Popular TV Fandango at Home Paramount+ Netflix Prime Video Apple TV</ul>
+2026-06-02 18:45:58,093 - BX. (0.16, 0.326) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:45:58,093 - BY. (0.172, 0.326) <rt-text">--</rt-text>
+2026-06-02 18:45:58,093 - BZ. (0.361, 0.326) <score-icon-critics">parent_node: 90%</score-icon-critics>
+2026-06-02 18:45:58,093 - CA. (0.379, 0.326) <rt-text">90%</rt-text>
+2026-06-02 18:45:58,093 - CB. (0.248, 0.327) <a">-- Michael Jackson: The Verdict: Season 1</a>
+2026-06-02 18:45:58,093 - CC. (0.449, 0.327) <a">90% A Good Girl's Guide to Murder: Season 2</a>
+2026-06-02 18:45:58,093 - CD. (0.248, 0.33) <rt-header-nav-item-dropdown-list">NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael...</rt-header-nav-item-dropdown-list>
+2026-06-02 18:45:58,093 - CE. (0.449, 0.33) <rt-header-nav-item-dropdown-list">MOST POPULAR TV ON RT 92% Spider-Noir: Season 1 97% The Boroughs: Season 1 96% Star City: Season 1 97% Widow's Bay: Season 1 90% A Good Girl's Guide to...</rt-header-nav-item-dropdown-list>
+2026-06-02 18:45:58,093 - CF. (0.497, 0.33) <rt-header-nav-item-dropdown">NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael...</rt-header-nav-item-dropdown>
+2026-06-02 18:45:58,093 - CG. (0.627, 0.33) <rt-header-nav-item-dropdown-list">MORE What to Watch New Best TV Shows Most Popular TV Fandango at Home Paramount+ Netflix Prime Video Apple TV</rt-header-nav-item-dropdown-list>
+2026-06-02 18:45:58,093 - CH. (0.775, 0.33) <rt-header-nav-item-dropdown-list">Certified fresh pick 96% Star City: Season 1 Link to Star City: Season 1</rt-header-nav-item-dropdown-list>
+2026-06-02 18:45:58,093 - CI. (0.449, 0.338) <ul">92% Spider-Noir: Season 1 97% The Boroughs: Season 1 96% Star City: Season 1 97% Widow's Bay: Season 1 90% A Good Girl's Guide to Murder: Season 2 38% Euphoria:...</ul>
+2026-06-02 18:45:58,093 - CJ. (0.627, 0.338) <a">Paramount+</a>
+2026-06-02 18:45:58,093 - CK. (0.775, 0.338) <a">96% Star City: Season 1 Link to Star City: Season 1</a>
+2026-06-02 18:45:58,093 - CL. (0.775, 0.341) <ul">96% Star City: Season 1 Link to Star City: Season 1</ul>
+2026-06-02 18:45:58,093 - CM. (0.16, 0.349) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:45:58,095 - CN. (0.172, 0.349) <rt-text">--</rt-text>
+2026-06-02 18:45:58,095 - CO. (0.361, 0.349) <score-icon-critics">parent_node: 38%</score-icon-critics>
+2026-06-02 18:45:58,095 - CP. (0.379, 0.349) <rt-text">38%</rt-text>
+2026-06-02 18:45:58,095 - CQ. (0.248, 0.35) <a">-- Love Island: Season 8</a>
+2026-06-02 18:45:58,095 - CR. (0.449, 0.35) <a">38% Euphoria: Season 3</a>
+2026-06-02 18:45:58,095 - CS. (0.627, 0.363) <a">Netflix</a>
+2026-06-02 18:45:58,095 - CT. (0.162, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:45:58,095 - CU. (0.315, 0.372) <a">Most Anticipated TV of June Vote for the shows you're looking forward to most!</a>
+2026-06-02 18:45:58,095 - CV. (0.318, 0.372) <editorial-spotlight-tile">Most Anticipated TV of June Vote for the shows you're looking forward to most!</editorial-spotlight-tile>
+2026-06-02 18:45:58,095 - CW. (0.474, 0.372) <button">parent_node: MOST ANTICIPATED MOVIES OF JUNE</button>
+2026-06-02 18:45:58,095 - CX. (0.497, 0.372) <section">MOST ANTICIPATED MOVIES OF JUNE Vote for the movies you're looking forward to most! BOX OFFICE: BACKROOMS SHATTERS EXPECTATIONS Kane Parsons gives A24 its biggest debut ever ALL MARILYN MONROE...</section>
+2026-06-02 18:45:58,095 - CY. (0.586, 0.372) <a">Backrooms Audience Reviews "Get lost in a nightmare maze."</a>
+2026-06-02 18:45:58,095 - CZ. (0.673, 0.372) <a">STORY, SEX, AND ROCK N ROLL ON THE SET OF THE VAMPIRE LESTAT Sam Reid, Jacob Anderson, and more reveal details on the upcoming season</a>
+2026-06-02 18:45:58,095 - DA. (0.676, 0.372) <editorial-spotlight-tile">STORY, SEX, AND ROCK N ROLL ON THE SET OF THE VAMPIRE LESTAT Sam Reid, Jacob Anderson, and more reveal details on the upcoming season</editorial-spotlight-tile>
+2026-06-02 18:45:58,095 - DB. (0.766, 0.372) <a">Curry Barker Talks Franchising Obsession and that shocking ending!</a>
+2026-06-02 18:45:58,095 - DC. (0.16, 0.373) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:45:58,095 - DD. (0.172, 0.373) <rt-text">--</rt-text>
+2026-06-02 18:45:58,095 - DE. (0.248, 0.373) <a">-- Clarkson's Farm: Season 5</a>
+2026-06-02 18:45:58,095 - DF. (0.361, 0.373) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:45:58,095 - DG. (0.379, 0.373) <rt-text">93%</rt-text>
+2026-06-02 18:45:58,095 - DH. (0.449, 0.373) <a">93% Off Campus: Season 1</a>
+2026-06-02 18:45:58,095 - DI. (0.627, 0.389) <a">Prime Video</a>
+2026-06-02 18:45:58,095 - DJ. (0.16, 0.396) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:45:58,095 - DK. (0.172, 0.396) <rt-text">--</rt-text>
+2026-06-02 18:45:58,095 - DL. (0.361, 0.396) <score-icon-critics">parent_node: 94%</score-icon-critics>
+2026-06-02 18:45:58,095 - DM. (0.379, 0.396) <rt-text">94%</rt-text>
+2026-06-02 18:45:58,095 - DN. (0.248, 0.397) <a">-- Bring Me The Beauties: A Model Cult: Season 1</a>
+2026-06-02 18:45:58,095 - DO. (0.449, 0.397) <a">94% Maximum Pleasure Guaranteed: Season 1</a>
+2026-06-02 18:45:58,095 - DP. (0.627, 0.415) <a">Apple TV</a>
+2026-06-02 18:45:58,095 - DQ. (0.74, 0.418) <score-icon-critics">parent_node: 96%</score-icon-critics>
+2026-06-02 18:45:58,097 - DR. (0.757, 0.418) <rt-text">96%</rt-text>
+2026-06-02 18:45:58,097 - DS. (0.361, 0.419) <score-icon-critics">parent_node: 100%</score-icon-critics>
+2026-06-02 18:45:58,097 - DT. (0.382, 0.419) <rt-text">100%</rt-text>
+2026-06-02 18:45:58,097 - DU. (0.449, 0.42) <a">100% From: Season 4</a>
+2026-06-02 18:45:58,097 - DV. (0.361, 0.443) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:45:58,097 - DW. (0.378, 0.443) <rt-text">97%</rt-text>
+2026-06-02 18:45:58,097 - DX. (0.449, 0.443) <a">97% Legends: Season 1</a>
+2026-06-02 18:45:58,097 - DY. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:45:58,097 - DZ. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:45:58,097 - EA. (0.828, 0.572) <a">Sign Up</a>
+2026-06-02 18:45:58,097 - EB. (0.214, 0.577) <rt-text">Throwbacks on Disney+</rt-text>
+2026-06-02 18:45:58,097 - EC. (0.343, 0.582) <a">Sponsored by</a>
+2026-06-02 18:45:58,097 - ED. (0.202, 0.722) <poster-tile">parent_node: The Parent Trap</poster-tile>
+2026-06-02 18:45:58,097 - EE. (0.315, 0.722) <poster-tile">parent_node: Glee</poster-tile>
+2026-06-02 18:45:58,097 - EF. (0.429, 0.722) <poster-tile">parent_node: The Devil Wears Prada</poster-tile>
+2026-06-02 18:45:58,097 - EG. (0.542, 0.722) <poster-tile">parent_node: The Lizzie McGuire Movie</poster-tile>
+2026-06-02 18:45:58,097 - EH. (0.655, 0.722) <poster-tile">parent_node: Camp Rock</poster-tile>
+2026-06-02 18:45:58,097 - EI. (0.768, 0.722) <poster-tile">parent_node: Freaky Friday</poster-tile>
+2026-06-02 18:45:58,097 - EJ. (0.882, 0.722) <poster-tile">parent_node: High School Musical 2</poster-tile>
+2026-06-02 18:45:58,097 - EK. (0.839, 0.728) <button">parent_node: The Parent Trap</button>
+2026-06-02 18:45:58,097 - EL. (0.497, 0.738) <section">Throwbacks on Disney+ Sponsored by SIGN UP The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</section>
+2026-06-02 18:45:58,097 - EM. (0.202, 0.757) <media-info-tile">The Parent Trap Watchlist</media-info-tile>
+2026-06-02 18:45:58,097 - EN. (0.315, 0.757) <media-info-tile">Glee Watchlist</media-info-tile>
+2026-06-02 18:45:58,097 - EO. (0.429, 0.757) <media-info-tile">The Devil Wears Prada Watchlist</media-info-tile>
+2026-06-02 18:45:58,097 - EP. (0.497, 0.757) <tiles-carousel-responsive-deprecated">The Parent Trap Glee The Devil Wears Prada The Lizzie McGuire Movie Camp Rock Freaky Friday High School Musical 2 Scrubs</tiles-carousel-responsive-deprecated>
+2026-06-02 18:45:58,097 - EQ. (0.542, 0.757) <media-info-tile">The Lizzie McGuire Movie Watchlist</media-info-tile>
+2026-06-02 18:45:58,097 - ER. (0.655, 0.757) <media-info-tile">Camp Rock Watchlist</media-info-tile>
+2026-06-02 18:45:58,097 - ES. (0.768, 0.757) <media-info-tile">Freaky Friday Watchlist</media-info-tile>
+2026-06-02 18:45:58,097 - ET. (0.882, 0.757) <media-info-tile">High School Musical 2 Watchlist</media-info-tile>
+2026-06-02 18:45:58,097 - EU. (0.202, 0.862) <a">The Parent Trap</a>
+2026-06-02 18:45:58,097 - EV. (0.315, 0.862) <a">Glee</a>
+2026-06-02 18:45:58,099 - EW. (0.429, 0.862) <a">The Devil Wears Prada</a>
+2026-06-02 18:45:58,099 - EX. (0.542, 0.862) <a">The Lizzie McGuire Movie</a>
+2026-06-02 18:45:58,099 - EY. (0.655, 0.862) <a">Camp Rock</a>
+2026-06-02 18:45:58,099 - EZ. (0.768, 0.862) <a">Freaky Friday</a>
+2026-06-02 18:45:58,099 - FA. (0.882, 0.862) <a">High School Musical 2</a>
+2026-06-02 18:45:58,099 - FB. (0.197, 0.897) <button">Watchlist</button>
+2026-06-02 18:45:58,099 - FC. (0.202, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:45:58,099 - FD. (0.311, 0.897) <button">Watchlist</button>
+2026-06-02 18:45:58,099 - FE. (0.315, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:45:58,099 - FF. (0.424, 0.897) <button">Watchlist</button>
+2026-06-02 18:45:58,099 - FG. (0.429, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:45:58,099 - FH. (0.537, 0.897) <button">Watchlist</button>
+2026-06-02 18:45:58,099 - FI. (0.542, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:45:58,099 - FJ. (0.651, 0.897) <button">Watchlist</button>
+2026-06-02 18:45:58,099 - FK. (0.655, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:45:58,099 - FL. (0.764, 0.897) <button">Watchlist</button>
+2026-06-02 18:45:58,099 - FM. (0.768, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:45:58,099 - FN. (0.877, 0.897) <button">Watchlist</button>
+2026-06-02 18:45:58,099 - FO. (0.882, 0.897) <watchlist-button">Watchlist</watchlist-button>
+2026-06-02 18:45:58,099 - FP. (0.17, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FQ. (0.284, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FR. (0.397, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FS. (0.51, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FT. (0.623, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FU. (0.737, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FV. (0.85, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FW. (0.963, 0.898) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:45:58,099 - FX. (0.826, 0.962) <a">View all</a>
+2026-06-02 18:45:58,099 - FY. (0.201, 0.967) <rt-text">Movies in Theaters</rt-text>
+2026-06-02 18:45:58,099 - FZ. (0.323, 0.972) <a">Brought to you by</a>
+2026-06-02 18:45:58,099 - GA. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:46:04,246 - ELEMENT: Z
+2026-06-02 18:46:04,248 - 
+2026-06-02 18:46:04,248 - ACTION: CLICK
+2026-06-02 18:46:04,248 - 
+2026-06-02 18:46:04,248 - VALUE: None
+2026-06-02 18:46:05,266 - Clicked on element: View All
+2026-06-02 18:46:05,544 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_5.png
+2026-06-02 18:46:08,037 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:46:08,037 - Previous:
+2026-06-02 18:46:08,037 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:46:08,039 - [button] Reject All -> CLICK
+2026-06-02 18:46:08,039 - [a] Tv shows -> HOVER
+2026-06-02 18:46:08,039 - [a] View All -> CLICK
+2026-06-02 18:46:08,039 - calling generate
+2026-06-02 18:46:17,841 - ----------
+2026-06-02 18:46:17,845 - To view the Most Popular TV shows on Rotten Tomatoes, let's navigate to the TV Shows section or interact with the menu if possible. Since the previous hover failed due to an overlay, let's try to click directly on the "TV SHOWS" link in the top navigation bar.
+2026-06-02 18:46:17,845 - 
+2026-06-02 18:46:17,845 - Action:
+2026-06-02 18:46:17,845 - **CLICK** on the "TV SHOWS" link in the header.
+2026-06-02 18:46:17,845 - ----------
+2026-06-02 18:46:17,845 - If none of these elements match your target element or your target action doesn't involve an element, please select .
+2026-06-02 18:46:17,845 - . None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:46:23,226 - The target element is the "TV SHOWS" link in the top navigation bar of the page, located to the right of "MOVIES" and to the left of "RT APP" in the red header.
+2026-06-02 18:46:23,226 - 
+2026-06-02 18:46:23,226 - Let's look at the options for the multi-choice question:
+2026-06-02 18:46:23,226 - 
+2026-06-02 18:46:23,226 - A) [a] TV SHOWS -> CLICK on the navigation header "TV SHOWS" (coordinates approx. x=647, y=161)
+2026-06-02 18:46:23,226 - B) [a] MOVIES -> CLICK on the navigation header "MOVIES"
+2026-06-02 18:46:23,226 - C) [button] SORT: MOST POPULAR -> CLICK on the dropdown button
+2026-06-02 18:46:23,226 - D) [a] RT APP -> CLICK on the navigation header "RT APP"
+2026-06-02 18:46:23,226 - 
+2026-06-02 18:46:23,226 - Let's select option A corresponding to the "TV SHOWS" link in the header.
+2026-06-02 18:46:23,226 - 
+2026-06-02 18:46:23,226 - ELEMENT: A
+2026-06-02 18:46:23,226 - 
+2026-06-02 18:46:23,226 - ACTION: CLICK
+2026-06-02 18:46:23,226 - 
+2026-06-02 18:46:23,226 - VALUE: None
+2026-06-02 18:46:23,257 - DEBUG: WHAT IS PRED ACTION???:CLICK
+2026-06-02 18:46:23,273 - No action necessary at this stage. Skipped
+2026-06-02 18:46:53,569 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_6.png
+2026-06-02 18:46:54,569 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:46:54,569 - Previous:
+2026-06-02 18:46:54,569 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:46:54,569 - [button] Reject All -> CLICK
+2026-06-02 18:46:54,569 - [a] Tv shows -> HOVER
+2026-06-02 18:46:54,569 - [a] View All -> CLICK
+2026-06-02 18:46:54,569 - NONE
+2026-06-02 18:46:54,569 - calling generate
+2026-06-02 18:47:02,178 - ----------
+2026-06-02 18:47:02,185 - To view all of the Most Popular TV on Rotten Tomatoes, I will hover over the "TV SHOWS" navigation link to reveal the sub-menu options.
+2026-06-02 18:47:02,185 - 
+2026-06-02 18:47:02,185 - Action: HOVER on the element `[a] TV SHOWS` with identifier `S`.
+2026-06-02 18:47:02,185 - ----------
+2026-06-02 18:47:02,187 - If none of these elements match your target element or your target action doesn't involve an element, please select EL.
+2026-06-02 18:47:02,187 - A. (0.497, 0.049) <ad-unit">mps._execAd('_oop');</ad-unit>
+2026-06-02 18:47:02,187 - B. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in...</header>
+2026-06-02 18:47:02,187 - C. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:47:02,187 - D. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:47:02,187 - E. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:47:02,187 - F. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:47:02,187 - G. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:47:02,187 - H. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:47:02,187 - I. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:47:02,187 - J. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:47:02,189 - K. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header>
+2026-06-02 18:47:02,189 - L. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:47:02,189 - M. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:47:02,189 - N. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:47:02,189 - O. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:47:02,189 - P. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:47:02,189 - Q. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWSRT APP aria-label="Open aRTi"</button>
+2026-06-02 18:47:02,189 - R. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:47:02,189 - S. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:47:02,189 - T. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header-nav>
+2026-06-02 18:47:02,189 - U. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:47:02,189 - V. (0.758, 0.163) <a">News</a>
+2026-06-02 18:47:02,189 - W. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:47:02,189 - X. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:47:02,189 - Y. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:47:02,189 - Z. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:47:02,189 - AA. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:47:02,189 - AB. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:47:02,189 - AC. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:47:02,189 - AD. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:47:02,189 - AE. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:47:02,189 - AF. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:47:02,189 - AG. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:47:02,189 - AH. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:47:02,189 - AI. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:47:02,189 - AJ. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:47:02,189 - AK. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:47:02,189 - AL. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:47:02,189 - AM. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:47:02,189 - AN. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:47:02,189 - AO. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:47:02,189 - AP. (0.247, 0.265) <discovery-title">Best TV Shows (June 2026)</discovery-title>
+2026-06-02 18:47:02,189 - AQ. (0.401, 0.265) <button">TV Shows</button>
+2026-06-02 18:47:02,189 - AR. (0.424, 0.266) <rt-icon">parent_node: TV SHOWS</rt-icon>
+2026-06-02 18:47:02,189 - AS. (0.596, 0.312) <sup">®</sup>
+2026-06-02 18:47:02,189 - AT. (0.211, 0.316) <filter-chip role="button"">Sort: Most popular</filter-chip>
+2026-06-02 18:47:02,189 - AU. (0.309, 0.316) <filter-chip role="button"">Genre</filter-chip>
+2026-06-02 18:47:02,189 - AV. (0.376, 0.316) <filter-chip role="button"">Rating</filter-chip>
+2026-06-02 18:47:02,189 - AW. (0.464, 0.316) <filter-chip role="button"">Popcornmeter</filter-chip>
+2026-06-02 18:47:02,189 - AX. (0.57, 0.316) <filter-chip role="button"">Tomatometer®</filter-chip>
+2026-06-02 18:47:02,189 - AY. (0.171, 0.385) <where-to-watch-bubble">value="fandango-at-home"</where-to-watch-bubble>
+2026-06-02 18:47:02,189 - AZ. (0.223, 0.385) <where-to-watch-bubble">value="apple-tv-plus"</where-to-watch-bubble>
+2026-06-02 18:47:02,189 - BA. (0.276, 0.385) <where-to-watch-bubble">value="netflix"</where-to-watch-bubble>
+2026-06-02 18:47:02,189 - BB. (0.328, 0.385) <where-to-watch-bubble">value="prime-video"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BC. (0.38, 0.385) <where-to-watch-bubble">value="disney-plus"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BD. (0.432, 0.385) <where-to-watch-bubble">value="max"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BE. (0.484, 0.385) <where-to-watch-bubble">value="peacock"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BF. (0.497, 0.385) <bubbles-overflow-container">parent_node: SORT: MOST POPULAR</bubbles-overflow-container>
+2026-06-02 18:47:02,191 - BG. (0.536, 0.385) <where-to-watch-bubble">value="hulu"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BH. (0.588, 0.385) <where-to-watch-bubble">value="paramount-plus"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BI. (0.64, 0.385) <where-to-watch-bubble">value="amc-plus"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BJ. (0.692, 0.385) <where-to-watch-bubble">value="acorn-tv"</where-to-watch-bubble>
+2026-06-02 18:47:02,191 - BK. (0.172, 0.443) <button">Reset Filters</button>
+2026-06-02 18:47:02,191 - BL. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:47:02,191 - BM. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:47:02,191 - BN. (0.202, 0.59) <poster-tile">parent_node: 92%</poster-tile>
+2026-06-02 18:47:02,191 - BO. (0.32, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:47:02,191 - BP. (0.438, 0.59) <poster-tile">parent_node: 93%</poster-tile>
+2026-06-02 18:47:02,191 - BQ. (0.556, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:47:02,191 - BR. (0.674, 0.59) <poster-tile">parent_node: 78%</poster-tile>
+2026-06-02 18:47:02,191 - BS. (0.792, 0.59) <poster-tile">parent_node: 86%</poster-tile>
+2026-06-02 18:47:02,191 - BT. (0.202, 0.651) <media-info-tile">92% 93% Spider-Noir Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:47:02,191 - BU. (0.32, 0.651) <media-info-tile">97% 80% The Boroughs Latest Episode: May 21 Watchlist</media-info-tile>
+2026-06-02 18:47:02,191 - BV. (0.438, 0.651) <media-info-tile">93% 88% Off Campus Latest Episode: May 13 Watchlist</media-info-tile>
+2026-06-02 18:47:02,191 - BW. (0.556, 0.651) <media-info-tile">97% 92% Widow's Bay Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:47:02,191 - BX. (0.674, 0.651) <media-info-tile">78% 74% Euphoria Latest Episode: May 31 Watchlist</media-info-tile>
+2026-06-02 18:47:02,191 - BY. (0.792, 0.651) <media-info-tile">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:47:02,191 - BZ. (0.154, 0.729) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:47:02,191 - CA. (0.171, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:47:02,191 - CB. (0.193, 0.729) <score-icon-audience">parent_node: 92%</score-icon-audience>
+2026-06-02 18:47:02,191 - CC. (0.202, 0.729) <score-pairs-deprecated">92% 93%</score-pairs-deprecated>
+2026-06-02 18:47:02,191 - CD. (0.209, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:47:02,191 - CE. (0.272, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:47:02,191 - CF. (0.288, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:47:02,191 - CG. (0.31, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:47:02,191 - CH. (0.32, 0.729) <score-pairs-deprecated">97% 80%</score-pairs-deprecated>
+2026-06-02 18:47:02,191 - CI. (0.327, 0.729) <rt-text">80%</rt-text>
+2026-06-02 18:47:02,191 - CJ. (0.39, 0.729) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:47:02,191 - CK. (0.407, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:47:02,191 - CL. (0.429, 0.729) <score-icon-audience">parent_node: 93%</score-icon-audience>
+2026-06-02 18:47:02,191 - CM. (0.438, 0.729) <score-pairs-deprecated">93% 88%</score-pairs-deprecated>
+2026-06-02 18:47:02,191 - CN. (0.445, 0.729) <rt-text">88%</rt-text>
+2026-06-02 18:47:02,191 - CO. (0.508, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:47:02,191 - CP. (0.524, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:47:02,191 - CQ. (0.546, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:47:02,191 - CR. (0.556, 0.729) <score-pairs-deprecated">97% 92%</score-pairs-deprecated>
+2026-06-02 18:47:02,191 - CS. (0.563, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:47:02,191 - CT. (0.626, 0.729) <score-icon-critics">parent_node: 78%</score-icon-critics>
+2026-06-02 18:47:02,191 - CU. (0.642, 0.729) <rt-text">78%</rt-text>
+2026-06-02 18:47:02,191 - CV. (0.665, 0.729) <score-icon-audience">parent_node: 78%</score-icon-audience>
+2026-06-02 18:47:02,191 - CW. (0.674, 0.729) <score-pairs-deprecated">78% 74%</score-pairs-deprecated>
+2026-06-02 18:47:02,191 - CX. (0.681, 0.729) <rt-text">74%</rt-text>
+2026-06-02 18:47:02,191 - CY. (0.744, 0.729) <score-icon-critics">parent_node: 86%</score-icon-critics>
+2026-06-02 18:47:02,191 - CZ. (0.76, 0.729) <rt-text">86%</rt-text>
+2026-06-02 18:47:02,191 - DA. (0.783, 0.729) <score-icon-audience">parent_node: 86%</score-icon-audience>
+2026-06-02 18:47:02,191 - DB. (0.792, 0.729) <score-pairs-deprecated">86% 82%</score-pairs-deprecated>
+2026-06-02 18:47:02,191 - DC. (0.799, 0.729) <rt-text">82%</rt-text>
+2026-06-02 18:47:02,191 - DD. (0.202, 0.749) <a">92% 93% Spider-Noir Latest Episode: May 27</a>
+2026-06-02 18:47:02,191 - DE. (0.32, 0.749) <a">97% 80% The Boroughs Latest Episode: May 21</a>
+2026-06-02 18:47:02,191 - DF. (0.438, 0.749) <a">93% 88% Off Campus Latest Episode: May 13</a>
+2026-06-02 18:47:02,191 - DG. (0.556, 0.749) <a">97% 92% Widow's Bay Latest Episode: May 27</a>
+2026-06-02 18:47:02,191 - DH. (0.674, 0.749) <a">78% 74% Euphoria Latest Episode: May 31</a>
+2026-06-02 18:47:02,191 - DI. (0.202, 0.75) <rt-text">Spider-Noir</rt-text>
+2026-06-02 18:47:02,191 - DJ. (0.32, 0.75) <rt-text">The Boroughs</rt-text>
+2026-06-02 18:47:02,191 - DK. (0.438, 0.75) <rt-text">Off Campus</rt-text>
+2026-06-02 18:47:02,191 - DL. (0.556, 0.75) <rt-text">Widow's Bay</rt-text>
+2026-06-02 18:47:02,191 - DM. (0.674, 0.75) <rt-text">Euphoria</rt-text>
+2026-06-02 18:47:02,191 - DN. (0.792, 0.756) <a">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27</a>
+2026-06-02 18:47:02,191 - DO. (0.792, 0.758) <rt-text">A Good Girl's Guide to Murder</rt-text>
+2026-06-02 18:47:02,191 - DP. (0.202, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:47:02,191 - DQ. (0.32, 0.77) <rt-text">Latest Episode: May 21</rt-text>
+2026-06-02 18:47:02,191 - DR. (0.438, 0.77) <rt-text">Latest Episode: May 13</rt-text>
+2026-06-02 18:47:02,191 - DS. (0.556, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:47:02,191 - DT. (0.674, 0.77) <rt-text">Latest Episode: May 31</rt-text>
+2026-06-02 18:47:02,191 - DU. (0.792, 0.785) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:47:02,191 - DV. (0.202, 0.817) <button">Watchlist</button>
+2026-06-02 18:47:02,191 - DW. (0.32, 0.817) <button">Watchlist</button>
+2026-06-02 18:47:02,191 - DX. (0.438, 0.817) <button">Watchlist</button>
+2026-06-02 18:47:02,191 - DY. (0.556, 0.817) <button">Watchlist</button>
+2026-06-02 18:47:02,191 - DZ. (0.674, 0.817) <button">Watchlist</button>
+2026-06-02 18:47:02,191 - EA. (0.792, 0.817) <button">Watchlist</button>
+2026-06-02 18:47:02,191 - EB. (0.175, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:47:02,191 - EC. (0.293, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:47:02,191 - ED. (0.411, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:47:02,191 - EE. (0.529, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:47:02,191 - EF. (0.647, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:47:02,191 - EG. (0.765, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:47:02,191 - EH. (0.202, 0.972) <play-button">aria-label="Watch the trailer for Maximum Pleasure Guaranteed"</play-button>
+2026-06-02 18:47:02,191 - EI. (0.32, 0.972) <play-button">aria-label="Watch the trailer for Legends"</play-button>
+2026-06-02 18:47:02,191 - EJ. (0.438, 0.972) <play-button">aria-label="Watch the trailer for The Boys"</play-button>
+2026-06-02 18:47:02,191 - EK. (0.556, 0.972) <play-button">aria-label="Watch the trailer for The Four Seasons"</play-button>
+2026-06-02 18:47:02,191 - EL. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:47:10,518 - ELEMENT: S
+2026-06-02 18:47:10,518 - 
+2026-06-02 18:47:10,518 - ACTION: HOVER
+2026-06-02 18:47:10,518 - 
+2026-06-02 18:47:10,521 - VALUE: None
+2026-06-02 18:47:10,666 - Hovered over element: Tv shows
+2026-06-02 18:48:00,330 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_7.png
+2026-06-02 18:48:01,656 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:48:01,656 - Previous:
+2026-06-02 18:48:01,656 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:48:01,656 - [button] Reject All -> CLICK
+2026-06-02 18:48:01,656 - [a] Tv shows -> HOVER
+2026-06-02 18:48:01,656 - [a] View All -> CLICK
+2026-06-02 18:48:01,656 - NONE
+2026-06-02 18:48:01,656 - [a] Tv shows -> HOVER
+2026-06-02 18:48:01,656 - calling generate
+2026-06-02 18:48:15,530 - ----------
+2026-06-02 18:48:15,530 - To view all of the Most Popular TV on RT, I will click on the "VIEW ALL" link next to the "MOST POPULAR TV ON RT" heading.
+2026-06-02 18:48:15,530 - 
+2026-06-02 18:48:15,530 - Action:
+2026-06-02 18:48:15,530 - CLICK on the element labeled 'Z' (VIEW ALL next to MOST POPULAR TV ON RT).
+2026-06-02 18:48:15,530 - ----------
+2026-06-02 18:48:15,538 - If none of these elements match your target element or your target action doesn't involve an element, please select HL.
+2026-06-02 18:48:15,540 - A. (0.497, 0.049) <ad-unit">mps._execAd('_oop');</ad-unit>
+2026-06-02 18:48:15,540 - B. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season...</header>
+2026-06-02 18:48:15,540 - C. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:48:15,540 - D. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:48:15,540 - E. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:48:15,540 - F. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:48:15,540 - G. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:48:15,540 - H. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:48:15,540 - I. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:48:15,540 - J. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:48:15,540 - K. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear:...</rt-header>
+2026-06-02 18:48:15,540 - L. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:48:15,540 - M. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:48:15,540 - N. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:48:15,540 - O. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:48:15,540 - P. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:48:15,540 - Q. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWS aria-label="Open aRTi"</button>
+2026-06-02 18:48:15,540 - R. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:48:15,540 - S. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:48:15,540 - T. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1...</rt-header-nav>
+2026-06-02 18:48:15,540 - U. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:48:15,540 - V. (0.758, 0.163) <a">News</a>
+2026-06-02 18:48:15,540 - W. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:48:15,540 - X. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:48:15,540 - Y. (0.324, 0.199) <a">View All</a>
+2026-06-02 18:48:15,540 - Z. (0.525, 0.199) <a">View All</a>
+2026-06-02 18:48:15,540 - AA. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:48:15,540 - AB. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:48:15,540 - AC. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:48:15,540 - AD. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:48:15,540 - AE. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:48:15,540 - AF. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:48:15,540 - AG. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:48:15,540 - AH. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:48:15,540 - AI. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:48:15,540 - AJ. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:48:15,540 - AK. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:48:15,540 - AL. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:48:15,540 - AM. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:48:15,540 - AN. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:48:15,540 - AO. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:48:15,540 - AP. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:48:15,540 - AQ. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:48:15,540 - AR. (0.16, 0.232) <score-icon-critics">parent_node: 100%</score-icon-critics>
+2026-06-02 18:48:15,540 - AS. (0.181, 0.232) <rt-text">100%</rt-text>
+2026-06-02 18:48:15,540 - AT. (0.361, 0.232) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:48:15,540 - AU. (0.379, 0.232) <rt-text">92%</rt-text>
+2026-06-02 18:48:15,540 - AV. (0.248, 0.233) <a">100% The Legend of Vox Machina: Season 4</a>
+2026-06-02 18:48:15,540 - AW. (0.449, 0.233) <a">92% Spider-Noir: Season 1</a>
+2026-06-02 18:48:15,540 - AX. (0.627, 0.234) <a">What to WatchNew</a>
+2026-06-02 18:48:15,540 - AY. (0.634, 0.234) <rt-badge">New</rt-badge>
+2026-06-02 18:48:15,540 - AZ. (0.16, 0.256) <score-icon-critics">parent_node: 50%</score-icon-critics>
+2026-06-02 18:48:15,540 - BA. (0.178, 0.256) <rt-text">50%</rt-text>
+2026-06-02 18:48:15,548 - BB. (0.361, 0.256) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:48:15,548 - BC. (0.378, 0.256) <rt-text">97%</rt-text>
+2026-06-02 18:48:15,548 - BD. (0.248, 0.257) <a">50% Not Suitable for Work: Season 1</a>
+2026-06-02 18:48:15,548 - BE. (0.449, 0.257) <a">97% The Boroughs: Season 1</a>
+2026-06-02 18:48:15,548 - BF. (0.627, 0.26) <a">Best TV Shows</a>
+2026-06-02 18:48:15,548 - BG. (0.247, 0.265) <discovery-title">Best TV Shows (June 2026)</discovery-title>
+2026-06-02 18:48:15,548 - BH. (0.401, 0.265) <button">TV Shows</button>
+2026-06-02 18:48:15,548 - BI. (0.424, 0.266) <rt-icon">parent_node: TV SHOWS</rt-icon>
+2026-06-02 18:48:15,548 - BJ. (0.16, 0.279) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:48:15,548 - BK. (0.172, 0.279) <rt-text">--</rt-text>
+2026-06-02 18:48:15,548 - BL. (0.361, 0.279) <score-icon-critics">parent_node: 96%</score-icon-critics>
+2026-06-02 18:48:15,548 - BM. (0.379, 0.279) <rt-text">96%</rt-text>
+2026-06-02 18:48:15,548 - BN. (0.248, 0.28) <a">-- Cape Fear: Season 1</a>
+2026-06-02 18:48:15,548 - BO. (0.449, 0.28) <a">96% Star City: Season 1</a>
+2026-06-02 18:48:15,548 - BP. (0.627, 0.286) <a">Most Popular TV</a>
+2026-06-02 18:48:15,548 - BQ. (0.16, 0.302) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:48:15,548 - BR. (0.172, 0.302) <rt-text">--</rt-text>
+2026-06-02 18:48:15,548 - BS. (0.361, 0.302) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:48:15,548 - BT. (0.378, 0.302) <rt-text">97%</rt-text>
+2026-06-02 18:48:15,551 - BU. (0.248, 0.303) <a">-- The Witness: Season 1</a>
+2026-06-02 18:48:15,551 - BV. (0.449, 0.303) <a">97% Widow's Bay: Season 1</a>
+2026-06-02 18:48:15,551 - BW. (0.596, 0.312) <sup">®</sup>
+2026-06-02 18:48:15,551 - BX. (0.627, 0.312) <a">Fandango at Home</a>
+2026-06-02 18:48:15,551 - BY. (0.775, 0.312) <rt-img">parent_node: 96% alt="Star City: Season 1 poster image"</rt-img>
+2026-06-02 18:48:15,551 - BZ. (0.248, 0.315) <ul">100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael Jackson: The Verdict:...</ul>
+2026-06-02 18:48:15,551 - CA. (0.211, 0.316) <filter-chip role="button"">Sort: Most popular</filter-chip>
+2026-06-02 18:48:15,551 - CB. (0.309, 0.316) <filter-chip role="button"">Genre</filter-chip>
+2026-06-02 18:48:15,551 - CC. (0.376, 0.316) <filter-chip role="button"">Rating</filter-chip>
+2026-06-02 18:48:15,551 - CD. (0.464, 0.316) <filter-chip role="button"">Popcornmeter</filter-chip>
+2026-06-02 18:48:15,551 - CE. (0.57, 0.316) <filter-chip role="button"">Tomatometer®</filter-chip>
+2026-06-02 18:48:15,551 - CF. (0.627, 0.325) <ul">What to Watch New Best TV Shows Most Popular TV Fandango at Home Paramount+ Netflix Prime Video Apple TV</ul>
+2026-06-02 18:48:15,551 - CG. (0.16, 0.326) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:48:15,553 - CH. (0.172, 0.326) <rt-text">--</rt-text>
+2026-06-02 18:48:15,553 - CI. (0.361, 0.326) <score-icon-critics">parent_node: 90%</score-icon-critics>
+2026-06-02 18:48:15,553 - CJ. (0.379, 0.326) <rt-text">90%</rt-text>
+2026-06-02 18:48:15,553 - CK. (0.248, 0.327) <a">-- Michael Jackson: The Verdict: Season 1</a>
+2026-06-02 18:48:15,553 - CL. (0.449, 0.327) <a">90% A Good Girl's Guide to Murder: Season 2</a>
+2026-06-02 18:48:15,553 - CM. (0.248, 0.33) <rt-header-nav-item-dropdown-list">NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael...</rt-header-nav-item-dropdown-list>
+2026-06-02 18:48:15,553 - CN. (0.449, 0.33) <rt-header-nav-item-dropdown-list">MOST POPULAR TV ON RT 92% Spider-Noir: Season 1 97% The Boroughs: Season 1 96% Star City: Season 1 97% Widow's Bay: Season 1 90% A Good Girl's Guide to...</rt-header-nav-item-dropdown-list>
+2026-06-02 18:48:15,553 - CO. (0.497, 0.33) <rt-header-nav-item-dropdown">NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael...</rt-header-nav-item-dropdown>
+2026-06-02 18:48:15,553 - CP. (0.627, 0.33) <rt-header-nav-item-dropdown-list">MORE What to Watch New Best TV Shows Most Popular TV Fandango at Home Paramount+ Netflix Prime Video Apple TV</rt-header-nav-item-dropdown-list>
+2026-06-02 18:48:15,553 - CQ. (0.775, 0.33) <rt-header-nav-item-dropdown-list">Certified fresh pick 96% Star City: Season 1 Link to Star City: Season 1</rt-header-nav-item-dropdown-list>
+2026-06-02 18:48:15,553 - CR. (0.449, 0.338) <ul">92% Spider-Noir: Season 1 97% The Boroughs: Season 1 96% Star City: Season 1 97% Widow's Bay: Season 1 90% A Good Girl's Guide to Murder: Season 2 38% Euphoria:...</ul>
+2026-06-02 18:48:15,553 - CS. (0.627, 0.338) <a">Paramount+</a>
+2026-06-02 18:48:15,555 - CT. (0.775, 0.338) <a">96% Star City: Season 1 Link to Star City: Season 1</a>
+2026-06-02 18:48:15,555 - CU. (0.775, 0.341) <ul">96% Star City: Season 1 Link to Star City: Season 1</ul>
+2026-06-02 18:48:15,555 - CV. (0.16, 0.349) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:48:15,555 - CW. (0.172, 0.349) <rt-text">--</rt-text>
+2026-06-02 18:48:15,555 - CX. (0.361, 0.349) <score-icon-critics">parent_node: 38%</score-icon-critics>
+2026-06-02 18:48:15,555 - CY. (0.379, 0.349) <rt-text">38%</rt-text>
+2026-06-02 18:48:15,555 - CZ. (0.248, 0.35) <a">-- Love Island: Season 8</a>
+2026-06-02 18:48:15,556 - DA. (0.449, 0.35) <a">38% Euphoria: Season 3</a>
+2026-06-02 18:48:15,556 - DB. (0.627, 0.363) <a">Netflix</a>
+2026-06-02 18:48:15,556 - DC. (0.16, 0.373) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:48:15,556 - DD. (0.172, 0.373) <rt-text">--</rt-text>
+2026-06-02 18:48:15,556 - DE. (0.248, 0.373) <a">-- Clarkson's Farm: Season 5</a>
+2026-06-02 18:48:15,556 - DF. (0.361, 0.373) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:48:15,556 - DG. (0.379, 0.373) <rt-text">93%</rt-text>
+2026-06-02 18:48:15,556 - DH. (0.449, 0.373) <a">93% Off Campus: Season 1</a>
+2026-06-02 18:48:15,556 - DI. (0.171, 0.385) <where-to-watch-bubble">value="fandango-at-home"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DJ. (0.223, 0.385) <where-to-watch-bubble">value="apple-tv-plus"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DK. (0.276, 0.385) <where-to-watch-bubble">value="netflix"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DL. (0.328, 0.385) <where-to-watch-bubble">value="prime-video"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DM. (0.38, 0.385) <where-to-watch-bubble">value="disney-plus"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DN. (0.432, 0.385) <where-to-watch-bubble">value="max"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DO. (0.484, 0.385) <where-to-watch-bubble">value="peacock"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DP. (0.497, 0.385) <bubbles-overflow-container">parent_node: SORT: MOST POPULAR</bubbles-overflow-container>
+2026-06-02 18:48:15,556 - DQ. (0.536, 0.385) <where-to-watch-bubble">value="hulu"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DR. (0.588, 0.385) <where-to-watch-bubble">value="paramount-plus"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DS. (0.64, 0.385) <where-to-watch-bubble">value="amc-plus"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DT. (0.692, 0.385) <where-to-watch-bubble">value="acorn-tv"</where-to-watch-bubble>
+2026-06-02 18:48:15,556 - DU. (0.627, 0.389) <a">Prime Video</a>
+2026-06-02 18:48:15,556 - DV. (0.16, 0.396) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:48:15,556 - DW. (0.172, 0.396) <rt-text">--</rt-text>
+2026-06-02 18:48:15,556 - DX. (0.361, 0.396) <score-icon-critics">parent_node: 94%</score-icon-critics>
+2026-06-02 18:48:15,556 - DY. (0.379, 0.396) <rt-text">94%</rt-text>
+2026-06-02 18:48:15,556 - DZ. (0.248, 0.397) <a">-- Bring Me The Beauties: A Model Cult: Season 1</a>
+2026-06-02 18:48:15,568 - EA. (0.449, 0.397) <a">94% Maximum Pleasure Guaranteed: Season 1</a>
+2026-06-02 18:48:15,580 - EB. (0.627, 0.415) <a">Apple TV</a>
+2026-06-02 18:48:15,580 - EC. (0.74, 0.418) <score-icon-critics">parent_node: 96%</score-icon-critics>
+2026-06-02 18:48:15,582 - ED. (0.757, 0.418) <rt-text">96%</rt-text>
+2026-06-02 18:48:15,582 - EE. (0.361, 0.419) <score-icon-critics">parent_node: 100%</score-icon-critics>
+2026-06-02 18:48:15,582 - EF. (0.382, 0.419) <rt-text">100%</rt-text>
+2026-06-02 18:48:15,582 - EG. (0.449, 0.42) <a">100% From: Season 4</a>
+2026-06-02 18:48:15,582 - EH. (0.172, 0.443) <button">Reset Filters</button>
+2026-06-02 18:48:15,582 - EI. (0.361, 0.443) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:48:15,582 - EJ. (0.378, 0.443) <rt-text">97%</rt-text>
+2026-06-02 18:48:15,582 - EK. (0.449, 0.443) <a">97% Legends: Season 1</a>
+2026-06-02 18:48:15,582 - EL. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:48:15,582 - EM. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:48:15,582 - EN. (0.202, 0.59) <poster-tile">parent_node: 92%</poster-tile>
+2026-06-02 18:48:15,582 - EO. (0.32, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:48:15,582 - EP. (0.438, 0.59) <poster-tile">parent_node: 93%</poster-tile>
+2026-06-02 18:48:15,582 - EQ. (0.556, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:48:15,582 - ER. (0.674, 0.59) <poster-tile">parent_node: 78%</poster-tile>
+2026-06-02 18:48:15,582 - ES. (0.792, 0.59) <poster-tile">parent_node: 86%</poster-tile>
+2026-06-02 18:48:15,582 - ET. (0.202, 0.651) <media-info-tile">92% 93% Spider-Noir Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:48:15,582 - EU. (0.32, 0.651) <media-info-tile">97% 80% The Boroughs Latest Episode: May 21 Watchlist</media-info-tile>
+2026-06-02 18:48:15,582 - EV. (0.438, 0.651) <media-info-tile">93% 88% Off Campus Latest Episode: May 13 Watchlist</media-info-tile>
+2026-06-02 18:48:15,582 - EW. (0.556, 0.651) <media-info-tile">97% 92% Widow's Bay Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:48:15,582 - EX. (0.674, 0.651) <media-info-tile">78% 74% Euphoria Latest Episode: May 31 Watchlist</media-info-tile>
+2026-06-02 18:48:15,582 - EY. (0.792, 0.651) <media-info-tile">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:48:15,582 - EZ. (0.154, 0.729) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:48:15,582 - FA. (0.171, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:48:15,582 - FB. (0.193, 0.729) <score-icon-audience">parent_node: 92%</score-icon-audience>
+2026-06-02 18:48:15,582 - FC. (0.202, 0.729) <score-pairs-deprecated">92% 93%</score-pairs-deprecated>
+2026-06-02 18:48:15,582 - FD. (0.209, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:48:15,582 - FE. (0.272, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:48:15,582 - FF. (0.288, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:48:15,582 - FG. (0.31, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:48:15,582 - FH. (0.32, 0.729) <score-pairs-deprecated">97% 80%</score-pairs-deprecated>
+2026-06-02 18:48:15,582 - FI. (0.327, 0.729) <rt-text">80%</rt-text>
+2026-06-02 18:48:15,582 - FJ. (0.39, 0.729) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:48:15,582 - FK. (0.407, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:48:15,582 - FL. (0.429, 0.729) <score-icon-audience">parent_node: 93%</score-icon-audience>
+2026-06-02 18:48:15,582 - FM. (0.438, 0.729) <score-pairs-deprecated">93% 88%</score-pairs-deprecated>
+2026-06-02 18:48:15,582 - FN. (0.445, 0.729) <rt-text">88%</rt-text>
+2026-06-02 18:48:15,582 - FO. (0.508, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:48:15,582 - FP. (0.524, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:48:15,588 - FQ. (0.546, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:48:15,588 - FR. (0.556, 0.729) <score-pairs-deprecated">97% 92%</score-pairs-deprecated>
+2026-06-02 18:48:15,588 - FS. (0.563, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:48:15,588 - FT. (0.626, 0.729) <score-icon-critics">parent_node: 78%</score-icon-critics>
+2026-06-02 18:48:15,588 - FU. (0.642, 0.729) <rt-text">78%</rt-text>
+2026-06-02 18:48:15,588 - FV. (0.665, 0.729) <score-icon-audience">parent_node: 78%</score-icon-audience>
+2026-06-02 18:48:15,588 - FW. (0.674, 0.729) <score-pairs-deprecated">78% 74%</score-pairs-deprecated>
+2026-06-02 18:48:15,588 - FX. (0.681, 0.729) <rt-text">74%</rt-text>
+2026-06-02 18:48:15,588 - FY. (0.744, 0.729) <score-icon-critics">parent_node: 86%</score-icon-critics>
+2026-06-02 18:48:15,605 - FZ. (0.76, 0.729) <rt-text">86%</rt-text>
+2026-06-02 18:48:15,607 - GA. (0.783, 0.729) <score-icon-audience">parent_node: 86%</score-icon-audience>
+2026-06-02 18:48:15,609 - GB. (0.792, 0.729) <score-pairs-deprecated">86% 82%</score-pairs-deprecated>
+2026-06-02 18:48:15,609 - GC. (0.799, 0.729) <rt-text">82%</rt-text>
+2026-06-02 18:48:15,627 - GD. (0.202, 0.749) <a">92% 93% Spider-Noir Latest Episode: May 27</a>
+2026-06-02 18:48:15,627 - GE. (0.32, 0.749) <a">97% 80% The Boroughs Latest Episode: May 21</a>
+2026-06-02 18:48:15,633 - GF. (0.438, 0.749) <a">93% 88% Off Campus Latest Episode: May 13</a>
+2026-06-02 18:48:15,659 - GG. (0.556, 0.749) <a">97% 92% Widow's Bay Latest Episode: May 27</a>
+2026-06-02 18:48:15,660 - GH. (0.674, 0.749) <a">78% 74% Euphoria Latest Episode: May 31</a>
+2026-06-02 18:48:15,660 - GI. (0.202, 0.75) <rt-text">Spider-Noir</rt-text>
+2026-06-02 18:48:15,660 - GJ. (0.32, 0.75) <rt-text">The Boroughs</rt-text>
+2026-06-02 18:48:15,662 - GK. (0.438, 0.75) <rt-text">Off Campus</rt-text>
+2026-06-02 18:48:15,678 - GL. (0.556, 0.75) <rt-text">Widow's Bay</rt-text>
+2026-06-02 18:48:15,678 - GM. (0.674, 0.75) <rt-text">Euphoria</rt-text>
+2026-06-02 18:48:15,679 - GN. (0.792, 0.756) <a">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27</a>
+2026-06-02 18:48:15,679 - GO. (0.792, 0.758) <rt-text">A Good Girl's Guide to Murder</rt-text>
+2026-06-02 18:48:15,679 - GP. (0.202, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:48:15,679 - GQ. (0.32, 0.77) <rt-text">Latest Episode: May 21</rt-text>
+2026-06-02 18:48:15,679 - GR. (0.438, 0.77) <rt-text">Latest Episode: May 13</rt-text>
+2026-06-02 18:48:15,679 - GS. (0.556, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:48:15,679 - GT. (0.674, 0.77) <rt-text">Latest Episode: May 31</rt-text>
+2026-06-02 18:48:15,679 - GU. (0.792, 0.785) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:48:15,679 - GV. (0.202, 0.817) <button">Watchlist</button>
+2026-06-02 18:48:15,687 - GW. (0.32, 0.817) <button">Watchlist</button>
+2026-06-02 18:48:15,687 - GX. (0.438, 0.817) <button">Watchlist</button>
+2026-06-02 18:48:15,687 - GY. (0.556, 0.817) <button">Watchlist</button>
+2026-06-02 18:48:15,689 - GZ. (0.674, 0.817) <button">Watchlist</button>
+2026-06-02 18:48:15,689 - HA. (0.792, 0.817) <button">Watchlist</button>
+2026-06-02 18:48:15,689 - HB. (0.175, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:48:15,689 - HC. (0.293, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:48:15,689 - HD. (0.411, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:48:15,689 - HE. (0.529, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:48:15,691 - HF. (0.647, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:48:15,693 - HG. (0.765, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:48:15,695 - HH. (0.202, 0.972) <play-button">aria-label="Watch the trailer for Maximum Pleasure Guaranteed"</play-button>
+2026-06-02 18:48:15,695 - HI. (0.32, 0.972) <play-button">aria-label="Watch the trailer for Legends"</play-button>
+2026-06-02 18:48:15,695 - HJ. (0.438, 0.972) <play-button">aria-label="Watch the trailer for The Boys"</play-button>
+2026-06-02 18:48:15,695 - HK. (0.556, 0.972) <play-button">aria-label="Watch the trailer for The Four Seasons"</play-button>
+2026-06-02 18:48:15,695 - HL. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:48:27,594 - ELEMENT: Z
+2026-06-02 18:48:27,594 - 
+2026-06-02 18:48:27,594 - ACTION: CLICK
+2026-06-02 18:48:27,594 - 
+2026-06-02 18:48:27,594 - VALUE: None
+2026-06-02 18:48:28,835 - Clicked on element: View All
+2026-06-02 18:48:30,971 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_8.png
+2026-06-02 18:48:33,101 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:48:33,101 - Previous:
+2026-06-02 18:48:33,101 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:48:33,101 - [button] Reject All -> CLICK
+2026-06-02 18:48:33,101 - [a] Tv shows -> HOVER
+2026-06-02 18:48:33,101 - [a] View All -> CLICK
+2026-06-02 18:48:33,101 - NONE
+2026-06-02 18:48:33,101 - [a] Tv shows -> HOVER
+2026-06-02 18:48:33,101 - [a] View All -> CLICK
+2026-06-02 18:48:33,101 - calling generate
+2026-06-02 18:48:43,550 - ----------
+2026-06-02 18:48:43,565 - To view the most popular TV shows on Rotten Tomatoes, I will hover over the "TV SHOWS" link in the top navigation menu to reveal the dropdown options.
+2026-06-02 18:48:43,568 - 
+2026-06-02 18:48:43,568 - Action: HOVER on the "TV SHOWS" link in the header.
+2026-06-02 18:48:43,568 - ----------
+2026-06-02 18:48:43,568 - If none of these elements match your target element or your target action doesn't involve an element, please select .
+2026-06-02 18:48:43,568 - . None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:48:57,158 - ELEMENT: B
+2026-06-02 18:48:57,158 - 
+2026-06-02 18:48:57,158 - ACTION: HOVER
+2026-06-02 18:48:57,158 - 
+2026-06-02 18:48:57,158 - VALUE: None
+2026-06-02 18:48:57,204 - DEBUG: WHAT IS PRED ACTION???:HOVER
+2026-06-02 18:48:57,204 - No action necessary at this stage. Skipped
+2026-06-02 18:49:47,287 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_9.png
+2026-06-02 18:49:48,243 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:49:48,243 - Previous:
+2026-06-02 18:49:48,243 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:49:48,243 - [button] Reject All -> CLICK
+2026-06-02 18:49:48,243 - [a] Tv shows -> HOVER
+2026-06-02 18:49:48,243 - [a] View All -> CLICK
+2026-06-02 18:49:48,243 - NONE
+2026-06-02 18:49:48,243 - [a] Tv shows -> HOVER
+2026-06-02 18:49:48,243 - [a] View All -> CLICK
+2026-06-02 18:49:48,243 - NONE
+2026-06-02 18:49:48,243 - calling generate
+2026-06-02 18:49:59,020 - ----------
+2026-06-02 18:49:59,033 - Thinking Process:
+2026-06-02 18:49:59,033 - 
+2026-06-02 18:49:59,033 - 1.  **Analyze the Request:** The user wants to "View all of the Most Popular TV on RT".
+2026-06-02 18:49:59,033 - 2.  **Analyze the Screenshot:**
+2026-06-02 18:49:59,033 -     *   Currently on "Best TV Shows (June 2026)" page.
+2026-06-02 18:49:59,033 -     *   Header elements: "TV SHOWS" is element `S` (has a blue label `S` over "TV SHOWS").
+2026-06-02 18:49:59,033 -     *   Wait, does "TV SHOWS" have a sub-menu? Yes, usually "Most Popular TV Shows" is in the dropdown menu under "TV SHOWS" on Rotten Tomatoes.
+2026-06-02 18:49:59,033 -     *   Alternatively, is there already a "Sort: Most Popular" on this page? "SORT: MOST POPULAR" (AT) is already selected. But the task is "View all of the Most Popular TV on RT". RT has a specific list called "Most Popular TV Shows" or similar. Let's try to hover over "TV SHOWS" (S) to see if we can access that specific category list.
+2026-06-02 18:49:59,033 - 3.  **Identify Obstacles:** The previous hover failed due to OneTrust consent intercepting pointer events, but that was before "Reject All" was clicked (or around that time). Now, the page is clear of any visible cookie banner.
+2026-06-02 18:49:59,035 - 4.  **Action Choice:** Hover over "TV SHOWS" (S) to reveal the sub-menu. Let's do that.[a] TV SHOWS -> HOVER
+2026-06-02 18:49:59,035 - ----------
+2026-06-02 18:49:59,037 - If none of these elements match your target element or your target action doesn't involve an element, please select EL.
+2026-06-02 18:49:59,037 - A. (0.497, 0.049) <ad-unit">mps._execAd('_oop');</ad-unit>
+2026-06-02 18:49:59,037 - B. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in...</header>
+2026-06-02 18:49:59,039 - C. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:49:59,039 - D. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:49:59,039 - E. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:49:59,039 - F. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:49:59,039 - G. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:49:59,039 - H. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:49:59,039 - I. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:49:59,039 - J. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:49:59,039 - K. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header>
+2026-06-02 18:49:59,039 - L. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:49:59,039 - M. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:49:59,039 - N. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:49:59,039 - O. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:49:59,039 - P. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:49:59,039 - Q. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWSRT APP aria-label="Open aRTi"</button>
+2026-06-02 18:49:59,039 - R. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:49:59,039 - S. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:49:59,039 - T. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header-nav>
+2026-06-02 18:49:59,039 - U. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:49:59,039 - V. (0.758, 0.163) <a">News</a>
+2026-06-02 18:49:59,039 - W. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:49:59,039 - X. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:49:59,039 - Y. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:49:59,041 - Z. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:49:59,041 - AA. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:49:59,041 - AB. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:49:59,041 - AC. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:49:59,041 - AD. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:49:59,041 - AE. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:49:59,041 - AF. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:49:59,041 - AG. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:49:59,041 - AH. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:49:59,041 - AI. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:49:59,041 - AJ. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:49:59,041 - AK. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:49:59,041 - AL. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:49:59,041 - AM. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:49:59,041 - AN. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:49:59,041 - AO. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:49:59,041 - AP. (0.247, 0.265) <discovery-title">Best TV Shows (June 2026)</discovery-title>
+2026-06-02 18:49:59,041 - AQ. (0.401, 0.265) <button">TV Shows</button>
+2026-06-02 18:49:59,041 - AR. (0.424, 0.266) <rt-icon">parent_node: TV SHOWS</rt-icon>
+2026-06-02 18:49:59,041 - AS. (0.596, 0.312) <sup">®</sup>
+2026-06-02 18:49:59,041 - AT. (0.211, 0.316) <filter-chip role="button"">Sort: Most popular</filter-chip>
+2026-06-02 18:49:59,041 - AU. (0.309, 0.316) <filter-chip role="button"">Genre</filter-chip>
+2026-06-02 18:49:59,041 - AV. (0.376, 0.316) <filter-chip role="button"">Rating</filter-chip>
+2026-06-02 18:49:59,041 - AW. (0.464, 0.316) <filter-chip role="button"">Popcornmeter</filter-chip>
+2026-06-02 18:49:59,041 - AX. (0.57, 0.316) <filter-chip role="button"">Tomatometer®</filter-chip>
+2026-06-02 18:49:59,043 - AY. (0.171, 0.385) <where-to-watch-bubble">value="fandango-at-home"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - AZ. (0.223, 0.385) <where-to-watch-bubble">value="apple-tv-plus"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BA. (0.276, 0.385) <where-to-watch-bubble">value="netflix"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BB. (0.328, 0.385) <where-to-watch-bubble">value="prime-video"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BC. (0.38, 0.385) <where-to-watch-bubble">value="disney-plus"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BD. (0.432, 0.385) <where-to-watch-bubble">value="max"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BE. (0.484, 0.385) <where-to-watch-bubble">value="peacock"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BF. (0.497, 0.385) <bubbles-overflow-container">parent_node: SORT: MOST POPULAR</bubbles-overflow-container>
+2026-06-02 18:49:59,043 - BG. (0.536, 0.385) <where-to-watch-bubble">value="hulu"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BH. (0.588, 0.385) <where-to-watch-bubble">value="paramount-plus"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BI. (0.64, 0.385) <where-to-watch-bubble">value="amc-plus"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BJ. (0.692, 0.385) <where-to-watch-bubble">value="acorn-tv"</where-to-watch-bubble>
+2026-06-02 18:49:59,043 - BK. (0.172, 0.443) <button">Reset Filters</button>
+2026-06-02 18:49:59,043 - BL. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:49:59,043 - BM. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:49:59,043 - BN. (0.202, 0.59) <poster-tile">parent_node: 92%</poster-tile>
+2026-06-02 18:49:59,043 - BO. (0.32, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:49:59,043 - BP. (0.438, 0.59) <poster-tile">parent_node: 93%</poster-tile>
+2026-06-02 18:49:59,043 - BQ. (0.556, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:49:59,043 - BR. (0.674, 0.59) <poster-tile">parent_node: 78%</poster-tile>
+2026-06-02 18:49:59,043 - BS. (0.792, 0.59) <poster-tile">parent_node: 86%</poster-tile>
+2026-06-02 18:49:59,043 - BT. (0.202, 0.651) <media-info-tile">92% 93% Spider-Noir Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:49:59,043 - BU. (0.32, 0.651) <media-info-tile">97% 80% The Boroughs Latest Episode: May 21 Watchlist</media-info-tile>
+2026-06-02 18:49:59,045 - BV. (0.438, 0.651) <media-info-tile">93% 88% Off Campus Latest Episode: May 13 Watchlist</media-info-tile>
+2026-06-02 18:49:59,045 - BW. (0.556, 0.651) <media-info-tile">97% 92% Widow's Bay Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:49:59,045 - BX. (0.674, 0.651) <media-info-tile">78% 74% Euphoria Latest Episode: May 31 Watchlist</media-info-tile>
+2026-06-02 18:49:59,045 - BY. (0.792, 0.651) <media-info-tile">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:49:59,045 - BZ. (0.154, 0.729) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:49:59,045 - CA. (0.171, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:49:59,045 - CB. (0.193, 0.729) <score-icon-audience">parent_node: 92%</score-icon-audience>
+2026-06-02 18:49:59,045 - CC. (0.202, 0.729) <score-pairs-deprecated">92% 93%</score-pairs-deprecated>
+2026-06-02 18:49:59,045 - CD. (0.209, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:49:59,045 - CE. (0.272, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:49:59,045 - CF. (0.288, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:49:59,045 - CG. (0.31, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:49:59,045 - CH. (0.32, 0.729) <score-pairs-deprecated">97% 80%</score-pairs-deprecated>
+2026-06-02 18:49:59,045 - CI. (0.327, 0.729) <rt-text">80%</rt-text>
+2026-06-02 18:49:59,045 - CJ. (0.39, 0.729) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:49:59,045 - CK. (0.407, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:49:59,045 - CL. (0.429, 0.729) <score-icon-audience">parent_node: 93%</score-icon-audience>
+2026-06-02 18:49:59,045 - CM. (0.438, 0.729) <score-pairs-deprecated">93% 88%</score-pairs-deprecated>
+2026-06-02 18:49:59,045 - CN. (0.445, 0.729) <rt-text">88%</rt-text>
+2026-06-02 18:49:59,045 - CO. (0.508, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:49:59,047 - CP. (0.524, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:49:59,047 - CQ. (0.546, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:49:59,047 - CR. (0.556, 0.729) <score-pairs-deprecated">97% 92%</score-pairs-deprecated>
+2026-06-02 18:49:59,047 - CS. (0.563, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:49:59,047 - CT. (0.626, 0.729) <score-icon-critics">parent_node: 78%</score-icon-critics>
+2026-06-02 18:49:59,047 - CU. (0.642, 0.729) <rt-text">78%</rt-text>
+2026-06-02 18:49:59,047 - CV. (0.665, 0.729) <score-icon-audience">parent_node: 78%</score-icon-audience>
+2026-06-02 18:49:59,047 - CW. (0.674, 0.729) <score-pairs-deprecated">78% 74%</score-pairs-deprecated>
+2026-06-02 18:49:59,047 - CX. (0.681, 0.729) <rt-text">74%</rt-text>
+2026-06-02 18:49:59,047 - CY. (0.744, 0.729) <score-icon-critics">parent_node: 86%</score-icon-critics>
+2026-06-02 18:49:59,047 - CZ. (0.76, 0.729) <rt-text">86%</rt-text>
+2026-06-02 18:49:59,047 - DA. (0.783, 0.729) <score-icon-audience">parent_node: 86%</score-icon-audience>
+2026-06-02 18:49:59,047 - DB. (0.792, 0.729) <score-pairs-deprecated">86% 82%</score-pairs-deprecated>
+2026-06-02 18:49:59,047 - DC. (0.799, 0.729) <rt-text">82%</rt-text>
+2026-06-02 18:49:59,047 - DD. (0.202, 0.749) <a">92% 93% Spider-Noir Latest Episode: May 27</a>
+2026-06-02 18:49:59,047 - DE. (0.32, 0.749) <a">97% 80% The Boroughs Latest Episode: May 21</a>
+2026-06-02 18:49:59,047 - DF. (0.438, 0.749) <a">93% 88% Off Campus Latest Episode: May 13</a>
+2026-06-02 18:49:59,047 - DG. (0.556, 0.749) <a">97% 92% Widow's Bay Latest Episode: May 27</a>
+2026-06-02 18:49:59,047 - DH. (0.674, 0.749) <a">78% 74% Euphoria Latest Episode: May 31</a>
+2026-06-02 18:49:59,047 - DI. (0.202, 0.75) <rt-text">Spider-Noir</rt-text>
+2026-06-02 18:49:59,047 - DJ. (0.32, 0.75) <rt-text">The Boroughs</rt-text>
+2026-06-02 18:49:59,049 - DK. (0.438, 0.75) <rt-text">Off Campus</rt-text>
+2026-06-02 18:49:59,049 - DL. (0.556, 0.75) <rt-text">Widow's Bay</rt-text>
+2026-06-02 18:49:59,049 - DM. (0.674, 0.75) <rt-text">Euphoria</rt-text>
+2026-06-02 18:49:59,049 - DN. (0.792, 0.756) <a">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27</a>
+2026-06-02 18:49:59,049 - DO. (0.792, 0.758) <rt-text">A Good Girl's Guide to Murder</rt-text>
+2026-06-02 18:49:59,049 - DP. (0.202, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:49:59,049 - DQ. (0.32, 0.77) <rt-text">Latest Episode: May 21</rt-text>
+2026-06-02 18:49:59,049 - DR. (0.438, 0.77) <rt-text">Latest Episode: May 13</rt-text>
+2026-06-02 18:49:59,049 - DS. (0.556, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:49:59,049 - DT. (0.674, 0.77) <rt-text">Latest Episode: May 31</rt-text>
+2026-06-02 18:49:59,049 - DU. (0.792, 0.785) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:49:59,049 - DV. (0.202, 0.817) <button">Watchlist</button>
+2026-06-02 18:49:59,049 - DW. (0.32, 0.817) <button">Watchlist</button>
+2026-06-02 18:49:59,049 - DX. (0.438, 0.817) <button">Watchlist</button>
+2026-06-02 18:49:59,049 - DY. (0.556, 0.817) <button">Watchlist</button>
+2026-06-02 18:49:59,049 - DZ. (0.674, 0.817) <button">Watchlist</button>
+2026-06-02 18:49:59,049 - EA. (0.792, 0.817) <button">Watchlist</button>
+2026-06-02 18:49:59,049 - EB. (0.175, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:49:59,049 - EC. (0.293, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:49:59,051 - ED. (0.411, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:49:59,051 - EE. (0.529, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:49:59,051 - EF. (0.647, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:49:59,051 - EG. (0.765, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:49:59,052 - EH. (0.202, 0.972) <play-button">aria-label="Watch the trailer for Maximum Pleasure Guaranteed"</play-button>
+2026-06-02 18:49:59,052 - EI. (0.32, 0.972) <play-button">aria-label="Watch the trailer for Legends"</play-button>
+2026-06-02 18:49:59,052 - EJ. (0.438, 0.972) <play-button">aria-label="Watch the trailer for The Boys"</play-button>
+2026-06-02 18:49:59,052 - EK. (0.556, 0.972) <play-button">aria-label="Watch the trailer for The Four Seasons"</play-button>
+2026-06-02 18:49:59,052 - EL. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:50:07,938 - ELEMENT: S
+2026-06-02 18:50:07,940 - 
+2026-06-02 18:50:07,940 - ACTION: HOVER
+2026-06-02 18:50:07,940 - 
+2026-06-02 18:50:07,940 - VALUE: None
+2026-06-02 18:50:08,133 - Hovered over element: Tv shows
+2026-06-02 18:51:07,570 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_10.png
+2026-06-02 18:51:08,723 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:51:08,723 - Previous:
+2026-06-02 18:51:08,723 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:51:08,723 - [button] Reject All -> CLICK
+2026-06-02 18:51:08,723 - [a] Tv shows -> HOVER
+2026-06-02 18:51:08,723 - [a] View All -> CLICK
+2026-06-02 18:51:08,723 - NONE
+2026-06-02 18:51:08,723 - [a] Tv shows -> HOVER
+2026-06-02 18:51:08,723 - [a] View All -> CLICK
+2026-06-02 18:51:08,725 - NONE
+2026-06-02 18:51:08,725 - [a] Tv shows -> HOVER
+2026-06-02 18:51:08,725 - calling generate
+2026-06-02 18:51:20,437 - ----------
+2026-06-02 18:51:20,451 - To view all of the Most Popular TV on Rotten Tomatoes, I will click on the "VIEW ALL" link next to the "MOST POPULAR TV ON RT" header.
+2026-06-02 18:51:20,451 - 
+2026-06-02 18:51:20,451 - Action:
+2026-06-02 18:51:20,451 - `CLICK` on the element labeled `Z`.
+2026-06-02 18:51:20,451 - ----------
+2026-06-02 18:51:20,455 - If none of these elements match your target element or your target action doesn't involve an element, please select HL.
+2026-06-02 18:51:20,455 - A. (0.497, 0.049) <ad-unit">mps._execAd('_oop');</ad-unit>
+2026-06-02 18:51:20,455 - B. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season...</header>
+2026-06-02 18:51:20,455 - C. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:51:20,455 - D. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:51:20,455 - E. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:51:20,455 - F. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:51:20,455 - G. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:51:20,455 - H. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:51:20,455 - I. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:51:20,457 - J. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:51:20,457 - K. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear:...</rt-header>
+2026-06-02 18:51:20,457 - L. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:51:20,457 - M. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:51:20,457 - N. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:51:20,457 - O. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:51:20,457 - P. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:51:20,457 - Q. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWS aria-label="Open aRTi"</button>
+2026-06-02 18:51:20,457 - R. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:51:20,457 - S. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:51:20,457 - T. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWS NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1...</rt-header-nav>
+2026-06-02 18:51:20,457 - U. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:51:20,457 - V. (0.758, 0.163) <a">News</a>
+2026-06-02 18:51:20,457 - W. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:51:20,457 - X. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:51:20,457 - Y. (0.324, 0.199) <a">View All</a>
+2026-06-02 18:51:20,457 - Z. (0.525, 0.199) <a">View All</a>
+2026-06-02 18:51:20,459 - AA. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:51:20,459 - AB. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:51:20,459 - AC. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:51:20,459 - AD. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:51:20,459 - AE. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:51:20,459 - AF. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:51:20,459 - AG. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:51:20,459 - AH. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:51:20,459 - AI. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:51:20,459 - AJ. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:51:20,459 - AK. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:51:20,459 - AL. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:51:20,459 - AM. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:51:20,459 - AN. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:51:20,459 - AO. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:51:20,459 - AP. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:51:20,461 - AQ. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:51:20,461 - AR. (0.16, 0.232) <score-icon-critics">parent_node: 100%</score-icon-critics>
+2026-06-02 18:51:20,461 - AS. (0.181, 0.232) <rt-text">100%</rt-text>
+2026-06-02 18:51:20,461 - AT. (0.361, 0.232) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:51:20,461 - AU. (0.379, 0.232) <rt-text">92%</rt-text>
+2026-06-02 18:51:20,461 - AV. (0.248, 0.233) <a">100% The Legend of Vox Machina: Season 4</a>
+2026-06-02 18:51:20,461 - AW. (0.449, 0.233) <a">92% Spider-Noir: Season 1</a>
+2026-06-02 18:51:20,461 - AX. (0.627, 0.234) <a">What to WatchNew</a>
+2026-06-02 18:51:20,461 - AY. (0.634, 0.234) <rt-badge">New</rt-badge>
+2026-06-02 18:51:20,461 - AZ. (0.16, 0.256) <score-icon-critics">parent_node: 50%</score-icon-critics>
+2026-06-02 18:51:20,461 - BA. (0.178, 0.256) <rt-text">50%</rt-text>
+2026-06-02 18:51:20,461 - BB. (0.361, 0.256) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:51:20,461 - BC. (0.378, 0.256) <rt-text">97%</rt-text>
+2026-06-02 18:51:20,461 - BD. (0.248, 0.257) <a">50% Not Suitable for Work: Season 1</a>
+2026-06-02 18:51:20,461 - BE. (0.449, 0.257) <a">97% The Boroughs: Season 1</a>
+2026-06-02 18:51:20,461 - BF. (0.627, 0.26) <a">Best TV Shows</a>
+2026-06-02 18:51:20,461 - BG. (0.247, 0.265) <discovery-title">Best TV Shows (June 2026)</discovery-title>
+2026-06-02 18:51:20,461 - BH. (0.401, 0.265) <button">TV Shows</button>
+2026-06-02 18:51:20,461 - BI. (0.424, 0.266) <rt-icon">parent_node: TV SHOWS</rt-icon>
+2026-06-02 18:51:20,461 - BJ. (0.16, 0.279) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:51:20,464 - BK. (0.172, 0.279) <rt-text">--</rt-text>
+2026-06-02 18:51:20,464 - BL. (0.361, 0.279) <score-icon-critics">parent_node: 96%</score-icon-critics>
+2026-06-02 18:51:20,464 - BM. (0.379, 0.279) <rt-text">96%</rt-text>
+2026-06-02 18:51:20,464 - BN. (0.248, 0.28) <a">-- Cape Fear: Season 1</a>
+2026-06-02 18:51:20,464 - BO. (0.449, 0.28) <a">96% Star City: Season 1</a>
+2026-06-02 18:51:20,464 - BP. (0.627, 0.286) <a">Most Popular TV</a>
+2026-06-02 18:51:20,464 - BQ. (0.16, 0.302) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:51:20,464 - BR. (0.172, 0.302) <rt-text">--</rt-text>
+2026-06-02 18:51:20,464 - BS. (0.361, 0.302) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:51:20,464 - BT. (0.378, 0.302) <rt-text">97%</rt-text>
+2026-06-02 18:51:20,464 - BU. (0.248, 0.303) <a">-- The Witness: Season 1</a>
+2026-06-02 18:51:20,464 - BV. (0.449, 0.303) <a">97% Widow's Bay: Season 1</a>
+2026-06-02 18:51:20,464 - BW. (0.596, 0.312) <sup">®</sup>
+2026-06-02 18:51:20,464 - BX. (0.627, 0.312) <a">Fandango at Home</a>
+2026-06-02 18:51:20,464 - BY. (0.775, 0.312) <rt-img">parent_node: 96% alt="Star City: Season 1 poster image"</rt-img>
+2026-06-02 18:51:20,464 - BZ. (0.248, 0.315) <ul">100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael Jackson: The Verdict:...</ul>
+2026-06-02 18:51:20,464 - CA. (0.211, 0.316) <filter-chip role="button"">Sort: Most popular</filter-chip>
+2026-06-02 18:51:20,466 - CB. (0.309, 0.316) <filter-chip role="button"">Genre</filter-chip>
+2026-06-02 18:51:20,466 - CC. (0.376, 0.316) <filter-chip role="button"">Rating</filter-chip>
+2026-06-02 18:51:20,466 - CD. (0.464, 0.316) <filter-chip role="button"">Popcornmeter</filter-chip>
+2026-06-02 18:51:20,466 - CE. (0.57, 0.316) <filter-chip role="button"">Tomatometer®</filter-chip>
+2026-06-02 18:51:20,466 - CF. (0.627, 0.325) <ul">What to Watch New Best TV Shows Most Popular TV Fandango at Home Paramount+ Netflix Prime Video Apple TV</ul>
+2026-06-02 18:51:20,466 - CG. (0.16, 0.326) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:51:20,466 - CH. (0.172, 0.326) <rt-text">--</rt-text>
+2026-06-02 18:51:20,466 - CI. (0.361, 0.326) <score-icon-critics">parent_node: 90%</score-icon-critics>
+2026-06-02 18:51:20,466 - CJ. (0.379, 0.326) <rt-text">90%</rt-text>
+2026-06-02 18:51:20,466 - CK. (0.248, 0.327) <a">-- Michael Jackson: The Verdict: Season 1</a>
+2026-06-02 18:51:20,466 - CL. (0.449, 0.327) <a">90% A Good Girl's Guide to Murder: Season 2</a>
+2026-06-02 18:51:20,466 - CM. (0.248, 0.33) <rt-header-nav-item-dropdown-list">NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael...</rt-header-nav-item-dropdown-list>
+2026-06-02 18:51:20,466 - CN. (0.449, 0.33) <rt-header-nav-item-dropdown-list">MOST POPULAR TV ON RT 92% Spider-Noir: Season 1 97% The Boroughs: Season 1 96% Star City: Season 1 97% Widow's Bay: Season 1 90% A Good Girl's Guide to...</rt-header-nav-item-dropdown-list>
+2026-06-02 18:51:20,468 - CO. (0.497, 0.33) <rt-header-nav-item-dropdown">NEW TV TONIGHT 100% The Legend of Vox Machina: Season 4 50% Not Suitable for Work: Season 1 -- Cape Fear: Season 1 -- The Witness: Season 1 -- Michael...</rt-header-nav-item-dropdown>
+2026-06-02 18:51:20,468 - CP. (0.627, 0.33) <rt-header-nav-item-dropdown-list">MORE What to Watch New Best TV Shows Most Popular TV Fandango at Home Paramount+ Netflix Prime Video Apple TV</rt-header-nav-item-dropdown-list>
+2026-06-02 18:51:20,468 - CQ. (0.775, 0.33) <rt-header-nav-item-dropdown-list">Certified fresh pick 96% Star City: Season 1 Link to Star City: Season 1</rt-header-nav-item-dropdown-list>
+2026-06-02 18:51:20,468 - CR. (0.449, 0.338) <ul">92% Spider-Noir: Season 1 97% The Boroughs: Season 1 96% Star City: Season 1 97% Widow's Bay: Season 1 90% A Good Girl's Guide to Murder: Season 2 38% Euphoria:...</ul>
+2026-06-02 18:51:20,468 - CS. (0.627, 0.338) <a">Paramount+</a>
+2026-06-02 18:51:20,468 - CT. (0.775, 0.338) <a">96% Star City: Season 1 Link to Star City: Season 1</a>
+2026-06-02 18:51:20,468 - CU. (0.775, 0.341) <ul">96% Star City: Season 1 Link to Star City: Season 1</ul>
+2026-06-02 18:51:20,468 - CV. (0.16, 0.349) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:51:20,468 - CW. (0.172, 0.349) <rt-text">--</rt-text>
+2026-06-02 18:51:20,468 - CX. (0.361, 0.349) <score-icon-critics">parent_node: 38%</score-icon-critics>
+2026-06-02 18:51:20,468 - CY. (0.379, 0.349) <rt-text">38%</rt-text>
+2026-06-02 18:51:20,468 - CZ. (0.248, 0.35) <a">-- Love Island: Season 8</a>
+2026-06-02 18:51:20,468 - DA. (0.449, 0.35) <a">38% Euphoria: Season 3</a>
+2026-06-02 18:51:20,468 - DB. (0.627, 0.363) <a">Netflix</a>
+2026-06-02 18:51:20,468 - DC. (0.16, 0.373) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:51:20,468 - DD. (0.172, 0.373) <rt-text">--</rt-text>
+2026-06-02 18:51:20,470 - DE. (0.248, 0.373) <a">-- Clarkson's Farm: Season 5</a>
+2026-06-02 18:51:20,470 - DF. (0.361, 0.373) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:51:20,470 - DG. (0.379, 0.373) <rt-text">93%</rt-text>
+2026-06-02 18:51:20,470 - DH. (0.449, 0.373) <a">93% Off Campus: Season 1</a>
+2026-06-02 18:51:20,470 - DI. (0.171, 0.385) <where-to-watch-bubble">value="fandango-at-home"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DJ. (0.223, 0.385) <where-to-watch-bubble">value="apple-tv-plus"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DK. (0.276, 0.385) <where-to-watch-bubble">value="netflix"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DL. (0.328, 0.385) <where-to-watch-bubble">value="prime-video"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DM. (0.38, 0.385) <where-to-watch-bubble">value="disney-plus"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DN. (0.432, 0.385) <where-to-watch-bubble">value="max"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DO. (0.484, 0.385) <where-to-watch-bubble">value="peacock"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DP. (0.497, 0.385) <bubbles-overflow-container">parent_node: SORT: MOST POPULAR</bubbles-overflow-container>
+2026-06-02 18:51:20,470 - DQ. (0.536, 0.385) <where-to-watch-bubble">value="hulu"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DR. (0.588, 0.385) <where-to-watch-bubble">value="paramount-plus"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DS. (0.64, 0.385) <where-to-watch-bubble">value="amc-plus"</where-to-watch-bubble>
+2026-06-02 18:51:20,470 - DT. (0.692, 0.385) <where-to-watch-bubble">value="acorn-tv"</where-to-watch-bubble>
+2026-06-02 18:51:20,472 - DU. (0.627, 0.389) <a">Prime Video</a>
+2026-06-02 18:51:20,472 - DV. (0.16, 0.396) <score-icon-critics">parent_node: --</score-icon-critics>
+2026-06-02 18:51:20,472 - DW. (0.172, 0.396) <rt-text">--</rt-text>
+2026-06-02 18:51:20,472 - DX. (0.361, 0.396) <score-icon-critics">parent_node: 94%</score-icon-critics>
+2026-06-02 18:51:20,472 - DY. (0.379, 0.396) <rt-text">94%</rt-text>
+2026-06-02 18:51:20,472 - DZ. (0.248, 0.397) <a">-- Bring Me The Beauties: A Model Cult: Season 1</a>
+2026-06-02 18:51:20,472 - EA. (0.449, 0.397) <a">94% Maximum Pleasure Guaranteed: Season 1</a>
+2026-06-02 18:51:20,472 - EB. (0.627, 0.415) <a">Apple TV</a>
+2026-06-02 18:51:20,472 - EC. (0.74, 0.418) <score-icon-critics">parent_node: 96%</score-icon-critics>
+2026-06-02 18:51:20,472 - ED. (0.757, 0.418) <rt-text">96%</rt-text>
+2026-06-02 18:51:20,472 - EE. (0.361, 0.419) <score-icon-critics">parent_node: 100%</score-icon-critics>
+2026-06-02 18:51:20,472 - EF. (0.382, 0.419) <rt-text">100%</rt-text>
+2026-06-02 18:51:20,472 - EG. (0.449, 0.42) <a">100% From: Season 4</a>
+2026-06-02 18:51:20,474 - EH. (0.172, 0.443) <button">Reset Filters</button>
+2026-06-02 18:51:20,474 - EI. (0.361, 0.443) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:51:20,474 - EJ. (0.378, 0.443) <rt-text">97%</rt-text>
+2026-06-02 18:51:20,474 - EK. (0.449, 0.443) <a">97% Legends: Season 1</a>
+2026-06-02 18:51:20,474 - EL. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:51:20,474 - EM. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:51:20,474 - EN. (0.202, 0.59) <poster-tile">parent_node: 92%</poster-tile>
+2026-06-02 18:51:20,474 - EO. (0.32, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:51:20,474 - EP. (0.438, 0.59) <poster-tile">parent_node: 93%</poster-tile>
+2026-06-02 18:51:20,474 - EQ. (0.556, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:51:20,474 - ER. (0.674, 0.59) <poster-tile">parent_node: 78%</poster-tile>
+2026-06-02 18:51:20,474 - ES. (0.792, 0.59) <poster-tile">parent_node: 86%</poster-tile>
+2026-06-02 18:51:20,474 - ET. (0.202, 0.651) <media-info-tile">92% 93% Spider-Noir Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:51:20,474 - EU. (0.32, 0.651) <media-info-tile">97% 80% The Boroughs Latest Episode: May 21 Watchlist</media-info-tile>
+2026-06-02 18:51:20,474 - EV. (0.438, 0.651) <media-info-tile">93% 88% Off Campus Latest Episode: May 13 Watchlist</media-info-tile>
+2026-06-02 18:51:20,476 - EW. (0.556, 0.651) <media-info-tile">97% 92% Widow's Bay Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:51:20,476 - EX. (0.674, 0.651) <media-info-tile">78% 74% Euphoria Latest Episode: May 31 Watchlist</media-info-tile>
+2026-06-02 18:51:20,476 - EY. (0.792, 0.651) <media-info-tile">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:51:20,476 - EZ. (0.154, 0.729) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:51:20,476 - FA. (0.171, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:51:20,476 - FB. (0.193, 0.729) <score-icon-audience">parent_node: 92%</score-icon-audience>
+2026-06-02 18:51:20,476 - FC. (0.202, 0.729) <score-pairs-deprecated">92% 93%</score-pairs-deprecated>
+2026-06-02 18:51:20,476 - FD. (0.209, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:51:20,476 - FE. (0.272, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:51:20,476 - FF. (0.288, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:51:20,476 - FG. (0.31, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:51:20,476 - FH. (0.32, 0.729) <score-pairs-deprecated">97% 80%</score-pairs-deprecated>
+2026-06-02 18:51:20,478 - FI. (0.327, 0.729) <rt-text">80%</rt-text>
+2026-06-02 18:51:20,478 - FJ. (0.39, 0.729) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:51:20,478 - FK. (0.407, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:51:20,478 - FL. (0.429, 0.729) <score-icon-audience">parent_node: 93%</score-icon-audience>
+2026-06-02 18:51:20,478 - FM. (0.438, 0.729) <score-pairs-deprecated">93% 88%</score-pairs-deprecated>
+2026-06-02 18:51:20,478 - FN. (0.445, 0.729) <rt-text">88%</rt-text>
+2026-06-02 18:51:20,478 - FO. (0.508, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:51:20,478 - FP. (0.524, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:51:20,478 - FQ. (0.546, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:51:20,478 - FR. (0.556, 0.729) <score-pairs-deprecated">97% 92%</score-pairs-deprecated>
+2026-06-02 18:51:20,478 - FS. (0.563, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:51:20,478 - FT. (0.626, 0.729) <score-icon-critics">parent_node: 78%</score-icon-critics>
+2026-06-02 18:51:20,478 - FU. (0.642, 0.729) <rt-text">78%</rt-text>
+2026-06-02 18:51:20,478 - FV. (0.665, 0.729) <score-icon-audience">parent_node: 78%</score-icon-audience>
+2026-06-02 18:51:20,478 - FW. (0.674, 0.729) <score-pairs-deprecated">78% 74%</score-pairs-deprecated>
+2026-06-02 18:51:20,480 - FX. (0.681, 0.729) <rt-text">74%</rt-text>
+2026-06-02 18:51:20,480 - FY. (0.744, 0.729) <score-icon-critics">parent_node: 86%</score-icon-critics>
+2026-06-02 18:51:20,480 - FZ. (0.76, 0.729) <rt-text">86%</rt-text>
+2026-06-02 18:51:20,480 - GA. (0.783, 0.729) <score-icon-audience">parent_node: 86%</score-icon-audience>
+2026-06-02 18:51:20,480 - GB. (0.792, 0.729) <score-pairs-deprecated">86% 82%</score-pairs-deprecated>
+2026-06-02 18:51:20,480 - GC. (0.799, 0.729) <rt-text">82%</rt-text>
+2026-06-02 18:51:20,480 - GD. (0.202, 0.749) <a">92% 93% Spider-Noir Latest Episode: May 27</a>
+2026-06-02 18:51:20,480 - GE. (0.32, 0.749) <a">97% 80% The Boroughs Latest Episode: May 21</a>
+2026-06-02 18:51:20,480 - GF. (0.438, 0.749) <a">93% 88% Off Campus Latest Episode: May 13</a>
+2026-06-02 18:51:20,480 - GG. (0.556, 0.749) <a">97% 92% Widow's Bay Latest Episode: May 27</a>
+2026-06-02 18:51:20,480 - GH. (0.674, 0.749) <a">78% 74% Euphoria Latest Episode: May 31</a>
+2026-06-02 18:51:20,480 - GI. (0.202, 0.75) <rt-text">Spider-Noir</rt-text>
+2026-06-02 18:51:20,480 - GJ. (0.32, 0.75) <rt-text">The Boroughs</rt-text>
+2026-06-02 18:51:20,480 - GK. (0.438, 0.75) <rt-text">Off Campus</rt-text>
+2026-06-02 18:51:20,480 - GL. (0.556, 0.75) <rt-text">Widow's Bay</rt-text>
+2026-06-02 18:51:20,480 - GM. (0.674, 0.75) <rt-text">Euphoria</rt-text>
+2026-06-02 18:51:20,480 - GN. (0.792, 0.756) <a">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27</a>
+2026-06-02 18:51:20,482 - GO. (0.792, 0.758) <rt-text">A Good Girl's Guide to Murder</rt-text>
+2026-06-02 18:51:20,482 - GP. (0.202, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:51:20,482 - GQ. (0.32, 0.77) <rt-text">Latest Episode: May 21</rt-text>
+2026-06-02 18:51:20,482 - GR. (0.438, 0.77) <rt-text">Latest Episode: May 13</rt-text>
+2026-06-02 18:51:20,482 - GS. (0.556, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:51:20,482 - GT. (0.674, 0.77) <rt-text">Latest Episode: May 31</rt-text>
+2026-06-02 18:51:20,482 - GU. (0.792, 0.785) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:51:20,482 - GV. (0.202, 0.817) <button">Watchlist</button>
+2026-06-02 18:51:20,482 - GW. (0.32, 0.817) <button">Watchlist</button>
+2026-06-02 18:51:20,482 - GX. (0.438, 0.817) <button">Watchlist</button>
+2026-06-02 18:51:20,482 - GY. (0.556, 0.817) <button">Watchlist</button>
+2026-06-02 18:51:20,482 - GZ. (0.674, 0.817) <button">Watchlist</button>
+2026-06-02 18:51:20,482 - HA. (0.792, 0.817) <button">Watchlist</button>
+2026-06-02 18:51:20,482 - HB. (0.175, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:51:20,482 - HC. (0.293, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:51:20,482 - HD. (0.411, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:51:20,484 - HE. (0.529, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:51:20,484 - HF. (0.647, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:51:20,484 - HG. (0.765, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:51:20,484 - HH. (0.202, 0.972) <play-button">aria-label="Watch the trailer for Maximum Pleasure Guaranteed"</play-button>
+2026-06-02 18:51:20,484 - HI. (0.32, 0.972) <play-button">aria-label="Watch the trailer for Legends"</play-button>
+2026-06-02 18:51:20,484 - HJ. (0.438, 0.972) <play-button">aria-label="Watch the trailer for The Boys"</play-button>
+2026-06-02 18:51:20,484 - HK. (0.556, 0.972) <play-button">aria-label="Watch the trailer for The Four Seasons"</play-button>
+2026-06-02 18:51:20,484 - HL. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:51:31,300 - ELEMENT: Z
+2026-06-02 18:51:31,300 - 
+2026-06-02 18:51:31,300 - ACTION: CLICK
+2026-06-02 18:51:31,300 - 
+2026-06-02 18:51:31,300 - VALUE: None
+2026-06-02 18:51:32,119 - Clicked on element: View All
+2026-06-02 18:51:32,767 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_11.png
+2026-06-02 18:51:34,374 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:51:34,374 - Previous:
+2026-06-02 18:51:34,375 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:51:34,375 - [button] Reject All -> CLICK
+2026-06-02 18:51:34,375 - [a] Tv shows -> HOVER
+2026-06-02 18:51:34,375 - [a] View All -> CLICK
+2026-06-02 18:51:34,375 - NONE
+2026-06-02 18:51:34,375 - [a] Tv shows -> HOVER
+2026-06-02 18:51:34,375 - [a] View All -> CLICK
+2026-06-02 18:51:34,375 - NONE
+2026-06-02 18:51:34,375 - [a] Tv shows -> HOVER
+2026-06-02 18:51:34,375 - [a] View All -> CLICK
+2026-06-02 18:51:34,375 - calling generate
+2026-06-02 18:51:46,866 - ----------
+2026-06-02 18:51:46,889 - To view the list of "Most Popular TV" on Rotten Tomatoes, let's hover over the "TV SHOWS" menu item in the top navigation bar to see the available options.
+2026-06-02 18:51:46,889 - 
+2026-06-02 18:51:46,889 - **Next Action:**
+2026-06-02 18:51:46,889 - - Element: "TV SHOWS" link in the header (navigation bar)
+2026-06-02 18:51:46,889 - - Action: HOVER on `[a] TV SHOWS`
+2026-06-02 18:51:46,889 - ----------
+2026-06-02 18:51:46,893 - If none of these elements match your target element or your target action doesn't involve an element, please select .
+2026-06-02 18:51:46,893 - . None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:51:56,281 - ELEMENT: [a] TV SHOWS
+2026-06-02 18:51:56,281 - 
+2026-06-02 18:51:56,281 - ACTION: HOVER
+2026-06-02 18:51:56,281 - 
+2026-06-02 18:51:56,281 - VALUE: None
+2026-06-02 18:51:56,345 - DEBUG: WHAT IS PRED ACTION???:HOVER
+2026-06-02 18:51:56,345 - No action necessary at this stage. Skipped
+2026-06-02 18:52:51,549 - results\runs\2026-06-02_183851\seeact\raw\mind2web-web-1037\20260602_183858\screenshots\screen_12.png
+2026-06-02 18:52:52,467 - TASK: View all of the Most Popular TV on RT.
+2026-06-02 18:52:52,467 - Previous:
+2026-06-02 18:52:52,467 - Failed to perform HOVER on Tv shows with value 'None': ElementHandle.hover: Timeout 2000ms exceeded.
+Call log:
+  - attempting hover action
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+    - waiting 20ms
+    2 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 100ms
+    3 × waiting for element to be visible and stable
+      - element is visible and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying hover action
+      - waiting 500ms
+
+2026-06-02 18:52:52,467 - [button] Reject All -> CLICK
+2026-06-02 18:52:52,467 - [a] Tv shows -> HOVER
+2026-06-02 18:52:52,467 - [a] View All -> CLICK
+2026-06-02 18:52:52,467 - NONE
+2026-06-02 18:52:52,467 - [a] Tv shows -> HOVER
+2026-06-02 18:52:52,467 - [a] View All -> CLICK
+2026-06-02 18:52:52,467 - NONE
+2026-06-02 18:52:52,467 - [a] Tv shows -> HOVER
+2026-06-02 18:52:52,467 - [a] View All -> CLICK
+2026-06-02 18:52:52,467 - NONE
+2026-06-02 18:52:52,467 - calling generate
+2026-06-02 18:53:04,372 - ----------
+2026-06-02 18:53:04,382 - To view all of the most popular TV shows on Rotten Tomatoes, let's first click on the "TV SHOWS" link in the main navigation bar.
+2026-06-02 18:53:04,382 - 
+2026-06-02 18:53:04,382 - Action:
+2026-06-02 18:53:04,382 - ```the_action
+2026-06-02 18:53:04,382 - CLICK S
+2026-06-02 18:53:04,382 - ```
+2026-06-02 18:53:04,382 - ----------
+2026-06-02 18:53:04,390 - If none of these elements match your target element or your target action doesn't involve an element, please select EL.
+2026-06-02 18:53:04,390 - A. (0.497, 0.049) <ad-unit">mps._execAd('_oop');</ad-unit>
+2026-06-02 18:53:04,390 - B. (0.497, 0.11) <header">Skip to Main Content Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in...</header>
+2026-06-02 18:53:04,390 - C. (0.809, 0.117) <ul">Login/signup</ul>
+2026-06-02 18:53:04,390 - D. (0.664, 0.118) <a">About Rotten Tomatoes®</a>
+2026-06-02 18:53:04,390 - E. (0.747, 0.118) <a">Critics</a>
+2026-06-02 18:53:04,390 - F. (0.809, 0.118) <button">Login/signup</button>
+2026-06-02 18:53:04,390 - G. (0.664, 0.12) <li">About Rotten Tomatoes®</li>
+2026-06-02 18:53:04,390 - H. (0.747, 0.12) <li">Critics</li>
+2026-06-02 18:53:04,390 - I. (0.809, 0.12) <li">Login/signup</li>
+2026-06-02 18:53:04,390 - J. (0.726, 0.123) <ul">About Rotten Tomatoes® Critics LOGIN/SIGNUP</ul>
+2026-06-02 18:53:04,390 - K. (0.497, 0.146) <rt-header role="navigation"">Submit search About Rotten Tomatoes® Critics LOGIN/SIGNUP MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header>
+2026-06-02 18:53:04,390 - L. (0.723, 0.146) <temporary-display">New</temporary-display>
+2026-06-02 18:53:04,390 - M. (0.207, 0.147) <a">mps._execAd("logorepeat");</a>
+2026-06-02 18:53:04,390 - N. (0.292, 0.152) <rt-link">Submit search</rt-link>
+2026-06-02 18:53:04,390 - O. (0.399, 0.152) <input type="text"">parent_node: Submit search aria-label="Search" placeholder="Search"</input>
+2026-06-02 18:53:04,390 - P. (0.292, 0.153) <rt-icon">parent_node: Submit search</rt-icon>
+2026-06-02 18:53:04,390 - Q. (0.555, 0.163) <button">parent_node: MOVIESTV SHOWSRT APP aria-label="Open aRTi"</button>
+2026-06-02 18:53:04,390 - R. (0.596, 0.163) <a">Movies</a>
+2026-06-02 18:53:04,390 - S. (0.654, 0.163) <a">Tv shows</a>
+2026-06-02 18:53:04,390 - T. (0.688, 0.163) <rt-header-nav">MOVIESTV SHOWSRT APP NEW NEWSSHOWTIMES</rt-header-nav>
+2026-06-02 18:53:04,390 - U. (0.71, 0.163) <a">RT App New</a>
+2026-06-02 18:53:04,390 - V. (0.758, 0.163) <a">News</a>
+2026-06-02 18:53:04,390 - W. (0.815, 0.163) <a">Showtimes</a>
+2026-06-02 18:53:04,390 - X. (0.555, 0.164) <img">alt="arti"</img>
+2026-06-02 18:53:04,390 - Y. (0.257, 0.207) <a">Seen on the Screen</a>
+2026-06-02 18:53:04,390 - Z. (0.346, 0.207) <a">Rotten Tomatoes App</a>
+2026-06-02 18:53:04,390 - AA. (0.42, 0.207) <a">Free Movies</a>
+2026-06-02 18:53:04,390 - AB. (0.484, 0.207) <a">Women in Focus</a>
+2026-06-02 18:53:04,390 - AC. (0.18, 0.208) <li">Trending on RT</li>
+2026-06-02 18:53:04,390 - AD. (0.257, 0.208) <li">Seen on the Screen</li>
+2026-06-02 18:53:04,390 - AE. (0.333, 0.208) <ul">Trending on RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</ul>
+2026-06-02 18:53:04,390 - AF. (0.346, 0.208) <li">Rotten Tomatoes App</li>
+2026-06-02 18:53:04,390 - AG. (0.42, 0.208) <li">Free Movies</li>
+2026-06-02 18:53:04,390 - AH. (0.485, 0.208) <li">Women in Focus</li>
+2026-06-02 18:53:04,390 - AI. (0.497, 0.208) <section">TRENDING ON RT Seen on the Screen Rotten Tomatoes App Free Movies Women in Focus</section>
+2026-06-02 18:53:04,390 - AJ. (0.759, 0.211) <a">aria-label="Facebook"</a>
+2026-06-02 18:53:04,390 - AK. (0.776, 0.211) <a">aria-label="X"</a>
+2026-06-02 18:53:04,390 - AL. (0.793, 0.211) <a">aria-label="Instagram"</a>
+2026-06-02 18:53:04,390 - AM. (0.81, 0.211) <a">aria-label="TikTok"</a>
+2026-06-02 18:53:04,390 - AN. (0.827, 0.211) <a">aria-label="Youtube"</a>
+2026-06-02 18:53:04,390 - AO. (0.844, 0.211) <a">aria-label="Bluesky"</a>
+2026-06-02 18:53:04,390 - AP. (0.247, 0.265) <discovery-title">Best TV Shows (June 2026)</discovery-title>
+2026-06-02 18:53:04,390 - AQ. (0.401, 0.265) <button">TV Shows</button>
+2026-06-02 18:53:04,390 - AR. (0.424, 0.266) <rt-icon">parent_node: TV SHOWS</rt-icon>
+2026-06-02 18:53:04,390 - AS. (0.596, 0.312) <sup">®</sup>
+2026-06-02 18:53:04,390 - AT. (0.211, 0.316) <filter-chip role="button"">Sort: Most popular</filter-chip>
+2026-06-02 18:53:04,390 - AU. (0.309, 0.316) <filter-chip role="button"">Genre</filter-chip>
+2026-06-02 18:53:04,390 - AV. (0.376, 0.316) <filter-chip role="button"">Rating</filter-chip>
+2026-06-02 18:53:04,390 - AW. (0.464, 0.316) <filter-chip role="button"">Popcornmeter</filter-chip>
+2026-06-02 18:53:04,390 - AX. (0.57, 0.316) <filter-chip role="button"">Tomatometer®</filter-chip>
+2026-06-02 18:53:04,390 - AY. (0.171, 0.385) <where-to-watch-bubble">value="fandango-at-home"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - AZ. (0.223, 0.385) <where-to-watch-bubble">value="apple-tv-plus"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BA. (0.276, 0.385) <where-to-watch-bubble">value="netflix"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BB. (0.328, 0.385) <where-to-watch-bubble">value="prime-video"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BC. (0.38, 0.385) <where-to-watch-bubble">value="disney-plus"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BD. (0.432, 0.385) <where-to-watch-bubble">value="max"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BE. (0.484, 0.385) <where-to-watch-bubble">value="peacock"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BF. (0.497, 0.385) <bubbles-overflow-container">parent_node: SORT: MOST POPULAR</bubbles-overflow-container>
+2026-06-02 18:53:04,390 - BG. (0.536, 0.385) <where-to-watch-bubble">value="hulu"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BH. (0.588, 0.385) <where-to-watch-bubble">value="paramount-plus"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BI. (0.64, 0.385) <where-to-watch-bubble">value="amc-plus"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BJ. (0.692, 0.385) <where-to-watch-bubble">value="acorn-tv"</where-to-watch-bubble>
+2026-06-02 18:53:04,390 - BK. (0.172, 0.443) <button">Reset Filters</button>
+2026-06-02 18:53:04,390 - BL. (0.497, 0.483) <rt-icon">parent_node: Signed in</rt-icon>
+2026-06-02 18:53:04,390 - BM. (0.497, 0.5) <notification-alert role="status"">Signed in</notification-alert>
+2026-06-02 18:53:04,398 - BN. (0.202, 0.59) <poster-tile">parent_node: 92%</poster-tile>
+2026-06-02 18:53:04,398 - BO. (0.32, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:53:04,398 - BP. (0.438, 0.59) <poster-tile">parent_node: 93%</poster-tile>
+2026-06-02 18:53:04,398 - BQ. (0.556, 0.59) <poster-tile">parent_node: 97%</poster-tile>
+2026-06-02 18:53:04,398 - BR. (0.674, 0.59) <poster-tile">parent_node: 77%</poster-tile>
+2026-06-02 18:53:04,398 - BS. (0.792, 0.59) <poster-tile">parent_node: 86%</poster-tile>
+2026-06-02 18:53:04,398 - BT. (0.202, 0.651) <media-info-tile">92% 93% Spider-Noir Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:53:04,398 - BU. (0.32, 0.651) <media-info-tile">97% 80% The Boroughs Latest Episode: May 21 Watchlist</media-info-tile>
+2026-06-02 18:53:04,398 - BV. (0.438, 0.651) <media-info-tile">93% 88% Off Campus Latest Episode: May 13 Watchlist</media-info-tile>
+2026-06-02 18:53:04,398 - BW. (0.556, 0.651) <media-info-tile">97% 92% Widow's Bay Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:53:04,398 - BX. (0.674, 0.651) <media-info-tile">77% 74% Euphoria Latest Episode: May 31 Watchlist</media-info-tile>
+2026-06-02 18:53:04,398 - BY. (0.792, 0.651) <media-info-tile">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27 Watchlist</media-info-tile>
+2026-06-02 18:53:04,398 - BZ. (0.154, 0.729) <score-icon-critics">parent_node: 92%</score-icon-critics>
+2026-06-02 18:53:04,398 - CA. (0.171, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:53:04,398 - CB. (0.193, 0.729) <score-icon-audience">parent_node: 92%</score-icon-audience>
+2026-06-02 18:53:04,398 - CC. (0.202, 0.729) <score-pairs-deprecated">92% 93%</score-pairs-deprecated>
+2026-06-02 18:53:04,398 - CD. (0.209, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:53:04,398 - CE. (0.272, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:53:04,398 - CF. (0.288, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:53:04,398 - CG. (0.31, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:53:04,398 - CH. (0.32, 0.729) <score-pairs-deprecated">97% 80%</score-pairs-deprecated>
+2026-06-02 18:53:04,398 - CI. (0.327, 0.729) <rt-text">80%</rt-text>
+2026-06-02 18:53:04,398 - CJ. (0.39, 0.729) <score-icon-critics">parent_node: 93%</score-icon-critics>
+2026-06-02 18:53:04,398 - CK. (0.407, 0.729) <rt-text">93%</rt-text>
+2026-06-02 18:53:04,398 - CL. (0.429, 0.729) <score-icon-audience">parent_node: 93%</score-icon-audience>
+2026-06-02 18:53:04,398 - CM. (0.438, 0.729) <score-pairs-deprecated">93% 88%</score-pairs-deprecated>
+2026-06-02 18:53:04,398 - CN. (0.445, 0.729) <rt-text">88%</rt-text>
+2026-06-02 18:53:04,398 - CO. (0.508, 0.729) <score-icon-critics">parent_node: 97%</score-icon-critics>
+2026-06-02 18:53:04,398 - CP. (0.524, 0.729) <rt-text">97%</rt-text>
+2026-06-02 18:53:04,398 - CQ. (0.546, 0.729) <score-icon-audience">parent_node: 97%</score-icon-audience>
+2026-06-02 18:53:04,398 - CR. (0.556, 0.729) <score-pairs-deprecated">97% 92%</score-pairs-deprecated>
+2026-06-02 18:53:04,398 - CS. (0.563, 0.729) <rt-text">92%</rt-text>
+2026-06-02 18:53:04,398 - CT. (0.626, 0.729) <score-icon-critics">parent_node: 77%</score-icon-critics>
+2026-06-02 18:53:04,398 - CU. (0.642, 0.729) <rt-text">77%</rt-text>
+2026-06-02 18:53:04,398 - CV. (0.664, 0.729) <score-icon-audience">parent_node: 77%</score-icon-audience>
+2026-06-02 18:53:04,398 - CW. (0.674, 0.729) <score-pairs-deprecated">77% 74%</score-pairs-deprecated>
+2026-06-02 18:53:04,398 - CX. (0.681, 0.729) <rt-text">74%</rt-text>
+2026-06-02 18:53:04,398 - CY. (0.744, 0.729) <score-icon-critics">parent_node: 86%</score-icon-critics>
+2026-06-02 18:53:04,398 - CZ. (0.76, 0.729) <rt-text">86%</rt-text>
+2026-06-02 18:53:04,398 - DA. (0.783, 0.729) <score-icon-audience">parent_node: 86%</score-icon-audience>
+2026-06-02 18:53:04,398 - DB. (0.792, 0.729) <score-pairs-deprecated">86% 82%</score-pairs-deprecated>
+2026-06-02 18:53:04,398 - DC. (0.799, 0.729) <rt-text">82%</rt-text>
+2026-06-02 18:53:04,398 - DD. (0.202, 0.749) <a">92% 93% Spider-Noir Latest Episode: May 27</a>
+2026-06-02 18:53:04,398 - DE. (0.32, 0.749) <a">97% 80% The Boroughs Latest Episode: May 21</a>
+2026-06-02 18:53:04,398 - DF. (0.438, 0.749) <a">93% 88% Off Campus Latest Episode: May 13</a>
+2026-06-02 18:53:04,398 - DG. (0.556, 0.749) <a">97% 92% Widow's Bay Latest Episode: May 27</a>
+2026-06-02 18:53:04,398 - DH. (0.674, 0.749) <a">77% 74% Euphoria Latest Episode: May 31</a>
+2026-06-02 18:53:04,398 - DI. (0.202, 0.75) <rt-text">Spider-Noir</rt-text>
+2026-06-02 18:53:04,398 - DJ. (0.32, 0.75) <rt-text">The Boroughs</rt-text>
+2026-06-02 18:53:04,398 - DK. (0.438, 0.75) <rt-text">Off Campus</rt-text>
+2026-06-02 18:53:04,398 - DL. (0.556, 0.75) <rt-text">Widow's Bay</rt-text>
+2026-06-02 18:53:04,398 - DM. (0.674, 0.75) <rt-text">Euphoria</rt-text>
+2026-06-02 18:53:04,398 - DN. (0.792, 0.756) <a">86% 82% A Good Girl's Guide to Murder Latest Episode: May 27</a>
+2026-06-02 18:53:04,398 - DO. (0.792, 0.758) <rt-text">A Good Girl's Guide to Murder</rt-text>
+2026-06-02 18:53:04,398 - DP. (0.202, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:53:04,398 - DQ. (0.32, 0.77) <rt-text">Latest Episode: May 21</rt-text>
+2026-06-02 18:53:04,398 - DR. (0.438, 0.77) <rt-text">Latest Episode: May 13</rt-text>
+2026-06-02 18:53:04,398 - DS. (0.556, 0.77) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:53:04,398 - DT. (0.674, 0.77) <rt-text">Latest Episode: May 31</rt-text>
+2026-06-02 18:53:04,398 - DU. (0.792, 0.785) <rt-text">Latest Episode: May 27</rt-text>
+2026-06-02 18:53:04,398 - DV. (0.202, 0.817) <button">Watchlist</button>
+2026-06-02 18:53:04,398 - DW. (0.32, 0.817) <button">Watchlist</button>
+2026-06-02 18:53:04,398 - DX. (0.438, 0.817) <button">Watchlist</button>
+2026-06-02 18:53:04,398 - DY. (0.556, 0.817) <button">Watchlist</button>
+2026-06-02 18:53:04,398 - DZ. (0.674, 0.817) <button">Watchlist</button>
+2026-06-02 18:53:04,398 - EA. (0.792, 0.817) <button">Watchlist</button>
+2026-06-02 18:53:04,398 - EB. (0.175, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:53:04,398 - EC. (0.293, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:53:04,398 - ED. (0.411, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:53:04,398 - EE. (0.529, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:53:04,398 - EF. (0.647, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:53:04,398 - EG. (0.765, 0.818) <rt-icon">parent_node: WATCHLIST</rt-icon>
+2026-06-02 18:53:04,398 - EH. (0.202, 0.972) <play-button">aria-label="Watch the trailer for Maximum Pleasure Guaranteed"</play-button>
+2026-06-02 18:53:04,398 - EI. (0.32, 0.972) <play-button">aria-label="Watch the trailer for Legends"</play-button>
+2026-06-02 18:53:04,398 - EJ. (0.438, 0.972) <play-button">aria-label="Watch the trailer for The Boys"</play-button>
+2026-06-02 18:53:04,398 - EK. (0.556, 0.972) <play-button">aria-label="Watch the trailer for The Four Seasons"</play-button>
+2026-06-02 18:53:04,398 - EL. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:53:17,174 - ELEMENT: S
+2026-06-02 18:53:17,174 - 
+2026-06-02 18:53:17,174 - ACTION: CLICK
+2026-06-02 18:53:17,174 - 
+2026-06-02 18:53:17,174 - VALUE: None
+2026-06-02 18:53:17,609 - Clicked on element: Tv shows

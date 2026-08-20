@@ -1,0 +1,7 @@
+2026-07-28 15:24:50,409 - modelscope - INFO - PyTorch version 2.13.0+cpu Found.
+2026-07-28 15:24:50,409 - modelscope - INFO - Loading ast index from C:\Users\mazen\.cache\modelscope\ast_indexer
+2026-07-28 15:24:50,820 - modelscope - INFO - Loading done! Current index file version is 1.15.0, with md5 0c1e4ea8fda168fa0d59ffa86ace6e24 and a total number of 980 components indexed
+Traceback (most recent call last):
+  File "C:\Users\mazen\Programming\TUM\thesis-gui-failure-analysis\gui-failure-runner\agents\pc_agent\vendor\MobileAgent\PC-Agent\run.py", line 563, in <module>
+    os.mkdir(screenshot_root)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'results\\runs\\2026-07-28_152433\\pc_agent\\raw\\gui-failure-suite-desktop_windows-2896\\task_1/'

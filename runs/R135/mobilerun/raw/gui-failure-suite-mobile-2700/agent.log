@@ -1,0 +1,57 @@
+18:49:37 INFO mobilerun: LLM for task gui-failure-suite-mobile-2700: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+18:49:43 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: Share Anna's hiking post.
+18:49:44 INFO mobilerun: 🔄 Resetting device state before run
+18:49:45 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+18:49:46 INFO mobilerun: 🔄 Step 1/50
+18:49:47 INFO mobilerun: FastAgent response:
+18:49:50 INFO mobilerun: I will press the home button to see the available apps
+18:49:50 INFO mobilerun:  on the device.<function_calls>
+<invoke name="system_button">
+<parameter name="button">
+18:49:50 INFO mobilerun: home</parameter>
+</invoke>
+</function_calls>
+18:49:50 INFO mobilerun: 
+18:49:50 INFO mobilerun: 💡 Tool results:
+18:49:50 INFO mobilerun: <function_results>
+<result>
+<name>system_button</name>
+<output>Pressed HOME button</output>
+</result>
+</function_results>
+18:49:51 INFO mobilerun: 🔄 Step 2/50
+18:49:55 INFO mobilerun: FastAgent response:
+18:49:57 INFO mobilerun: I will swipe up from the bottom of the screen to
+18:49:57 INFO mobilerun:  open the app drawer and see the installed applications.<function_calls>
+<invoke name="swipe">
+<parameter name="
+18:49:57 INFO mobilerun: coordinate">
+<list>
+<number>540</number>
+<number>1500</
+18:49:57 INFO mobilerun: number>
+</list>
+</parameter>
+<parameter name="coordinate2">
+<list>
+<
+18:49:57 INFO mobilerun: number>540</number>
+<number>500</number>
+</list>
+</
+18:49:57 INFO mobilerun: parameter>
+</invoke>
+</function_calls>
+18:49:57 INFO mobilerun: 
+18:49:58 INFO mobilerun: 💡 Tool results:
+18:49:58 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<error>Invalid arguments for swipe: parameter 'coordinate' expected list, got '<list>
+<number>540</number>
+<number>1500</number>
+</list>'</error>
+</result>
+</function_results>
+18:49:59 INFO mobilerun: 🔄 Step 3/50
+18:50:03 INFO mobilerun: FastAgent response:

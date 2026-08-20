@@ -1,0 +1,28 @@
+2026-07-15 17:38:58,630 INFO Agent [34m🎯 Task: Set the shipping city to Munich and save the address.[0m
+2026-07-15 17:38:58,792 INFO Agent Starting a browser-use agent with version 0.13.4, with provider=openai and model=gpt-4o
+2026-07-15 17:39:01,363 INFO Agent   ▶️   [34mnavigate[0m: [35murl[0m: http://localhost:3000/failures/combobox-uncommitted-value
+2026-07-15 17:39:02,563 INFO tools 🔗 Navigated to http://localhost:3000/failures/combobox-uncommitted-value
+2026-07-15 17:39:02,998 INFO Agent 
+
+2026-07-15 17:39:02,998 INFO Agent 📍 Step 1:
+2026-07-15 17:39:20,540 WARNING Agent ⚠️ LLM error (ModelRateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}) but no fallback_llm configured
+2026-07-15 17:39:20,544 WARNING Agent ❌ Result failed 1/6 times: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-07-15 17:39:21,005 INFO Agent 
+
+2026-07-15 17:39:21,005 INFO Agent 📍 Step 2:
+2026-07-15 17:39:36,762 WARNING Agent ⚠️ LLM error (ModelRateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}) but no fallback_llm configured
+2026-07-15 17:39:36,763 WARNING Agent ❌ Result failed 2/6 times: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-07-15 17:39:37,226 INFO Agent 
+
+2026-07-15 17:39:37,226 INFO Agent 📍 Step 3:
+2026-07-15 17:39:51,709 WARNING Agent ⚠️ LLM error (ModelRateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}) but no fallback_llm configured
+2026-07-15 17:39:51,709 WARNING Agent ❌ Result failed 3/6 times: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-07-15 17:39:52,207 INFO Agent 
+
+2026-07-15 17:39:52,207 INFO Agent 📍 Step 4:
+2026-07-15 17:40:08,255 WARNING Agent ⚠️ LLM error (ModelRateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}) but no fallback_llm configured
+2026-07-15 17:40:08,255 WARNING Agent ❌ Result failed 4/6 times: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-07-15 17:40:08,668 INFO Agent 
+
+2026-07-15 17:40:08,668 INFO Agent 📍 Step 5:
+2026-07-15 17:40:08,692 INFO Agent 📋 Exploration nudge injected after 5 steps without a plan

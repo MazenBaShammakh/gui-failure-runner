@@ -1,0 +1,11 @@
+{
+    "task": [
+        "Archive the Project Proposal.pdf document."
+    ],
+    "website": "http://localhost:3000/failures/actionable-element-styled-static",
+    "num_step": 2,
+    "action_history": [
+        "[button type=\"button\"] Archive -> CLICK",
+        "TERMINATE"
+    ]
+}

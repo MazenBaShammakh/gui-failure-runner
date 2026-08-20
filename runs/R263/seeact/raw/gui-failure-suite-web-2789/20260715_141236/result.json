@@ -1,0 +1,11 @@
+{
+    "task": [
+        "Go to Track your order."
+    ],
+    "website": "http://localhost:3000/failures/hidden-behind-menu-only-path",
+    "num_step": 2,
+    "action_history": [
+        "[a] Track your order -> CLICK",
+        "TERMINATE"
+    ]
+}

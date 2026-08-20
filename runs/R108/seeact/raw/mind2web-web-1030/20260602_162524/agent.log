@@ -1,0 +1,224 @@
+2026-06-02 16:25:27,959 - Loaded website: https://www.ign.com
+2026-06-02 16:25:34,421 - results\runs\2026-06-02_162521\seeact\raw\mind2web-web-1030\20260602_162524\screenshots\screen_1.png
+2026-06-02 16:25:35,066 - TASK: Find an editor's choice review with a score of 10 in the boardgame category.
+2026-06-02 16:25:35,066 - Previous:
+2026-06-02 16:25:35,067 - calling generate
+2026-06-02 16:25:39,608 - ----------
+2026-06-02 16:25:39,608 - To handle the cookie consent banner, I will click on the "ZUSTIMMEN" button.
+2026-06-02 16:25:39,608 - 
+2026-06-02 16:25:39,608 - **Action:** CLICK BC
+2026-06-02 16:25:39,608 - ----------
+2026-06-02 16:25:39,608 - If none of these elements match your target element or your target action doesn't involve an element, please select BF.
+2026-06-02 16:25:39,608 - A. (0.167, 0.045) <svg role="presentation"">parent_node: STARTSEITE</svg>
+2026-06-02 16:25:39,608 - B. (0.194, 0.045) <button">Startseite</button>
+2026-06-02 16:25:39,608 - C. (0.203, 0.045) <label">Startseite</label>
+2026-06-02 16:25:39,608 - D. (0.196, 0.048) <button type="button"">parent_node: Deutschland title="Toggle Sidebar"</button>
+2026-06-02 16:25:39,608 - E. (0.047, 0.049) <img">alt="IGN Logo"</img>
+2026-06-02 16:25:39,608 - F. (0.048, 0.055) <a">parent_node: Deutschland</a>
+2026-06-02 16:25:39,608 - G. (0.098, 0.115) <a">Startseite</a>
+2026-06-02 16:25:39,608 - H. (0.031, 0.155) <svg">parent_node: News</svg>
+2026-06-02 16:25:39,608 - I. (0.098, 0.155) <a">News</a>
+2026-06-02 16:25:39,608 - J. (0.244, 0.171) <a">Impressum</a>
+2026-06-02 16:25:39,608 - K. (0.031, 0.195) <svg">parent_node: Tests & Reviews</svg>
+2026-06-02 16:25:39,608 - L. (0.098, 0.195) <a">Tests & Reviews</a>
+2026-06-02 16:25:39,608 - M. (0.244, 0.211) <a">Nutzervereinbarung</a>
+2026-06-02 16:25:39,608 - N. (0.031, 0.235) <svg">parent_node: Previews & Vorschauen</svg>
+2026-06-02 16:25:39,608 - O. (0.098, 0.235) <a">Previews & Vorschauen</a>
+2026-06-02 16:25:39,608 - P. (0.244, 0.251) <a">Datenschutzbestimmungen</a>
+2026-06-02 16:25:39,608 - Q. (0.031, 0.275) <svg">parent_node: PS5</svg>
+2026-06-02 16:25:39,608 - R. (0.098, 0.275) <a">PS5</a>
+2026-06-02 16:25:39,608 - S. (0.244, 0.291) <a">Cookie-Richtlinien</a>
+2026-06-02 16:25:39,608 - T. (0.031, 0.315) <svg">parent_node: Xbox Series X</svg>
+2026-06-02 16:25:39,608 - U. (0.098, 0.315) <a">Xbox Series X</a>
+2026-06-02 16:25:39,608 - V. (0.244, 0.33) <ul">Impressum Nutzervereinbarung Datenschutzbestimmungen Cookie-Richtlinien RSS IGN Deutschland wird betrieben in Lizenz von eMense International BV</ul>
+2026-06-02 16:25:39,608 - W. (0.244, 0.331) <a">RSS</a>
+2026-06-02 16:25:39,608 - X. (0.031, 0.355) <svg">parent_node: PC</svg>
+2026-06-02 16:25:39,608 - Y. (0.098, 0.355) <a">PC</a>
+2026-06-02 16:25:39,608 - Z. (0.098, 0.38) <ul">Startseite News Tests & Reviews Previews & Vorschauen PS5 Xbox Series X PC Switch 2 Kino & Serien Podcast Videos Mehr anzeigen</ul>
+2026-06-02 16:25:39,608 - AA. (0.031, 0.395) <svg">parent_node: Switch 2</svg>
+2026-06-02 16:25:39,608 - AB. (0.098, 0.395) <a">Switch 2</a>
+2026-06-02 16:25:39,624 - AC. (0.031, 0.435) <svg">parent_node: Kino & Serien</svg>
+2026-06-02 16:25:39,624 - AD. (0.098, 0.435) <a">Kino & Serien</a>
+2026-06-02 16:25:39,624 - AE. (0.244, 0.449) <li">IGN Deutschland wird betrieben in Lizenz von eMense International BV</li>
+2026-06-02 16:25:39,624 - AF. (0.244, 0.468) <a">parent_node: IGN Deutschland wird betrieben in Lizenz von...</a>
+2026-06-02 16:25:39,624 - AG. (0.031, 0.475) <svg">parent_node: Podcast</svg>
+2026-06-02 16:25:39,624 - AH. (0.098, 0.475) <a">Podcast</a>
+2026-06-02 16:25:39,624 - AI. (0.098, 0.5) <aside">Deutschland Startseite News Tests & Reviews Previews & Vorschauen PS5 Xbox Series X PC Switch 2 Kino & Serien Podcast Videos Mehr anzeigen STARTSEITE Mehr anzeigen Impressum Nutzervereinbarung Datenschutzbestimmungen Cookie-Richtlinien...</aside>
+2026-06-02 16:25:39,624 - AJ. (0.031, 0.515) <svg">.st0{stroke:#41495a;stroke-width:10;stroke-miterlimit:10;}</svg>
+2026-06-02 16:25:39,624 - AK. (0.098, 0.515) <a">.st0{stroke:#41495a;stroke-width:10;stroke-miterlimit:10;} Videos</a>
+2026-06-02 16:25:39,624 - AL. (0.298, 0.531) <a">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt</a>
+2026-06-02 16:25:39,624 - AM. (0.302, 0.531) <article">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt</article>
+2026-06-02 16:25:39,624 - AN. (0.496, 0.531) <a">Call of Duty: Modern Warfare 4 – Erste Eindrücke vom Multiplayer-Modus</a>
+2026-06-02 16:25:39,624 - AO. (0.593, 0.531) <section">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt Call of Duty: Modern Warfare 4 – Erste Eindrücke vom Multiplayer-Modus Tom Holland spricht über die Zukunft von Spider-Man...</section>
+2026-06-02 16:25:39,624 - AP. (0.69, 0.531) <a">Tom Holland spricht über die Zukunft von Spider-Man im MCU</a>
+2026-06-02 16:25:39,624 - AQ. (0.883, 0.531) <article">Open-World-RPG zu Der Herr der Ringe und neues Kingdom Come-Spiel in Entwicklung</article>
+2026-06-02 16:25:39,624 - AR. (0.887, 0.531) <a">Open-World-RPG zu Der Herr der Ringe und neues Kingdom Come-Spiel in Entwicklung</a>
+2026-06-02 16:25:39,624 - AS. (0.031, 0.555) <svg">parent_node: Mehr anzeigen</svg>
+2026-06-02 16:25:39,624 - AT. (0.098, 0.555) <a">Mehr anzeigen</a>
+2026-06-02 16:25:39,624 - AU. (0.165, 0.555) <svg role="presentation"">parent_node: Mehr anzeigen</svg>
+2026-06-02 16:25:39,624 - AV. (0.098, 0.64) <a">Suchen</a>
+2026-06-02 16:25:39,624 - AW. (0.101, 0.641) <input type="text"">name="q" placeholder="Suchen auf IGN Deutschland"</input>
+2026-06-02 16:25:39,624 - AX. (0.107, 0.641) <form">Suchen</form>
+2026-06-02 16:25:39,624 - AY. (0.5, 0.73) <figure">Wir respektieren Ihre Privatsphäre</figure>
+2026-06-02 16:25:39,624 - BA. (0.619, 0.956) <button">MEHR OPTIONEN</button>
+2026-06-02 16:25:39,624 - BB. (0.767, 0.956) <button">ABLEHNEN</button>
+2026-06-02 16:25:39,624 - BC. (0.914, 0.956) <button">ZUSTIMMEN</button>
+2026-06-02 16:25:39,624 - BD. (0.055, 0.963) <a">Login</a>
+2026-06-02 16:25:39,624 - BE. (0.141, 0.963) <a">Registrieren</a>
+2026-06-02 16:25:39,624 - BF. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 16:25:42,815 - ELEMENT: BC
+2026-06-02 16:25:42,815 - 
+2026-06-02 16:25:42,815 - ACTION: CLICK
+2026-06-02 16:25:42,815 - 
+2026-06-02 16:25:42,815 - VALUE: None
+2026-06-02 16:25:43,187 - Clicked on element: ZUSTIMMEN
+2026-06-02 16:25:48,303 - results\runs\2026-06-02_162521\seeact\raw\mind2web-web-1030\20260602_162524\screenshots\screen_2.png
+2026-06-02 16:25:48,833 - TASK: Find an editor's choice review with a score of 10 in the boardgame category.
+2026-06-02 16:25:48,833 - Previous:
+2026-06-02 16:25:48,833 - [button] ZUSTIMMEN -> CLICK
+2026-06-02 16:25:48,833 - calling generate
+2026-06-02 16:25:54,650 - ----------
+2026-06-02 16:25:54,666 - To find an editor's choice review with a score of 10 in the boardgame category, I will start by using the search bar on the left.
+2026-06-02 16:25:54,666 - 
+2026-06-02 16:25:54,666 - Action:
+2026-06-02 16:25:54,666 - Type "board game" into the search bar (element `AY`).
+2026-06-02 16:25:54,667 - ----------
+2026-06-02 16:25:54,669 - If none of these elements match your target element or your target action doesn't involve an element, please select BE.
+2026-06-02 16:25:54,669 - A. (0.167, 0.045) <svg role="presentation"">parent_node: STARTSEITE</svg>
+2026-06-02 16:25:54,669 - B. (0.194, 0.045) <button">Startseite</button>
+2026-06-02 16:25:54,669 - C. (0.203, 0.045) <label">Startseite</label>
+2026-06-02 16:25:54,669 - D. (0.196, 0.048) <button type="button"">parent_node: Deutschland title="Toggle Sidebar"</button>
+2026-06-02 16:25:54,669 - E. (0.047, 0.049) <img">alt="IGN Logo"</img>
+2026-06-02 16:25:54,669 - F. (0.048, 0.055) <a">parent_node: Deutschland</a>
+2026-06-02 16:25:54,669 - G. (0.098, 0.115) <a">Startseite</a>
+2026-06-02 16:25:54,669 - H. (0.595, 0.134) <iframe">aria-label="Anzeige" name="google_ads_iframe_/23305235610/IGN_DE/IGN_ROS_billboard_0" title="Anzeigeninhalte von Drittanbietern"</iframe>
+2026-06-02 16:25:54,669 - I. (0.031, 0.155) <svg">parent_node: News</svg>
+2026-06-02 16:25:54,669 - J. (0.098, 0.155) <a">News</a>
+2026-06-02 16:25:54,669 - K. (0.244, 0.171) <a">Impressum</a>
+2026-06-02 16:25:54,669 - L. (0.031, 0.195) <svg">parent_node: Tests & Reviews</svg>
+2026-06-02 16:25:54,669 - M. (0.098, 0.195) <a">Tests & Reviews</a>
+2026-06-02 16:25:54,669 - N. (0.244, 0.211) <a">Nutzervereinbarung</a>
+2026-06-02 16:25:54,669 - O. (0.031, 0.235) <svg">parent_node: Previews & Vorschauen</svg>
+2026-06-02 16:25:54,669 - P. (0.098, 0.235) <a">Previews & Vorschauen</a>
+2026-06-02 16:25:54,669 - Q. (0.244, 0.251) <a">Datenschutzbestimmungen</a>
+2026-06-02 16:25:54,669 - R. (0.031, 0.275) <svg">parent_node: PS5</svg>
+2026-06-02 16:25:54,669 - S. (0.098, 0.275) <a">PS5</a>
+2026-06-02 16:25:54,669 - T. (0.244, 0.291) <a">Cookie-Richtlinien</a>
+2026-06-02 16:25:54,669 - U. (0.031, 0.315) <svg">parent_node: Xbox Series X</svg>
+2026-06-02 16:25:54,669 - V. (0.098, 0.315) <a">Xbox Series X</a>
+2026-06-02 16:25:54,669 - W. (0.244, 0.33) <ul">Impressum Nutzervereinbarung Datenschutzbestimmungen Cookie-Richtlinien RSS IGN Deutschland wird betrieben in Lizenz von eMense International BV</ul>
+2026-06-02 16:25:54,669 - X. (0.244, 0.331) <a">RSS</a>
+2026-06-02 16:25:54,669 - Y. (0.031, 0.355) <svg">parent_node: PC</svg>
+2026-06-02 16:25:54,669 - Z. (0.098, 0.355) <a">PC</a>
+2026-06-02 16:25:54,669 - AA. (0.098, 0.38) <ul">Startseite News Tests & Reviews Previews & Vorschauen PS5 Xbox Series X PC Switch 2 Kino & Serien Podcast Videos Mehr anzeigen</ul>
+2026-06-02 16:25:54,669 - AB. (0.031, 0.395) <svg">parent_node: Switch 2</svg>
+2026-06-02 16:25:54,669 - AC. (0.098, 0.395) <a">Switch 2</a>
+2026-06-02 16:25:54,669 - AD. (0.031, 0.435) <svg">parent_node: Kino & Serien</svg>
+2026-06-02 16:25:54,669 - AE. (0.098, 0.435) <a">Kino & Serien</a>
+2026-06-02 16:25:54,669 - AF. (0.244, 0.449) <li">IGN Deutschland wird betrieben in Lizenz von eMense International BV</li>
+2026-06-02 16:25:54,669 - AG. (0.244, 0.468) <a">parent_node: IGN Deutschland wird betrieben in Lizenz von...</a>
+2026-06-02 16:25:54,669 - AH. (0.031, 0.475) <svg">parent_node: Podcast</svg>
+2026-06-02 16:25:54,669 - AI. (0.098, 0.475) <a">Podcast</a>
+2026-06-02 16:25:54,669 - AJ. (0.098, 0.5) <aside">Deutschland Startseite News Tests & Reviews Previews & Vorschauen PS5 Xbox Series X PC Switch 2 Kino & Serien Podcast Videos Mehr anzeigen STARTSEITE Mehr anzeigen Impressum Nutzervereinbarung Datenschutzbestimmungen Cookie-Richtlinien...</aside>
+2026-06-02 16:25:54,669 - AK. (0.031, 0.515) <svg">.st0{stroke:#41495a;stroke-width:10;stroke-miterlimit:10;}</svg>
+2026-06-02 16:25:54,669 - AL. (0.098, 0.515) <a">.st0{stroke:#41495a;stroke-width:10;stroke-miterlimit:10;} Videos</a>
+2026-06-02 16:25:54,669 - AM. (0.299, 0.531) <a">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt</a>
+2026-06-02 16:25:54,669 - AN. (0.302, 0.531) <article">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt</article>
+2026-06-02 16:25:54,669 - AO. (0.497, 0.531) <a">Call of Duty: Modern Warfare 4 – Erste Eindrücke vom Multiplayer-Modus</a>
+2026-06-02 16:25:54,669 - AP. (0.595, 0.531) <section">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt Call of Duty: Modern Warfare 4 – Erste Eindrücke vom Multiplayer-Modus Tom Holland spricht über die Zukunft von Spider-Man...</section>
+2026-06-02 16:25:54,669 - AQ. (0.692, 0.531) <a">Tom Holland spricht über die Zukunft von Spider-Man im MCU</a>
+2026-06-02 16:25:54,669 - AR. (0.887, 0.531) <article">Open-World-RPG zu Der Herr der Ringe und neues Kingdom Come-Spiel in Entwicklung</article>
+2026-06-02 16:25:54,669 - AS. (0.891, 0.531) <a">Open-World-RPG zu Der Herr der Ringe und neues Kingdom Come-Spiel in Entwicklung</a>
+2026-06-02 16:25:54,669 - AT. (0.031, 0.555) <svg">parent_node: Mehr anzeigen</svg>
+2026-06-02 16:25:54,669 - AU. (0.098, 0.555) <a">Mehr anzeigen</a>
+2026-06-02 16:25:54,669 - AV. (0.165, 0.555) <svg role="presentation"">parent_node: Mehr anzeigen</svg>
+2026-06-02 16:25:54,669 - AW. (0.098, 0.64) <a">Suchen</a>
+2026-06-02 16:25:54,669 - AX. (0.101, 0.641) <input type="text"">name="q" placeholder="Suchen auf IGN Deutschland"</input>
+2026-06-02 16:25:54,669 - AY. (0.107, 0.641) <form">Suchen</form>
+2026-06-02 16:25:54,669 - BA. (0.055, 0.963) <a">Login</a>
+2026-06-02 16:25:54,669 - BB. (0.141, 0.963) <a">Registrieren</a>
+2026-06-02 16:25:54,669 - BC. (0.913, 0.986) <img">parent_node: Datenschutz</img>
+2026-06-02 16:25:54,669 - BD. (0.946, 0.986) <a">Datenschutz</a>
+2026-06-02 16:25:54,669 - BE. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 16:25:59,905 - ELEMENT: AX
+2026-06-02 16:25:59,905 - 
+2026-06-02 16:25:59,905 - ACTION: TYPE
+2026-06-02 16:25:59,905 - 
+2026-06-02 16:25:59,905 - VALUE: board game
+2026-06-02 16:25:59,960 - Typed 'board game' into element: name="q" placeholder="Suchen auf IGN Deutschland"
+2026-06-02 16:26:04,348 - results\runs\2026-06-02_162521\seeact\raw\mind2web-web-1030\20260602_162524\screenshots\screen_3.png
+2026-06-02 16:26:04,987 - TASK: Find an editor's choice review with a score of 10 in the boardgame category.
+2026-06-02 16:26:04,987 - Previous:
+2026-06-02 16:26:04,987 - [button] ZUSTIMMEN -> CLICK
+2026-06-02 16:26:04,987 - [input type="text"] name="q" placeholder="Suchen auf IGN Deutschland" -> TYPE: board game
+2026-06-02 16:26:04,988 - calling generate
+2026-06-02 16:26:09,812 - ----------
+2026-06-02 16:26:09,828 - The next action is to submit the search query "board game" by pressing the Enter key.
+2026-06-02 16:26:09,828 - 
+2026-06-02 16:26:09,828 - **Action:**
+2026-06-02 16:26:09,828 - PRESS ENTER
+2026-06-02 16:26:09,828 - ----------
+2026-06-02 16:26:09,828 - If none of these elements match your target element or your target action doesn't involve an element, please select BE.
+2026-06-02 16:26:09,828 - A. (0.167, 0.045) <svg role="presentation"">parent_node: STARTSEITE</svg>
+2026-06-02 16:26:09,828 - B. (0.194, 0.045) <button">Startseite</button>
+2026-06-02 16:26:09,828 - C. (0.203, 0.045) <label">Startseite</label>
+2026-06-02 16:26:09,828 - D. (0.196, 0.048) <button type="button"">parent_node: Deutschland title="Toggle Sidebar"</button>
+2026-06-02 16:26:09,828 - E. (0.047, 0.049) <img">alt="IGN Logo"</img>
+2026-06-02 16:26:09,828 - F. (0.048, 0.055) <a">parent_node: Deutschland</a>
+2026-06-02 16:26:09,828 - G. (0.098, 0.115) <a">Startseite</a>
+2026-06-02 16:26:09,828 - H. (0.595, 0.134) <iframe">aria-label="Anzeige" name="google_ads_iframe_/23305235610/IGN_DE/IGN_ROS_billboard_0" title="Anzeigeninhalte von Drittanbietern"</iframe>
+2026-06-02 16:26:09,828 - I. (0.031, 0.155) <svg">parent_node: News</svg>
+2026-06-02 16:26:09,828 - J. (0.098, 0.155) <a">News</a>
+2026-06-02 16:26:09,828 - K. (0.244, 0.171) <a">Impressum</a>
+2026-06-02 16:26:09,828 - L. (0.031, 0.195) <svg">parent_node: Tests & Reviews</svg>
+2026-06-02 16:26:09,828 - M. (0.098, 0.195) <a">Tests & Reviews</a>
+2026-06-02 16:26:09,828 - N. (0.244, 0.211) <a">Nutzervereinbarung</a>
+2026-06-02 16:26:09,828 - O. (0.031, 0.235) <svg">parent_node: Previews & Vorschauen</svg>
+2026-06-02 16:26:09,828 - P. (0.098, 0.235) <a">Previews & Vorschauen</a>
+2026-06-02 16:26:09,828 - Q. (0.244, 0.251) <a">Datenschutzbestimmungen</a>
+2026-06-02 16:26:09,828 - R. (0.031, 0.275) <svg">parent_node: PS5</svg>
+2026-06-02 16:26:09,828 - S. (0.098, 0.275) <a">PS5</a>
+2026-06-02 16:26:09,828 - T. (0.244, 0.291) <a">Cookie-Richtlinien</a>
+2026-06-02 16:26:09,828 - U. (0.031, 0.315) <svg">parent_node: Xbox Series X</svg>
+2026-06-02 16:26:09,828 - V. (0.098, 0.315) <a">Xbox Series X</a>
+2026-06-02 16:26:09,828 - W. (0.244, 0.33) <ul">Impressum Nutzervereinbarung Datenschutzbestimmungen Cookie-Richtlinien RSS IGN Deutschland wird betrieben in Lizenz von eMense International BV</ul>
+2026-06-02 16:26:09,828 - X. (0.244, 0.331) <a">RSS</a>
+2026-06-02 16:26:09,828 - Y. (0.031, 0.355) <svg">parent_node: PC</svg>
+2026-06-02 16:26:09,828 - Z. (0.098, 0.355) <a">PC</a>
+2026-06-02 16:26:09,828 - AA. (0.098, 0.38) <ul">Startseite News Tests & Reviews Previews & Vorschauen PS5 Xbox Series X PC Switch 2 Kino & Serien Podcast Videos Mehr anzeigen</ul>
+2026-06-02 16:26:09,828 - AB. (0.031, 0.395) <svg">parent_node: Switch 2</svg>
+2026-06-02 16:26:09,828 - AC. (0.098, 0.395) <a">Switch 2</a>
+2026-06-02 16:26:09,828 - AD. (0.031, 0.435) <svg">parent_node: Kino & Serien</svg>
+2026-06-02 16:26:09,828 - AE. (0.098, 0.435) <a">Kino & Serien</a>
+2026-06-02 16:26:09,828 - AF. (0.244, 0.449) <li">IGN Deutschland wird betrieben in Lizenz von eMense International BV</li>
+2026-06-02 16:26:09,828 - AG. (0.244, 0.468) <a">parent_node: IGN Deutschland wird betrieben in Lizenz von...</a>
+2026-06-02 16:26:09,828 - AH. (0.031, 0.475) <svg">parent_node: Podcast</svg>
+2026-06-02 16:26:09,828 - AI. (0.098, 0.475) <a">Podcast</a>
+2026-06-02 16:26:09,828 - AJ. (0.098, 0.5) <aside">Deutschland Startseite News Tests & Reviews Previews & Vorschauen PS5 Xbox Series X PC Switch 2 Kino & Serien Podcast Videos Mehr anzeigen STARTSEITE Mehr anzeigen Impressum Nutzervereinbarung Datenschutzbestimmungen Cookie-Richtlinien...</aside>
+2026-06-02 16:26:09,828 - AK. (0.031, 0.515) <svg">.st0{stroke:#41495a;stroke-width:10;stroke-miterlimit:10;}</svg>
+2026-06-02 16:26:09,828 - AL. (0.098, 0.515) <a">.st0{stroke:#41495a;stroke-width:10;stroke-miterlimit:10;} Videos</a>
+2026-06-02 16:26:09,828 - AM. (0.299, 0.531) <a">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt</a>
+2026-06-02 16:26:09,828 - AN. (0.302, 0.531) <article">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt</article>
+2026-06-02 16:26:09,828 - AO. (0.497, 0.531) <a">Call of Duty: Modern Warfare 4 – Erste Eindrücke vom Multiplayer-Modus</a>
+2026-06-02 16:26:09,828 - AP. (0.595, 0.531) <section">The Witcher 3: Wild Hunt Erweiterung „Songs of the Past“ angekündigt Call of Duty: Modern Warfare 4 – Erste Eindrücke vom Multiplayer-Modus Tom Holland spricht über die Zukunft von Spider-Man...</section>
+2026-06-02 16:26:09,828 - AQ. (0.692, 0.531) <a">Tom Holland spricht über die Zukunft von Spider-Man im MCU</a>
+2026-06-02 16:26:09,828 - AR. (0.887, 0.531) <article">Open-World-RPG zu Der Herr der Ringe und neues Kingdom Come-Spiel in Entwicklung</article>
+2026-06-02 16:26:09,828 - AS. (0.891, 0.531) <a">Open-World-RPG zu Der Herr der Ringe und neues Kingdom Come-Spiel in Entwicklung</a>
+2026-06-02 16:26:09,828 - AT. (0.031, 0.555) <svg">parent_node: Mehr anzeigen</svg>
+2026-06-02 16:26:09,828 - AU. (0.098, 0.555) <a">Mehr anzeigen</a>
+2026-06-02 16:26:09,828 - AV. (0.165, 0.555) <svg role="presentation"">parent_node: Mehr anzeigen</svg>
+2026-06-02 16:26:09,828 - AW. (0.098, 0.64) <a">Suchen</a>
+2026-06-02 16:26:09,828 - AX. (0.101, 0.641) <input type="text"">input value="board game" name="q" placeholder="Suchen auf IGN Deutschland"</input>
+2026-06-02 16:26:09,828 - AY. (0.107, 0.641) <form">Suchen</form>
+2026-06-02 16:26:09,828 - BA. (0.055, 0.963) <a">Login</a>
+2026-06-02 16:26:09,828 - BB. (0.141, 0.963) <a">Registrieren</a>
+2026-06-02 16:26:09,828 - BC. (0.913, 0.986) <img">parent_node: Datenschutz</img>
+2026-06-02 16:26:09,828 - BD. (0.946, 0.986) <a">Datenschutz</a>
+2026-06-02 16:26:09,828 - BE. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 16:26:15,769 - ELEMENT: BE
+2026-06-02 16:26:15,769 - 
+2026-06-02 16:26:15,769 - ACTION: PRESS ENTER
+2026-06-02 16:26:15,769 - 
+2026-06-02 16:26:15,769 - VALUE: None
+2026-06-02 16:26:15,854 - Pressed Enter on element: 
+2026-06-02 16:26:16,387 - Browser context closed.

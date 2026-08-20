@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "Action: CLICK on element H",
+        "action_grounding": "ELEMENT: H\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.501,
+                0.035
+            ],
+            "description": "About",
+            "tag_with_role": "a role=\"button\"",
+            "box_raw": [
+                719.3250122070312,
+                17.450000762939453,
+                100.07500457763672,
+                37.10000228881836
+            ],
+            "box": [
+                719.3250122070312,
+                17.450000762939453,
+                819.400016784668,
+                54.55000305175781
+            ],
+            "selector": 

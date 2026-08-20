@@ -1,0 +1,11 @@
+13:34:37 INFO mobilerun: LLM for task gui-failure-suite-mobile-2764: provider=GoogleGenAI model=gemini-3-pro-preview max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+13:34:41 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Photos app, open Photo Details and add the photo to your Favorites.
+Use the currently opened app only.
+13:34:42 INFO mobilerun: 🔄 Resetting device state before run
+13:34:43 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+13:34:43 INFO mobilerun: 🔄 Step 1/50
+13:34:45 INFO mobilerun: FastAgent response:
+13:34:46 WARNING mobilerun: Attempt 1 failed with error: ClientError('404 Not Found. {\'message\': \'{\\n  "error": {\\n    "code": 404,\\n    "message": "This model models/gemini-3-pro-preview is no longer available. Please update your code to use a newer model for the latest features and improvements.",\\n    "status": "NOT_FOUND"\\n  }\\n}\\n\', \'status\': \'Not Found\'}')
+13:34:48 WARNING mobilerun: Attempt 2 failed with error: ClientError('404 Not Found. {\'message\': \'{\\n  "error": {\\n    "code": 404,\\n    "message": "This model models/gemini-3-pro-preview is no longer available. Please update your code to use a newer model for the latest features and improvements.",\\n    "status": "NOT_FOUND"\\n  }\\n}\\n\', \'status\': \'Not Found\'}')
+13:34:50 WARNING mobilerun: Attempt 3 failed with error: ClientError('404 Not Found. {\'message\': \'{\\n  "error": {\\n    "code": 404,\\n    "message": "This model models/gemini-3-pro-preview is no longer available. Please update your code to use a newer model for the latest features and improvements.",\\n    "status": "NOT_FOUND"\\n  }\\n}\\n\', \'status\': \'Not Found\'}')
+13:34:50 ERROR mobilerun: Error during task execution: 404 Not Found. {'message': '{\n  "error": {\n    "code": 404,\n    "message": "This model models/gemini-3-pro-preview is no longer available. Please update your code to use a newer model for the latest features and improvements.",\n    "status": "NOT_FOUND"\n  }\n}\n', 'status': 'Not Found'}

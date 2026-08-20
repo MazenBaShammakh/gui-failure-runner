@@ -30,12 +30,27 @@ agents/
   pc_agent/                   desktop agent (PC-Agent / X-PLUG MobileAgent, vendored script)
   ufo/                         Windows-only desktop agent (native UIA/Win32 automation)
 benchmark/
-  tasks/                   original .jsonl task files
+  tasks/                   original .jsonl task files          [git-ignored]
   gui-failure-suite/       gui-failure-suite .jsonl files
 batches/                   saved .json lists of task IDs (for --batch)
-results/runs/              written at runtime, one timestamped dir per run
-analysis/                  Jupyter notebook for cross-agent comparison
+results/runs/               written at runtime, one timestamped dir per run     [git-ignored]
+runs/                       tracked copies of the runs cited by the thesis appendix,
+                            folders renamed R01, R02, … so wall-clock timestamps aren't
+                            exposed in the thesis text (same internal layout as
+                            results/runs/; see results/run_id_aliases.md for the mapping)
+eval/                       stats/visualization tooling that reads runs/
+  evaluation_report.ipynb  notebook: outcome rates, latency/effort, taxonomy slices
+  run_viewer.py            streamlit app: browse/filter records, drill into raw logs
+  helpers/
+    load_results.py        loads runs/**/*.jsonl into a pandas DataFrame
+    infer_steps.py          reconstructs missing `steps` counts from raw logs
+analysis/                  older/working analysis scripts, superseded by eval/  [git-ignored]
 ```
+
+`results/` (including `results/runs/`) is machine-generated at runtime and can grow large, so
+it's git-ignored — `runs/` is the small, curated, tracked subset actually cited in the thesis.
+`analysis/` predates `eval/` and is kept locally as a scratch workspace; it isn't part of the
+tracked repo and a fresh clone won't have it. See [Analysis](#analysis) below for `eval/`.
 
 ---
 
@@ -494,6 +509,10 @@ recorded on every record so baseline and faulty runs can be compared, and is not
 agents. `failure_category_id` is reserved — it is always `null` at run time and is back-filled at
 analysis time from the external failure-category repo, keyed by `task_id`.
 
+`results/runs/` is where every run writes at runtime and is git-ignored; `runs/` is a separate,
+tracked, `RXX`-aliased subset of it curated for the thesis and read by the tooling in
+[`eval/`](#analysis).
+
 ---
 
 ## Agent defaults
@@ -520,12 +539,17 @@ above that default to Gemini).
 
 ## Analysis
 
-`analysis/load_results.py` walks `results/runs/**`, parses every `TaskResult` record into a
-pandas DataFrame, and dedupes to the latest attempt per `(task_id, agent)` (so reruns don't
-double-count). Columns missing from older runs are normalized to null.
+`eval/` holds the tracked stats/visualization tooling. It reads from `runs/` — the
+`RXX`-aliased, tracked copies of the runs cited by the thesis appendix — not from the
+git-ignored `results/runs/`.
+
+`eval/helpers/load_results.py` walks `runs/**`, parses every `TaskResult` record into a
+pandas DataFrame, and dedupes to the latest attempt per `(task_id, agent, modality)` (so
+reruns, and the same task run under a different modality, don't collide). Columns missing
+from older runs are normalized to null.
 
 ```python
-from analysis.load_results import load
+from eval.helpers.load_results import load
 
 df = load()                                      # all runs, latest attempt each
 df = load(failure_map="../path/to/categories.json")   # join failure_category_id by task_id
@@ -535,9 +559,26 @@ df = load(failure_map="../path/to/categories.json")   # join failure_category_id
 list of `{"task_id", "failure_category_id"}` rows) — this is how the external
 failure-category repo gets joined in.
 
-`analysis/compare_results.ipynb` is a ready-to-run notebook that uses the loader to show
+`eval/helpers/infer_steps.py` reconstructs a missing `steps` count for a record from its raw
+agent log, for agents/runs where the unified record never recorded one:
+
+```python
+from eval.helpers.load_results import load
+from eval.helpers.infer_steps import backfill_steps
+
+df = backfill_steps(load())   # adds steps_inferred + steps_filled columns
+```
+
+`eval/evaluation_report.ipynb` is a ready-to-run notebook that uses the loader to show
 outcome rates per agent, slices by `split` / `app` / `benchmark_id`, latency/effort summaries,
 and a cross-agent status pivot over `task_id`.
+
+`eval/run_viewer.py` is a Streamlit app for browsing/filtering individual records and drilling
+into a task's raw logs and screenshots:
+
+```bash
+streamlit run eval/run_viewer.py
+```
 
 ---
 

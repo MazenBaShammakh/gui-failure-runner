@@ -1,0 +1,7 @@
+2026-06-02 16:23:43,050 - Failed to fully load the webpage before timeout
+2026-06-02 16:23:43,050 - Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.redbox.com/
+Call log:
+  - navigating to "https://www.redbox.com/", waiting until "load"
+
+2026-06-02 16:23:43,105 - Browser context closed.
+2026-06-02 16:23:43,109 - Agent stopped.

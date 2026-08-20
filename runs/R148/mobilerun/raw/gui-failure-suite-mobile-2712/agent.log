@@ -1,0 +1,6 @@
+11:35:19 INFO mobilerun: LLM for task gui-failure-suite-mobile-2712: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile
+11:35:23 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: Add this product to the cart.
+Use the currently opened app only.
+11:35:24 INFO mobilerun: 🔄 Resetting device state before run
+11:35:25 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+11:35:25 INFO mobilerun: 🔄 Step 1/50

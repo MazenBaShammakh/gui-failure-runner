@@ -1,0 +1,6 @@
+[6]<a aria-label=Back to failure list />
+Shipping Address
+City
+|SHADOW(open)|[12]<input type=text placeholder=Start typing a city… />
+[14]<button />
+	Save address

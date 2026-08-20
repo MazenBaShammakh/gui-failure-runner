@@ -1,0 +1,178 @@
+12:16:26 INFO mobilerun: LLM for task gui-failure-suite-mobile-2871: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+12:16:32 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Social app, open Create Post and attach a photo from your library.
+Use the currently opened app only, which includes a springboard of subapps.
+12:16:34 INFO mobilerun: 🔄 Resetting device state before run
+12:16:35 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+12:16:35 INFO mobilerun: 🔄 Step 1/50
+12:16:38 INFO mobilerun: FastAgent response:
+12:16:42 INFO mobilerun: I will open the "mobile" app which contains the springboard of subapps
+12:16:42 INFO mobilerun: .
+
+<function_calls>
+<invoke name="click_at">
+<parameter name="x">6
+12:16:42 INFO mobilerun: 17</parameter>
+<parameter name="y">650</parameter>
+</invoke>
+</
+12:16:42 INFO mobilerun: function_calls>
+12:16:42 INFO mobilerun: 
+12:16:43 INFO mobilerun: 💡 Tool results:
+12:16:43 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (723, 762)</output>
+</result>
+</function_results>
+12:16:44 INFO mobilerun: 🔄 Step 2/50
+12:16:45 INFO mobilerun: FastAgent response:
+12:16:47 INFO mobilerun: I will click on the "Attach a photo"
+12:16:47 INFO mobilerun:  button to attach a photo from the library.
+
+<function_calls>
+<invoke name="click_at">
+12:16:47 INFO mobilerun: 
+<parameter name="x">226</parameter>
+<parameter name="y">310</parameter>
+</
+12:16:47 INFO mobilerun: invoke>
+</function_calls>
+12:16:47 INFO mobilerun: 
+12:16:47 INFO mobilerun: 💡 Tool results:
+12:16:47 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (265, 363)</output>
+</result>
+</function_results>
+12:16:49 INFO mobilerun: 🔄 Step 3/50
+12:16:50 INFO mobilerun: FastAgent response:
+12:16:56 INFO mobilerun: I will tap on
+12:16:56 INFO mobilerun:  the "Attach a photo" button to attach a photo from the library.
+
+<function_calls>
+<invoke name="click
+12:16:56 INFO mobilerun: _at">
+<parameter name="x">225</parameter>
+<parameter name="y">6
+12:16:56 INFO mobilerun: 10</parameter>
+</invoke>
+</function_calls>
+12:16:56 INFO mobilerun: 
+12:16:56 INFO mobilerun: 💡 Tool results:
+12:16:56 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (264, 715)</output>
+</result>
+</function_results>
+12:16:57 INFO mobilerun: 🔄 Step 4/50
+12:16:59 INFO mobilerun: FastAgent response:
+12:17:06 INFO mobilerun: I will wait a
+12:17:06 INFO mobilerun:  moment for the photo gallery to finish loading.
+
+<function_calls>
+<invoke name="wait">
+<parameter name="
+12:17:06 INFO mobilerun: duration">1.0</parameter>
+</invoke>
+</function_calls>
+12:17:06 INFO mobilerun: 
+12:17:08 INFO mobilerun: 💡 Tool results:
+12:17:08 INFO mobilerun: <function_results>
+<result>
+<name>wait</name>
+<output>Waited for 1.0 seconds</output>
+</result>
+</function_results>
+12:17:09 INFO mobilerun: 🔄 Step 5/50
+12:17:10 INFO mobilerun: FastAgent response:
+12:17:24 INFO mobilerun: I will swipe up on the screen to scroll down and see if the
+12:17:24 INFO mobilerun:  photo library/gallery is visible below.
+
+<function_calls>
+<invoke name="swipe">
+<parameter name="
+12:17:24 INFO mobilerun: coordinate">[460, 1500]</parameter>
+<parameter name="coordinate2">
+12:17:24 INFO mobilerun: [460, 500]</parameter>
+<parameter name="duration">1.0</parameter>
+</invoke>
+</function_calls>
+12:17:24 INFO mobilerun: 
+12:17:26 INFO mobilerun: 💡 Tool results:
+12:17:26 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1758) to (539, 586)</output>
+</result>
+</function_results>
+12:17:27 INFO mobilerun: 🔄 Step 6/50
+12:17:28 INFO mobilerun: FastAgent response:
+12:17:31 INFO mobilerun: I will swipe back down to bring the photo selection sheet / Create Post screen back into full view.
+
+<function_
+12:17:31 INFO mobilerun: calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+12:17:31 INFO mobilerun: [460, 500]</parameter>
+<parameter name="coordinate2">[460, 1500]</parameter>
+
+12:17:31 INFO mobilerun: <parameter name="duration">1.0</parameter>
+</invoke>
+</function_calls>
+12:17:31 INFO mobilerun: 
+12:17:34 INFO mobilerun: 💡 Tool results:
+12:17:34 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 586) to (539, 1758)</output>
+</result>
+</function_results>
+12:17:35 INFO mobilerun: 🔄 Step 7/50
+12:17:36 INFO mobilerun: FastAgent response:
+12:17:50 INFO mobilerun: I will swipe up on the photo gallery sheet to expand it
+12:17:50 INFO mobilerun:  and reveal the photos in the library.
+
+<function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+12:17:50 INFO mobilerun: [460, 800]</parameter>
+<parameter name="coordinate2">
+12:17:50 INFO mobilerun: [460, 200]</parameter>
+<parameter name="duration">1.0</parameter>
+</invoke>
+</
+12:17:50 INFO mobilerun: function_calls>
+12:17:50 INFO mobilerun: 
+12:17:52 INFO mobilerun: 💡 Tool results:
+12:17:52 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 938) to (539, 234)</output>
+</result>
+</function_results>
+12:17:53 INFO mobilerun: 🔄 Step 8/50
+12:17:55 INFO mobilerun: FastAgent response:
+12:18:01 INFO mobilerun: I will swipe down on the screen to scroll back up to the main section of the Create Post screen
+12:18:01 INFO mobilerun: .
+
+<function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+12:18:01 INFO mobilerun: [460, 400]</parameter>
+<parameter name="coordinate2">[460, 1600]</parameter>
+
+12:18:01 INFO mobilerun: <parameter name="duration">1.0</parameter>
+</invoke>
+</function_calls>
+12:18:01 INFO mobilerun: 
+12:18:03 INFO mobilerun: 💡 Tool results:
+12:18:03 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 469) to (539, 1875)</output>
+</result>
+</function_results>
+12:18:04 INFO mobilerun: 🔄 Step 9/50
+12:18:05 INFO mobilerun: FastAgent response:

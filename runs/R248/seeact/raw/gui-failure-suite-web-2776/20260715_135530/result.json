@@ -1,0 +1,15 @@
+{
+    "task": [
+        "Search the Help Center for password reset instructions."
+    ],
+    "website": "http://localhost:3000/failures/action-not-exposed-in-tree",
+    "num_step": 6,
+    "action_history": [
+        "[input type=\"text\"] parent_node: Search aria-label=\"Search articles\" placeholder=\"Search articles\u2026\" -> TYPE: password reset instructions",
+        "[button type=\"button\"] Search -> CLICK",
+        "NONE",
+        "NONE",
+        "NONE",
+        "TERMINATE"
+    ]
+}

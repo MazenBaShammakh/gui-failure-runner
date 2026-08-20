@@ -1,0 +1,24 @@
+{
+    "task": [
+        "find my trip with confirmation number SFTBAO including first and last name Joe Lukeman"
+    ],
+    "website": "https://www.delta.com",
+    "num_step": 15,
+    "action_history": [
+        "[a role=\"tab\"] My Trips -> CLICK",
+        "[input type=\"text\"] parent_node: Confirmation Number* aria-label=\"Confirmation Number*\" name=\"confirmationNo\" placeholder=\"ex. SFTORB\" -> TYPE: SFTBAO",
+        "[input type=\"text\"] parent_node: First Name aria-label=\"First Name\" name=\"firstName\" placeholder=\"\" -> TYPE: Joe",
+        "[input type=\"text\"] parent_node: Last Name aria-label=\"Last Name\" name=\"lastName\" placeholder=\"\" -> TYPE: Lukeman",
+        "[button type=\"submit\"] Search -> CLICK",
+        "NONE",
+        "[input type=\"text\"] parent_node: opens in a new popup aria-label=\"Confirmation Number\" name=\"confirmationNo\" placeholder=\"ex. SFTORB\" -> TYPE: SFTBAO",
+        "[input type=\"text\"] parent_node: First Name aria-label=\"First Name\" name=\"firstName\" -> TYPE: Joe",
+        "[input type=\"text\"] parent_node: Last Name aria-label=\"Last Name\" name=\"lastName\" -> TYPE: Lukeman",
+        "[button role=\"button\" type=\"submit\"] Search -> CLICK",
+        "NONE",
+        "[input type=\"text\"] parent_node: opens in a new popup aria-label=\"Confirmation Number\" name=\"confirmationNo\" placeholder=\"ex. SFTORB\" -> TYPE: SFTBAO",
+        "[input type=\"text\"] parent_node: First Name aria-label=\"First Name\" name=\"firstName\" -> TYPE: Joe",
+        "[input type=\"text\"] parent_node: Last Name aria-label=\"Last Name\" name=\"lastName\" -> TYPE: Lukeman",
+        "[button role=\"button\" type=\"submit\"] Search -> CLICK"
+    ]
+}

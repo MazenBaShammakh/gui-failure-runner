@@ -1,0 +1,232 @@
+14:23:56 INFO mobilerun: LLM for task gui-failure-suite-mobile-2893: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+14:23:58 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Careers app, open Filter Jobs and open the last role in the results.
+Use the currently opened app only, which includes a springboard of subapps.
+14:23:59 INFO mobilerun: 🔄 Resetting device state before run
+14:24:00 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+14:24:00 INFO mobilerun: 🔄 Step 1/50
+14:24:03 INFO mobilerun: FastAgent response:
+14:24:08 INFO mobilerun: I will open Expo Go to access the springboard of subapps and locate the Careers app.<
+14:24:08 INFO mobilerun: function_calls>
+<invoke name="click_at">
+<parameter name="x">852</
+14:24:08 INFO mobilerun: parameter>
+<parameter name="y">1340</parameter>
+</invoke>
+</function_
+14:24:08 INFO mobilerun: calls>
+14:24:08 INFO mobilerun: 
+14:24:09 INFO mobilerun: 💡 Tool results:
+14:24:09 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (998, 1570)</output>
+</result>
+</function_results>
+14:24:10 INFO mobilerun: 🔄 Step 2/50
+14:24:11 INFO mobilerun: FastAgent response:
+14:24:13 INFO mobilerun: I will swipe up to scroll down to the bottom of the job list to find the last
+14:24:13 INFO mobilerun:  role.<function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+14:24:14 INFO mobilerun: [460, 1500]</parameter>
+<parameter name="coordinate2">[460, 300]</parameter>
+14:24:14 INFO mobilerun: 
+<parameter name="duration">1</parameter>
+</invoke>
+</function_calls>
+14:24:14 INFO mobilerun: 
+14:24:16 INFO mobilerun: 💡 Tool results:
+14:24:16 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1758) to (539, 352)</output>
+</result>
+</function_results>
+14:24:17 INFO mobilerun: 🔄 Step 3/50
+14:24:18 INFO mobilerun: FastAgent response:
+14:24:20 INFO mobilerun: I will swipe up again to scroll to the bottom of the job list to find
+14:24:20 INFO mobilerun:  the very last role.<function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+14:24:20 INFO mobilerun: [460, 1500]</parameter>
+<parameter name="coordinate2">[460, 300]</parameter
+14:24:20 INFO mobilerun: >
+<parameter name="duration">1</parameter>
+</invoke>
+</function_calls>
+14:24:20 INFO mobilerun: 
+14:24:23 INFO mobilerun: 💡 Tool results:
+14:24:23 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1758) to (539, 352)</output>
+</result>
+</function_results>
+14:24:24 INFO mobilerun: 🔄 Step 4/50
+14:24:25 INFO mobilerun: FastAgent response:
+14:24:27 INFO mobilerun: I will swipe up to scroll further down the list of job results
+14:24:27 INFO mobilerun:  to reach the very last role. <function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+14:24:27 INFO mobilerun: [460, 1500]</parameter>
+<parameter name="coordinate2">
+14:24:28 INFO mobilerun: [460, 300]</parameter>
+<parameter name="duration">1</parameter>
+</invoke>
+</function_calls
+14:24:28 INFO mobilerun: >
+14:24:28 INFO mobilerun: 
+14:24:30 INFO mobilerun: 💡 Tool results:
+14:24:30 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1758) to (539, 352)</output>
+</result>
+</function_results>
+14:24:31 INFO mobilerun: 🔄 Step 5/50
+14:24:32 INFO mobilerun: FastAgent response:
+14:24:35 INFO mobilerun: I will swipe up on the job list to ensure I have reached the very bottom and
+14:24:35 INFO mobilerun:  can see the last role. <function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+14:24:36 INFO mobilerun: [460, 1600]</parameter>
+<parameter name="coordinate2">
+14:24:36 INFO mobilerun: [460, 400]</parameter>
+<parameter name="duration">1</parameter>
+</invoke>
+</function_calls>
+14:24:36 INFO mobilerun: 
+14:24:38 INFO mobilerun: 💡 Tool results:
+14:24:38 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1875) to (539, 469)</output>
+</result>
+</function_results>
+14:24:39 INFO mobilerun: 🔄 Step 6/50
+14:24:40 INFO mobilerun: FastAgent response:
+14:24:42 INFO mobilerun: I will swipe up
+14:24:42 INFO mobilerun:  to reach the very bottom of the results list. <function_calls>
+<invoke name="swipe">
+<parameter name="coordinate
+14:24:42 INFO mobilerun: ">[460, 1600]</parameter>
+<parameter name="coordinate2">
+14:24:42 INFO mobilerun: [460, 400]</parameter>
+<parameter name="duration">1</parameter>
+</invoke>
+
+14:24:42 INFO mobilerun: </function_calls>
+14:24:42 INFO mobilerun: 
+14:24:45 INFO mobilerun: 💡 Tool results:
+14:24:45 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1875) to (539, 469)</output>
+</result>
+</function_results>
+14:24:46 INFO mobilerun: 🔄 Step 7/50
+14:24:47 INFO mobilerun: FastAgent response:
+14:24:49 INFO mobilerun: I
+14:24:49 INFO mobilerun:  will swipe up to scroll down through the list of 12 job results to find the very last role. <function_calls>
+
+14:24:50 INFO mobilerun: <invoke name="swipe">
+<parameter name="coordinate">[460, 1500]</parameter
+14:24:50 INFO mobilerun: >
+<parameter name="coordinate2">[460, 500]</parameter>
+<parameter name="duration">
+14:24:50 INFO mobilerun: 1</parameter>
+</invoke>
+</function_calls>
+14:24:50 INFO mobilerun: 
+14:24:52 INFO mobilerun: 💡 Tool results:
+14:24:52 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1758) to (539, 586)</output>
+</result>
+</function_results>
+14:24:53 INFO mobilerun: 🔄 Step 8/50
+14:24:54 INFO mobilerun: FastAgent response:
+14:24:57 INFO mobilerun: I
+14:24:57 INFO mobilerun:  will swipe up on the job list to reach the bottom and reveal the last role. <function_calls>
+<invoke name="swipe">
+14:24:57 INFO mobilerun: 
+<parameter name="coordinate">[460, 1600]</parameter>
+<parameter name="
+14:24:57 INFO mobilerun: coordinate2">[460, 300]</parameter>
+<parameter name="duration">1</parameter
+14:24:57 INFO mobilerun: >
+</invoke>
+</function_calls>
+14:24:57 INFO mobilerun: 
+14:24:59 INFO mobilerun: 💡 Tool results:
+14:24:59 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1875) to (539, 352)</output>
+</result>
+</function_results>
+14:25:00 INFO mobilerun: 🔄 Step 9/50
+14:25:01 INFO mobilerun: FastAgent response:
+14:25:05 INFO mobilerun: I will swipe up on
+14:25:05 INFO mobilerun:  the job list to reveal the remaining job cards and reach the last role. <function_calls>
+<invoke name="
+14:25:05 INFO mobilerun: swipe">
+<parameter name="coordinate">[460, 1400]</parameter>
+<parameter
+14:25:05 INFO mobilerun:  name="coordinate2">[460, 400]</parameter>
+<parameter name="duration">1</parameter>
+</
+14:25:06 INFO mobilerun: invoke>
+</function_calls>
+14:25:06 INFO mobilerun: 
+14:25:08 INFO mobilerun: 💡 Tool results:
+14:25:08 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1641) to (539, 469)</output>
+</result>
+</function_results>
+14:25:09 INFO mobilerun: 🔄 Step 10/50
+14:25:10 INFO mobilerun: FastAgent response:
+14:25:16 INFO mobilerun: I will swipe up on the job list using a faster swipe motion to scroll down to the last job in the list
+14:25:16 INFO mobilerun: . <function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+14:25:16 INFO mobilerun: [460, 1400]</parameter>
+<parameter name="coordinate2">[460, 400]</parameter>
+14:25:16 INFO mobilerun: 
+<parameter name="duration">0.3</parameter>
+</invoke>
+</function_calls>
+14:25:16 INFO mobilerun: 
+14:25:17 INFO mobilerun: 💡 Tool results:
+14:25:17 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1641) to (539, 469)</output>
+</result>
+</function_results>
+14:25:18 INFO mobilerun: 🔄 Step 11/50
+14:25:19 INFO mobilerun: FastAgent response:
+14:25:33 INFO mobilerun: I
+14:25:33 INFO mobilerun:  will swipe up on the left margin of the screen (outside the job cards) to scroll down to the bottom of the job list
+14:25:33 INFO mobilerun: . <function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+14:25:33 INFO mobilerun: [20, 1400]</parameter>
+<parameter name="coordinate2">[20, 400]</parameter
+14:25:33 INFO mobilerun: >
+<parameter name="duration">0.5</parameter>
+</invoke>
+</function_calls>
+14:25:33 INFO mobilerun: 
+14:25:34 INFO mobilerun: 💡 Tool results:
+14:25:34 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (23, 1641) to (23, 469)</output>
+</result>
+</function_results>
+14:25:35 INFO mobilerun: 🔄 Step 12/50
+14:25:36 INFO mobilerun: FastAgent response:

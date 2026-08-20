@@ -1,0 +1,171 @@
+13:03:36 INFO mobilerun: LLM for task gui-failure-suite-mobile-2763: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+13:03:41 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Banking app, open Card Application, fill in the form, and submit your application.
+Use the currently opened app only.
+13:03:42 INFO mobilerun: 🔄 Resetting device state before run
+13:03:43 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+13:03:43 INFO mobilerun: 🔄 Step 1/50
+13:03:46 INFO mobilerun: FastAgent response:
+13:03:51 INFO mobilerun: I will swipe up to open the app drawer and find
+13:03:51 INFO mobilerun:  the Banking app.<function_calls>
+<invoke name="swipe">
+<parameter name="coordinate">
+13:03:51 INFO mobilerun: [460, 1638]</parameter>
+<parameter name="coordinate2">
+13:03:51 INFO mobilerun: [460, 614]</parameter>
+<parameter name="duration">0.5</parameter>
+</invoke>
+</function
+13:03:51 INFO mobilerun: _calls>
+13:03:52 INFO mobilerun: 
+13:03:53 INFO mobilerun: 💡 Tool results:
+13:03:53 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (539, 1920) to (539, 720)</output>
+</result>
+</function_results>
+13:03:54 INFO mobilerun: 🔄 Step 2/50
+13:03:55 INFO mobilerun: FastAgent response:
+13:03:59 INFO mobilerun: I will open the Banking app by clicking on its icon.<function_calls>
+13:03:59 INFO mobilerun: 
+<invoke name="click_at">
+<parameter name="x">830</parameter>
+<
+13:04:00 INFO mobilerun: parameter name="y">920</parameter>
+</invoke>
+</function_calls>
+13:04:00 INFO mobilerun: 
+13:04:00 INFO mobilerun: 💡 Tool results:
+13:04:00 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (972, 1078)</output>
+</result>
+</function_results>
+13:04:01 INFO mobilerun: 🔄 Step 3/50
+13:04:02 INFO mobilerun: FastAgent response:
+13:04:03 INFO mobilerun: I will click on "Card application" to
+13:04:04 INFO mobilerun:  open the application form.<function_calls>
+<invoke name="click_at">
+<parameter name="x">
+13:04:04 INFO mobilerun: 450</parameter>
+<parameter name="y">1120</parameter>
+</invoke>
+13:04:04 INFO mobilerun: 
+</function_calls>
+13:04:04 INFO mobilerun: 
+13:04:04 INFO mobilerun: 💡 Tool results:
+13:04:04 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (527, 1312)</output>
+</result>
+</function_results>
+13:04:05 INFO mobilerun: 🔄 Step 4/50
+13:04:06 INFO mobilerun: FastAgent response:
+13:04:08 INFO mobilerun: I will click on the "Full name
+13:04:09 INFO mobilerun: " input field to focus it.<function_calls>
+<invoke name="click_at">
+<parameter
+13:04:09 INFO mobilerun:  name="x">300</parameter>
+<parameter name="y">750</parameter>
+
+13:04:09 INFO mobilerun: </invoke>
+</function_calls>
+13:04:09 INFO mobilerun: 
+13:04:09 INFO mobilerun: 💡 Tool results:
+13:04:09 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (351, 879)</output>
+</result>
+</function_results>
+13:04:10 INFO mobilerun: 🔄 Step 5/50
+13:04:11 INFO mobilerun: FastAgent response:
+13:04:13 INFO mobilerun: I will type "
+13:04:13 INFO mobilerun: John Doe" into the "Full name" input field.<function_calls>
+<invoke name="type_text
+13:04:13 INFO mobilerun: ">
+<parameter name="clear">true</parameter>
+<parameter name="text">John Doe</parameter>
+13:04:13 INFO mobilerun: 
+</invoke>
+</function_calls>
+13:04:13 INFO mobilerun: 
+13:04:14 INFO mobilerun: 💡 Tool results:
+13:04:14 INFO mobilerun: <function_results>
+<result>
+<name>type_text</name>
+<output>Text typed successfully (clear=True)</output>
+</result>
+</function_results>
+13:04:15 INFO mobilerun: 🔄 Step 6/50
+13:04:16 INFO mobilerun: FastAgent response:
+13:04:19 INFO mobilerun: I will click on the "Email address" input field to focus it.
+13:04:20 INFO mobilerun: <function_calls>
+<invoke name="click_at">
+<parameter name="x">300</
+13:04:20 INFO mobilerun: parameter>
+<parameter name="y">980</parameter>
+</invoke>
+</function_calls
+13:04:20 INFO mobilerun: >
+13:04:20 INFO mobilerun: 
+13:04:20 INFO mobilerun: 💡 Tool results:
+13:04:20 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (351, 1148)</output>
+</result>
+</function_results>
+13:04:21 INFO mobilerun: 🔄 Step 7/50
+13:04:22 INFO mobilerun: FastAgent response:
+13:04:24 INFO mobilerun: I will type "john.doe@example.com" into the "Email address
+13:04:24 INFO mobilerun: " input field.<function_calls>
+<invoke name="type_text">
+<parameter name="clear">
+13:04:24 INFO mobilerun: true</parameter>
+<parameter name="text">john.doe@example.com</parameter>
+</invoke
+13:04:24 INFO mobilerun: >
+</function_calls>
+13:04:24 INFO mobilerun: 
+13:04:25 INFO mobilerun: 💡 Tool results:
+13:04:25 INFO mobilerun: <function_results>
+<result>
+<name>type_text</name>
+<output>Text typed successfully (clear=True)</output>
+</result>
+</function_results>
+13:04:26 INFO mobilerun: 🔄 Step 8/50
+13:04:27 INFO mobilerun: FastAgent response:
+13:04:29 INFO mobilerun: I will click on the "Submit application
+13:04:29 INFO mobilerun: " button to submit the form.<function_calls>
+<invoke name="click_at">
+<parameter name="x">
+13:04:29 INFO mobilerun: 500</parameter>
+<parameter name="y">1150</parameter>
+</invoke>
+13:04:29 INFO mobilerun: 
+</function_calls>
+13:04:29 INFO mobilerun: 
+13:04:29 INFO mobilerun: 💡 Tool results:
+13:04:29 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (586, 1348)</output>
+</result>
+</function_results>
+13:04:30 INFO mobilerun: 🔄 Step 9/50
+13:04:32 INFO mobilerun: FastAgent response:
+13:04:33 INFO mobilerun: I have successfully opened the Card Application in the Banking app,
+13:04:33 INFO mobilerun:  filled in the form with the name "John Doe" and email "john.doe@example.com", and submitted the application
+13:04:33 INFO mobilerun: . The screen now displays "Application submitted".<function_calls>
+<invoke name="complete">
+<parameter name="
+13:04:34 INFO mobilerun: message">The card application has been successfully filled out and submitted.</parameter>
+<parameter name="success">true</parameter>
+13:04:34 INFO mobilerun: 
+</invoke>
+</function_calls>
+13:04:34 INFO mobilerun: 

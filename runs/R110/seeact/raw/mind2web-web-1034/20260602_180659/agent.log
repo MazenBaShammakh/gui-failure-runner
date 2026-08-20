@@ -1,0 +1,349 @@
+2026-06-02 18:07:15,185 - Loaded website: https://www.discogs.com
+2026-06-02 18:07:24,736 - results\runs\2026-06-02_180652\seeact\raw\mind2web-web-1034\20260602_180659\screenshots\screen_1.png
+2026-06-02 18:07:25,694 - TASK: Open the page with a overview about the submission of releases.
+2026-06-02 18:07:25,694 - Previous:
+2026-06-02 18:07:25,694 - calling generate
+2026-06-02 18:07:34,192 - ----------
+2026-06-02 18:07:34,198 - To find the page with an overview about the submission of releases, we can explore the "Community" dropdown menu. Let's start by hovering over the "Community" menu.
+2026-06-02 18:07:34,198 - 
+2026-06-02 18:07:34,198 - **Target Element:** Community (Q)  
+2026-06-02 18:07:34,198 - **Location:** Top navigation bar  
+2026-06-02 18:07:34,198 - **Operation:** HOVER on the "Community" element (Q)
+2026-06-02 18:07:34,198 - ----------
+2026-06-02 18:07:34,203 - If none of these elements match your target element or your target action doesn't involve an element, please select BA.
+2026-06-02 18:07:34,203 - A. (0.376, 0.028) <input role="combobox" type="text"">parent_node: All aria-label="Search artists, albums and more..." name="q" placeholder="Search artists, albums and more..."</input>
+2026-06-02 18:07:34,203 - B. (0.393, 0.028) <form role="search"">AllReleasesArtistsLabelsView all results</form>
+2026-06-02 18:07:34,203 - C. (0.642, 0.028) <button type="submit"">parent_node: All aria-label="Search"</button>
+2026-06-02 18:07:34,203 - D. (0.061, 0.029) <a">Discogs</a>
+2026-06-02 18:07:34,203 - E. (0.842, 0.029) <a">Shopping Cart</a>
+2026-06-02 18:07:34,203 - F. (0.898, 0.029) <nav">Shopping CartSign Up / Log InSign Up / Log In</nav>
+2026-06-02 18:07:34,203 - G. (0.927, 0.029) <a">Sign Up / Log InSign Up / Log In</a>
+2026-06-02 18:07:34,203 - H. (0.057, 0.03) <svg role="img"">Discogs</svg>
+2026-06-02 18:07:34,203 - I. (0.495, 0.053) <header">All Releases Artists Labels View all results Sign Up / Log In Explore Discography Shop Music Sell Music Community Digs</header>
+2026-06-02 18:07:34,203 - J. (0.137, 0.074) <label">All</label>
+2026-06-02 18:07:34,203 - K. (0.18, 0.074) <label">Releases</label>
+2026-06-02 18:07:34,203 - L. (0.232, 0.074) <label">Artists</label>
+2026-06-02 18:07:34,203 - M. (0.277, 0.074) <label">Labels</label>
+2026-06-02 18:07:34,203 - N. (0.077, 0.083) <button type="button"">Explore Discography</button>
+2026-06-02 18:07:34,203 - O. (0.211, 0.083) <button type="button"">Shop Music</button>
+2026-06-02 18:07:34,203 - P. (0.321, 0.083) <button type="button"">Sell Music</button>
+2026-06-02 18:07:34,203 - Q. (0.429, 0.083) <button type="button"">Community</button>
+2026-06-02 18:07:34,203 - R. (0.495, 0.083) <nav">Explore Discography Shop Music Sell Music Community Digs</nav>
+2026-06-02 18:07:34,203 - S. (0.95, 0.083) <button type="button"">Digs</button>
+2026-06-02 18:07:34,203 - T. (0.393, 0.12) <a">View all results</a>
+2026-06-02 18:07:34,203 - U. (0.649, 0.12) <svg">parent_node: View all results</svg>
+2026-06-02 18:07:34,204 - V. (0.776, 0.215) <a">Camilo Lara’s Collection Is Sample Heaven</a>
+2026-06-02 18:07:34,204 - W. (0.353, 0.281) <a">How One Collector Found Her Way Back to Music Through Vinyl</a>
+2026-06-02 18:07:34,204 - X. (0.776, 0.347) <a">Celebrating 100 Years of Miles Davis</a>
+2026-06-02 18:07:34,204 - Y. (0.495, 0.5) <html">Discogs.com How One Collector Found Her Way Back to Music Through Vinyl Camilo Lara’s Collection Is Sample Heaven Celebrating 100 Years of Miles Davis This Week’s Best-Selling Vinyl Records &...</html>
+2026-06-02 18:07:34,204 - Z. (0.144, 0.631) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:07:34,204 - AA. (0.307, 0.631) <a">parent_node: Trink Aus! Wir Müssen Gehen / Alles... aria-label="Die Toten Hosen - Trink Aus! Wir Müssen Gehen / Alles Muss Raus!"</a>
+2026-06-02 18:07:34,204 - AB. (0.471, 0.632) <a">parent_node: Time Echoes aria-label="S.O.N.S - Time Echoes"</a>
+2026-06-02 18:07:34,204 - AC. (0.634, 0.632) <a">parent_node: Sour aria-label="Olivia Rodrigo - Sour"</a>
+2026-06-02 18:07:34,204 - AD. (0.797, 0.632) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:07:34,204 - AE. (0.144, 0.718) <li role="group"">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00</li>
+2026-06-02 18:07:34,204 - AF. (0.307, 0.718) <li role="group"">Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl, Box Set, Limited Edition, Numbered 33 copies from $111.63</li>
+2026-06-02 18:07:34,204 - AG. (0.471, 0.719) <li role="group"">Time Echoes S.O.N.S 2026 Progressive Trance, Techno, Minimal Vinyl, Album 5 copies from $78.00</li>
+2026-06-02 18:07:34,204 - AH. (0.634, 0.719) <li role="group"">Sour Olivia Rodrigo 2026 Pop, Pop Punk, Ballad Vinyl, Album, Club Edition, Numbered 17 copies from $135.00</li>
+2026-06-02 18:07:34,204 - AI. (0.797, 0.719) <li role="group"">Inferno Boards Of Canada 2026 Downtempo, Ambient, IDM, Experimental Vinyl, Album 9 copies from $34.00</li>
+2026-06-02 18:07:34,204 - AJ. (0.28, 0.72) <ul">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00 Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl,...</ul>
+2026-06-02 18:07:34,204 - AK. (0.097, 0.764) <a">Inferno</a>
+2026-06-02 18:07:34,204 - AL. (0.437, 0.766) <a">Time Echoes</a>
+2026-06-02 18:07:34,204 - AM. (0.58, 0.766) <a">Sour</a>
+2026-06-02 18:07:34,204 - AN. (0.749, 0.766) <a">Inferno</a>
+2026-06-02 18:07:34,204 - AO. (0.304, 0.775) <a">Trink Aus! Wir Müssen Gehen / Alles Muss Raus!</a>
+2026-06-02 18:07:34,204 - AP. (0.117, 0.783) <a">Boards Of Canada</a>
+2026-06-02 18:07:34,204 - AQ. (0.423, 0.785) <a">S.O.N.S</a>
+2026-06-02 18:07:34,204 - AR. (0.598, 0.785) <a">Olivia Rodrigo</a>
+2026-06-02 18:07:34,204 - AS. (0.77, 0.785) <a">Boards Of Canada</a>
+2026-06-02 18:07:34,204 - AT. (0.276, 0.804) <a">Die Toten Hosen</a>
+2026-06-02 18:07:34,204 - AU. (0.928, 0.805) <a">Paul McCartney</a>
+2026-06-02 18:07:34,204 - AV. (0.797, 0.831) <button">Accept All</button>
+2026-06-02 18:07:34,204 - AW. (0.42, 0.866) <button">List of Partners (vendors)</button>
+2026-06-02 18:07:34,204 - AX. (0.797, 0.887) <button">Reject All</button>
+2026-06-02 18:07:34,204 - AY. (0.797, 0.944) <button">Cookie Settings</button>
+2026-06-02 18:07:34,204 - AZ. (0.05, 0.968) <a">here</a>
+2026-06-02 18:07:34,206 - BA. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:07:42,938 - ELEMENT: Q
+2026-06-02 18:07:42,938 - 
+2026-06-02 18:07:42,938 - ACTION: HOVER
+2026-06-02 18:07:42,938 - 
+2026-06-02 18:07:42,938 - VALUE: None
+2026-06-02 18:07:43,013 - Hovered over element: Community
+2026-06-02 18:07:49,801 - results\runs\2026-06-02_180652\seeact\raw\mind2web-web-1034\20260602_180659\screenshots\screen_2.png
+2026-06-02 18:07:50,571 - TASK: Open the page with a overview about the submission of releases.
+2026-06-02 18:07:50,571 - Previous:
+2026-06-02 18:07:50,571 - [button type="button"] Community -> HOVER
+2026-06-02 18:07:50,571 - calling generate
+2026-06-02 18:07:59,717 - ----------
+2026-06-02 18:07:59,725 - To find the page with an overview about the submission of releases, we can first dismiss the cookie banner to get a clearer view of the website, then search for it or scroll down to the footer where submission guidelines are typically located. Let's start by rejecting the cookies.
+2026-06-02 18:07:59,725 - 
+2026-06-02 18:07:59,725 - Action:
+2026-06-02 18:07:59,725 - click on "Reject All" button (AX).
+2026-06-02 18:07:59,725 - ----------
+2026-06-02 18:07:59,725 - If none of these elements match your target element or your target action doesn't involve an element, please select BA.
+2026-06-02 18:07:59,725 - A. (0.377, 0.028) <input role="combobox" type="text"">parent_node: All aria-label="Search artists, albums and more..." name="q" placeholder="Search artists, albums and more..."</input>
+2026-06-02 18:07:59,725 - B. (0.395, 0.028) <form role="search"">AllReleasesArtistsLabelsView all results</form>
+2026-06-02 18:07:59,725 - C. (0.645, 0.028) <button type="submit"">parent_node: All aria-label="Search"</button>
+2026-06-02 18:07:59,725 - D. (0.061, 0.029) <a">Discogs</a>
+2026-06-02 18:07:59,725 - E. (0.845, 0.029) <a">Shopping Cart</a>
+2026-06-02 18:07:59,725 - F. (0.902, 0.029) <nav">Shopping CartSign Up / Log InSign Up / Log In</nav>
+2026-06-02 18:07:59,725 - G. (0.931, 0.029) <a">Sign Up / Log InSign Up / Log In</a>
+2026-06-02 18:07:59,725 - H. (0.057, 0.03) <svg role="img"">Discogs</svg>
+2026-06-02 18:07:59,725 - I. (0.497, 0.053) <header">All Releases Artists Labels View all results Sign Up / Log In Explore Discography Shop Music Sell Music Community Digs</header>
+2026-06-02 18:07:59,725 - J. (0.137, 0.074) <label">All</label>
+2026-06-02 18:07:59,725 - K. (0.18, 0.074) <label">Releases</label>
+2026-06-02 18:07:59,725 - L. (0.232, 0.074) <label">Artists</label>
+2026-06-02 18:07:59,725 - M. (0.277, 0.074) <label">Labels</label>
+2026-06-02 18:07:59,725 - N. (0.077, 0.083) <button type="button"">Explore Discography</button>
+2026-06-02 18:07:59,725 - O. (0.211, 0.083) <button type="button"">Shop Music</button>
+2026-06-02 18:07:59,725 - P. (0.321, 0.083) <button type="button"">Sell Music</button>
+2026-06-02 18:07:59,725 - Q. (0.429, 0.083) <button type="button"">Community</button>
+2026-06-02 18:07:59,725 - R. (0.497, 0.083) <nav">Explore Discography Shop Music Sell Music Community Digs</nav>
+2026-06-02 18:07:59,725 - S. (0.954, 0.083) <button type="button"">Digs</button>
+2026-06-02 18:07:59,725 - T. (0.395, 0.12) <a">View all results</a>
+2026-06-02 18:07:59,725 - U. (0.652, 0.12) <svg">parent_node: View all results</svg>
+2026-06-02 18:07:59,725 - V. (0.777, 0.215) <a">Camilo Lara’s Collection Is Sample Heaven</a>
+2026-06-02 18:07:59,725 - W. (0.355, 0.281) <a">How One Collector Found Her Way Back to Music Through Vinyl</a>
+2026-06-02 18:07:59,725 - X. (0.777, 0.347) <a">Celebrating 100 Years of Miles Davis</a>
+2026-06-02 18:07:59,725 - Y. (0.497, 0.5) <html">Discogs.com How One Collector Found Her Way Back to Music Through Vinyl Camilo Lara’s Collection Is Sample Heaven Celebrating 100 Years of Miles Davis This Week’s Best-Selling Vinyl Records &...</html>
+2026-06-02 18:07:59,725 - Z. (0.146, 0.631) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:07:59,725 - AA. (0.309, 0.631) <a">parent_node: Trink Aus! Wir Müssen Gehen / Alles... aria-label="Die Toten Hosen - Trink Aus! Wir Müssen Gehen / Alles Muss Raus!"</a>
+2026-06-02 18:07:59,725 - AB. (0.472, 0.632) <a">parent_node: Time Echoes aria-label="S.O.N.S - Time Echoes"</a>
+2026-06-02 18:07:59,725 - AC. (0.636, 0.632) <a">parent_node: Sour aria-label="Olivia Rodrigo - Sour"</a>
+2026-06-02 18:07:59,725 - AD. (0.799, 0.632) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:07:59,725 - AE. (0.146, 0.718) <li role="group"">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00</li>
+2026-06-02 18:07:59,725 - AF. (0.309, 0.718) <li role="group"">Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl, Box Set, Limited Edition, Numbered 33 copies from $111.63</li>
+2026-06-02 18:07:59,725 - AG. (0.472, 0.719) <li role="group"">Time Echoes S.O.N.S 2026 Progressive Trance, Techno, Minimal Vinyl, Album 5 copies from $78.00</li>
+2026-06-02 18:07:59,725 - AH. (0.636, 0.719) <li role="group"">Sour Olivia Rodrigo 2026 Pop, Pop Punk, Ballad Vinyl, Album, Club Edition, Numbered 17 copies from $135.00</li>
+2026-06-02 18:07:59,725 - AI. (0.799, 0.719) <li role="group"">Inferno Boards Of Canada 2026 Downtempo, Ambient, IDM, Experimental Vinyl, Album 9 copies from $34.00</li>
+2026-06-02 18:07:59,725 - AJ. (0.282, 0.72) <ul">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00 Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl,...</ul>
+2026-06-02 18:07:59,725 - AK. (0.098, 0.764) <a">Inferno</a>
+2026-06-02 18:07:59,725 - AL. (0.439, 0.766) <a">Time Echoes</a>
+2026-06-02 18:07:59,725 - AM. (0.582, 0.766) <a">Sour</a>
+2026-06-02 18:07:59,732 - AN. (0.751, 0.766) <a">Inferno</a>
+2026-06-02 18:07:59,732 - AO. (0.306, 0.775) <a">Trink Aus! Wir Müssen Gehen / Alles Muss Raus!</a>
+2026-06-02 18:07:59,732 - AP. (0.119, 0.783) <a">Boards Of Canada</a>
+2026-06-02 18:07:59,732 - AQ. (0.424, 0.785) <a">S.O.N.S</a>
+2026-06-02 18:07:59,732 - AR. (0.6, 0.785) <a">Olivia Rodrigo</a>
+2026-06-02 18:07:59,732 - AS. (0.772, 0.785) <a">Boards Of Canada</a>
+2026-06-02 18:07:59,732 - AT. (0.278, 0.804) <a">Die Toten Hosen</a>
+2026-06-02 18:07:59,732 - AU. (0.93, 0.805) <a">Paul McCartney</a>
+2026-06-02 18:07:59,732 - AV. (0.8, 0.839) <button">Accept All</button>
+2026-06-02 18:07:59,732 - AW. (0.421, 0.882) <button">List of Partners (vendors)</button>
+2026-06-02 18:07:59,732 - AX. (0.8, 0.895) <button">Reject All</button>
+2026-06-02 18:07:59,732 - AY. (0.8, 0.952) <button">Cookie Settings</button>
+2026-06-02 18:07:59,732 - AZ. (0.05, 0.968) <a">here</a>
+2026-06-02 18:07:59,732 - BA. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:08:08,902 - First, the next target element is the "Reject All" button, located at coordinates (0.8, 0.895) in the cookie consent banner, and the corresponding operation is to click it to clear the screen.
+2026-06-02 18:08:08,902 - 
+2026-06-02 18:08:08,902 - ELEMENT: AX
+2026-06-02 18:08:08,902 - 
+2026-06-02 18:08:08,902 - ACTION: CLICK
+2026-06-02 18:08:08,902 - 
+2026-06-02 18:08:08,902 - VALUE: None
+2026-06-02 18:08:09,175 - Clicked on element: Reject All
+2026-06-02 18:08:16,157 - results\runs\2026-06-02_180652\seeact\raw\mind2web-web-1034\20260602_180659\screenshots\screen_3.png
+2026-06-02 18:08:16,915 - TASK: Open the page with a overview about the submission of releases.
+2026-06-02 18:08:16,915 - Previous:
+2026-06-02 18:08:16,915 - [button type="button"] Community -> HOVER
+2026-06-02 18:08:16,916 - [button] Reject All -> CLICK
+2026-06-02 18:08:16,916 - calling generate
+2026-06-02 18:08:24,435 - ----------
+2026-06-02 18:08:24,451 - To find the overview about the submission of releases, I will first hover over the "Community" menu to see if there are any contribution or submission links available.
+2026-06-02 18:08:24,451 - 
+2026-06-02 18:08:24,451 - **Action:** Hover over "Community" (labeled `Q`).
+2026-06-02 18:08:24,451 - ----------
+2026-06-02 18:08:24,451 - If none of these elements match your target element or your target action doesn't involve an element, please select AV.
+2026-06-02 18:08:24,451 - A. (0.377, 0.028) <input role="combobox" type="text"">parent_node: All aria-label="Search artists, albums and more..." name="q" placeholder="Search artists, albums and more..."</input>
+2026-06-02 18:08:24,453 - B. (0.395, 0.028) <form role="search"">AllReleasesArtistsLabelsView all results</form>
+2026-06-02 18:08:24,453 - C. (0.645, 0.028) <button type="submit"">parent_node: All aria-label="Search"</button>
+2026-06-02 18:08:24,453 - D. (0.061, 0.029) <a">Discogs</a>
+2026-06-02 18:08:24,453 - E. (0.845, 0.029) <a">Shopping Cart</a>
+2026-06-02 18:08:24,453 - F. (0.902, 0.029) <nav">Shopping CartSign Up / Log InSign Up / Log In</nav>
+2026-06-02 18:08:24,453 - G. (0.931, 0.029) <a">Sign Up / Log InSign Up / Log In</a>
+2026-06-02 18:08:24,453 - H. (0.057, 0.03) <svg role="img"">Discogs</svg>
+2026-06-02 18:08:24,453 - I. (0.497, 0.053) <header">All Releases Artists Labels View all results Sign Up / Log In Explore Discography Shop Music Sell Music Community Digs</header>
+2026-06-02 18:08:24,453 - J. (0.137, 0.074) <label">All</label>
+2026-06-02 18:08:24,453 - K. (0.18, 0.074) <label">Releases</label>
+2026-06-02 18:08:24,453 - L. (0.232, 0.074) <label">Artists</label>
+2026-06-02 18:08:24,453 - M. (0.277, 0.074) <label">Labels</label>
+2026-06-02 18:08:24,453 - N. (0.077, 0.083) <button type="button"">Explore Discography</button>
+2026-06-02 18:08:24,453 - O. (0.211, 0.083) <button type="button"">Shop Music</button>
+2026-06-02 18:08:24,453 - P. (0.321, 0.083) <button type="button"">Sell Music</button>
+2026-06-02 18:08:24,453 - Q. (0.429, 0.083) <button type="button"">Community</button>
+2026-06-02 18:08:24,453 - R. (0.497, 0.083) <nav">Explore Discography Shop Music Sell Music Community Digs</nav>
+2026-06-02 18:08:24,453 - S. (0.954, 0.083) <button type="button"">Digs</button>
+2026-06-02 18:08:24,453 - T. (0.395, 0.12) <a">View all results</a>
+2026-06-02 18:08:24,453 - U. (0.652, 0.12) <svg">parent_node: View all results</svg>
+2026-06-02 18:08:24,453 - V. (0.777, 0.215) <a">Camilo Lara’s Collection Is Sample Heaven</a>
+2026-06-02 18:08:24,453 - W. (0.355, 0.281) <a">How One Collector Found Her Way Back to Music Through Vinyl</a>
+2026-06-02 18:08:24,453 - X. (0.777, 0.347) <a">Celebrating 100 Years of Miles Davis</a>
+2026-06-02 18:08:24,453 - Y. (0.497, 0.5) <html">Discogs.com How One Collector Found Her Way Back to Music Through Vinyl Camilo Lara’s Collection Is Sample Heaven Celebrating 100 Years of Miles Davis This Week’s Best-Selling Vinyl Records &...</html>
+2026-06-02 18:08:24,453 - Z. (0.146, 0.631) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:08:24,453 - AA. (0.309, 0.631) <a">parent_node: Trink Aus! Wir Müssen Gehen / Alles... aria-label="Die Toten Hosen - Trink Aus! Wir Müssen Gehen / Alles Muss Raus!"</a>
+2026-06-02 18:08:24,453 - AB. (0.472, 0.632) <a">parent_node: Time Echoes aria-label="S.O.N.S - Time Echoes"</a>
+2026-06-02 18:08:24,453 - AC. (0.636, 0.632) <a">parent_node: Sour aria-label="Olivia Rodrigo - Sour"</a>
+2026-06-02 18:08:24,453 - AD. (0.799, 0.632) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:08:24,453 - AE. (0.146, 0.718) <li role="group"">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00</li>
+2026-06-02 18:08:24,453 - AF. (0.309, 0.718) <li role="group"">Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl, Box Set, Limited Edition, Numbered 33 copies from $111.63</li>
+2026-06-02 18:08:24,453 - AG. (0.472, 0.719) <li role="group"">Time Echoes S.O.N.S 2026 Progressive Trance, Techno, Minimal Vinyl, Album 5 copies from $78.00</li>
+2026-06-02 18:08:24,453 - AH. (0.636, 0.719) <li role="group"">Sour Olivia Rodrigo 2026 Pop, Pop Punk, Ballad Vinyl, Album, Club Edition, Numbered 17 copies from $135.00</li>
+2026-06-02 18:08:24,453 - AI. (0.799, 0.719) <li role="group"">Inferno Boards Of Canada 2026 Downtempo, Ambient, IDM, Experimental Vinyl, Album 9 copies from $34.00</li>
+2026-06-02 18:08:24,453 - AJ. (0.282, 0.72) <ul">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00 Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl,...</ul>
+2026-06-02 18:08:24,453 - AK. (0.098, 0.764) <a">Inferno</a>
+2026-06-02 18:08:24,453 - AL. (0.439, 0.766) <a">Time Echoes</a>
+2026-06-02 18:08:24,453 - AM. (0.582, 0.766) <a">Sour</a>
+2026-06-02 18:08:24,453 - AN. (0.751, 0.766) <a">Inferno</a>
+2026-06-02 18:08:24,453 - AO. (0.306, 0.775) <a">Trink Aus! Wir Müssen Gehen / Alles Muss Raus!</a>
+2026-06-02 18:08:24,453 - AP. (0.119, 0.783) <a">Boards Of Canada</a>
+2026-06-02 18:08:24,453 - AQ. (0.424, 0.785) <a">S.O.N.S</a>
+2026-06-02 18:08:24,453 - AR. (0.6, 0.785) <a">Olivia Rodrigo</a>
+2026-06-02 18:08:24,453 - AS. (0.772, 0.785) <a">Boards Of Canada</a>
+2026-06-02 18:08:24,453 - AT. (0.278, 0.804) <a">Die Toten Hosen</a>
+2026-06-02 18:08:24,453 - AU. (0.93, 0.805) <a">Paul McCartney</a>
+2026-06-02 18:08:24,453 - AV. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:08:34,023 - ELEMENT: Q
+2026-06-02 18:08:34,023 - 
+2026-06-02 18:08:34,023 - ACTION: HOVER
+2026-06-02 18:08:34,023 - 
+2026-06-02 18:08:34,023 - VALUE: None
+2026-06-02 18:08:34,108 - Hovered over element: Community
+2026-06-02 18:08:40,989 - results\runs\2026-06-02_180652\seeact\raw\mind2web-web-1034\20260602_180659\screenshots\screen_4.png
+2026-06-02 18:08:41,735 - TASK: Open the page with a overview about the submission of releases.
+2026-06-02 18:08:41,735 - Previous:
+2026-06-02 18:08:41,735 - [button type="button"] Community -> HOVER
+2026-06-02 18:08:41,735 - [button] Reject All -> CLICK
+2026-06-02 18:08:41,735 - [button type="button"] Community -> HOVER
+2026-06-02 18:08:41,735 - calling generate
+2026-06-02 18:08:54,057 - ----------
+2026-06-02 18:08:54,066 - To find the page with an overview about the submission of releases, I will search for "submission of releases" in the search bar.
+2026-06-02 18:08:54,066 - 
+2026-06-02 18:08:54,066 - Action:
+2026-06-02 18:08:54,066 - `TYPE` on element `B` (the search input box) with value "submission of releases"
+2026-06-02 18:08:54,066 - ----------
+2026-06-02 18:08:54,068 - If none of these elements match your target element or your target action doesn't involve an element, please select AV.
+2026-06-02 18:08:54,068 - A. (0.377, 0.028) <input role="combobox" type="text"">parent_node: All aria-label="Search artists, albums and more..." name="q" placeholder="Search artists, albums and more..."</input>
+2026-06-02 18:08:54,068 - B. (0.395, 0.028) <form role="search"">AllReleasesArtistsLabelsView all results</form>
+2026-06-02 18:08:54,068 - C. (0.645, 0.028) <button type="submit"">parent_node: All aria-label="Search"</button>
+2026-06-02 18:08:54,068 - D. (0.061, 0.029) <a">Discogs</a>
+2026-06-02 18:08:54,069 - E. (0.845, 0.029) <a">Shopping Cart</a>
+2026-06-02 18:08:54,069 - F. (0.902, 0.029) <nav">Shopping CartSign Up / Log InSign Up / Log In</nav>
+2026-06-02 18:08:54,069 - G. (0.931, 0.029) <a">Sign Up / Log InSign Up / Log In</a>
+2026-06-02 18:08:54,069 - H. (0.057, 0.03) <svg role="img"">Discogs</svg>
+2026-06-02 18:08:54,069 - I. (0.497, 0.053) <header">All Releases Artists Labels View all results Sign Up / Log In Explore Discography Shop Music Sell Music Community Digs</header>
+2026-06-02 18:08:54,069 - J. (0.137, 0.074) <label">All</label>
+2026-06-02 18:08:54,069 - K. (0.18, 0.074) <label">Releases</label>
+2026-06-02 18:08:54,069 - L. (0.232, 0.074) <label">Artists</label>
+2026-06-02 18:08:54,070 - M. (0.277, 0.074) <label">Labels</label>
+2026-06-02 18:08:54,070 - N. (0.077, 0.083) <button type="button"">Explore Discography</button>
+2026-06-02 18:08:54,070 - O. (0.211, 0.083) <button type="button"">Shop Music</button>
+2026-06-02 18:08:54,070 - P. (0.321, 0.083) <button type="button"">Sell Music</button>
+2026-06-02 18:08:54,070 - Q. (0.429, 0.083) <button type="button"">Community</button>
+2026-06-02 18:08:54,070 - R. (0.497, 0.083) <nav">Explore Discography Shop Music Sell Music Community Digs</nav>
+2026-06-02 18:08:54,070 - S. (0.954, 0.083) <button type="button"">Digs</button>
+2026-06-02 18:08:54,070 - T. (0.395, 0.12) <a">View all results</a>
+2026-06-02 18:08:54,070 - U. (0.652, 0.12) <svg">parent_node: View all results</svg>
+2026-06-02 18:08:54,070 - V. (0.777, 0.215) <a">Camilo Lara’s Collection Is Sample Heaven</a>
+2026-06-02 18:08:54,070 - W. (0.355, 0.281) <a">How One Collector Found Her Way Back to Music Through Vinyl</a>
+2026-06-02 18:08:54,070 - X. (0.777, 0.347) <a">Celebrating 100 Years of Miles Davis</a>
+2026-06-02 18:08:54,070 - Y. (0.497, 0.5) <html">Discogs.com How One Collector Found Her Way Back to Music Through Vinyl Camilo Lara’s Collection Is Sample Heaven Celebrating 100 Years of Miles Davis This Week’s Best-Selling Vinyl Records &...</html>
+2026-06-02 18:08:54,070 - Z. (0.146, 0.631) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:08:54,070 - AA. (0.309, 0.631) <a">parent_node: Trink Aus! Wir Müssen Gehen / Alles... aria-label="Die Toten Hosen - Trink Aus! Wir Müssen Gehen / Alles Muss Raus!"</a>
+2026-06-02 18:08:54,070 - AB. (0.472, 0.632) <a">parent_node: Time Echoes aria-label="S.O.N.S - Time Echoes"</a>
+2026-06-02 18:08:54,070 - AC. (0.636, 0.632) <a">parent_node: Sour aria-label="Olivia Rodrigo - Sour"</a>
+2026-06-02 18:08:54,070 - AD. (0.799, 0.632) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:08:54,070 - AE. (0.146, 0.718) <li role="group"">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00</li>
+2026-06-02 18:08:54,070 - AF. (0.309, 0.718) <li role="group"">Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl, Box Set, Limited Edition, Numbered 33 copies from $111.63</li>
+2026-06-02 18:08:54,070 - AG. (0.472, 0.719) <li role="group"">Time Echoes S.O.N.S 2026 Progressive Trance, Techno, Minimal Vinyl, Album 5 copies from $78.00</li>
+2026-06-02 18:08:54,070 - AH. (0.636, 0.719) <li role="group"">Sour Olivia Rodrigo 2026 Pop, Pop Punk, Ballad Vinyl, Album, Club Edition, Numbered 17 copies from $135.00</li>
+2026-06-02 18:08:54,070 - AI. (0.799, 0.719) <li role="group"">Inferno Boards Of Canada 2026 Downtempo, Ambient, IDM, Experimental Vinyl, Album 9 copies from $34.00</li>
+2026-06-02 18:08:54,070 - AJ. (0.282, 0.72) <ul">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00 Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl,...</ul>
+2026-06-02 18:08:54,070 - AK. (0.098, 0.764) <a">Inferno</a>
+2026-06-02 18:08:54,070 - AL. (0.439, 0.766) <a">Time Echoes</a>
+2026-06-02 18:08:54,070 - AM. (0.582, 0.766) <a">Sour</a>
+2026-06-02 18:08:54,070 - AN. (0.751, 0.766) <a">Inferno</a>
+2026-06-02 18:08:54,070 - AO. (0.306, 0.775) <a">Trink Aus! Wir Müssen Gehen / Alles Muss Raus!</a>
+2026-06-02 18:08:54,070 - AP. (0.119, 0.783) <a">Boards Of Canada</a>
+2026-06-02 18:08:54,072 - AQ. (0.424, 0.785) <a">S.O.N.S</a>
+2026-06-02 18:08:54,072 - AR. (0.6, 0.785) <a">Olivia Rodrigo</a>
+2026-06-02 18:08:54,072 - AS. (0.772, 0.785) <a">Boards Of Canada</a>
+2026-06-02 18:08:54,072 - AT. (0.278, 0.804) <a">Die Toten Hosen</a>
+2026-06-02 18:08:54,072 - AU. (0.93, 0.805) <a">Paul McCartney</a>
+2026-06-02 18:08:54,072 - AV. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:09:03,384 - ELEMENT: A
+2026-06-02 18:09:03,384 - 
+2026-06-02 18:09:03,384 - ACTION: TYPE
+2026-06-02 18:09:03,384 - 
+2026-06-02 18:09:03,384 - VALUE: submission of releases
+2026-06-02 18:09:03,451 - Typed 'submission of releases' into element: parent_node: All aria-label="Search artists, albums and more..." name="q" placeholder="Search artists, albums and more..."
+2026-06-02 18:09:10,058 - results\runs\2026-06-02_180652\seeact\raw\mind2web-web-1034\20260602_180659\screenshots\screen_5.png
+2026-06-02 18:09:10,788 - TASK: Open the page with a overview about the submission of releases.
+2026-06-02 18:09:10,788 - Previous:
+2026-06-02 18:09:10,788 - [button type="button"] Community -> HOVER
+2026-06-02 18:09:10,788 - [button] Reject All -> CLICK
+2026-06-02 18:09:10,788 - [button type="button"] Community -> HOVER
+2026-06-02 18:09:10,788 - [input role="combobox" type="text"] parent_node: All aria-label="Search artists, albums and more..." name="q" placeholder="Search artists, albums and more..." -> TYPE: submission of releases
+2026-06-02 18:09:10,788 - calling generate
+2026-06-02 18:09:23,385 - ----------
+2026-06-02 18:09:23,392 - To search for the "submission of releases" overview page, the next step is to submit the search query by pressing the Enter key.
+2026-06-02 18:09:23,392 - 
+2026-06-02 18:09:23,394 - **Action:**
+2026-06-02 18:09:23,394 - **PRESS ENTER**
+2026-06-02 18:09:23,394 - ----------
+2026-06-02 18:09:23,394 - If none of these elements match your target element or your target action doesn't involve an element, please select AV.
+2026-06-02 18:09:23,394 - A. (0.377, 0.028) <input role="combobox" type="text"">input value="submission of releases" parent_node: All aria-label="Search artists, albums and more..." name="q" placeholder="Search artists, albums and more..."</input>
+2026-06-02 18:09:23,394 - B. (0.395, 0.028) <form role="search"">AllReleasesArtistsLabelsView all results</form>
+2026-06-02 18:09:23,394 - C. (0.645, 0.028) <button type="submit"">parent_node: All aria-label="Search"</button>
+2026-06-02 18:09:23,394 - D. (0.061, 0.029) <a">Discogs</a>
+2026-06-02 18:09:23,394 - E. (0.845, 0.029) <a">Shopping Cart</a>
+2026-06-02 18:09:23,396 - F. (0.902, 0.029) <nav">Shopping CartSign Up / Log InSign Up / Log In</nav>
+2026-06-02 18:09:23,396 - G. (0.931, 0.029) <a">Sign Up / Log InSign Up / Log In</a>
+2026-06-02 18:09:23,396 - H. (0.057, 0.03) <svg role="img"">Discogs</svg>
+2026-06-02 18:09:23,396 - I. (0.497, 0.053) <header">All Releases Artists Labels View all results Sign Up / Log In Explore Discography Shop Music Sell Music Community Digs</header>
+2026-06-02 18:09:23,396 - J. (0.137, 0.074) <label">All</label>
+2026-06-02 18:09:23,396 - K. (0.18, 0.074) <label">Releases</label>
+2026-06-02 18:09:23,396 - L. (0.232, 0.074) <label">Artists</label>
+2026-06-02 18:09:23,396 - M. (0.277, 0.074) <label">Labels</label>
+2026-06-02 18:09:23,396 - N. (0.077, 0.083) <button type="button"">Explore Discography</button>
+2026-06-02 18:09:23,396 - O. (0.211, 0.083) <button type="button"">Shop Music</button>
+2026-06-02 18:09:23,396 - P. (0.321, 0.083) <button type="button"">Sell Music</button>
+2026-06-02 18:09:23,396 - Q. (0.429, 0.083) <button type="button"">Community</button>
+2026-06-02 18:09:23,396 - R. (0.497, 0.083) <nav">Explore Discography Shop Music Sell Music Community Digs</nav>
+2026-06-02 18:09:23,396 - S. (0.954, 0.083) <button type="button"">Digs</button>
+2026-06-02 18:09:23,396 - T. (0.395, 0.12) <a">View all results</a>
+2026-06-02 18:09:23,396 - U. (0.652, 0.12) <svg">parent_node: View all results</svg>
+2026-06-02 18:09:23,396 - V. (0.777, 0.215) <a">Camilo Lara’s Collection Is Sample Heaven</a>
+2026-06-02 18:09:23,396 - W. (0.355, 0.281) <a">How One Collector Found Her Way Back to Music Through Vinyl</a>
+2026-06-02 18:09:23,396 - X. (0.777, 0.347) <a">Celebrating 100 Years of Miles Davis</a>
+2026-06-02 18:09:23,396 - Y. (0.497, 0.5) <html">Discogs.com How One Collector Found Her Way Back to Music Through Vinyl Camilo Lara’s Collection Is Sample Heaven Celebrating 100 Years of Miles Davis This Week’s Best-Selling Vinyl Records &...</html>
+2026-06-02 18:09:23,396 - Z. (0.146, 0.631) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:09:23,396 - AA. (0.309, 0.631) <a">parent_node: Trink Aus! Wir Müssen Gehen / Alles... aria-label="Die Toten Hosen - Trink Aus! Wir Müssen Gehen / Alles Muss Raus!"</a>
+2026-06-02 18:09:23,396 - AB. (0.472, 0.632) <a">parent_node: Time Echoes aria-label="S.O.N.S - Time Echoes"</a>
+2026-06-02 18:09:23,396 - AC. (0.636, 0.632) <a">parent_node: Sour aria-label="Olivia Rodrigo - Sour"</a>
+2026-06-02 18:09:23,396 - AD. (0.799, 0.632) <a">parent_node: Inferno aria-label="Boards Of Canada - Inferno"</a>
+2026-06-02 18:09:23,396 - AE. (0.146, 0.718) <li role="group"">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00</li>
+2026-06-02 18:09:23,396 - AF. (0.309, 0.718) <li role="group"">Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl, Box Set, Limited Edition, Numbered 33 copies from $111.63</li>
+2026-06-02 18:09:23,396 - AG. (0.472, 0.719) <li role="group"">Time Echoes S.O.N.S 2026 Progressive Trance, Techno, Minimal Vinyl, Album 5 copies from $78.00</li>
+2026-06-02 18:09:23,396 - AH. (0.636, 0.719) <li role="group"">Sour Olivia Rodrigo 2026 Pop, Pop Punk, Ballad Vinyl, Album, Club Edition, Numbered 17 copies from $135.00</li>
+2026-06-02 18:09:23,396 - AI. (0.799, 0.719) <li role="group"">Inferno Boards Of Canada 2026 Downtempo, Ambient, IDM, Experimental Vinyl, Album 9 copies from $34.00</li>
+2026-06-02 18:09:23,396 - AJ. (0.282, 0.72) <ul">Inferno Boards Of Canada 2026 IDM, Experimental Vinyl, Red, Album, Flexi-disc 19 copies from $46.00 Trink Aus! Wir Müssen Gehen / Alles Muss Raus! Die Toten Hosen 2026 Rock Vinyl,...</ul>
+2026-06-02 18:09:23,396 - AK. (0.098, 0.764) <a">Inferno</a>
+2026-06-02 18:09:23,396 - AL. (0.439, 0.766) <a">Time Echoes</a>
+2026-06-02 18:09:23,396 - AM. (0.582, 0.766) <a">Sour</a>
+2026-06-02 18:09:23,396 - AN. (0.751, 0.766) <a">Inferno</a>
+2026-06-02 18:09:23,396 - AO. (0.306, 0.775) <a">Trink Aus! Wir Müssen Gehen / Alles Muss Raus!</a>
+2026-06-02 18:09:23,396 - AP. (0.119, 0.783) <a">Boards Of Canada</a>
+2026-06-02 18:09:23,396 - AQ. (0.424, 0.785) <a">S.O.N.S</a>
+2026-06-02 18:09:23,396 - AR. (0.6, 0.785) <a">Olivia Rodrigo</a>
+2026-06-02 18:09:23,396 - AS. (0.772, 0.785) <a">Boards Of Canada</a>
+2026-06-02 18:09:23,396 - AT. (0.278, 0.804) <a">Die Toten Hosen</a>
+2026-06-02 18:09:23,396 - AU. (0.93, 0.805) <a">Paul McCartney</a>
+2026-06-02 18:09:23,398 - AV. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 18:09:32,334 - ELEMENT: AV
+2026-06-02 18:09:32,334 - 
+2026-06-02 18:09:32,334 - ACTION: PRESS ENTER
+2026-06-02 18:09:32,334 - 
+2026-06-02 18:09:32,334 - VALUE: None
+2026-06-02 18:09:32,397 - Pressed Enter on element: 
+2026-06-02 18:09:33,252 - Browser context closed.

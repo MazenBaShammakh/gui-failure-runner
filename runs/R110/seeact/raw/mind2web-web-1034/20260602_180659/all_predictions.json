@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "To find the page with an overview about the submission of releases, we can explore the \"Community\" dropdown menu. Let's start by hovering over the \"Community\" menu.\n\n**Target Element:** Community (Q)  \n**Location:** Top navigation bar  \n**Operation:** HOVER on the \"Community\" element (Q)",
+        "action_grounding": "ELEMENT: Q\n\nACTION: HOVER\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.429,
+                0.083
+            ],
+            "description": "Community",
+            "tag_with_role": "button type=\"button\"",
+            "box_raw": [
+                580.1375122070312,
+                66.80000305175781,
+                158.91250610351562,
+                36
+            ],
+            "box": [
+                580.1375122070312,
+                66.80000305175781,
+                739.0500183105469,
+                102.80000305175781
+            ],
+            "selector": 

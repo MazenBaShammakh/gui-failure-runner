@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "To handle the cookie consent banner, I will click on the \"ZUSTIMMEN\" button.\n\n**Action:** CLICK BC",
+        "action_grounding": "ELEMENT: BC\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.914,
+                0.956
+            ],
+            "description": "ZUSTIMMEN",
+            "tag_with_role": "button",
+            "box_raw": [
+                1300.5999755859375,
+                959,
+                205.40000915527344,
+                40
+            ],
+            "box": [
+                1300.5999755859375,
+                959,
+                1505.999984741211,
+                999
+            ],
+            "selector": 

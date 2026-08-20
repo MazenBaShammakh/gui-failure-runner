@@ -1,0 +1,5 @@
+2026-06-02 15:05:31,275 - Failed to fully load the webpage before timeout
+2026-06-02 15:05:31,278 - Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.foxsports.com/", waiting until "load"
+

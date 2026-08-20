@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "Please click on the \"Accept All\" button to manage privacy settings and proceed with the task.\n\n**Action:** CLICK on the element with label \"AV\" (Accept All button).",
+        "action_grounding": "ELEMENT: AV\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.797,
+                0.831
+            ],
+            "description": "Accept All",
+            "tag_with_role": "button",
+            "box_raw": [
+                1099.8499755859375,
+                828.7374877929688,
+                250,
+                44
+            ],
+            "box": [
+                1099.8499755859375,
+                828.7374877929688,
+                1349.8499755859375,
+                872.7374877929688
+            ],
+            "selector": 

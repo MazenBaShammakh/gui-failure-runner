@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "To turn on the Desktop Alerts toggle, I need to click on the toggle switch next to \"Desktop Alerts\".\n\n**Action:** CLICK\n**Element:** B (the toggle button next to Desktop Alerts)",
+        "action_grounding": "ELEMENT: B\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.644,
+                0.267
+            ],
+            "description": "parent_node: \ud83d\udda5\ufe0f",
+            "tag_with_role": "button role=\"switch\" type=\"button\"",
+            "box_raw": [
+                967.2000122070312,
+                261.6000061035156,
+                44,
+                24
+            ],
+            "box": [
+                967.2000122070312,
+                261.6000061035156,
+                1011.2000122070312,
+                285.6000061035156
+            ],
+            "selector": 

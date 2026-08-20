@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "To proceed with finding the review, we first need to handle the cookie consent banner. I will click the \"ZUSTIMMEN\" (Agree) button to accept the cookies and clear the banner.\n\n**Action:** Click on `BC` (ZUSTIMMEN).",
+        "action_grounding": "ELEMENT: BC\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.914,
+                0.956
+            ],
+            "description": "ZUSTIMMEN",
+            "tag_with_role": "button",
+            "box_raw": [
+                1300.5999755859375,
+                959,
+                205.40000915527344,
+                40
+            ],
+            "box": [
+                1300.5999755859375,
+                959,
+                1505.999984741211,
+                999
+            ],
+            "selector": 

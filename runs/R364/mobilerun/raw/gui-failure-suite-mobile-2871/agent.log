@@ -1,0 +1,89 @@
+12:18:27 INFO mobilerun: LLM for task gui-failure-suite-mobile-2871: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+12:18:30 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Social app, open Create Post and attach a photo from your library.
+Use the currently opened app only, which includes a springboard of subapps.
+12:18:32 INFO mobilerun: 🔄 Resetting device state before run
+12:18:33 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+12:18:33 INFO mobilerun: 🔄 Step 1/50
+12:18:36 INFO mobilerun: FastAgent response:
+12:18:41 INFO mobilerun: I will tap on Expo Go to open the app
+12:18:41 INFO mobilerun:  with the springboard of subapps.
+
+<function_calls>
+<invoke name="click_at">
+<
+12:18:41 INFO mobilerun: parameter name="x">850</parameter>
+<parameter name="y">650</parameter>
+</
+12:18:41 INFO mobilerun: invoke>
+</function_calls>
+12:18:41 INFO mobilerun: 
+12:18:41 INFO mobilerun: 💡 Tool results:
+12:18:41 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (996, 762)</output>
+</result>
+</function_results>
+12:18:43 INFO mobilerun: 🔄 Step 2/50
+12:18:44 INFO mobilerun: FastAgent response:
+12:18:47 INFO mobilerun: I will tap the back arrow at the top left to return to the springboard/apps list.
+
+<function_
+12:18:47 INFO mobilerun: calls>
+<invoke name="click_at">
+<parameter name="x">72</parameter>
+
+12:18:47 INFO mobilerun: <parameter name="y">75</parameter>
+</invoke>
+</function_calls>
+12:18:47 INFO mobilerun: 
+12:18:47 INFO mobilerun: 💡 Tool results:
+12:18:47 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (84, 88)</output>
+</result>
+</function_results>
+12:18:48 INFO mobilerun: 🔄 Step 3/50
+12:18:49 INFO mobilerun: FastAgent response:
+12:18:53 INFO mobilerun: I will tap on "Attach a photo" to
+12:18:53 INFO mobilerun:  open the photo library picker.
+
+<function_calls>
+<invoke name="click_at">
+<parameter
+12:18:53 INFO mobilerun:  name="x">226</parameter>
+<parameter name="y">310</parameter>
+
+12:18:53 INFO mobilerun: </invoke>
+</function_calls>
+12:18:53 INFO mobilerun: 
+12:18:53 INFO mobilerun: 💡 Tool results:
+12:18:53 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (265, 363)</output>
+</result>
+</function_results>
+12:18:54 INFO mobilerun: 🔄 Step 4/50
+12:18:56 INFO mobilerun: FastAgent response:
+12:19:05 INFO mobilerun: I will tap on the "Attach a photo" button to open the photo selector.
+
+<function_calls>
+<invoke name
+12:19:05 INFO mobilerun: ="click_at">
+<parameter name="x">220</parameter>
+<parameter name="y
+12:19:05 INFO mobilerun: ">635</parameter>
+</invoke>
+</function_calls>
+12:19:05 INFO mobilerun: 
+12:19:05 INFO mobilerun: 💡 Tool results:
+12:19:05 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (258, 744)</output>
+</result>
+</function_results>
+12:19:06 INFO mobilerun: 🔄 Step 5/50
+12:19:07 INFO mobilerun: FastAgent response:

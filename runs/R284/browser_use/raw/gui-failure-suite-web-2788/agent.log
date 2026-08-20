@@ -1,0 +1,39 @@
+2026-07-15 17:36:46,618 INFO Agent [34m🎯 Task: Set the shipping city to Munich and save the address.[0m
+2026-07-15 17:36:46,837 INFO Agent Starting a browser-use agent with version 0.13.4, with provider=openai and model=gemini-3.1-flash-lite
+2026-07-15 17:36:49,100 INFO Agent   ▶️   [34mnavigate[0m: [35murl[0m: http://localhost:3000/failures/combobox-uncommitted-value
+2026-07-15 17:36:50,794 INFO tools 🔗 Navigated to http://localhost:3000/failures/combobox-uncommitted-value
+2026-07-15 17:36:51,554 INFO Agent 
+
+2026-07-15 17:36:51,554 INFO Agent 📍 Step 1:
+2026-07-15 17:36:53,350 WARNING Agent ❌ Result failed 1/6 times: Error code: 404 - {'error': {'message': 'The model `gemini-3.1-flash-lite` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-07-15 17:36:53,714 INFO Agent 
+
+2026-07-15 17:36:53,716 INFO Agent 📍 Step 2:
+2026-07-15 17:36:54,169 WARNING Agent ❌ Result failed 2/6 times: Error code: 404 - {'error': {'message': 'The model `gemini-3.1-flash-lite` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-07-15 17:36:54,483 INFO Agent 
+
+2026-07-15 17:36:54,483 INFO Agent 📍 Step 3:
+2026-07-15 17:36:54,929 WARNING Agent ❌ Result failed 3/6 times: Error code: 404 - {'error': {'message': 'The model `gemini-3.1-flash-lite` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-07-15 17:36:55,271 INFO Agent 
+
+2026-07-15 17:36:55,278 INFO Agent 📍 Step 4:
+2026-07-15 17:36:55,704 WARNING Agent ❌ Result failed 4/6 times: Error code: 404 - {'error': {'message': 'The model `gemini-3.1-flash-lite` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-07-15 17:36:56,042 INFO Agent 
+
+2026-07-15 17:36:56,042 INFO Agent 📍 Step 5:
+2026-07-15 17:36:56,075 INFO Agent 📋 Exploration nudge injected after 5 steps without a plan
+2026-07-15 17:36:56,568 WARNING Agent ❌ Result failed 5/6 times: Error code: 404 - {'error': {'message': 'The model `gemini-3.1-flash-lite` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-07-15 17:36:56,894 INFO Agent 
+
+2026-07-15 17:36:56,920 INFO Agent 📍 Step 6:
+2026-07-15 17:36:56,955 INFO Agent 📋 Exploration nudge injected after 6 steps without a plan
+2026-07-15 17:36:56,955 INFO Agent 🔁 Loop detection nudge injected (repetition=0, stagnation=5)
+2026-07-15 17:36:57,335 ERROR Agent ❌ Result failed 6/6 times: Error code: 404 - {'error': {'message': 'The model `gemini-3.1-flash-lite` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-07-15 17:36:57,340 ERROR Agent ❌ Stopping due to 5 consecutive failures
+2026-07-15 17:36:57,342 INFO Agent 
+2026-07-15 17:36:57,342 INFO Agent Did the Agent not work as expected? Let us fix this!
+2026-07-15 17:36:57,342 INFO Agent    Open a short issue on GitHub: https://github.com/browser-use/browser-use/issues
+2026-07-15 17:36:57,352 INFO BrowserSession 📢 on_BrowserStopEvent - Calling reset() (force=True, keep_alive=None)
+2026-07-15 17:36:57,352 INFO BrowserSession [SessionManager] Cleared all owned data (targets, sessions, mappings)
+2026-07-15 17:36:57,361 INFO BrowserSession ✅ Browser session reset complete
+2026-07-15 17:36:58,288 INFO BrowserSession ✅ Browser session reset complete

@@ -1,0 +1,296 @@
+11:34:04 INFO mobilerun: LLM for task gui-failure-suite-mobile-2860: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+11:34:06 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Careers app, open the Featured Role and open the Acme Corp company profile.
+Use the currently opened app only, which includes a springboard of subapps.
+11:34:08 INFO mobilerun: 🔄 Resetting device state before run
+11:34:09 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+11:34:09 INFO mobilerun: 🔄 Step 1/50
+11:34:12 INFO mobilerun: FastAgent response:
+11:34:16 INFO mobilerun: I will open the "mobile" app from the home screen to access the springboard of subapps.
+
+<function_calls
+11:34:16 INFO mobilerun: >
+<invoke name="click_at">
+<parameter name="x">617</parameter>
+
+11:34:16 INFO mobilerun: <parameter name="y">650</parameter>
+</invoke>
+</function_calls>
+11:34:16 INFO mobilerun: 
+11:34:17 INFO mobilerun: 💡 Tool results:
+11:34:17 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (723, 762)</output>
+</result>
+</function_results>
+11:34:18 INFO mobilerun: 🔄 Step 2/50
+11:34:19 INFO mobilerun: FastAgent response:
+11:34:22 INFO mobilerun: I
+11:34:22 INFO mobilerun:  will tap the back button in the top bar to return to the Careers main page or springboard.
+
+<function_calls
+11:34:22 INFO mobilerun: >
+<invoke name="click_at">
+<parameter name="x">73</parameter>
+<
+11:34:22 INFO mobilerun: parameter name="y">156</parameter>
+</invoke>
+</function_calls>
+11:34:22 INFO mobilerun: 
+11:34:22 INFO mobilerun: 💡 Tool results:
+11:34:22 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (86, 183)</output>
+</result>
+</function_results>
+11:34:23 INFO mobilerun: 🔄 Step 3/50
+11:34:25 INFO mobilerun: FastAgent response:
+11:34:27 INFO mobilerun: I will tap on "Featured role" to open it.
+
+<function
+11:34:27 INFO mobilerun: _calls>
+<invoke name="click_at">
+<parameter name="x">400</parameter
+11:34:27 INFO mobilerun: >
+<parameter name="y">260</parameter>
+</invoke>
+</function_calls>
+11:34:27 INFO mobilerun: 
+11:34:27 INFO mobilerun: 💡 Tool results:
+11:34:27 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (469, 305)</output>
+</result>
+</function_results>
+11:34:28 INFO mobilerun: 🔄 Step 4/50
+11:34:29 INFO mobilerun: FastAgent response:
+11:34:34 INFO mobilerun: I will tap on the "Senior Frontend Engineer" job card at Acme Corp to open the
+11:34:34 INFO mobilerun:  role details.
+
+<function_calls>
+<invoke name="click_at">
+<parameter name="x">
+11:34:34 INFO mobilerun: 400</parameter>
+<parameter name="y">280</parameter>
+</invoke>
+</function_
+11:34:34 INFO mobilerun: calls>
+11:34:34 INFO mobilerun: 
+11:34:34 INFO mobilerun: 💡 Tool results:
+11:34:34 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (469, 328)</output>
+</result>
+</function_results>
+11:34:35 INFO mobilerun: 🔄 Step 5/50
+11:34:36 INFO mobilerun: FastAgent response:
+11:34:40 INFO mobilerun: I will tap on the "
+11:34:40 INFO mobilerun: Senior Frontend Engineer" job card (Acme Corp) to open the job details.
+
+<function_calls>
+<
+11:34:41 INFO mobilerun: invoke name="click_at">
+<parameter name="x">400</parameter>
+<parameter name="y">
+11:34:41 INFO mobilerun: 260</parameter>
+</invoke>
+</function_calls>
+11:34:41 INFO mobilerun: 
+11:34:41 INFO mobilerun: 💡 Tool results:
+11:34:41 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (469, 305)</output>
+</result>
+</function_results>
+11:34:42 INFO mobilerun: 🔄 Step 6/50
+11:34:43 INFO mobilerun: FastAgent response:
+11:34:52 INFO mobilerun: I will tap the back button to return to the Careers springboard/main menu.
+
+<function_calls>
+<invoke name
+11:34:52 INFO mobilerun: ="click_at">
+<parameter name="x">70</parameter>
+<parameter name="y">
+11:34:52 INFO mobilerun: 70</parameter>
+</invoke>
+</function_calls>
+11:34:52 INFO mobilerun: 
+11:34:53 INFO mobilerun: 💡 Tool results:
+11:34:53 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (82, 82)</output>
+</result>
+</function_results>
+11:34:54 INFO mobilerun: 🔄 Step 7/50
+11:34:55 INFO mobilerun: FastAgent response:
+11:34:59 INFO mobilerun: I will click on the Senior Frontend Engineer job listing to view the featured role details.
+
+<function
+11:34:59 INFO mobilerun: _calls>
+<invoke name="click_at">
+<parameter name="x">400</parameter
+11:34:59 INFO mobilerun: >
+<parameter name="y">260</parameter>
+</invoke>
+</function_calls>
+11:34:59 INFO mobilerun: 
+11:34:59 INFO mobilerun: 💡 Tool results:
+11:34:59 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (469, 305)</output>
+</result>
+</function_results>
+11:35:01 INFO mobilerun: 🔄 Step 8/50
+11:35:02 INFO mobilerun: FastAgent response:
+11:35:09 INFO mobilerun: I will tap on the "
+11:35:09 INFO mobilerun: Senior Frontend Engineer - Acme Corp" card to open its details.
+
+<function_calls>
+<invoke name="
+11:35:09 INFO mobilerun: click_at">
+<parameter name="x">400</parameter>
+<parameter name="y">
+11:35:09 INFO mobilerun: 550</parameter>
+</invoke>
+</function_calls>
+11:35:09 INFO mobilerun: 
+11:35:10 INFO mobilerun: 💡 Tool results:
+11:35:10 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (469, 645)</output>
+</result>
+</function_results>
+11:35:11 INFO mobilerun: 🔄 Step 9/50
+11:35:12 INFO mobilerun: FastAgent response:
+11:35:17 INFO mobilerun: I will click on the "Acme Corp" link to open the company profile.
+
+<function_calls>
+<invoke name="click
+11:35:17 INFO mobilerun: _at">
+<parameter name="x">340</parameter>
+<parameter name="y">3
+11:35:17 INFO mobilerun: 00</parameter>
+</invoke>
+</function_calls>
+11:35:17 INFO mobilerun: 
+11:35:17 INFO mobilerun: 💡 Tool results:
+11:35:17 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (398, 352)</output>
+</result>
+</function_results>
+11:35:18 INFO mobilerun: 🔄 Step 10/50
+11:35:21 INFO mobilerun: FastAgent response:
+11:35:28 INFO mobilerun: I will tap on "Acme Corp" to open the company profile.
+
+<function_calls>
+<
+11:35:28 INFO mobilerun: invoke name="click_at">
+<parameter name="x">340</parameter>
+<parameter name
+11:35:28 INFO mobilerun: ="y">380</parameter>
+</invoke>
+</function_calls>
+11:35:28 INFO mobilerun: 
+11:35:29 INFO mobilerun: 💡 Tool results:
+11:35:29 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (398, 445)</output>
+</result>
+</function_results>
+11:35:30 INFO mobilerun: 🔄 Step 11/50
+11:35:31 INFO mobilerun: FastAgent response:
+11:35:34 INFO mobilerun: I will tap on the blue "Acme Corp" text to
+11:35:35 INFO mobilerun:  check if it opens the full Acme Corp company profile screen.
+
+<function_calls>
+<invoke name="click_at">
+<
+11:35:35 INFO mobilerun: parameter name="x">340</parameter>
+<parameter name="y">190</parameter>
+11:35:35 INFO mobilerun: 
+</invoke>
+</function_calls>
+11:35:35 INFO mobilerun: 
+11:35:35 INFO mobilerun: 💡 Tool results:
+11:35:35 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (398, 223)</output>
+</result>
+</function_results>
+11:35:36 INFO mobilerun: 🔄 Step 12/50
+11:35:37 INFO mobilerun: FastAgent response:
+11:35:45 INFO mobilerun: I will tap on the Acme Corp info card to open the
+11:35:45 INFO mobilerun:  company profile page.
+
+<function_calls>
+<invoke name="click_at">
+<parameter name="x
+11:35:45 INFO mobilerun: ">400</parameter>
+<parameter name="y">300</parameter>
+</invoke>
+11:35:45 INFO mobilerun: 
+</function_calls>
+11:35:45 INFO mobilerun: 
+11:35:45 INFO mobilerun: 💡 Tool results:
+11:35:45 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (469, 352)</output>
+</result>
+</function_results>
+11:35:46 INFO mobilerun: 🔄 Step 13/50
+11:35:47 INFO mobilerun: FastAgent response:
+11:35:58 INFO mobilerun: I
+11:35:58 INFO mobilerun:  will click directly on the "Acme Corp" text link inside the role view to navigate to the Acme Corp company profile.
+
+<
+11:35:58 INFO mobilerun: function_calls>
+<invoke name="click_at">
+<parameter name="x">250</
+11:35:58 INFO mobilerun: parameter>
+<parameter name="y">160</parameter>
+</invoke>
+</function_calls
+11:35:58 INFO mobilerun: >
+11:35:58 INFO mobilerun: 
+11:35:58 INFO mobilerun: 💡 Tool results:
+11:35:58 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (293, 188)</output>
+</result>
+</function_results>
+11:35:59 INFO mobilerun: 🔄 Step 14/50
+11:36:01 INFO mobilerun: FastAgent response:
+11:36:09 INFO mobilerun: I will press the back button to return to
+11:36:09 INFO mobilerun:  the Careers springboard / main screen, where we can open the Acme Corp company profile.
+
+<function_calls>
+<invoke name="click
+11:36:09 INFO mobilerun: _at">
+<parameter name="x">70</parameter>
+<parameter name="y">70
+11:36:09 INFO mobilerun: </parameter>
+</invoke>
+</function_calls>
+11:36:09 INFO mobilerun: 
+11:36:09 INFO mobilerun: 💡 Tool results:
+11:36:09 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (82, 82)</output>
+</result>
+</function_results>
+11:36:10 INFO mobilerun: 🔄 Step 15/50
+11:36:12 INFO mobilerun: FastAgent response:

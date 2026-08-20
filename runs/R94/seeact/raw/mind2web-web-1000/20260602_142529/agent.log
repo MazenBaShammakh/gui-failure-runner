@@ -1,0 +1,1246 @@
+2026-06-02 14:25:35,366 - Loaded website: https://www.eventbrite.com
+2026-06-02 14:25:47,917 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_1.png
+2026-06-02 14:25:48,575 - TASK: Browse the page with event planning tips.
+2026-06-02 14:25:48,575 - Previous:
+2026-06-02 14:25:48,575 - calling generate
+2026-06-02 14:25:56,803 - ----------
+2026-06-02 14:25:56,818 - type: CLICK
+2026-06-02 14:25:56,818 - value: AF
+2026-06-02 14:25:56,818 - ----------
+2026-06-02 14:25:56,818 - If none of these elements match your target element or your target action doesn't involve an element, please select AM.
+2026-06-02 14:25:56,818 - A. (0.337, 0.028) <label">parent_node: autocomplete</label>
+2026-06-02 14:25:56,818 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:25:56,818 - C. (0.219, 0.029) <form">Search events</form>
+2026-06-02 14:25:56,818 - D. (0.23, 0.029) <input type="search"">parent_node: Search events name="search-autocomplete-input" placeholder="Search events"</input>
+2026-06-02 14:25:56,818 - E. (0.316, 0.029) <nav">Search eventsautocomplete</nav>
+2026-06-02 14:25:56,818 - F. (0.414, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete value="München"</input>
+2026-06-02 14:25:56,818 - G. (0.495, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:25:56,818 - H. (0.564, 0.029) <a">Updates</a>
+2026-06-02 14:25:56,818 - I. (0.63, 0.029) <a">Find Events</a>
+2026-06-02 14:25:56,818 - J. (0.709, 0.029) <a">Create Events</a>
+2026-06-02 14:25:56,818 - K. (0.755, 0.029) <ul">Updates Find Events Create Events Help Center Find my tickets Sign in</ul>
+2026-06-02 14:25:56,818 - L. (0.793, 0.029) <li">Help CenterHelp CenterFind your ticketsContact your event organizer</li>
+2026-06-02 14:25:56,818 - M. (0.88, 0.029) <a">Find my tickets</a>
+2026-06-02 14:25:56,818 - N. (0.95, 0.029) <a">Sign in</a>
+2026-06-02 14:25:56,818 - O. (0.495, 0.03) <header">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</header>
+2026-06-02 14:25:56,818 - P. (0.495, 0.267) <img">alt="Music Events"</img>
+2026-06-02 14:25:56,818 - Q. (0.116, 0.58) <a">Music</a>
+2026-06-02 14:25:56,818 - R. (0.224, 0.58) <a">Nightlife</a>
+2026-06-02 14:25:56,818 - S. (0.333, 0.58) <a">Performing & Visual Arts</a>
+2026-06-02 14:25:56,818 - T. (0.443, 0.58) <a">Holidays</a>
+2026-06-02 14:25:56,818 - U. (0.495, 0.58) <section">MusicNightlifePerforming & Visual ArtsHolidaysDatingHobbiesBusinessFood & Drink</section>
+2026-06-02 14:25:56,818 - V. (0.55, 0.58) <a">Dating</a>
+2026-06-02 14:25:56,818 - W. (0.658, 0.58) <a">Hobbies</a>
+2026-06-02 14:25:56,818 - X. (0.766, 0.58) <a">Business</a>
+2026-06-02 14:25:56,818 - Y. (0.874, 0.58) <a">Food & Drink</a>
+2026-06-02 14:25:56,818 - Z. (0.217, 0.726) <label">parent_node: autocomplete</label>
+2026-06-02 14:25:56,818 - AA. (0.308, 0.726) <input role="combobox" type="text"">input value="München" parent_node: autocomplete name="locationPicker" value="München"</input>
+2026-06-02 14:25:56,818 - AB. (0.097, 0.796) <button role="tab" type="button"">All</button>
+2026-06-02 14:25:56,818 - AC. (0.133, 0.796) <button role="tab" type="button"">For you</button>
+2026-06-02 14:25:56,818 - AD. (0.175, 0.796) <button role="tab" type="button"">Today</button>
+2026-06-02 14:25:56,818 - AE. (0.231, 0.796) <button role="tab" type="button"">This weekend</button>
+2026-06-02 14:25:56,818 - AF. (0.328, 0.798) <button">Accept all</button>
+2026-06-02 14:25:56,818 - AG. (0.328, 0.846) <button">Reject all</button>
+2026-06-02 14:25:56,818 - AH. (0.328, 0.895) <button">More choices</button>
+2026-06-02 14:25:56,818 - AI. (0.143, 0.898) <a">Cookie Statement</a>
+2026-06-02 14:25:56,818 - AJ. (0.038, 0.949) <a">parent_node: See our privacy policy aria-label="Powered by Transcend" title="Powered by Transcend"</a>
+2026-06-02 14:25:56,818 - AK. (0.201, 0.949) <a">See our privacy policy</a>
+2026-06-02 14:25:56,818 - AL. (0.38, 0.949) <button type="button"">Switch language</button>
+2026-06-02 14:25:56,818 - AM. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:26:02,680 - ELEMENT: AF
+2026-06-02 14:26:02,680 - 
+2026-06-02 14:26:02,696 - ACTION: CLICK
+2026-06-02 14:26:02,696 - 
+2026-06-02 14:26:02,696 - VALUE: None
+2026-06-02 14:26:02,925 - Clicked on element: Accept all
+2026-06-02 14:26:15,683 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_2.png
+2026-06-02 14:26:16,341 - TASK: Browse the page with event planning tips.
+2026-06-02 14:26:16,341 - Previous:
+2026-06-02 14:26:16,341 - [button] Accept all -> CLICK
+2026-06-02 14:26:16,341 - calling generate
+2026-06-02 14:26:23,728 - ----------
+2026-06-02 14:26:23,734 - To find the page with event planning tips, let's scroll down to the bottom of the page to look for footer links such as "Blog", "Resources", or "Event Planning Tips".
+2026-06-02 14:26:23,735 - 
+2026-06-02 14:26:23,735 - Action: SCROLL DOWN
+2026-06-02 14:26:23,735 - ----------
+2026-06-02 14:26:23,735 - If none of these elements match your target element or your target action doesn't involve an element, please select AG.
+2026-06-02 14:26:23,737 - A. (0.339, 0.028) <label">parent_node: autocomplete</label>
+2026-06-02 14:26:23,737 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:26:23,737 - C. (0.22, 0.029) <form">Search events</form>
+2026-06-02 14:26:23,737 - D. (0.231, 0.029) <input type="search"">parent_node: Search events name="search-autocomplete-input" placeholder="Search events"</input>
+2026-06-02 14:26:23,737 - E. (0.317, 0.029) <nav">Search eventsautocomplete</nav>
+2026-06-02 14:26:23,737 - F. (0.417, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete value="München"</input>
+2026-06-02 14:26:23,737 - G. (0.497, 0.029) <nav">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</nav>
+2026-06-02 14:26:23,737 - H. (0.499, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:26:23,737 - I. (0.567, 0.029) <a">Updates</a>
+2026-06-02 14:26:23,737 - J. (0.634, 0.029) <a">Find Events</a>
+2026-06-02 14:26:23,737 - K. (0.712, 0.029) <a">Create Events</a>
+2026-06-02 14:26:23,737 - L. (0.759, 0.029) <ul">Updates Find Events Create Events Help Center Find my tickets Sign in</ul>
+2026-06-02 14:26:23,737 - M. (0.797, 0.029) <li">Help CenterHelp CenterFind your ticketsContact your event organizer</li>
+2026-06-02 14:26:23,737 - N. (0.883, 0.029) <a">Find my tickets</a>
+2026-06-02 14:26:23,737 - O. (0.954, 0.029) <a">Sign in</a>
+2026-06-02 14:26:23,737 - P. (0.497, 0.03) <header">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</header>
+2026-06-02 14:26:23,737 - Q. (0.497, 0.267) <img">alt="Music Events"</img>
+2026-06-02 14:26:23,737 - R. (0.118, 0.58) <a">Music</a>
+2026-06-02 14:26:23,737 - S. (0.226, 0.58) <a">Nightlife</a>
+2026-06-02 14:26:23,737 - T. (0.335, 0.58) <a">Performing & Visual Arts</a>
+2026-06-02 14:26:23,737 - U. (0.444, 0.58) <a">Holidays</a>
+2026-06-02 14:26:23,737 - V. (0.497, 0.58) <section">MusicNightlifePerforming & Visual ArtsHolidaysDatingHobbiesBusinessFood & Drink</section>
+2026-06-02 14:26:23,737 - W. (0.552, 0.58) <a">Dating</a>
+2026-06-02 14:26:23,737 - X. (0.66, 0.58) <a">Hobbies</a>
+2026-06-02 14:26:23,737 - Y. (0.768, 0.58) <a">Business</a>
+2026-06-02 14:26:23,737 - Z. (0.876, 0.58) <a">Food & Drink</a>
+2026-06-02 14:26:23,739 - AA. (0.219, 0.726) <label">parent_node: autocomplete</label>
+2026-06-02 14:26:23,739 - AB. (0.31, 0.726) <input role="combobox" type="text"">input value="München" parent_node: autocomplete name="locationPicker" value="München"</input>
+2026-06-02 14:26:23,739 - AC. (0.099, 0.796) <button role="tab" type="button"">All</button>
+2026-06-02 14:26:23,739 - AD. (0.134, 0.796) <button role="tab" type="button"">For you</button>
+2026-06-02 14:26:23,739 - AE. (0.177, 0.796) <button role="tab" type="button"">Today</button>
+2026-06-02 14:26:23,739 - AF. (0.233, 0.796) <button role="tab" type="button"">This weekend</button>
+2026-06-02 14:26:23,739 - AG. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:26:29,460 - ELEMENT: AG
+2026-06-02 14:26:29,460 - 
+2026-06-02 14:26:29,460 - ACTION: SCROLL DOWN
+2026-06-02 14:26:29,460 - 
+2026-06-02 14:26:29,460 - VALUE: None
+2026-06-02 14:26:29,495 - Scrolled down
+2026-06-02 14:26:36,333 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_3.png
+2026-06-02 14:26:36,963 - TASK: Browse the page with event planning tips.
+2026-06-02 14:26:36,963 - Previous:
+2026-06-02 14:26:36,963 - [button] Accept all -> CLICK
+2026-06-02 14:26:36,963 - SCROLL DOWN
+2026-06-02 14:26:36,963 - calling generate
+2026-06-02 14:26:43,578 - ----------
+2026-06-02 14:26:43,597 - Action: SCROLL DOWN
+2026-06-02 14:26:43,597 - ----------
+2026-06-02 14:26:43,597 - If none of these elements match your target element or your target action doesn't involve an element, please select BJ.
+2026-06-02 14:26:43,597 - A. (0.339, 0.028) <label">parent_node: autocomplete</label>
+2026-06-02 14:26:43,597 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:26:43,597 - C. (0.22, 0.029) <form">Search events</form>
+2026-06-02 14:26:43,597 - D. (0.231, 0.029) <input type="search"">parent_node: Search events name="search-autocomplete-input" placeholder="Search events"</input>
+2026-06-02 14:26:43,597 - E. (0.317, 0.029) <nav">Search eventsautocomplete</nav>
+2026-06-02 14:26:43,597 - F. (0.417, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete value="München"</input>
+2026-06-02 14:26:43,597 - G. (0.497, 0.029) <nav">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</nav>
+2026-06-02 14:26:43,597 - H. (0.499, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:26:43,597 - I. (0.567, 0.029) <a">Updates</a>
+2026-06-02 14:26:43,597 - J. (0.634, 0.029) <a">Find Events</a>
+2026-06-02 14:26:43,597 - K. (0.712, 0.029) <a">Create Events</a>
+2026-06-02 14:26:43,597 - L. (0.759, 0.029) <ul">Updates Find Events Create Events Help Center Find my tickets Sign in</ul>
+2026-06-02 14:26:43,597 - M. (0.797, 0.029) <li">Help CenterHelp CenterFind your ticketsContact your event organizer</li>
+2026-06-02 14:26:43,597 - N. (0.883, 0.029) <a">Find my tickets</a>
+2026-06-02 14:26:43,597 - O. (0.954, 0.029) <a">Sign in</a>
+2026-06-02 14:26:43,597 - P. (0.497, 0.03) <header">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</header>
+2026-06-02 14:26:43,597 - Q. (0.118, 0.08) <a">Music</a>
+2026-06-02 14:26:43,597 - R. (0.226, 0.08) <a">Nightlife</a>
+2026-06-02 14:26:43,597 - S. (0.335, 0.08) <a">Performing & Visual Arts</a>
+2026-06-02 14:26:43,597 - T. (0.444, 0.08) <a">Holidays</a>
+2026-06-02 14:26:43,597 - U. (0.552, 0.08) <a">Dating</a>
+2026-06-02 14:26:43,597 - V. (0.66, 0.08) <a">Hobbies</a>
+2026-06-02 14:26:43,597 - W. (0.768, 0.08) <a">Business</a>
+2026-06-02 14:26:43,597 - X. (0.876, 0.08) <a">Food & Drink</a>
+2026-06-02 14:26:43,597 - Y. (0.219, 0.226) <label">parent_node: autocomplete</label>
+2026-06-02 14:26:43,597 - Z. (0.31, 0.226) <input role="combobox" type="text"">input value="München" parent_node: autocomplete name="locationPicker" value="München"</input>
+2026-06-02 14:26:43,597 - AA. (0.099, 0.296) <button role="tab" type="button"">All</button>
+2026-06-02 14:26:43,597 - AB. (0.134, 0.296) <button role="tab" type="button"">For you</button>
+2026-06-02 14:26:43,597 - AC. (0.177, 0.296) <button role="tab" type="button"">Today</button>
+2026-06-02 14:26:43,597 - AD. (0.233, 0.296) <button role="tab" type="button"">This weekend</button>
+2026-06-02 14:26:43,597 - AE. (0.186, 0.468) <a">parent_node: Sales end soon aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - AF. (0.393, 0.468) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - AG. (0.6, 0.468) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - AH. (0.807, 0.468) <a">parent_node: Sales end soon aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - AI. (0.6, 0.546) <section">Almost fullMUNICH AI DAY 2026Tue, Jun 23 • 1:00 PM MuffathalleFree</section>
+2026-06-02 14:26:43,597 - AJ. (0.186, 0.557) <section">Sales end soon Funding Virtual Meeting - Financing Tips Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:26:43,597 - AK. (0.393, 0.558) <section">Almost full LIGHT UP - LifeWave Congress 2026 Fri, Jun 12 • 2:00 PM INFINITY From €69.00</section>
+2026-06-02 14:26:43,597 - AL. (0.807, 0.558) <section">Sales end soon Iyengar Yoga Convention 2026 München Friday • 9:00 AM Alte Kongresshalle From €170.00</section>
+2026-06-02 14:26:43,597 - AM. (0.188, 0.562) <aside">Sales end soon</aside>
+2026-06-02 14:26:43,597 - AN. (0.395, 0.562) <aside">Almost full</aside>
+2026-06-02 14:26:43,597 - AO. (0.602, 0.562) <aside">Almost full</aside>
+2026-06-02 14:26:43,597 - AP. (0.809, 0.562) <aside">Sales end soon</aside>
+2026-06-02 14:26:43,597 - AQ. (0.602, 0.593) <a">MUNICH AI DAY 2026</a>
+2026-06-02 14:26:43,597 - AR. (0.188, 0.605) <a">Funding Virtual Meeting - Financing Tips</a>
+2026-06-02 14:26:43,597 - AS. (0.395, 0.605) <a">LIGHT UP - LifeWave Congress 2026</a>
+2026-06-02 14:26:43,597 - AT. (0.809, 0.605) <a">Iyengar Yoga Convention 2026 München</a>
+2026-06-02 14:26:43,597 - AU. (0.6, 0.616) <section">Almost fullMUNICH AI DAY 2026Tue, Jun 23 • 1:00 PM MuffathalleFree</section>
+2026-06-02 14:26:43,597 - AV. (0.186, 0.627) <section">Sales end soon Funding Virtual Meeting - Financing Tips Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:26:43,597 - AW. (0.393, 0.628) <section">Almost full LIGHT UP - LifeWave Congress 2026 Fri, Jun 12 • 2:00 PM INFINITY From €69.00</section>
+2026-06-02 14:26:43,597 - AX. (0.807, 0.628) <section">Sales end soon Iyengar Yoga Convention 2026 München Friday • 9:00 AM Alte Kongresshalle From €170.00</section>
+2026-06-02 14:26:43,597 - AY. (0.186, 0.819) <a">parent_node: Female Founders Night | Businettes Apéritif MÜNCHEN aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - AZ. (0.393, 0.819) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - BA. (0.6, 0.819) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - BB. (0.807, 0.819) <a">parent_node: Sales end soon aria-label="View {eventName}"</a>
+2026-06-02 14:26:43,597 - BC. (0.395, 0.912) <aside">Almost full</aside>
+2026-06-02 14:26:43,597 - BD. (0.602, 0.912) <aside">Almost full</aside>
+2026-06-02 14:26:43,597 - BE. (0.809, 0.912) <aside">Sales end soon</aside>
+2026-06-02 14:26:43,597 - BF. (0.188, 0.92) <a">Female Founders Night | Businettes Apéritif MÜNCHEN</a>
+2026-06-02 14:26:43,597 - BG. (0.395, 0.943) <a">KONKRET 2026</a>
+2026-06-02 14:26:43,597 - BH. (0.602, 0.955) <a">Pizza and Pitches by the Battery Startup Incubator</a>
+2026-06-02 14:26:43,597 - BI. (0.809, 0.955) <a">This Is What AI Was Supposed To Do For Your Business</a>
+2026-06-02 14:26:43,597 - BJ. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:26:49,984 - ELEMENT: BJ
+2026-06-02 14:26:49,984 - 
+2026-06-02 14:26:49,984 - ACTION: SCROLL DOWN
+2026-06-02 14:26:49,984 - 
+2026-06-02 14:26:49,984 - VALUE: None
+2026-06-02 14:26:50,024 - Scrolled down
+2026-06-02 14:26:57,652 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_4.png
+2026-06-02 14:26:58,242 - TASK: Browse the page with event planning tips.
+2026-06-02 14:26:58,242 - Previous:
+2026-06-02 14:26:58,242 - [button] Accept all -> CLICK
+2026-06-02 14:26:58,242 - SCROLL DOWN
+2026-06-02 14:26:58,242 - SCROLL DOWN
+2026-06-02 14:26:58,242 - calling generate
+2026-06-02 14:27:04,334 - ----------
+2026-06-02 14:27:04,334 - Please type "event planning tips" into the "Search events" input field, which is labeled with 'Z' at the top left of the page.
+2026-06-02 14:27:04,334 - 
+2026-06-02 14:27:04,334 - Action: TYPE
+2026-06-02 14:27:04,334 - Value: event planning tips
+2026-06-02 14:27:04,334 - Element: Z
+2026-06-02 14:27:04,334 - ----------
+2026-06-02 14:27:04,334 - If none of these elements match your target element or your target action doesn't involve an element, please select BP.
+2026-06-02 14:27:04,334 - A. (0.339, 0.028) <label">parent_node: autocomplete</label>
+2026-06-02 14:27:04,334 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:27:04,334 - C. (0.22, 0.029) <form">Search events</form>
+2026-06-02 14:27:04,334 - D. (0.231, 0.029) <input type="search"">parent_node: Search events name="search-autocomplete-input" placeholder="Search events"</input>
+2026-06-02 14:27:04,334 - E. (0.317, 0.029) <nav">Search eventsautocomplete</nav>
+2026-06-02 14:27:04,334 - F. (0.417, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete value="München"</input>
+2026-06-02 14:27:04,350 - G. (0.497, 0.029) <nav">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</nav>
+2026-06-02 14:27:04,350 - H. (0.499, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:27:04,350 - I. (0.567, 0.029) <a">Updates</a>
+2026-06-02 14:27:04,350 - J. (0.634, 0.029) <a">Find Events</a>
+2026-06-02 14:27:04,350 - K. (0.712, 0.029) <a">Create Events</a>
+2026-06-02 14:27:04,350 - L. (0.759, 0.029) <ul">Updates Find Events Create Events Help Center Find my tickets Sign in</ul>
+2026-06-02 14:27:04,350 - M. (0.797, 0.029) <li">Help CenterHelp CenterFind your ticketsContact your event organizer</li>
+2026-06-02 14:27:04,350 - N. (0.883, 0.029) <a">Find my tickets</a>
+2026-06-02 14:27:04,350 - O. (0.954, 0.029) <a">Sign in</a>
+2026-06-02 14:27:04,350 - P. (0.497, 0.03) <header">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</header>
+2026-06-02 14:27:04,350 - Q. (0.188, 0.062) <aside">Sales end soon</aside>
+2026-06-02 14:27:04,350 - R. (0.395, 0.062) <aside">Almost full</aside>
+2026-06-02 14:27:04,350 - S. (0.602, 0.062) <aside">Almost full</aside>
+2026-06-02 14:27:04,350 - T. (0.809, 0.062) <aside">Sales end soon</aside>
+2026-06-02 14:27:04,350 - U. (0.602, 0.093) <a">MUNICH AI DAY 2026</a>
+2026-06-02 14:27:04,350 - V. (0.188, 0.105) <a">Funding Virtual Meeting - Financing Tips</a>
+2026-06-02 14:27:04,350 - W. (0.395, 0.105) <a">LIGHT UP - LifeWave Congress 2026</a>
+2026-06-02 14:27:04,350 - X. (0.809, 0.105) <a">Iyengar Yoga Convention 2026 München</a>
+2026-06-02 14:27:04,350 - Y. (0.6, 0.116) <section">Almost fullMUNICH AI DAY 2026Tue, Jun 23 • 1:00 PM MuffathalleFree</section>
+2026-06-02 14:27:04,350 - Z. (0.186, 0.127) <section">Sales end soon Funding Virtual Meeting - Financing Tips Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:27:04,350 - AA. (0.393, 0.128) <section">Almost full LIGHT UP - LifeWave Congress 2026 Fri, Jun 12 • 2:00 PM INFINITY From €69.00</section>
+2026-06-02 14:27:04,350 - AB. (0.807, 0.128) <section">Sales end soon Iyengar Yoga Convention 2026 München Friday • 9:00 AM Alte Kongresshalle From €170.00</section>
+2026-06-02 14:27:04,350 - AC. (0.186, 0.319) <a">parent_node: Female Founders Night | Businettes Apéritif MÜNCHEN aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AD. (0.393, 0.319) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AE. (0.6, 0.319) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AF. (0.807, 0.319) <a">parent_node: Sales end soon aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AG. (0.186, 0.391) <section">Female Founders Night | Businettes Apéritif MÜNCHEN Tue, Jun 9 • 6:00 PM o2 Tower From €29.00</section>
+2026-06-02 14:27:04,350 - AH. (0.393, 0.397) <section">Almost full KONKRET 2026 Wed, Jun 17 • 9:00 AM Design Offices München Macherei From €76.76</section>
+2026-06-02 14:27:04,350 - AI. (0.807, 0.408) <section">Sales end soon This Is What AI Was Supposed To Do For Your Business Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:27:04,350 - AJ. (0.6, 0.409) <section">Almost full Pizza and Pitches by the Battery Startup Incubator Tomorrow • 5:30 PM TUM Entrepreneurship Research Institute Free</section>
+2026-06-02 14:27:04,350 - AK. (0.395, 0.412) <aside">Almost full</aside>
+2026-06-02 14:27:04,350 - AL. (0.602, 0.412) <aside">Almost full</aside>
+2026-06-02 14:27:04,350 - AM. (0.809, 0.412) <aside">Sales end soon</aside>
+2026-06-02 14:27:04,350 - AN. (0.188, 0.42) <a">Female Founders Night | Businettes Apéritif MÜNCHEN</a>
+2026-06-02 14:27:04,350 - AO. (0.395, 0.443) <a">KONKRET 2026</a>
+2026-06-02 14:27:04,350 - AP. (0.602, 0.455) <a">Pizza and Pitches by the Battery Startup Incubator</a>
+2026-06-02 14:27:04,350 - AQ. (0.809, 0.455) <a">This Is What AI Was Supposed To Do For Your Business</a>
+2026-06-02 14:27:04,350 - AR. (0.186, 0.461) <section">Female Founders Night | Businettes Apéritif MÜNCHEN Tue, Jun 9 • 6:00 PM o2 Tower From €29.00</section>
+2026-06-02 14:27:04,350 - AS. (0.393, 0.467) <section">Almost full KONKRET 2026 Wed, Jun 17 • 9:00 AM Design Offices München Macherei From €76.76</section>
+2026-06-02 14:27:04,350 - AT. (0.807, 0.478) <section">Sales end soon This Is What AI Was Supposed To Do For Your Business Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:27:04,350 - AU. (0.6, 0.479) <section">Almost full Pizza and Pitches by the Battery Startup Incubator Tomorrow • 5:30 PM TUM Entrepreneurship Research Institute Free</section>
+2026-06-02 14:27:04,350 - AV. (0.186, 0.67) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AW. (0.393, 0.67) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AX. (0.6, 0.67) <a">parent_node: Sales end soon aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AY. (0.807, 0.67) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:04,350 - AZ. (0.186, 0.748) <section">Almost fullRICS MUC Tech SeriesWed, Jun 10 • 6:00 PM comN - Das NetzwerkhausFree</section>
+2026-06-02 14:27:04,350 - BA. (0.807, 0.757) <section">Almost full ArtistTalk mit J. Konrad Schmidt Thu, Jun 11 • 6:00 PM Leica Store & Galerie München Maffeistraße Free</section>
+2026-06-02 14:27:04,350 - BB. (0.393, 0.759) <section">Almost full modern talking: Individualismus und Leistungsdruck Thu, Jun 11 • 10:00 AM Jugendinformationszentrum (JIZ) Free</section>
+2026-06-02 14:27:04,350 - BC. (0.188, 0.763) <aside">Almost full</aside>
+2026-06-02 14:27:04,350 - BD. (0.395, 0.763) <aside">Almost full</aside>
+2026-06-02 14:27:04,350 - BE. (0.602, 0.763) <aside">Sales end soon</aside>
+2026-06-02 14:27:04,350 - BF. (0.809, 0.763) <aside">Almost full</aside>
+2026-06-02 14:27:04,350 - BG. (0.6, 0.771) <section">Sales end soon White Night am Englischen Garten Sa 06.06.2026 Café Reitschule & Moro Mou Saturday • 5:00 PM Café Reitschule & Moro Mou (All Areas) From €0.00</section>
+2026-06-02 14:27:04,350 - BH. (0.188, 0.794) <a">RICS MUC Tech Series</a>
+2026-06-02 14:27:04,350 - BI. (0.809, 0.794) <a">ArtistTalk mit J. Konrad Schmidt</a>
+2026-06-02 14:27:04,350 - BJ. (0.395, 0.806) <a">modern talking: Individualismus und Leistungsdruck</a>
+2026-06-02 14:27:04,350 - BK. (0.186, 0.817) <section">Almost fullRICS MUC Tech SeriesWed, Jun 10 • 6:00 PM comN - Das NetzwerkhausFree</section>
+2026-06-02 14:27:04,350 - BL. (0.602, 0.817) <a">White Night am Englischen Garten Sa 06.06.2026 Café Reitschule & Moro Mou</a>
+2026-06-02 14:27:04,350 - BM. (0.807, 0.827) <section">Almost full ArtistTalk mit J. Konrad Schmidt Thu, Jun 11 • 6:00 PM Leica Store & Galerie München Maffeistraße Free</section>
+2026-06-02 14:27:04,350 - BN. (0.393, 0.829) <section">Almost full modern talking: Individualismus und Leistungsdruck Thu, Jun 11 • 10:00 AM Jugendinformationszentrum (JIZ) Free</section>
+2026-06-02 14:27:04,350 - BO. (0.6, 0.841) <section">Sales end soon White Night am Englischen Garten Sa 06.06.2026 Café Reitschule & Moro Mou Saturday • 5:00 PM Café Reitschule & Moro Mou (All Areas) From €0.00</section>
+2026-06-02 14:27:04,350 - BP. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:27:09,803 - ELEMENT: D
+2026-06-02 14:27:09,803 - 
+2026-06-02 14:27:09,803 - ACTION: TYPE
+2026-06-02 14:27:09,803 - 
+2026-06-02 14:27:09,803 - VALUE: event planning tips
+2026-06-02 14:27:09,893 - Typed 'event planning tips' into element: parent_node: Search events name="search-autocomplete-input" placeholder="Search events"
+2026-06-02 14:27:16,350 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_5.png
+2026-06-02 14:27:16,940 - TASK: Browse the page with event planning tips.
+2026-06-02 14:27:16,940 - Previous:
+2026-06-02 14:27:16,940 - [button] Accept all -> CLICK
+2026-06-02 14:27:16,940 - SCROLL DOWN
+2026-06-02 14:27:16,940 - SCROLL DOWN
+2026-06-02 14:27:16,940 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:27:16,940 - calling generate
+2026-06-02 14:27:23,320 - ----------
+2026-06-02 14:27:23,333 - To submit the search for "event planning tips" and display the results, I will press the Enter key.
+2026-06-02 14:27:23,333 - 
+2026-06-02 14:27:23,333 - **Action:** PRESS ENTER
+2026-06-02 14:27:23,333 - ----------
+2026-06-02 14:27:23,333 - If none of these elements match your target element or your target action doesn't involve an element, please select BP.
+2026-06-02 14:27:23,333 - A. (0.339, 0.028) <label">parent_node: autocomplete</label>
+2026-06-02 14:27:23,333 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:27:23,333 - C. (0.22, 0.029) <form">Search events</form>
+2026-06-02 14:27:23,333 - D. (0.231, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:27:23,333 - E. (0.317, 0.029) <nav">Search eventsautocomplete</nav>
+2026-06-02 14:27:23,333 - F. (0.417, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete value="München"</input>
+2026-06-02 14:27:23,333 - G. (0.497, 0.029) <nav">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</nav>
+2026-06-02 14:27:23,333 - H. (0.499, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:27:23,333 - I. (0.567, 0.029) <a">Updates</a>
+2026-06-02 14:27:23,333 - J. (0.634, 0.029) <a">Find Events</a>
+2026-06-02 14:27:23,333 - K. (0.712, 0.029) <a">Create Events</a>
+2026-06-02 14:27:23,333 - L. (0.759, 0.029) <ul">Updates Find Events Create Events Help Center Find my tickets Sign in</ul>
+2026-06-02 14:27:23,333 - M. (0.797, 0.029) <li">Help CenterHelp CenterFind your ticketsContact your event organizer</li>
+2026-06-02 14:27:23,333 - N. (0.883, 0.029) <a">Find my tickets</a>
+2026-06-02 14:27:23,333 - O. (0.954, 0.029) <a">Sign in</a>
+2026-06-02 14:27:23,333 - P. (0.497, 0.03) <header">Eventbrite Search events autocomplete Updates Find Events Create Events Help Center Find my tickets Sign in</header>
+2026-06-02 14:27:23,333 - Q. (0.188, 0.062) <aside">Sales end soon</aside>
+2026-06-02 14:27:23,333 - R. (0.395, 0.062) <aside">Almost full</aside>
+2026-06-02 14:27:23,333 - S. (0.602, 0.062) <aside">Almost full</aside>
+2026-06-02 14:27:23,333 - T. (0.809, 0.062) <aside">Sales end soon</aside>
+2026-06-02 14:27:23,333 - U. (0.602, 0.093) <a">MUNICH AI DAY 2026</a>
+2026-06-02 14:27:23,333 - V. (0.188, 0.105) <a">Funding Virtual Meeting - Financing Tips</a>
+2026-06-02 14:27:23,336 - W. (0.395, 0.105) <a">LIGHT UP - LifeWave Congress 2026</a>
+2026-06-02 14:27:23,336 - X. (0.809, 0.105) <a">Iyengar Yoga Convention 2026 München</a>
+2026-06-02 14:27:23,336 - Y. (0.6, 0.116) <section">Almost fullMUNICH AI DAY 2026Tue, Jun 23 • 1:00 PM MuffathalleFree</section>
+2026-06-02 14:27:23,336 - Z. (0.186, 0.127) <section">Sales end soon Funding Virtual Meeting - Financing Tips Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:27:23,336 - AA. (0.393, 0.128) <section">Almost full LIGHT UP - LifeWave Congress 2026 Fri, Jun 12 • 2:00 PM INFINITY From €69.00</section>
+2026-06-02 14:27:23,336 - AB. (0.807, 0.128) <section">Sales end soon Iyengar Yoga Convention 2026 München Friday • 9:00 AM Alte Kongresshalle From €170.00</section>
+2026-06-02 14:27:23,336 - AC. (0.186, 0.319) <a">parent_node: Female Founders Night | Businettes Apéritif MÜNCHEN aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AD. (0.393, 0.319) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AE. (0.6, 0.319) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AF. (0.807, 0.319) <a">parent_node: Sales end soon aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AG. (0.186, 0.391) <section">Female Founders Night | Businettes Apéritif MÜNCHEN Tue, Jun 9 • 6:00 PM o2 Tower From €29.00</section>
+2026-06-02 14:27:23,336 - AH. (0.393, 0.397) <section">Almost full KONKRET 2026 Wed, Jun 17 • 9:00 AM Design Offices München Macherei From €76.76</section>
+2026-06-02 14:27:23,336 - AI. (0.807, 0.408) <section">Sales end soon This Is What AI Was Supposed To Do For Your Business Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:27:23,336 - AJ. (0.6, 0.409) <section">Almost full Pizza and Pitches by the Battery Startup Incubator Tomorrow • 5:30 PM TUM Entrepreneurship Research Institute Free</section>
+2026-06-02 14:27:23,336 - AK. (0.395, 0.412) <aside">Almost full</aside>
+2026-06-02 14:27:23,336 - AL. (0.602, 0.412) <aside">Almost full</aside>
+2026-06-02 14:27:23,336 - AM. (0.809, 0.412) <aside">Sales end soon</aside>
+2026-06-02 14:27:23,336 - AN. (0.188, 0.42) <a">Female Founders Night | Businettes Apéritif MÜNCHEN</a>
+2026-06-02 14:27:23,336 - AO. (0.395, 0.443) <a">KONKRET 2026</a>
+2026-06-02 14:27:23,336 - AP. (0.602, 0.455) <a">Pizza and Pitches by the Battery Startup Incubator</a>
+2026-06-02 14:27:23,336 - AQ. (0.809, 0.455) <a">This Is What AI Was Supposed To Do For Your Business</a>
+2026-06-02 14:27:23,336 - AR. (0.186, 0.461) <section">Female Founders Night | Businettes Apéritif MÜNCHEN Tue, Jun 9 • 6:00 PM o2 Tower From €29.00</section>
+2026-06-02 14:27:23,336 - AS. (0.393, 0.467) <section">Almost full KONKRET 2026 Wed, Jun 17 • 9:00 AM Design Offices München Macherei From €76.76</section>
+2026-06-02 14:27:23,336 - AT. (0.807, 0.478) <section">Sales end soon This Is What AI Was Supposed To Do For Your Business Thursday • 1:00 AM GMT+2 Free Promoted</section>
+2026-06-02 14:27:23,336 - AU. (0.6, 0.479) <section">Almost full Pizza and Pitches by the Battery Startup Incubator Tomorrow • 5:30 PM TUM Entrepreneurship Research Institute Free</section>
+2026-06-02 14:27:23,336 - AV. (0.186, 0.67) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AW. (0.393, 0.67) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AX. (0.6, 0.67) <a">parent_node: Sales end soon aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AY. (0.807, 0.67) <a">parent_node: Almost full aria-label="View {eventName}"</a>
+2026-06-02 14:27:23,336 - AZ. (0.186, 0.748) <section">Almost fullRICS MUC Tech SeriesWed, Jun 10 • 6:00 PM comN - Das NetzwerkhausFree</section>
+2026-06-02 14:27:23,336 - BA. (0.807, 0.757) <section">Almost full ArtistTalk mit J. Konrad Schmidt Thu, Jun 11 • 6:00 PM Leica Store & Galerie München Maffeistraße Free</section>
+2026-06-02 14:27:23,336 - BB. (0.393, 0.759) <section">Almost full modern talking: Individualismus und Leistungsdruck Thu, Jun 11 • 10:00 AM Jugendinformationszentrum (JIZ) Free</section>
+2026-06-02 14:27:23,336 - BC. (0.188, 0.763) <aside">Almost full</aside>
+2026-06-02 14:27:23,336 - BD. (0.395, 0.763) <aside">Almost full</aside>
+2026-06-02 14:27:23,336 - BE. (0.602, 0.763) <aside">Sales end soon</aside>
+2026-06-02 14:27:23,336 - BF. (0.809, 0.763) <aside">Almost full</aside>
+2026-06-02 14:27:23,336 - BG. (0.6, 0.771) <section">Sales end soon White Night am Englischen Garten Sa 06.06.2026 Café Reitschule & Moro Mou Saturday • 5:00 PM Café Reitschule & Moro Mou (All Areas) From €0.00</section>
+2026-06-02 14:27:23,336 - BH. (0.188, 0.794) <a">RICS MUC Tech Series</a>
+2026-06-02 14:27:23,336 - BI. (0.809, 0.794) <a">ArtistTalk mit J. Konrad Schmidt</a>
+2026-06-02 14:27:23,336 - BJ. (0.395, 0.806) <a">modern talking: Individualismus und Leistungsdruck</a>
+2026-06-02 14:27:23,336 - BK. (0.186, 0.817) <section">Almost fullRICS MUC Tech SeriesWed, Jun 10 • 6:00 PM comN - Das NetzwerkhausFree</section>
+2026-06-02 14:27:23,336 - BL. (0.602, 0.817) <a">White Night am Englischen Garten Sa 06.06.2026 Café Reitschule & Moro Mou</a>
+2026-06-02 14:27:23,336 - BM. (0.807, 0.827) <section">Almost full ArtistTalk mit J. Konrad Schmidt Thu, Jun 11 • 6:00 PM Leica Store & Galerie München Maffeistraße Free</section>
+2026-06-02 14:27:23,336 - BN. (0.393, 0.829) <section">Almost full modern talking: Individualismus und Leistungsdruck Thu, Jun 11 • 10:00 AM Jugendinformationszentrum (JIZ) Free</section>
+2026-06-02 14:27:23,336 - BO. (0.6, 0.841) <section">Sales end soon White Night am Englischen Garten Sa 06.06.2026 Café Reitschule & Moro Mou Saturday • 5:00 PM Café Reitschule & Moro Mou (All Areas) From €0.00</section>
+2026-06-02 14:27:23,336 - BP. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:27:29,369 - ELEMENT: D
+2026-06-02 14:27:29,369 - 
+2026-06-02 14:27:29,369 - ACTION: PRESS ENTER
+2026-06-02 14:27:29,369 - 
+2026-06-02 14:27:29,369 - VALUE: None
+2026-06-02 14:27:31,437 - Pressed Enter on element: input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips"
+2026-06-02 14:27:32,496 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_6.png
+2026-06-02 14:27:34,799 - TASK: Browse the page with event planning tips.
+2026-06-02 14:27:34,799 - Previous:
+2026-06-02 14:27:34,799 - [button] Accept all -> CLICK
+2026-06-02 14:27:34,799 - SCROLL DOWN
+2026-06-02 14:27:34,799 - SCROLL DOWN
+2026-06-02 14:27:34,799 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:27:34,799 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:27:34,799 - calling generate
+2026-06-02 14:27:41,382 - ----------
+2026-06-02 14:27:41,390 - To browse the page and find relevant events, let's scroll down first to see more search results.
+2026-06-02 14:27:41,390 - 
+2026-06-02 14:27:41,390 - Action:
+2026-06-02 14:27:41,390 - SCROLL DOWN
+2026-06-02 14:27:41,390 - ----------
+2026-06-02 14:27:41,390 - If none of these elements match your target element or your target action doesn't involve an element, please select .
+2026-06-02 14:27:41,390 - . None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:27:47,315 - ELEMENT: None
+2026-06-02 14:27:47,315 - 
+2026-06-02 14:27:47,315 - ACTION: SCROLL DOWN
+2026-06-02 14:27:47,315 - 
+2026-06-02 14:27:47,315 - VALUE: None
+2026-06-02 14:27:47,343 - Scrolled down
+2026-06-02 14:28:14,563 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_7.png
+2026-06-02 14:28:15,168 - TASK: Browse the page with event planning tips.
+2026-06-02 14:28:15,168 - Previous:
+2026-06-02 14:28:15,168 - [button] Accept all -> CLICK
+2026-06-02 14:28:15,168 - SCROLL DOWN
+2026-06-02 14:28:15,168 - SCROLL DOWN
+2026-06-02 14:28:15,168 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:28:15,168 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:28:15,168 - SCROLL DOWN
+2026-06-02 14:28:15,168 - calling generate
+2026-06-02 14:28:21,915 - ----------
+2026-06-02 14:28:21,931 - Action: SCROLL DOWN
+2026-06-02 14:28:21,931 - ----------
+2026-06-02 14:28:21,931 - If none of these elements match your target element or your target action doesn't involve an element, please select CP.
+2026-06-02 14:28:21,931 - A. (0.523, 0.015) <svg">parent_node: Share this event: The Marketing Ecosystem™ -...</svg>
+2026-06-02 14:28:21,931 - B. (0.549, 0.015) <svg">parent_node: Save this event: The Marketing Ecosystem™ -...</svg>
+2026-06-02 14:28:21,931 - C. (0.576, 0.015) <svg">parent_node: Promoted event actions</svg>
+2026-06-02 14:28:21,931 - D. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:28:21,931 - E. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:28:21,931 - F. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:28:21,931 - G. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:28:21,931 - H. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:28:21,931 - I. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:28:21,931 - J. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:28:21,931 - K. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:28:21,931 - L. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:28:21,931 - M. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:28:21,931 - N. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:28:21,931 - O. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:28:21,931 - P. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:28:21,931 - Q. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:28:21,931 - R. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:28:21,931 - S. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:28:21,931 - T. (0.086, 0.093) <legend">Date</legend>
+2026-06-02 14:28:21,931 - U. (0.086, 0.118) <li">Today</li>
+2026-06-02 14:28:21,931 - V. (0.454, 0.121) <aside">Sales end soon</aside>
+2026-06-02 14:28:21,931 - W. (0.086, 0.143) <li">Tomorrow</li>
+2026-06-02 14:28:21,931 - X. (0.086, 0.149) <fieldset">DateTodayTomorrowThis weekendPick a date...</fieldset>
+2026-06-02 14:28:21,931 - Y. (0.454, 0.152) <a">Why Do I Keep Starting Over?</a>
+2026-06-02 14:28:21,931 - Z. (0.243, 0.159) <a">aria-label="View Why Do I Keep Starting Over?"</a>
+2026-06-02 14:28:21,931 - AA. (0.086, 0.165) <ul">TodayTomorrowThis weekendPick a date...</ul>
+2026-06-02 14:28:21,931 - AB. (0.243, 0.171) <section">parent_node: Sales end soon</section>
+2026-06-02 14:28:21,931 - AC. (0.38, 0.171) <section">Sales end soon Why Do I Keep Starting Over? Friday • 12:30 AM GMT+2 Free Promoted Share this event: Why Do I Keep Starting Over? Save this event: Why Do...</section>
+2026-06-02 14:28:21,931 - AD. (0.459, 0.171) <section">Sales end soonWhy Do I Keep Starting Over?Friday • 12:30 AM GMT+2FreePromoted</section>
+2026-06-02 14:28:21,931 - AE. (0.086, 0.175) <li">This weekend</li>
+2026-06-02 14:28:21,931 - AF. (0.086, 0.18) <label">This weekend</label>
+2026-06-02 14:28:21,931 - AG. (0.388, 0.183) <li">Sales end soon Why Do I Keep Starting Over? Friday • 12:30 AM GMT+2 Free Promoted Share this event: Why Do I Keep Starting Over? Save this event: Why Do...</li>
+2026-06-02 14:28:21,931 - AH. (0.086, 0.206) <li">Pick a date...</li>
+2026-06-02 14:28:21,931 - AI. (0.086, 0.212) <label">Pick a date...</label>
+2026-06-02 14:28:21,931 - AJ. (0.523, 0.217) <button type="button"">Share this event: Why Do I Keep Starting Over?</button>
+2026-06-02 14:28:21,931 - AK. (0.549, 0.217) <button type="button"">Save this event: Why Do I Keep Starting Over?</button>
+2026-06-02 14:28:21,931 - AL. (0.576, 0.217) <button type="button"">Promoted event actions</button>
+2026-06-02 14:28:21,931 - AM. (0.053, 0.259) <button type="button"">View more</button>
+2026-06-02 14:28:21,931 - AN. (0.454, 0.323) <aside">Just added</aside>
+2026-06-02 14:28:21,931 - AO. (0.086, 0.343) <legend">Neighborhood</legend>
+2026-06-02 14:28:21,931 - AP. (0.454, 0.354) <a">Moving Forward</a>
+2026-06-02 14:28:21,931 - AQ. (0.243, 0.361) <a">aria-label="View Moving Forward"</a>
+2026-06-02 14:28:21,931 - AR. (0.086, 0.368) <li">Schwabing</li>
+2026-06-02 14:28:21,931 - AS. (0.243, 0.373) <section">parent_node: Just added</section>
+2026-06-02 14:28:21,931 - AT. (0.38, 0.373) <section">Just added Moving Forward Fri, Jun 19 • 6:30 PM München · Leopoldstraße 252A From €17.17 Share this event: Moving Forward Save this event: Moving Forward</section>
+2026-06-02 14:28:21,931 - AU. (0.459, 0.373) <section">Just added Moving Forward Fri, Jun 19 • 6:30 PM München · Leopoldstraße 252A From €17.17</section>
+2026-06-02 14:28:21,931 - AV. (0.388, 0.385) <li">Just added Moving Forward Fri, Jun 19 • 6:30 PM München · Leopoldstraße 252A From €17.17 Share this event: Moving Forward Save this event: Moving Forward</li>
+2026-06-02 14:28:21,931 - AW. (0.086, 0.393) <li">Neuhausen</li>
+2026-06-02 14:28:21,931 - AX. (0.086, 0.399) <fieldset">NeighborhoodSchwabingNeuhausenAltstadtIsarvorstadt</fieldset>
+2026-06-02 14:28:21,931 - AY. (0.086, 0.415) <ul">SchwabingNeuhausenAltstadtIsarvorstadt</ul>
+2026-06-02 14:28:21,931 - AZ. (0.549, 0.42) <button type="button"">Share this event: Moving Forward</button>
+2026-06-02 14:28:21,931 - BA. (0.562, 0.42) <section">Share this event: Moving ForwardSave this event: Moving Forward</section>
+2026-06-02 14:28:21,931 - BB. (0.576, 0.42) <button type="button"">Save this event: Moving Forward</button>
+2026-06-02 14:28:21,931 - BC. (0.086, 0.425) <li">Altstadt</li>
+2026-06-02 14:28:21,931 - BD. (0.086, 0.43) <label">Altstadt</label>
+2026-06-02 14:28:21,931 - BE. (0.086, 0.456) <li">Isarvorstadt</li>
+2026-06-02 14:28:21,931 - BF. (0.086, 0.462) <label">Isarvorstadt</label>
+2026-06-02 14:28:21,931 - BG. (0.053, 0.509) <button type="button"">View more</button>
+2026-06-02 14:28:21,931 - BH. (0.454, 0.533) <a">IBM Planning Analytics TM1 Web - Schulung in München</a>
+2026-06-02 14:28:21,931 - BI. (0.243, 0.564) <a">aria-label="View IBM Planning Analytics TM1 Web - Schulung in München"</a>
+2026-06-02 14:28:21,931 - BJ. (0.243, 0.571) <section">parent_node: IBM Planning Analytics TM1 Web - Schulung...</section>
+2026-06-02 14:28:21,931 - BK. (0.38, 0.571) <section">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</section>
+2026-06-02 14:28:21,931 - BL. (0.459, 0.571) <section">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:28:21,931 - BM. (0.086, 0.593) <legend">Price</legend>
+2026-06-02 14:28:21,931 - BN. (0.549, 0.612) <button type="button"">Share this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:28:21,931 - BO. (0.562, 0.612) <section">Share this event: IBM Planning Analytics TM1 Web - Schulung in München Save this event: IBM Planning Analytics TM1 Web - Schulung in München</section>
+2026-06-02 14:28:21,931 - BP. (0.576, 0.612) <button type="button"">Save this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:28:21,931 - BQ. (0.086, 0.618) <fieldset">PriceFreePaid</fieldset>
+2026-06-02 14:28:21,931 - BR. (0.388, 0.623) <li">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</li>
+2026-06-02 14:28:21,931 - BS. (0.086, 0.634) <ul">FreePaid</ul>
+2026-06-02 14:28:21,931 - BT. (0.086, 0.643) <li">Paid</li>
+2026-06-02 14:28:21,931 - BU. (0.086, 0.649) <label">Paid</label>
+2026-06-02 14:28:21,931 - BV. (0.38, 0.676) <button type="button"">View 3 similar results</button>
+2026-06-02 14:28:21,931 - BW. (0.086, 0.721) <legend">Format</legend>
+2026-06-02 14:28:21,931 - BX. (0.086, 0.747) <li">Class</li>
+2026-06-02 14:28:21,931 - BY. (0.086, 0.772) <li">Conference</li>
+2026-06-02 14:28:21,931 - BZ. (0.086, 0.778) <fieldset">FormatClassConferenceFestivalParty</fieldset>
+2026-06-02 14:28:21,931 - CA. (0.086, 0.794) <ul">ClassConferenceFestivalParty</ul>
+2026-06-02 14:28:21,931 - CB. (0.086, 0.804) <li">Festival</li>
+2026-06-02 14:28:21,931 - CC. (0.454, 0.807) <a">IBM Planning Analytics TM1 Basis - Schulung in München</a>
+2026-06-02 14:28:21,931 - CD. (0.086, 0.809) <label">Festival</label>
+2026-06-02 14:28:21,931 - CE. (0.086, 0.835) <li">Party</li>
+2026-06-02 14:28:21,931 - CF. (0.243, 0.837) <a">aria-label="View IBM Planning Analytics TM1 Basis - Schulung in München"</a>
+2026-06-02 14:28:21,931 - CG. (0.086, 0.841) <label">Party</label>
+2026-06-02 14:28:21,931 - CH. (0.243, 0.844) <section">parent_node: IBM Planning Analytics TM1 Basis - Schulung...</section>
+2026-06-02 14:28:21,931 - CI. (0.38, 0.844) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</section>
+2026-06-02 14:28:21,931 - CJ. (0.459, 0.844) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:28:21,931 - CK. (0.549, 0.885) <button type="button"">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:28:21,931 - CL. (0.562, 0.885) <section">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</section>
+2026-06-02 14:28:21,931 - CM. (0.576, 0.885) <button type="button"">Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:28:21,931 - CN. (0.053, 0.887) <button type="button"">View more</button>
+2026-06-02 14:28:21,931 - CO. (0.38, 0.95) <button type="button"">View 3 similar results</button>
+2026-06-02 14:28:21,931 - CP. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:28:28,250 - ELEMENT: CP
+2026-06-02 14:28:28,250 - 
+2026-06-02 14:28:28,250 - ACTION: SCROLL DOWN
+2026-06-02 14:28:28,250 - 
+2026-06-02 14:28:28,250 - VALUE: None
+2026-06-02 14:28:28,349 - Scrolled down
+2026-06-02 14:28:54,313 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_8.png
+2026-06-02 14:28:54,834 - TASK: Browse the page with event planning tips.
+2026-06-02 14:28:54,834 - Previous:
+2026-06-02 14:28:54,834 - [button] Accept all -> CLICK
+2026-06-02 14:28:54,834 - SCROLL DOWN
+2026-06-02 14:28:54,834 - SCROLL DOWN
+2026-06-02 14:28:54,834 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:28:54,834 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:28:54,834 - SCROLL DOWN
+2026-06-02 14:28:54,834 - SCROLL DOWN
+2026-06-02 14:28:54,834 - calling generate
+2026-06-02 14:29:00,094 - ----------
+2026-06-02 14:29:00,099 - scrolldown
+2026-06-02 14:29:00,099 - ----------
+2026-06-02 14:29:00,101 - If none of these elements match your target element or your target action doesn't involve an element, please select CI.
+2026-06-02 14:29:00,101 - A. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:29:00,101 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:29:00,101 - C. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:29:00,101 - D. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:29:00,101 - E. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:29:00,101 - F. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:29:00,101 - G. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:29:00,103 - H. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:29:00,103 - I. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:29:00,103 - J. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:29:00,103 - K. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:29:00,103 - L. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:29:00,103 - M. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:29:00,103 - N. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:29:00,103 - O. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:29:00,103 - P. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:29:00,103 - Q. (0.454, 0.033) <a">IBM Planning Analytics TM1 Web - Schulung in München</a>
+2026-06-02 14:29:00,103 - R. (0.243, 0.064) <a">aria-label="View IBM Planning Analytics TM1 Web - Schulung in München"</a>
+2026-06-02 14:29:00,103 - S. (0.243, 0.071) <section">parent_node: IBM Planning Analytics TM1 Web - Schulung...</section>
+2026-06-02 14:29:00,103 - T. (0.459, 0.071) <section">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:29:00,103 - U. (0.086, 0.093) <legend">Price</legend>
+2026-06-02 14:29:00,105 - V. (0.549, 0.112) <button type="button"">Share this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:29:00,105 - W. (0.562, 0.112) <section">Share this event: IBM Planning Analytics TM1 Web - Schulung in München Save this event: IBM Planning Analytics TM1 Web - Schulung in München</section>
+2026-06-02 14:29:00,105 - X. (0.576, 0.112) <button type="button"">Save this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:29:00,105 - Y. (0.086, 0.118) <fieldset">PriceFreePaid</fieldset>
+2026-06-02 14:29:00,105 - Z. (0.086, 0.134) <ul">FreePaid</ul>
+2026-06-02 14:29:00,105 - AA. (0.086, 0.143) <li">Paid</li>
+2026-06-02 14:29:00,105 - AB. (0.086, 0.149) <label">Paid</label>
+2026-06-02 14:29:00,105 - AC. (0.38, 0.176) <button type="button"">View 3 similar results</button>
+2026-06-02 14:29:00,105 - AD. (0.086, 0.221) <legend">Format</legend>
+2026-06-02 14:29:00,105 - AE. (0.086, 0.247) <li">Class</li>
+2026-06-02 14:29:00,105 - AF. (0.086, 0.272) <li">Conference</li>
+2026-06-02 14:29:00,105 - AG. (0.086, 0.278) <fieldset">FormatClassConferenceFestivalParty</fieldset>
+2026-06-02 14:29:00,105 - AH. (0.086, 0.294) <ul">ClassConferenceFestivalParty</ul>
+2026-06-02 14:29:00,105 - AI. (0.086, 0.304) <li">Festival</li>
+2026-06-02 14:29:00,105 - AJ. (0.454, 0.307) <a">IBM Planning Analytics TM1 Basis - Schulung in München</a>
+2026-06-02 14:29:00,107 - AK. (0.086, 0.309) <label">Festival</label>
+2026-06-02 14:29:00,107 - AL. (0.086, 0.335) <li">Party</li>
+2026-06-02 14:29:00,107 - AM. (0.243, 0.337) <a">aria-label="View IBM Planning Analytics TM1 Basis - Schulung in München"</a>
+2026-06-02 14:29:00,107 - AN. (0.086, 0.341) <label">Party</label>
+2026-06-02 14:29:00,107 - AO. (0.243, 0.344) <section">parent_node: IBM Planning Analytics TM1 Basis - Schulung...</section>
+2026-06-02 14:29:00,107 - AP. (0.38, 0.344) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</section>
+2026-06-02 14:29:00,107 - AQ. (0.459, 0.344) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:29:00,107 - AR. (0.549, 0.385) <button type="button"">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:29:00,107 - AS. (0.562, 0.385) <section">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</section>
+2026-06-02 14:29:00,107 - AT. (0.576, 0.385) <button type="button"">Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:29:00,107 - AU. (0.053, 0.388) <button type="button"">View more</button>
+2026-06-02 14:29:00,107 - AV. (0.388, 0.397) <li">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</li>
+2026-06-02 14:29:00,107 - AW. (0.38, 0.45) <button type="button"">View 3 similar results</button>
+2026-06-02 14:29:00,107 - AX. (0.086, 0.57) <legend">Language</legend>
+2026-06-02 14:29:00,108 - AY. (0.454, 0.58) <a">IBM Planning Analytics TM1 Professional - Schulung in München</a>
+2026-06-02 14:29:00,108 - AZ. (0.086, 0.595) <li">English</li>
+2026-06-02 14:29:00,108 - BA. (0.243, 0.611) <a">aria-label="View IBM Planning Analytics TM1 Professional - Schulung in München"</a>
+2026-06-02 14:29:00,108 - BB. (0.243, 0.617) <section">parent_node: IBM Planning Analytics TM1 Professional - Schulung...</section>
+2026-06-02 14:29:00,108 - BC. (0.38, 0.617) <section">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</section>
+2026-06-02 14:29:00,108 - BD. (0.459, 0.617) <section">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97</section>
+2026-06-02 14:29:00,108 - BE. (0.086, 0.621) <li">German</li>
+2026-06-02 14:29:00,108 - BF. (0.086, 0.627) <fieldset">LanguageEnglishGermanSpanishFrench</fieldset>
+2026-06-02 14:29:00,108 - BG. (0.086, 0.642) <ul">EnglishGermanSpanishFrench</ul>
+2026-06-02 14:29:00,108 - BH. (0.086, 0.652) <li">Spanish</li>
+2026-06-02 14:29:00,108 - BI. (0.086, 0.658) <label">Spanish</label>
+2026-06-02 14:29:00,108 - BJ. (0.549, 0.658) <button type="button"">Share this event: IBM Planning Analytics TM1 Professional - Schulung in München</button>
+2026-06-02 14:29:00,108 - BK. (0.562, 0.658) <section">Share this event: IBM Planning Analytics TM1 Professional - Schulung in München Save this event: IBM Planning Analytics TM1 Professional - Schulung in München</section>
+2026-06-02 14:29:00,108 - BL. (0.576, 0.658) <button type="button"">Save this event: IBM Planning Analytics TM1 Professional - Schulung in München</button>
+2026-06-02 14:29:00,110 - BM. (0.388, 0.67) <li">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</li>
+2026-06-02 14:29:00,110 - BN. (0.086, 0.683) <li">French</li>
+2026-06-02 14:29:00,110 - BO. (0.086, 0.689) <label">French</label>
+2026-06-02 14:29:00,110 - BP. (0.38, 0.723) <button type="button"">View 3 similar results</button>
+2026-06-02 14:29:00,110 - BQ. (0.053, 0.736) <button type="button"">View more</button>
+2026-06-02 14:29:00,110 - BR. (0.086, 0.82) <legend">Currency</legend>
+2026-06-02 14:29:00,110 - BS. (0.086, 0.845) <li">U.S. Dollar</li>
+2026-06-02 14:29:00,110 - BT. (0.454, 0.854) <a">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</a>
+2026-06-02 14:29:00,110 - BU. (0.086, 0.871) <li">Canadian Dollar</li>
+2026-06-02 14:29:00,110 - BV. (0.086, 0.877) <fieldset">CurrencyU.S. DollarCanadian DollarEuroBritish Pound</fieldset>
+2026-06-02 14:29:00,110 - BW. (0.243, 0.884) <a">aria-label="View IBM Planning Analytics TM1 TurboIntegrator - Schulung in München"</a>
+2026-06-02 14:29:00,110 - BX. (0.243, 0.891) <section">parent_node: IBM Planning Analytics TM1 TurboIntegrator - Schulung...</section>
+2026-06-02 14:29:00,110 - BY. (0.38, 0.891) <section">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Wed, Jun 17 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</section>
+2026-06-02 14:29:00,110 - BZ. (0.459, 0.891) <section">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Wed, Jun 17 • 9:00 AM + 6 more München · Business Center München From €3,754.97</section>
+2026-06-02 14:29:00,112 - CA. (0.086, 0.892) <ul">U.S. DollarCanadian DollarEuroBritish Pound</ul>
+2026-06-02 14:29:00,112 - CB. (0.086, 0.902) <li">Euro</li>
+2026-06-02 14:29:00,112 - CC. (0.086, 0.908) <label">Euro</label>
+2026-06-02 14:29:00,112 - CD. (0.549, 0.932) <button type="button"">Share this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</button>
+2026-06-02 14:29:00,112 - CE. (0.562, 0.932) <section">Share this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Save this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</section>
+2026-06-02 14:29:00,112 - CF. (0.576, 0.932) <button type="button"">Save this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</button>
+2026-06-02 14:29:00,112 - CG. (0.086, 0.933) <li">British Pound</li>
+2026-06-02 14:29:00,112 - CH. (0.086, 0.939) <label">British Pound</label>
+2026-06-02 14:29:00,112 - CI. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:29:05,882 - ELEMENT: CI
+2026-06-02 14:29:05,882 - 
+2026-06-02 14:29:05,882 - ACTION: SCROLL DOWN
+2026-06-02 14:29:05,882 - 
+2026-06-02 14:29:05,882 - VALUE: None
+2026-06-02 14:29:05,990 - Scrolled down
+2026-06-02 14:29:31,058 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_9.png
+2026-06-02 14:29:31,537 - TASK: Browse the page with event planning tips.
+2026-06-02 14:29:31,537 - Previous:
+2026-06-02 14:29:31,537 - [button] Accept all -> CLICK
+2026-06-02 14:29:31,537 - SCROLL DOWN
+2026-06-02 14:29:31,537 - SCROLL DOWN
+2026-06-02 14:29:31,537 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:29:31,537 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:29:31,537 - SCROLL DOWN
+2026-06-02 14:29:31,537 - SCROLL DOWN
+2026-06-02 14:29:31,537 - SCROLL DOWN
+2026-06-02 14:29:31,537 - calling generate
+2026-06-02 14:29:36,341 - ----------
+2026-06-02 14:29:36,344 - Action: SCROLL DOWN
+2026-06-02 14:29:36,344 - ----------
+2026-06-02 14:29:36,346 - If none of these elements match your target element or your target action doesn't involve an element, please select BU.
+2026-06-02 14:29:36,346 - A. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:29:36,346 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:29:36,346 - C. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:29:36,346 - D. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:29:36,346 - E. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:29:36,346 - F. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:29:36,347 - G. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:29:36,347 - H. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:29:36,347 - I. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:29:36,347 - J. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:29:36,347 - K. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:29:36,347 - L. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:29:36,347 - M. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:29:36,347 - N. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:29:36,347 - O. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:29:36,347 - P. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:29:36,347 - Q. (0.086, 0.07) <legend">Language</legend>
+2026-06-02 14:29:36,347 - R. (0.454, 0.08) <a">IBM Planning Analytics TM1 Professional - Schulung in München</a>
+2026-06-02 14:29:36,347 - S. (0.086, 0.095) <li">English</li>
+2026-06-02 14:29:36,347 - T. (0.243, 0.111) <a">aria-label="View IBM Planning Analytics TM1 Professional - Schulung in München"</a>
+2026-06-02 14:29:36,347 - U. (0.243, 0.117) <section">parent_node: IBM Planning Analytics TM1 Professional - Schulung...</section>
+2026-06-02 14:29:36,347 - V. (0.38, 0.117) <section">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</section>
+2026-06-02 14:29:36,347 - W. (0.459, 0.117) <section">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97</section>
+2026-06-02 14:29:36,349 - X. (0.086, 0.121) <li">German</li>
+2026-06-02 14:29:36,349 - Y. (0.086, 0.127) <fieldset">LanguageEnglishGermanSpanishFrench</fieldset>
+2026-06-02 14:29:36,349 - Z. (0.086, 0.142) <ul">EnglishGermanSpanishFrench</ul>
+2026-06-02 14:29:36,349 - AA. (0.086, 0.152) <li">Spanish</li>
+2026-06-02 14:29:36,349 - AB. (0.086, 0.158) <label">Spanish</label>
+2026-06-02 14:29:36,349 - AC. (0.549, 0.158) <button type="button"">Share this event: IBM Planning Analytics TM1 Professional - Schulung in München</button>
+2026-06-02 14:29:36,349 - AD. (0.562, 0.158) <section">Share this event: IBM Planning Analytics TM1 Professional - Schulung in München Save this event: IBM Planning Analytics TM1 Professional - Schulung in München</section>
+2026-06-02 14:29:36,349 - AE. (0.576, 0.158) <button type="button"">Save this event: IBM Planning Analytics TM1 Professional - Schulung in München</button>
+2026-06-02 14:29:36,349 - AF. (0.388, 0.17) <li">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</li>
+2026-06-02 14:29:36,349 - AG. (0.086, 0.183) <li">French</li>
+2026-06-02 14:29:36,349 - AH. (0.086, 0.189) <label">French</label>
+2026-06-02 14:29:36,349 - AI. (0.38, 0.223) <button type="button"">View 3 similar results</button>
+2026-06-02 14:29:36,349 - AJ. (0.053, 0.236) <button type="button"">View more</button>
+2026-06-02 14:29:36,349 - AK. (0.086, 0.32) <legend">Currency</legend>
+2026-06-02 14:29:36,349 - AL. (0.086, 0.345) <li">U.S. Dollar</li>
+2026-06-02 14:29:36,349 - AM. (0.454, 0.354) <a">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</a>
+2026-06-02 14:29:36,349 - AN. (0.086, 0.371) <li">Canadian Dollar</li>
+2026-06-02 14:29:36,350 - AO. (0.086, 0.377) <fieldset">CurrencyU.S. DollarCanadian DollarEuroBritish Pound</fieldset>
+2026-06-02 14:29:36,350 - AP. (0.243, 0.384) <a">aria-label="View IBM Planning Analytics TM1 TurboIntegrator - Schulung in München"</a>
+2026-06-02 14:29:36,350 - AQ. (0.243, 0.391) <section">parent_node: IBM Planning Analytics TM1 TurboIntegrator - Schulung...</section>
+2026-06-02 14:29:36,350 - AR. (0.38, 0.391) <section">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Wed, Jun 17 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</section>
+2026-06-02 14:29:36,350 - AS. (0.459, 0.391) <section">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Wed, Jun 17 • 9:00 AM + 6 more München · Business Center München From €3,754.97</section>
+2026-06-02 14:29:36,350 - AT. (0.086, 0.392) <ul">U.S. DollarCanadian DollarEuroBritish Pound</ul>
+2026-06-02 14:29:36,350 - AU. (0.086, 0.402) <li">Euro</li>
+2026-06-02 14:29:36,350 - AV. (0.086, 0.408) <label">Euro</label>
+2026-06-02 14:29:36,350 - AW. (0.549, 0.432) <button type="button"">Share this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</button>
+2026-06-02 14:29:36,350 - AX. (0.562, 0.432) <section">Share this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Save this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</section>
+2026-06-02 14:29:36,350 - AY. (0.576, 0.432) <button type="button"">Save this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</button>
+2026-06-02 14:29:36,350 - AZ. (0.086, 0.433) <li">British Pound</li>
+2026-06-02 14:29:36,350 - BA. (0.086, 0.439) <label">British Pound</label>
+2026-06-02 14:29:36,350 - BB. (0.388, 0.444) <li">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Wed, Jun 17 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</li>
+2026-06-02 14:29:36,350 - BC. (0.053, 0.486) <button type="button"">View more</button>
+2026-06-02 14:29:36,350 - BD. (0.38, 0.496) <button type="button"">View 3 similar results</button>
+2026-06-02 14:29:36,350 - BE. (0.454, 0.627) <a">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</a>
+2026-06-02 14:29:36,350 - BF. (0.243, 0.658) <a">aria-label="View IBM Planning Analytics TM1 Rules und Feeders - Schulung in München"</a>
+2026-06-02 14:29:36,350 - BG. (0.243, 0.664) <section">parent_node: IBM Planning Analytics TM1 Rules und Feeders...</section>
+2026-06-02 14:29:36,350 - BH. (0.38, 0.664) <section">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Thu, Jun 25 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event:...</section>
+2026-06-02 14:29:36,352 - BI. (0.459, 0.664) <section">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Thu, Jun 25 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:29:36,352 - BJ. (0.549, 0.705) <button type="button"">Share this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</button>
+2026-06-02 14:29:36,352 - BK. (0.562, 0.705) <section">Share this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Save this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</section>
+2026-06-02 14:29:36,352 - BL. (0.576, 0.705) <button type="button"">Save this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</button>
+2026-06-02 14:29:36,352 - BM. (0.388, 0.717) <li">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Thu, Jun 25 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event:...</li>
+2026-06-02 14:29:36,352 - BN. (0.38, 0.77) <button type="button"">View 3 similar results</button>
+2026-06-02 14:29:36,352 - BO. (0.454, 0.889) <a">How to Find Love in Germany in 61.2 Minutes</a>
+2026-06-02 14:29:36,352 - BP. (0.243, 0.931) <a">aria-label="View How to Find Love in Germany in 61.2 Minutes"</a>
+2026-06-02 14:29:36,352 - BQ. (0.459, 0.931) <section">How to Find Love in Germany in 61.2 Minutes Sat, Jun 20 • 6:00 PM München · Shamrock Pub From €15.00</section>
+2026-06-02 14:29:36,352 - BR. (0.549, 0.965) <button type="button"">Share this event: How to Find Love in Germany in 61.2 Minutes</button>
+2026-06-02 14:29:36,352 - BS. (0.562, 0.965) <section">Share this event: How to Find Love in Germany in 61.2 Minutes Save this event: How to Find Love in Germany in 61.2 Minutes</section>
+2026-06-02 14:29:36,352 - BT. (0.576, 0.965) <button type="button"">Save this event: How to Find Love in Germany in 61.2 Minutes</button>
+2026-06-02 14:29:36,352 - BU. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:29:39,788 - ELEMENT: BU
+2026-06-02 14:29:39,788 - 
+2026-06-02 14:29:39,788 - ACTION: SCROLL DOWN
+2026-06-02 14:29:39,788 - 
+2026-06-02 14:29:39,788 - VALUE: None
+2026-06-02 14:29:39,878 - Scrolled down
+2026-06-02 14:29:54,095 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_10.png
+2026-06-02 14:29:54,525 - TASK: Browse the page with event planning tips.
+2026-06-02 14:29:54,525 - Previous:
+2026-06-02 14:29:54,525 - [button] Accept all -> CLICK
+2026-06-02 14:29:54,525 - SCROLL DOWN
+2026-06-02 14:29:54,525 - SCROLL DOWN
+2026-06-02 14:29:54,525 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:29:54,525 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:29:54,525 - SCROLL DOWN
+2026-06-02 14:29:54,525 - SCROLL DOWN
+2026-06-02 14:29:54,525 - SCROLL DOWN
+2026-06-02 14:29:54,525 - SCROLL DOWN
+2026-06-02 14:29:54,525 - calling generate
+2026-06-02 14:30:01,318 - ----------
+2026-06-02 14:30:01,328 - Action: SCROLL DOWN
+2026-06-02 14:30:01,328 - ----------
+2026-06-02 14:30:01,328 - If none of these elements match your target element or your target action doesn't involve an element, please select BC.
+2026-06-02 14:30:01,328 - A. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:30:01,328 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:30:01,328 - C. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:30:01,328 - D. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:30:01,328 - E. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:30:01,328 - F. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:30:01,328 - G. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:30:01,328 - H. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:30:01,328 - I. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:30:01,328 - J. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:30:01,328 - K. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:30:01,328 - L. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:30:01,328 - M. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:30:01,328 - N. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:30:01,328 - O. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:30:01,328 - P. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:30:01,328 - Q. (0.454, 0.127) <a">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</a>
+2026-06-02 14:30:01,328 - R. (0.243, 0.158) <a">aria-label="View IBM Planning Analytics TM1 Rules und Feeders - Schulung in München"</a>
+2026-06-02 14:30:01,328 - S. (0.243, 0.164) <section">parent_node: IBM Planning Analytics TM1 Rules und Feeders...</section>
+2026-06-02 14:30:01,328 - T. (0.38, 0.164) <section">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Thu, Jun 25 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event:...</section>
+2026-06-02 14:30:01,328 - U. (0.459, 0.164) <section">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Thu, Jun 25 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:30:01,328 - V. (0.549, 0.205) <button type="button"">Share this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</button>
+2026-06-02 14:30:01,328 - W. (0.562, 0.205) <section">Share this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Save this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</section>
+2026-06-02 14:30:01,328 - X. (0.576, 0.205) <button type="button"">Save this event: IBM Planning Analytics TM1 Rules und Feeders - Schulung in München</button>
+2026-06-02 14:30:01,328 - Y. (0.388, 0.217) <li">IBM Planning Analytics TM1 Rules und Feeders - Schulung in München Thu, Jun 25 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event:...</li>
+2026-06-02 14:30:01,328 - Z. (0.38, 0.27) <button type="button"">View 3 similar results</button>
+2026-06-02 14:30:01,328 - AA. (0.454, 0.389) <a">How to Find Love in Germany in 61.2 Minutes</a>
+2026-06-02 14:30:01,328 - AB. (0.243, 0.431) <a">aria-label="View How to Find Love in Germany in 61.2 Minutes"</a>
+2026-06-02 14:30:01,328 - AC. (0.38, 0.431) <section">How to Find Love in Germany in 61.2 Minutes Sat, Jun 20 • 6:00 PM München · Shamrock Pub From €15.00 Share this event: How to Find Love in Germany...</section>
+2026-06-02 14:30:01,328 - AD. (0.459, 0.431) <section">How to Find Love in Germany in 61.2 Minutes Sat, Jun 20 • 6:00 PM München · Shamrock Pub From €15.00</section>
+2026-06-02 14:30:01,328 - AE. (0.388, 0.443) <li">How to Find Love in Germany in 61.2 Minutes Sat, Jun 20 • 6:00 PM München · Shamrock Pub From €15.00 Share this event: How to Find Love in Germany...</li>
+2026-06-02 14:30:01,328 - AF. (0.549, 0.465) <button type="button"">Share this event: How to Find Love in Germany in 61.2 Minutes</button>
+2026-06-02 14:30:01,328 - AG. (0.562, 0.465) <section">Share this event: How to Find Love in Germany in 61.2 Minutes Save this event: How to Find Love in Germany in 61.2 Minutes</section>
+2026-06-02 14:30:01,328 - AH. (0.576, 0.465) <button type="button"">Save this event: How to Find Love in Germany in 61.2 Minutes</button>
+2026-06-02 14:30:01,328 - AI. (0.454, 0.571) <aside">Sales end soon</aside>
+2026-06-02 14:30:01,328 - AJ. (0.243, 0.609) <a">aria-label="View 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)"</a>
+2026-06-02 14:30:01,328 - AK. (0.454, 0.614) <a">100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)</a>
+2026-06-02 14:30:01,328 - AL. (0.243, 0.639) <section">parent_node: Sales end soon</section>
+2026-06-02 14:30:01,328 - AM. (0.38, 0.639) <section">Sales end soon 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Friday • 7:00 PM + 13 more München · Restaurant of the Week From $44.52...</section>
+2026-06-02 14:30:01,328 - AN. (0.459, 0.639) <section">Sales end soon 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Friday • 7:00 PM + 13 more München · Restaurant of the Week From $44.52...</section>
+2026-06-02 14:30:01,328 - AO. (0.388, 0.651) <li">Sales end soon 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Friday • 7:00 PM + 13 more München · Restaurant of the Week From $44.52...</li>
+2026-06-02 14:30:01,328 - AP. (0.549, 0.703) <button type="button"">Share this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)</button>
+2026-06-02 14:30:01,328 - AQ. (0.562, 0.703) <section">Share this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Save this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)...</section>
+2026-06-02 14:30:01,328 - AR. (0.576, 0.703) <button type="button"">Save this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)</button>
+2026-06-02 14:30:01,328 - AS. (0.438, 0.707) <aside">50% off select tickets</aside>
+2026-06-02 14:30:01,328 - AT. (0.454, 0.817) <a">ISTQB® Test Automation Strategy Training Course - Munich(in English)</a>
+2026-06-02 14:30:01,328 - AU. (0.243, 0.847) <a">aria-label="View ISTQB® Test Automation Strategy Training Course - Munich(in English)"</a>
+2026-06-02 14:30:01,328 - AV. (0.243, 0.854) <section">parent_node: ISTQB® Test Automation Strategy Training Course -...</section>
+2026-06-02 14:30:01,328 - AW. (0.38, 0.854) <section">ISTQB® Test Automation Strategy Training Course - Munich(in English) Mon, Jul 6 • 9:00 AM + 24 more Munich · Munich From €1,533.06 Share this event: ISTQB® Test Automation Strategy...</section>
+2026-06-02 14:30:01,328 - AX. (0.459, 0.854) <section">ISTQB® Test Automation Strategy Training Course - Munich(in English) Mon, Jul 6 • 9:00 AM + 24 more Munich · Munich From €1,533.06</section>
+2026-06-02 14:30:01,328 - AY. (0.388, 0.866) <li">ISTQB® Test Automation Strategy Training Course - Munich(in English) Mon, Jul 6 • 9:00 AM + 24 more Munich · Munich From €1,533.06 Share this event: ISTQB® Test Automation Strategy...</li>
+2026-06-02 14:30:01,328 - AZ. (0.549, 0.895) <button type="button"">Share this event: ISTQB® Test Automation Strategy Training Course - Munich(in English)</button>
+2026-06-02 14:30:01,328 - BA. (0.562, 0.895) <section">Share this event: ISTQB® Test Automation Strategy Training Course - Munich(in English) Save this event: ISTQB® Test Automation Strategy Training Course - Munich(in English)</section>
+2026-06-02 14:30:01,328 - BB. (0.576, 0.895) <button type="button"">Save this event: ISTQB® Test Automation Strategy Training Course - Munich(in English)</button>
+2026-06-02 14:30:01,328 - BC. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:30:05,116 - ELEMENT: BC
+2026-06-02 14:30:05,116 - 
+2026-06-02 14:30:05,118 - ACTION: SCROLL DOWN
+2026-06-02 14:30:05,118 - 
+2026-06-02 14:30:05,118 - VALUE: None
+2026-06-02 14:30:05,209 - Scrolled down
+2026-06-02 14:30:20,086 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_11.png
+2026-06-02 14:30:20,551 - TASK: Browse the page with event planning tips.
+2026-06-02 14:30:20,551 - Previous:
+2026-06-02 14:30:20,551 - [button] Accept all -> CLICK
+2026-06-02 14:30:20,551 - SCROLL DOWN
+2026-06-02 14:30:20,551 - SCROLL DOWN
+2026-06-02 14:30:20,551 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:30:20,551 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:30:20,551 - SCROLL DOWN
+2026-06-02 14:30:20,551 - SCROLL DOWN
+2026-06-02 14:30:20,551 - SCROLL DOWN
+2026-06-02 14:30:20,551 - SCROLL DOWN
+2026-06-02 14:30:20,551 - SCROLL DOWN
+2026-06-02 14:30:20,551 - calling generate
+2026-06-02 14:30:27,586 - ----------
+2026-06-02 14:30:27,590 - To find the page with event planning tips, I will scroll to the bottom of the page to look for a "Blog" or "Resources" link in the footer, which typically contains such guides.
+2026-06-02 14:30:27,590 - 
+2026-06-02 14:30:27,592 - Action:
+2026-06-02 14:30:27,592 - `PRESS END`
+2026-06-02 14:30:27,592 - ----------
+2026-06-02 14:30:27,592 - If none of these elements match your target element or your target action doesn't involve an element, please select BJ.
+2026-06-02 14:30:27,593 - A. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:30:27,593 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:30:27,593 - C. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:30:27,593 - D. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:30:27,593 - E. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:30:27,593 - F. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:30:27,593 - G. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:30:27,593 - H. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:30:27,593 - I. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:30:27,593 - J. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:30:27,593 - K. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:30:27,593 - L. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:30:27,593 - M. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:30:27,593 - N. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:30:27,593 - O. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:30:27,593 - P. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:30:27,595 - Q. (0.454, 0.071) <aside">Sales end soon</aside>
+2026-06-02 14:30:27,595 - R. (0.243, 0.109) <a">aria-label="View 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)"</a>
+2026-06-02 14:30:27,595 - S. (0.454, 0.114) <a">100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)</a>
+2026-06-02 14:30:27,595 - T. (0.243, 0.139) <section">parent_node: Sales end soon</section>
+2026-06-02 14:30:27,595 - U. (0.38, 0.139) <section">Sales end soon 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Friday • 7:00 PM + 13 more München · Restaurant of the Week From $44.52...</section>
+2026-06-02 14:30:27,595 - V. (0.459, 0.139) <section">Sales end soon 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Friday • 7:00 PM + 13 more München · Restaurant of the Week From $44.52...</section>
+2026-06-02 14:30:27,595 - W. (0.388, 0.151) <li">Sales end soon 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Friday • 7:00 PM + 13 more München · Restaurant of the Week From $44.52...</li>
+2026-06-02 14:30:27,595 - X. (0.549, 0.203) <button type="button"">Share this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)</button>
+2026-06-02 14:30:27,595 - Y. (0.562, 0.203) <section">Share this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition) Save this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)...</section>
+2026-06-02 14:30:27,595 - Z. (0.576, 0.203) <button type="button"">Save this event: 100 Cities Project: Munich | Foodies + New Friends (Giving Back Edition)</button>
+2026-06-02 14:30:27,595 - AA. (0.438, 0.207) <aside">50% off select tickets</aside>
+2026-06-02 14:30:27,595 - AB. (0.454, 0.317) <a">ISTQB® Test Automation Strategy Training Course - Munich(in English)</a>
+2026-06-02 14:30:27,595 - AC. (0.243, 0.347) <a">aria-label="View ISTQB® Test Automation Strategy Training Course - Munich(in English)"</a>
+2026-06-02 14:30:27,595 - AD. (0.243, 0.354) <section">parent_node: ISTQB® Test Automation Strategy Training Course -...</section>
+2026-06-02 14:30:27,596 - AE. (0.38, 0.354) <section">ISTQB® Test Automation Strategy Training Course - Munich(in English) Mon, Jul 6 • 9:00 AM + 24 more Munich · Munich From €1,533.06 Share this event: ISTQB® Test Automation Strategy...</section>
+2026-06-02 14:30:27,596 - AF. (0.459, 0.354) <section">ISTQB® Test Automation Strategy Training Course - Munich(in English) Mon, Jul 6 • 9:00 AM + 24 more Munich · Munich From €1,533.06</section>
+2026-06-02 14:30:27,596 - AG. (0.388, 0.366) <li">ISTQB® Test Automation Strategy Training Course - Munich(in English) Mon, Jul 6 • 9:00 AM + 24 more Munich · Munich From €1,533.06 Share this event: ISTQB® Test Automation Strategy...</li>
+2026-06-02 14:30:27,596 - AH. (0.549, 0.395) <button type="button"">Share this event: ISTQB® Test Automation Strategy Training Course - Munich(in English)</button>
+2026-06-02 14:30:27,596 - AI. (0.562, 0.395) <section">Share this event: ISTQB® Test Automation Strategy Training Course - Munich(in English) Save this event: ISTQB® Test Automation Strategy Training Course - Munich(in English)</section>
+2026-06-02 14:30:27,596 - AJ. (0.576, 0.395) <button type="button"">Save this event: ISTQB® Test Automation Strategy Training Course - Munich(in English)</button>
+2026-06-02 14:30:27,596 - AK. (0.454, 0.5) <aside">Almost full</aside>
+2026-06-02 14:30:27,596 - AL. (0.454, 0.532) <a">Pretzel to Gelato—From Munich to Lake Garda</a>
+2026-06-02 14:30:27,596 - AM. (0.243, 0.538) <a">aria-label="View Pretzel to Gelato—From Munich to Lake Garda"</a>
+2026-06-02 14:30:27,596 - AN. (0.243, 0.551) <section">parent_node: Almost full</section>
+2026-06-02 14:30:27,596 - AO. (0.38, 0.551) <section">Almost full Pretzel to Gelato—From Munich to Lake Garda Thu, Jun 18 • 9:00 PM München · Säbener Platz From €30.00 Share this event: Pretzel to Gelato—From Munich to Lake...</section>
+2026-06-02 14:30:27,596 - AP. (0.459, 0.551) <section">Almost full Pretzel to Gelato—From Munich to Lake Garda Thu, Jun 18 • 9:00 PM München · Säbener Platz From €30.00</section>
+2026-06-02 14:30:27,596 - AQ. (0.388, 0.563) <li">Almost full Pretzel to Gelato—From Munich to Lake Garda Thu, Jun 18 • 9:00 PM München · Säbener Platz From €30.00 Share this event: Pretzel to Gelato—From Munich to Lake...</li>
+2026-06-02 14:30:27,596 - AR. (0.549, 0.598) <button type="button"">Share this event: Pretzel to Gelato—From Munich to Lake Garda</button>
+2026-06-02 14:30:27,596 - AS. (0.562, 0.598) <section">Share this event: Pretzel to Gelato—From Munich to Lake Garda Save this event: Pretzel to Gelato—From Munich to Lake Garda</section>
+2026-06-02 14:30:27,596 - AT. (0.576, 0.598) <button type="button"">Save this event: Pretzel to Gelato—From Munich to Lake Garda</button>
+2026-06-02 14:30:27,597 - AU. (0.454, 0.7) <a">Startup Founders Masterclass</a>
+2026-06-02 14:30:27,597 - AV. (0.243, 0.742) <a">aria-label="View Startup Founders Masterclass"</a>
+2026-06-02 14:30:27,597 - AW. (0.38, 0.742) <section">Startup Founders Masterclass Wed, Jun 10 • 5:00 PM + 36 more München · Mindspace Stachus From €30.00 Share this event: Startup Founders Masterclass Save this event: Startup Founders Masterclass...</section>
+2026-06-02 14:30:27,597 - AX. (0.459, 0.742) <section">Startup Founders Masterclass Wed, Jun 10 • 5:00 PM + 36 more München · Mindspace Stachus From €30.00</section>
+2026-06-02 14:30:27,597 - AY. (0.388, 0.753) <li">Startup Founders Masterclass Wed, Jun 10 • 5:00 PM + 36 more München · Mindspace Stachus From €30.00 Share this event: Startup Founders Masterclass Save this event: Startup Founders Masterclass...</li>
+2026-06-02 14:30:27,597 - AZ. (0.549, 0.776) <button type="button"">Share this event: Startup Founders Masterclass</button>
+2026-06-02 14:30:27,597 - BA. (0.562, 0.776) <section">Share this event: Startup Founders Masterclass Save this event: Startup Founders Masterclass</section>
+2026-06-02 14:30:27,597 - BB. (0.576, 0.776) <button type="button"">Save this event: Startup Founders Masterclass</button>
+2026-06-02 14:30:27,597 - BC. (0.454, 0.889) <a">Raise a Glass to Munich - Food Tour in Munich | Cozymeal™</a>
+2026-06-02 14:30:27,597 - BD. (0.243, 0.919) <a">aria-label="View Raise a Glass to Munich - Food Tour in Munich | Cozymeal™"</a>
+2026-06-02 14:30:27,597 - BE. (0.243, 0.926) <section">parent_node: Raise a Glass to Munich - Food...</section>
+2026-06-02 14:30:27,597 - BF. (0.459, 0.926) <section">Raise a Glass to Munich - Food Tour in Munich | Cozymeal™ Tomorrow • 10:30 AM + 47 more Munich · Location provided after booking Check ticket price on event...</section>
+2026-06-02 14:30:27,597 - BG. (0.549, 0.967) <button type="button"">Share this event: Raise a Glass to Munich - Food Tour in Munich | Cozymeal™</button>
+2026-06-02 14:30:27,597 - BH. (0.562, 0.967) <section">Share this event: Raise a Glass to Munich - Food Tour in Munich | Cozymeal™ Save this event: Raise a Glass to Munich - Food Tour in Munich | Cozymeal™...</section>
+2026-06-02 14:30:27,598 - BI. (0.576, 0.967) <button type="button"">Save this event: Raise a Glass to Munich - Food Tour in Munich | Cozymeal™</button>
+2026-06-02 14:30:27,598 - BJ. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:30:30,995 - ELEMENT: BJ
+2026-06-02 14:30:30,995 - 
+2026-06-02 14:30:30,995 - ACTION: PRESS END
+2026-06-02 14:30:30,995 - 
+2026-06-02 14:30:30,995 - VALUE: None
+2026-06-02 14:30:31,094 - Pressed End key
+2026-06-02 14:30:45,551 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_12.png
+2026-06-02 14:30:46,109 - TASK: Browse the page with event planning tips.
+2026-06-02 14:30:46,109 - Previous:
+2026-06-02 14:30:46,112 - [button] Accept all -> CLICK
+2026-06-02 14:30:46,112 - SCROLL DOWN
+2026-06-02 14:30:46,112 - SCROLL DOWN
+2026-06-02 14:30:46,112 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:30:46,112 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:30:46,112 - SCROLL DOWN
+2026-06-02 14:30:46,112 - SCROLL DOWN
+2026-06-02 14:30:46,112 - SCROLL DOWN
+2026-06-02 14:30:46,112 - SCROLL DOWN
+2026-06-02 14:30:46,112 - SCROLL DOWN
+2026-06-02 14:30:46,112 - PRESS END
+2026-06-02 14:30:46,112 - calling generate
+2026-06-02 14:30:53,140 - ----------
+2026-06-02 14:30:53,145 - To execute the search for "event planning tips" and see if there are matching events or articles, I will click on the search button (the red magnifying glass icon).
+2026-06-02 14:30:53,146 - 
+2026-06-02 14:30:53,146 - Action:
+2026-06-02 14:30:53,146 - CLICK on element F (the red search button/magnifying glass icon next to the search input).
+2026-06-02 14:30:53,146 - ----------
+2026-06-02 14:30:53,147 - If none of these elements match your target element or your target action doesn't involve an element, please select CE.
+2026-06-02 14:30:53,147 - A. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:30:53,147 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:30:53,147 - C. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:30:53,147 - D. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:30:53,147 - E. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:30:53,147 - F. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:30:53,147 - G. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:30:53,147 - H. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:30:53,147 - I. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:30:53,147 - J. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:30:53,147 - K. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:30:53,147 - L. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:30:53,147 - M. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:30:53,147 - N. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:30:53,147 - O. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:30:53,149 - P. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:30:53,149 - Q. (0.242, 0.049) <a">Things to do in Landsberg am Lech</a>
+2026-06-02 14:30:53,149 - R. (0.327, 0.049) <a">parent_node: Things to do in Landsberg am Lech aria-label="Explore Things to do in Landsberg am Lech"</a>
+2026-06-02 14:30:53,149 - S. (0.409, 0.049) <a">Things to do in Regensburg</a>
+2026-06-02 14:30:53,149 - T. (0.48, 0.049) <a">parent_node: Things to do in Regensburg aria-label="Explore Things to do in Regensburg"</a>
+2026-06-02 14:30:53,149 - U. (0.561, 0.049) <a">Things to do in Ravensburg</a>
+2026-06-02 14:30:53,149 - V. (0.631, 0.049) <a">parent_node: Things to do in Ravensburg aria-label="Explore Things to do in Ravensburg"</a>
+2026-06-02 14:30:53,149 - W. (0.695, 0.049) <a">Things to do in Ulm</a>
+2026-06-02 14:30:53,149 - X. (0.75, 0.049) <a">parent_node: Things to do in Ulm aria-label="Explore Things to do in Ulm"</a>
+2026-06-02 14:30:53,149 - Y. (0.826, 0.049) <a">Things to do in Heilbronn</a>
+2026-06-02 14:30:53,149 - Z. (0.892, 0.049) <a">parent_node: Things to do in Heilbronn aria-label="Explore Things to do in Heilbronn"</a>
+2026-06-02 14:30:53,149 - AA. (0.507, 0.175) <header">Based on your most recent searches</header>
+2026-06-02 14:30:53,149 - AB. (0.247, 0.275) <img">alt="If You Sold Your Business in 2026, What Would Buyers Really Pay? primary image"</img>
+2026-06-02 14:30:53,149 - AC. (0.42, 0.275) <img">alt="life skills workshop primary image"</img>
+2026-06-02 14:30:53,150 - AD. (0.593, 0.275) <img">alt="Bid This Property Certification Class primary image"</img>
+2026-06-02 14:30:53,150 - AE. (0.766, 0.275) <img">alt="Events Systems Masterclass-How to Make Events Actually Work in Your Busines primary image"</img>
+2026-06-02 14:30:53,150 - AF. (0.247, 0.309) <svg">parent_node: Save this event: If You Sold Your...</svg>
+2026-06-02 14:30:53,150 - AG. (0.279, 0.309) <section">Save this event: If You Sold Your Business in 2026, What Would Buyers Really Pay? Share this event: If You Sold Your Business in 2026, What Would Buyers Really Pay?...</section>
+2026-06-02 14:30:53,150 - AH. (0.31, 0.309) <svg">parent_node: Promoted event actions</svg>
+2026-06-02 14:30:53,150 - AI. (0.421, 0.309) <svg">parent_node: Save this event: life skills workshop</svg>
+2026-06-02 14:30:53,150 - AJ. (0.452, 0.309) <section">Save this event: life skills workshop Share this event: life skills workshop Promoted event actions</section>
+2026-06-02 14:30:53,150 - AK. (0.483, 0.309) <svg">parent_node: Promoted event actions</svg>
+2026-06-02 14:30:53,150 - AL. (0.594, 0.309) <svg">parent_node: Save this event: Bid This Property Certification...</svg>
+2026-06-02 14:30:53,150 - AM. (0.625, 0.309) <section">Save this event: Bid This Property Certification Class Share this event: Bid This Property Certification Class Promoted event actions</section>
+2026-06-02 14:30:53,150 - AN. (0.656, 0.309) <svg">parent_node: Promoted event actions</svg>
+2026-06-02 14:30:53,151 - AO. (0.767, 0.309) <svg">parent_node: Save this event: Events Systems Masterclass-How to...</svg>
+2026-06-02 14:30:53,151 - AP. (0.798, 0.309) <section">Save this event: Events Systems Masterclass-How to Make Events Actually Work in Your Busines Share this event: Events Systems Masterclass-How to Make Events Actually Work in Your Busines Promoted event...</section>
+2026-06-02 14:30:53,151 - AQ. (0.829, 0.309) <svg">parent_node: Promoted event actions</svg>
+2026-06-02 14:30:53,151 - AR. (0.507, 0.359) <section">Based on your most recent searches If You Sold Your Business in 2026, What Would Buyers Really Pay? Thu, Jun 11 • 5:00 PM GMT+2 Free Promoted Save this event:...</section>
+2026-06-02 14:30:53,151 - AS. (0.593, 0.36) <aside">Sales end soon</aside>
+2026-06-02 14:30:53,151 - AT. (0.766, 0.36) <aside">Sales end soon</aside>
+2026-06-02 14:30:53,151 - AU. (0.247, 0.386) <section">If You Sold Your Business in 2026, What Would Buyers Really Pay? Thu, Jun 11 • 5:00 PM GMT+2 Free Promoted Save this event: If You Sold Your Business in...</section>
+2026-06-02 14:30:53,151 - AV. (0.42, 0.386) <section">life skills workshop Sat, Jun 20 • 11:00 AM GMT+2 From £7.50 2 for 1 deal Promoted Save this event: life skills workshop Share this event: life skills workshop Promoted...</section>
+2026-06-02 14:30:53,151 - AW. (0.507, 0.386) <section">If You Sold Your Business in 2026, What Would Buyers Really Pay? Thu, Jun 11 • 5:00 PM GMT+2 Free Promoted Save this event: If You Sold Your Business in...</section>
+2026-06-02 14:30:53,151 - AX. (0.593, 0.386) <section">Sales end soon Bid This Property Certification Class Tomorrow • 6:00 PM GMT+2 From $107.48 Bid This Property 54 followers Promoted Save this event: Bid This Property Certification Class Share...</section>
+2026-06-02 14:30:53,151 - AY. (0.766, 0.386) <section">Sales end soon Events Systems Masterclass-How to Make Events Actually Work in Your Busines Friday • 1:00 AM GMT+2 Free Michael A Johnson 44 followers Promoted Save this event: Events...</section>
+2026-06-02 14:30:53,151 - AZ. (0.431, 0.415) <aside">2 for 1 deal</aside>
+2026-06-02 14:30:53,151 - BA. (0.247, 0.447) <section">If You Sold Your Business in 2026, What Would Buyers Really Pay? Thu, Jun 11 • 5:00 PM GMT+2 Free Promoted Save this event: If You Sold Your Business in...</section>
+2026-06-02 14:30:53,151 - BB. (0.42, 0.447) <section">life skills workshop Sat, Jun 20 • 11:00 AM GMT+2 From £7.50 2 for 1 deal Promoted Save this event: life skills workshop Share this event: life skills workshop Promoted...</section>
+2026-06-02 14:30:53,152 - BC. (0.593, 0.447) <section">Sales end soon Bid This Property Certification Class Tomorrow • 6:00 PM GMT+2 From $107.48 Bid This Property 54 followers Promoted Save this event: Bid This Property Certification Class Share...</section>
+2026-06-02 14:30:53,152 - BD. (0.766, 0.447) <section">Sales end soon Events Systems Masterclass-How to Make Events Actually Work in Your Busines Friday • 1:00 AM GMT+2 Free Michael A Johnson 44 followers Promoted Save this event: Events...</section>
+2026-06-02 14:30:53,152 - BE. (0.247, 0.635) <a">Trends in Munich</a>
+2026-06-02 14:30:53,152 - BF. (0.757, 0.646) <a">Explore more trends</a>
+2026-06-02 14:30:53,152 - BG. (0.251, 0.719) <a">1. Techno</a>
+2026-06-02 14:30:53,152 - BH. (0.421, 0.719) <a">2. Rave party</a>
+2026-06-02 14:30:53,152 - BI. (0.592, 0.719) <a">3. Rooftop party</a>
+2026-06-02 14:30:53,152 - BJ. (0.762, 0.719) <a">4. Latin music</a>
+2026-06-02 14:30:53,152 - BK. (0.251, 0.723) <article role="presentation"">1. Techno</article>
+2026-06-02 14:30:53,152 - BL. (0.421, 0.723) <article role="presentation"">2. Rave party</article>
+2026-06-02 14:30:53,152 - BM. (0.592, 0.723) <article role="presentation"">3. Rooftop party</article>
+2026-06-02 14:30:53,152 - BN. (0.762, 0.723) <article role="presentation"">4. Latin music</article>
+2026-06-02 14:30:53,152 - BO. (0.251, 0.822) <a">5. München</a>
+2026-06-02 14:30:53,153 - BP. (0.421, 0.822) <a">6. Afrobeats</a>
+2026-06-02 14:30:53,153 - BQ. (0.592, 0.822) <a">7. Balkan</a>
+2026-06-02 14:30:53,153 - BR. (0.762, 0.822) <a">8. Rave</a>
+2026-06-02 14:30:53,153 - BS. (0.251, 0.826) <article role="presentation"">5. München</article>
+2026-06-02 14:30:53,153 - BT. (0.421, 0.826) <article role="presentation"">6. Afrobeats</article>
+2026-06-02 14:30:53,153 - BU. (0.592, 0.826) <article role="presentation"">7. Balkan</article>
+2026-06-02 14:30:53,153 - BV. (0.762, 0.826) <article role="presentation"">8. Rave</article>
+2026-06-02 14:30:53,153 - BW. (0.251, 0.925) <a">9. Hackathon</a>
+2026-06-02 14:30:53,153 - BX. (0.421, 0.925) <a">10. Party</a>
+2026-06-02 14:30:53,153 - BY. (0.592, 0.925) <a">11. Open air</a>
+2026-06-02 14:30:53,153 - BZ. (0.762, 0.925) <a">12. Filmcasino</a>
+2026-06-02 14:30:53,153 - CA. (0.251, 0.929) <article role="presentation"">9. Hackathon</article>
+2026-06-02 14:30:53,153 - CB. (0.421, 0.929) <article role="presentation"">10. Party</article>
+2026-06-02 14:30:53,153 - CC. (0.592, 0.929) <article role="presentation"">11. Open air</article>
+2026-06-02 14:30:53,153 - CD. (0.762, 0.929) <article role="presentation"">12. Filmcasino</article>
+2026-06-02 14:30:53,153 - CE. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:30:57,721 - ELEMENT: F
+2026-06-02 14:30:57,721 - 
+2026-06-02 14:30:57,721 - ACTION: CLICK
+2026-06-02 14:30:57,721 - 
+2026-06-02 14:30:57,721 - VALUE: None
+2026-06-02 14:30:58,468 - Clicked on element: aria-label="search button"
+2026-06-02 14:30:58,825 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_13.png
+2026-06-02 14:30:59,778 - TASK: Browse the page with event planning tips.
+2026-06-02 14:30:59,778 - Previous:
+2026-06-02 14:30:59,778 - [button] Accept all -> CLICK
+2026-06-02 14:30:59,778 - SCROLL DOWN
+2026-06-02 14:30:59,778 - SCROLL DOWN
+2026-06-02 14:30:59,778 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:30:59,778 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:30:59,778 - SCROLL DOWN
+2026-06-02 14:30:59,778 - SCROLL DOWN
+2026-06-02 14:30:59,778 - SCROLL DOWN
+2026-06-02 14:30:59,778 - SCROLL DOWN
+2026-06-02 14:30:59,778 - SCROLL DOWN
+2026-06-02 14:30:59,778 - PRESS END
+2026-06-02 14:30:59,778 - [button type="button"] aria-label="search button" -> CLICK
+2026-06-02 14:30:59,778 - calling generate
+2026-06-02 14:31:05,226 - ----------
+2026-06-02 14:31:05,226 - To find a relevant event planning tips page, let's scroll down to see more search results.
+2026-06-02 14:31:05,226 - 
+2026-06-02 14:31:05,226 - Action:
+2026-06-02 14:31:05,226 - SCROLL DOWN
+2026-06-02 14:31:05,226 - ----------
+2026-06-02 14:31:05,226 - If none of these elements match your target element or your target action doesn't involve an element, please select .
+2026-06-02 14:31:05,226 - . None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:31:10,039 - ELEMENT: None
+2026-06-02 14:31:10,040 - 
+2026-06-02 14:31:10,040 - ACTION: SCROLL DOWN
+2026-06-02 14:31:10,040 - 
+2026-06-02 14:31:10,040 - VALUE: None
+2026-06-02 14:31:10,055 - Scrolled down
+2026-06-02 14:31:24,010 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_14.png
+2026-06-02 14:31:24,591 - TASK: Browse the page with event planning tips.
+2026-06-02 14:31:24,591 - Previous:
+2026-06-02 14:31:24,591 - [button] Accept all -> CLICK
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:31:24,591 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - PRESS END
+2026-06-02 14:31:24,591 - [button type="button"] aria-label="search button" -> CLICK
+2026-06-02 14:31:24,591 - SCROLL DOWN
+2026-06-02 14:31:24,591 - calling generate
+2026-06-02 14:31:30,227 - ----------
+2026-06-02 14:31:30,229 - Action: SCROLL DOWN
+2026-06-02 14:31:30,229 - ----------
+2026-06-02 14:31:30,229 - If none of these elements match your target element or your target action doesn't involve an element, please select CP.
+2026-06-02 14:31:30,229 - A. (0.523, 0.015) <svg">parent_node: Share this event: The Marketing Ecosystem™ -...</svg>
+2026-06-02 14:31:30,229 - B. (0.549, 0.015) <svg">parent_node: Save this event: The Marketing Ecosystem™ -...</svg>
+2026-06-02 14:31:30,229 - C. (0.576, 0.015) <svg">parent_node: Promoted event actions</svg>
+2026-06-02 14:31:30,229 - D. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:31:30,229 - E. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:31:30,229 - F. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:31:30,229 - G. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:31:30,229 - H. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:31:30,229 - I. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:31:30,229 - J. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:31:30,229 - K. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:31:30,229 - L. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:31:30,229 - M. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:31:30,229 - N. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:31:30,229 - O. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:31:30,229 - P. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:31:30,229 - Q. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:31:30,229 - R. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:31:30,229 - S. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:31:30,229 - T. (0.086, 0.093) <legend">Date</legend>
+2026-06-02 14:31:30,229 - U. (0.086, 0.118) <li">Today</li>
+2026-06-02 14:31:30,229 - V. (0.454, 0.121) <aside">Sales end soon</aside>
+2026-06-02 14:31:30,229 - W. (0.086, 0.143) <li">Tomorrow</li>
+2026-06-02 14:31:30,229 - X. (0.086, 0.149) <fieldset">DateTodayTomorrowThis weekendPick a date...</fieldset>
+2026-06-02 14:31:30,229 - Y. (0.454, 0.152) <a">Why Do I Keep Starting Over?</a>
+2026-06-02 14:31:30,229 - Z. (0.243, 0.159) <a">aria-label="View Why Do I Keep Starting Over?"</a>
+2026-06-02 14:31:30,229 - AA. (0.086, 0.165) <ul">TodayTomorrowThis weekendPick a date...</ul>
+2026-06-02 14:31:30,229 - AB. (0.243, 0.171) <section">parent_node: Sales end soon</section>
+2026-06-02 14:31:30,229 - AC. (0.38, 0.171) <section">Sales end soon Why Do I Keep Starting Over? Friday • 12:30 AM GMT+2 Free Promoted Share this event: Why Do I Keep Starting Over? Save this event: Why Do...</section>
+2026-06-02 14:31:30,229 - AD. (0.459, 0.171) <section">Sales end soonWhy Do I Keep Starting Over?Friday • 12:30 AM GMT+2FreePromoted</section>
+2026-06-02 14:31:30,229 - AE. (0.086, 0.175) <li">This weekend</li>
+2026-06-02 14:31:30,229 - AF. (0.086, 0.18) <label">This weekend</label>
+2026-06-02 14:31:30,229 - AG. (0.388, 0.183) <li">Sales end soon Why Do I Keep Starting Over? Friday • 12:30 AM GMT+2 Free Promoted Share this event: Why Do I Keep Starting Over? Save this event: Why Do...</li>
+2026-06-02 14:31:30,229 - AH. (0.086, 0.206) <li">Pick a date...</li>
+2026-06-02 14:31:30,229 - AI. (0.086, 0.212) <label">Pick a date...</label>
+2026-06-02 14:31:30,229 - AJ. (0.523, 0.217) <button type="button"">Share this event: Why Do I Keep Starting Over?</button>
+2026-06-02 14:31:30,229 - AK. (0.549, 0.217) <button type="button"">Save this event: Why Do I Keep Starting Over?</button>
+2026-06-02 14:31:30,229 - AL. (0.576, 0.217) <button type="button"">Promoted event actions</button>
+2026-06-02 14:31:30,229 - AM. (0.053, 0.259) <button type="button"">View more</button>
+2026-06-02 14:31:30,229 - AN. (0.454, 0.323) <aside">Just added</aside>
+2026-06-02 14:31:30,229 - AO. (0.086, 0.343) <legend">Neighborhood</legend>
+2026-06-02 14:31:30,229 - AP. (0.454, 0.354) <a">Moving Forward</a>
+2026-06-02 14:31:30,229 - AQ. (0.243, 0.361) <a">aria-label="View Moving Forward"</a>
+2026-06-02 14:31:30,229 - AR. (0.086, 0.368) <li">Schwabing</li>
+2026-06-02 14:31:30,229 - AS. (0.243, 0.373) <section">parent_node: Just added</section>
+2026-06-02 14:31:30,237 - AT. (0.38, 0.373) <section">Just added Moving Forward Fri, Jun 19 • 6:30 PM München · Leopoldstraße 252A From €17.17 Share this event: Moving Forward Save this event: Moving Forward</section>
+2026-06-02 14:31:30,237 - AU. (0.459, 0.373) <section">Just added Moving Forward Fri, Jun 19 • 6:30 PM München · Leopoldstraße 252A From €17.17</section>
+2026-06-02 14:31:30,237 - AV. (0.388, 0.385) <li">Just added Moving Forward Fri, Jun 19 • 6:30 PM München · Leopoldstraße 252A From €17.17 Share this event: Moving Forward Save this event: Moving Forward</li>
+2026-06-02 14:31:30,237 - AW. (0.086, 0.393) <li">Neuhausen</li>
+2026-06-02 14:31:30,237 - AX. (0.086, 0.399) <fieldset">NeighborhoodSchwabingNeuhausenAltstadtIsarvorstadt</fieldset>
+2026-06-02 14:31:30,237 - AY. (0.086, 0.415) <ul">SchwabingNeuhausenAltstadtIsarvorstadt</ul>
+2026-06-02 14:31:30,237 - AZ. (0.549, 0.42) <button type="button"">Share this event: Moving Forward</button>
+2026-06-02 14:31:30,237 - BA. (0.562, 0.42) <section">Share this event: Moving ForwardSave this event: Moving Forward</section>
+2026-06-02 14:31:30,237 - BB. (0.576, 0.42) <button type="button"">Save this event: Moving Forward</button>
+2026-06-02 14:31:30,237 - BC. (0.086, 0.425) <li">Altstadt</li>
+2026-06-02 14:31:30,237 - BD. (0.086, 0.43) <label">Altstadt</label>
+2026-06-02 14:31:30,237 - BE. (0.086, 0.456) <li">Isarvorstadt</li>
+2026-06-02 14:31:30,237 - BF. (0.086, 0.462) <label">Isarvorstadt</label>
+2026-06-02 14:31:30,237 - BG. (0.053, 0.509) <button type="button"">View more</button>
+2026-06-02 14:31:30,237 - BH. (0.454, 0.533) <a">IBM Planning Analytics TM1 Web - Schulung in München</a>
+2026-06-02 14:31:30,237 - BI. (0.243, 0.564) <a">aria-label="View IBM Planning Analytics TM1 Web - Schulung in München"</a>
+2026-06-02 14:31:30,237 - BJ. (0.243, 0.571) <section">parent_node: IBM Planning Analytics TM1 Web - Schulung...</section>
+2026-06-02 14:31:30,237 - BK. (0.38, 0.571) <section">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</section>
+2026-06-02 14:31:30,237 - BL. (0.459, 0.571) <section">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:31:30,237 - BM. (0.086, 0.593) <legend">Price</legend>
+2026-06-02 14:31:30,237 - BN. (0.549, 0.612) <button type="button"">Share this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:31:30,237 - BO. (0.562, 0.612) <section">Share this event: IBM Planning Analytics TM1 Web - Schulung in München Save this event: IBM Planning Analytics TM1 Web - Schulung in München</section>
+2026-06-02 14:31:30,237 - BP. (0.576, 0.612) <button type="button"">Save this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:31:30,237 - BQ. (0.086, 0.618) <fieldset">PriceFreePaid</fieldset>
+2026-06-02 14:31:30,237 - BR. (0.388, 0.623) <li">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</li>
+2026-06-02 14:31:30,237 - BS. (0.086, 0.634) <ul">FreePaid</ul>
+2026-06-02 14:31:30,237 - BT. (0.086, 0.643) <li">Paid</li>
+2026-06-02 14:31:30,237 - BU. (0.086, 0.649) <label">Paid</label>
+2026-06-02 14:31:30,237 - BV. (0.38, 0.676) <button type="button"">View 3 similar results</button>
+2026-06-02 14:31:30,237 - BW. (0.086, 0.721) <legend">Format</legend>
+2026-06-02 14:31:30,237 - BX. (0.086, 0.747) <li">Class</li>
+2026-06-02 14:31:30,237 - BY. (0.086, 0.772) <li">Conference</li>
+2026-06-02 14:31:30,237 - BZ. (0.086, 0.778) <fieldset">FormatClassConferenceFestivalParty</fieldset>
+2026-06-02 14:31:30,237 - CA. (0.086, 0.794) <ul">ClassConferenceFestivalParty</ul>
+2026-06-02 14:31:30,237 - CB. (0.086, 0.804) <li">Festival</li>
+2026-06-02 14:31:30,237 - CC. (0.454, 0.807) <a">IBM Planning Analytics TM1 Basis - Schulung in München</a>
+2026-06-02 14:31:30,237 - CD. (0.086, 0.809) <label">Festival</label>
+2026-06-02 14:31:30,237 - CE. (0.086, 0.835) <li">Party</li>
+2026-06-02 14:31:30,237 - CF. (0.243, 0.837) <a">aria-label="View IBM Planning Analytics TM1 Basis - Schulung in München"</a>
+2026-06-02 14:31:30,237 - CG. (0.086, 0.841) <label">Party</label>
+2026-06-02 14:31:30,237 - CH. (0.243, 0.844) <section">parent_node: IBM Planning Analytics TM1 Basis - Schulung...</section>
+2026-06-02 14:31:30,237 - CI. (0.38, 0.844) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</section>
+2026-06-02 14:31:30,237 - CJ. (0.459, 0.844) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:31:30,237 - CK. (0.549, 0.885) <button type="button"">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:31:30,237 - CL. (0.562, 0.885) <section">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</section>
+2026-06-02 14:31:30,237 - CM. (0.576, 0.885) <button type="button"">Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:31:30,237 - CN. (0.053, 0.887) <button type="button"">View more</button>
+2026-06-02 14:31:30,237 - CO. (0.38, 0.95) <button type="button"">View 3 similar results</button>
+2026-06-02 14:31:30,237 - CP. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:31:35,722 - ELEMENT: CP
+2026-06-02 14:31:35,722 - 
+2026-06-02 14:31:35,722 - ACTION: SCROLL DOWN
+2026-06-02 14:31:35,722 - 
+2026-06-02 14:31:35,722 - VALUE: None
+2026-06-02 14:31:35,853 - Scrolled down
+2026-06-02 14:32:05,263 - results\runs\2026-06-02_142521\seeact\raw\mind2web-web-1000\20260602_142529\screenshots\screen_15.png
+2026-06-02 14:32:05,795 - TASK: Browse the page with event planning tips.
+2026-06-02 14:32:05,795 - Previous:
+2026-06-02 14:32:05,795 - [button] Accept all -> CLICK
+2026-06-02 14:32:05,795 - SCROLL DOWN
+2026-06-02 14:32:05,795 - SCROLL DOWN
+2026-06-02 14:32:05,795 - [input type="search"] parent_node: Search events name="search-autocomplete-input" placeholder="Search events" -> TYPE: event planning tips
+2026-06-02 14:32:05,795 - [input type="search"] input value="event planning tips" parent_node: Search events name="search-autocomplete-input" value="event planning tips" -> PRESS ENTER
+2026-06-02 14:32:05,795 - SCROLL DOWN
+2026-06-02 14:32:05,795 - SCROLL DOWN
+2026-06-02 14:32:05,795 - SCROLL DOWN
+2026-06-02 14:32:05,797 - SCROLL DOWN
+2026-06-02 14:32:05,797 - SCROLL DOWN
+2026-06-02 14:32:05,797 - PRESS END
+2026-06-02 14:32:05,797 - [button type="button"] aria-label="search button" -> CLICK
+2026-06-02 14:32:05,797 - SCROLL DOWN
+2026-06-02 14:32:05,797 - SCROLL DOWN
+2026-06-02 14:32:05,797 - calling generate
+2026-06-02 14:32:16,576 - ----------
+2026-06-02 14:32:16,576 - Action: PRESS END
+2026-06-02 14:32:16,576 - ----------
+2026-06-02 14:32:16,576 - If none of these elements match your target element or your target action doesn't involve an element, please select CI.
+2026-06-02 14:32:16,576 - A. (0.301, 0.028) <label">Choose a location</label>
+2026-06-02 14:32:16,576 - B. (0.051, 0.029) <a">.logo-wordmark-brand_svg__st3{fill:#221d19} Eventbrite</a>
+2026-06-02 14:32:16,576 - C. (0.202, 0.029) <form">Search events</form>
+2026-06-02 14:32:16,576 - D. (0.214, 0.029) <input type="search"">input value="event planning tips" parent_node: Search events aria-describedby="search-autocomplete-input-annotation" name="search-autocomplete-input" value="event planning tips"</input>
+2026-06-02 14:32:16,576 - E. (0.371, 0.029) <input role="combobox" type="text"">input value="München" parent_node: autocomplete aria-describedby="location-autocomplete-annotation" value="München"</input>
+2026-06-02 14:32:16,576 - F. (0.445, 0.029) <button type="button"">aria-label="search button"</button>
+2026-06-02 14:32:16,576 - G. (0.497, 0.029) <nav">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</nav>
+2026-06-02 14:32:16,576 - H. (0.498, 0.029) <a">Updates</a>
+2026-06-02 14:32:16,576 - I. (0.569, 0.029) <a">Contact Sales</a>
+2026-06-02 14:32:16,576 - J. (0.653, 0.029) <a">Create Events</a>
+2026-06-02 14:32:16,576 - K. (0.724, 0.029) <ul">UpdatesContact SalesCreate EventsHelp CenterFind my ticketsLog InSign Up</ul>
+2026-06-02 14:32:16,576 - L. (0.737, 0.029) <li">Help Center</li>
+2026-06-02 14:32:16,576 - M. (0.824, 0.029) <a">Find my tickets</a>
+2026-06-02 14:32:16,576 - N. (0.893, 0.029) <a">Log In</a>
+2026-06-02 14:32:16,576 - O. (0.949, 0.029) <a">Sign Up</a>
+2026-06-02 14:32:16,576 - P. (0.497, 0.03) <header">Eventbrite Search events Choose a location autocomplete Updates Contact Sales Create Events Help Center Find my tickets Log In Sign Up</header>
+2026-06-02 14:32:16,576 - Q. (0.454, 0.033) <a">IBM Planning Analytics TM1 Web - Schulung in München</a>
+2026-06-02 14:32:16,576 - R. (0.243, 0.064) <a">aria-label="View IBM Planning Analytics TM1 Web - Schulung in München"</a>
+2026-06-02 14:32:16,576 - S. (0.243, 0.071) <section">parent_node: IBM Planning Analytics TM1 Web - Schulung...</section>
+2026-06-02 14:32:16,576 - T. (0.459, 0.071) <section">IBM Planning Analytics TM1 Web - Schulung in München Thu, Jun 11 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:32:16,576 - U. (0.086, 0.093) <legend">Price</legend>
+2026-06-02 14:32:16,576 - V. (0.549, 0.112) <button type="button"">Share this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:32:16,576 - W. (0.562, 0.112) <section">Share this event: IBM Planning Analytics TM1 Web - Schulung in München Save this event: IBM Planning Analytics TM1 Web - Schulung in München</section>
+2026-06-02 14:32:16,576 - X. (0.576, 0.112) <button type="button"">Save this event: IBM Planning Analytics TM1 Web - Schulung in München</button>
+2026-06-02 14:32:16,576 - Y. (0.086, 0.118) <fieldset">PriceFreePaid</fieldset>
+2026-06-02 14:32:16,576 - Z. (0.086, 0.134) <ul">FreePaid</ul>
+2026-06-02 14:32:16,576 - AA. (0.086, 0.143) <li">Paid</li>
+2026-06-02 14:32:16,576 - AB. (0.086, 0.149) <label">Paid</label>
+2026-06-02 14:32:16,576 - AC. (0.38, 0.176) <button type="button"">View 3 similar results</button>
+2026-06-02 14:32:16,576 - AD. (0.086, 0.221) <legend">Format</legend>
+2026-06-02 14:32:16,576 - AE. (0.086, 0.247) <li">Class</li>
+2026-06-02 14:32:16,576 - AF. (0.086, 0.272) <li">Conference</li>
+2026-06-02 14:32:16,576 - AG. (0.086, 0.278) <fieldset">FormatClassConferenceFestivalParty</fieldset>
+2026-06-02 14:32:16,576 - AH. (0.086, 0.294) <ul">ClassConferenceFestivalParty</ul>
+2026-06-02 14:32:16,576 - AI. (0.086, 0.304) <li">Festival</li>
+2026-06-02 14:32:16,592 - AJ. (0.454, 0.307) <a">IBM Planning Analytics TM1 Basis - Schulung in München</a>
+2026-06-02 14:32:16,592 - AK. (0.086, 0.309) <label">Festival</label>
+2026-06-02 14:32:16,592 - AL. (0.086, 0.335) <li">Party</li>
+2026-06-02 14:32:16,592 - AM. (0.243, 0.337) <a">aria-label="View IBM Planning Analytics TM1 Basis - Schulung in München"</a>
+2026-06-02 14:32:16,592 - AN. (0.086, 0.341) <label">Party</label>
+2026-06-02 14:32:16,592 - AO. (0.243, 0.344) <section">parent_node: IBM Planning Analytics TM1 Basis - Schulung...</section>
+2026-06-02 14:32:16,592 - AP. (0.38, 0.344) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</section>
+2026-06-02 14:32:16,592 - AQ. (0.459, 0.344) <section">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52</section>
+2026-06-02 14:32:16,592 - AR. (0.549, 0.385) <button type="button"">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:32:16,592 - AS. (0.562, 0.385) <section">Share this event: IBM Planning Analytics TM1 Basis - Schulung in München Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</section>
+2026-06-02 14:32:16,592 - AT. (0.576, 0.385) <button type="button"">Save this event: IBM Planning Analytics TM1 Basis - Schulung in München</button>
+2026-06-02 14:32:16,592 - AU. (0.053, 0.388) <button type="button"">View more</button>
+2026-06-02 14:32:16,592 - AV. (0.388, 0.397) <li">IBM Planning Analytics TM1 Basis - Schulung in München Wed, Jun 10 • 9:00 AM + 6 more München · Business Center München From €2,499.52 Share this event: IBM Planning...</li>
+2026-06-02 14:32:16,592 - AW. (0.38, 0.45) <button type="button"">View 3 similar results</button>
+2026-06-02 14:32:16,592 - AX. (0.086, 0.57) <legend">Language</legend>
+2026-06-02 14:32:16,592 - AY. (0.454, 0.58) <a">IBM Planning Analytics TM1 Professional - Schulung in München</a>
+2026-06-02 14:32:16,592 - AZ. (0.086, 0.595) <li">English</li>
+2026-06-02 14:32:16,592 - BA. (0.243, 0.611) <a">aria-label="View IBM Planning Analytics TM1 Professional - Schulung in München"</a>
+2026-06-02 14:32:16,592 - BB. (0.243, 0.617) <section">parent_node: IBM Planning Analytics TM1 Professional - Schulung...</section>
+2026-06-02 14:32:16,592 - BC. (0.38, 0.617) <section">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</section>
+2026-06-02 14:32:16,592 - BD. (0.459, 0.617) <section">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97</section>
+2026-06-02 14:32:16,592 - BE. (0.086, 0.621) <li">German</li>
+2026-06-02 14:32:16,592 - BF. (0.086, 0.627) <fieldset">LanguageEnglishGermanSpanishFrench</fieldset>
+2026-06-02 14:32:16,592 - BG. (0.086, 0.642) <ul">EnglishGermanSpanishFrench</ul>
+2026-06-02 14:32:16,592 - BH. (0.086, 0.652) <li">Spanish</li>
+2026-06-02 14:32:16,592 - BI. (0.086, 0.658) <label">Spanish</label>
+2026-06-02 14:32:16,592 - BJ. (0.549, 0.658) <button type="button"">Share this event: IBM Planning Analytics TM1 Professional - Schulung in München</button>
+2026-06-02 14:32:16,592 - BK. (0.562, 0.658) <section">Share this event: IBM Planning Analytics TM1 Professional - Schulung in München Save this event: IBM Planning Analytics TM1 Professional - Schulung in München</section>
+2026-06-02 14:32:16,592 - BL. (0.576, 0.658) <button type="button"">Save this event: IBM Planning Analytics TM1 Professional - Schulung in München</button>
+2026-06-02 14:32:16,592 - BM. (0.388, 0.67) <li">IBM Planning Analytics TM1 Professional - Schulung in München Tue, Jun 16 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</li>
+2026-06-02 14:32:16,592 - BN. (0.086, 0.683) <li">French</li>
+2026-06-02 14:32:16,592 - BO. (0.086, 0.689) <label">French</label>
+2026-06-02 14:32:16,592 - BP. (0.38, 0.723) <button type="button"">View 3 similar results</button>
+2026-06-02 14:32:16,592 - BQ. (0.053, 0.736) <button type="button"">View more</button>
+2026-06-02 14:32:16,592 - BR. (0.086, 0.82) <legend">Currency</legend>
+2026-06-02 14:32:16,592 - BS. (0.086, 0.845) <li">U.S. Dollar</li>
+2026-06-02 14:32:16,592 - BT. (0.454, 0.854) <a">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</a>
+2026-06-02 14:32:16,592 - BU. (0.086, 0.871) <li">Canadian Dollar</li>
+2026-06-02 14:32:16,592 - BV. (0.086, 0.877) <fieldset">CurrencyU.S. DollarCanadian DollarEuroBritish Pound</fieldset>
+2026-06-02 14:32:16,592 - BW. (0.243, 0.884) <a">aria-label="View IBM Planning Analytics TM1 TurboIntegrator - Schulung in München"</a>
+2026-06-02 14:32:16,592 - BX. (0.243, 0.891) <section">parent_node: IBM Planning Analytics TM1 TurboIntegrator - Schulung...</section>
+2026-06-02 14:32:16,592 - BY. (0.38, 0.891) <section">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Wed, Jun 17 • 9:00 AM + 6 more München · Business Center München From €3,754.97 Share this event: IBM Planning...</section>
+2026-06-02 14:32:16,592 - BZ. (0.459, 0.891) <section">IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Wed, Jun 17 • 9:00 AM + 6 more München · Business Center München From €3,754.97</section>
+2026-06-02 14:32:16,592 - CA. (0.086, 0.892) <ul">U.S. DollarCanadian DollarEuroBritish Pound</ul>
+2026-06-02 14:32:16,592 - CB. (0.086, 0.902) <li">Euro</li>
+2026-06-02 14:32:16,592 - CC. (0.086, 0.908) <label">Euro</label>
+2026-06-02 14:32:16,592 - CD. (0.549, 0.932) <button type="button"">Share this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</button>
+2026-06-02 14:32:16,592 - CE. (0.562, 0.932) <section">Share this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München Save this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</section>
+2026-06-02 14:32:16,592 - CF. (0.576, 0.932) <button type="button"">Save this event: IBM Planning Analytics TM1 TurboIntegrator - Schulung in München</button>
+2026-06-02 14:32:16,592 - CG. (0.086, 0.933) <li">British Pound</li>
+2026-06-02 14:32:16,592 - CH. (0.086, 0.939) <label">British Pound</label>
+2026-06-02 14:32:16,592 - CI. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-02 14:32:21,751 - ELEMENT: CI
+2026-06-02 14:32:21,751 - 
+2026-06-02 14:32:21,751 - ACTION: SCROLL DOWN
+2026-06-02 14:32:21,751 - 
+2026-06-02 14:32:21,751 - VALUE: None
+2026-06-02 14:32:21,850 - Scrolled down
+2026-06-02 14:32:22,152 - Browser context closed.
+2026-06-02 14:32:22,152 - 'NoneType' object has no attribute 'close'

@@ -1,0 +1,5 @@
+2026-07-15 13:52:24,736 - Loaded website: http://localhost:3000/failures/native-dialog-outside-dom
+2026-07-15 13:52:25,418 - results\runs\2026-07-15_135218\seeact\raw\gui-failure-suite-web-2775\20260715_135222\screenshots\screen_1.png
+2026-07-15 13:52:25,616 - TASK: Delete your account and confirm the deletion.
+2026-07-15 13:52:25,616 - Previous:
+2026-07-15 13:52:25,616 - calling generate

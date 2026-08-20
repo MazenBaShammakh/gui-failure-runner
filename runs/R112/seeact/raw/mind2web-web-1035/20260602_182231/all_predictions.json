@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "Action: CLICK on K",
+        "action_grounding": "ELEMENT: O\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.211,
+                0.083
+            ],
+            "description": "Shop Music",
+            "tag_with_role": "button type=\"button\"",
+            "box_raw": [
+                243.625,
+                66.80000305175781,
+                161.60000610351562,
+                36
+            ],
+            "box": [
+                243.625,
+                66.80000305175781,
+                405.2250061035156,
+                102.80000305175781
+            ],
+            "selector": 

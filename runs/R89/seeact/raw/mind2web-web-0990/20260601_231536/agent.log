@@ -1,0 +1,70 @@
+2026-06-01 23:15:42,611 - Loaded website: https://www.newegg.com
+2026-06-01 23:21:42,918 - results\runs\2026-06-01_225714\seeact\raw\mind2web-web-0990\20260601_231536\screenshots\screen_1.png
+2026-06-01 23:21:44,009 - TASK: Find 32" Curved monitor and add the third one to the wish list.
+2026-06-01 23:21:44,009 - Previous:
+2026-06-01 23:21:44,009 - calling generate
+2026-06-01 23:21:51,596 - ----------
+2026-06-01 23:21:51,606 - To search for the 32" Curved monitor, I will enter the search query into the search bar.
+2026-06-01 23:21:51,606 - 
+2026-06-01 23:21:51,608 - **Action:** TYPE  
+2026-06-01 23:21:51,608 - **Element:** C (Search input box)  
+2026-06-01 23:21:51,608 - **Value:** 32" Curved monitor
+2026-06-01 23:21:51,608 - ----------
+2026-06-01 23:21:51,620 - If none of these elements match your target element or your target action doesn't involve an element, please select AY.
+2026-06-01 23:21:51,622 - A. (0.055, 0.057) <a">title="Newegg.com - Computer Parts, Laptops, Electronics, HDTVs, Digital Cameras and More!"</a>
+2026-06-01 23:21:51,622 - B. (0.166, 0.057) <a">Hello Select address</a>
+2026-06-01 23:21:51,622 - C. (0.304, 0.057) <input type="search"">title="Search Site"</input>
+2026-06-01 23:21:51,622 - D. (0.439, 0.057) <a">gaming pc 700</a>
+2026-06-01 23:21:51,622 - E. (0.509, 0.057) <button">Search</button>
+2026-06-01 23:21:51,622 - F. (0.623, 0.057) <a">Change Country</a>
+2026-06-01 23:21:51,622 - G. (0.764, 0.057) <a">WelcomeSign In / Register</a>
+2026-06-01 23:21:51,622 - H. (0.869, 0.057) <a">Returns& Orders</a>
+2026-06-01 23:21:51,622 - I. (0.94, 0.057) <a">Cart</a>
+2026-06-01 23:21:51,622 - J. (0.448, 0.105) <a">a100 80gb</a>
+2026-06-01 23:21:51,622 - K. (0.137, 0.142) <a">Shell Shocker</a>
+2026-06-01 23:21:51,622 - L. (0.208, 0.142) <a">PC Builder</a>
+2026-06-01 23:21:51,622 - M. (0.287, 0.142) <a">Shopping Tools</a>
+2026-06-01 23:21:51,622 - N. (0.377, 0.142) <a">Newegg Outlet</a>
+2026-06-01 23:21:51,624 - O. (0.455, 0.142) <a">Best Sellers</a>
+2026-06-01 23:21:51,624 - P. (0.528, 0.142) <a">Newegg Card</a>
+2026-06-01 23:21:51,624 - Q. (0.614, 0.142) <a">Free Gift w/ AMD</a>
+2026-06-01 23:21:51,624 - R. (0.781, 0.142) <a">Laptop Upgrade</a>
+2026-06-01 23:21:51,624 - S. (0.854, 0.142) <a">Trade-In</a>
+2026-06-01 23:21:51,624 - T. (0.933, 0.142) <a">Gamer Community</a>
+2026-06-01 23:21:51,624 - U. (0.699, 0.144) <a">Games</a>
+2026-06-01 23:21:51,624 - V. (0.767, 0.144) <a">Newegg Business</a>
+2026-06-01 23:21:51,624 - W. (0.856, 0.144) <a">Feedback</a>
+2026-06-01 23:21:51,624 - X. (0.937, 0.144) <a">Help Center</a>
+2026-06-01 23:21:51,624 - Y. (0.446, 0.154) <a">video cable</a>
+2026-06-01 23:21:51,624 - Z. (0.41, 0.202) <a">airbnb 500</a>
+2026-06-01 23:21:51,624 - AA. (0.464, 0.202) <a">dvi</a>
+2026-06-01 23:21:51,626 - AB. (0.174, 0.243) <a">Components & Storage</a>
+2026-06-01 23:21:51,626 - AC. (0.174, 0.299) <a">Computer Systems</a>
+2026-06-01 23:21:51,626 - AD. (0.174, 0.354) <a">Computer Peripherals</a>
+2026-06-01 23:21:51,626 - AE. (0.174, 0.41) <a">Server & Components</a>
+2026-06-01 23:21:51,626 - AF. (0.652, 0.413) <a">aria-label="Celebrate Your Grad" title="Celebrate Your Grad"</a>
+2026-06-01 23:21:51,626 - AG. (0.174, 0.465) <a">Appliances</a>
+2026-06-01 23:21:51,626 - AH. (0.174, 0.521) <a">Electronics</a>
+2026-06-01 23:21:51,626 - AI. (0.174, 0.576) <a">Gaming & VR</a>
+2026-06-01 23:21:51,626 - AJ. (0.174, 0.632) <a">Networking</a>
+2026-06-01 23:21:51,626 - AK. (0.601, 0.674) <a">More options</a>
+2026-06-01 23:21:51,626 - AL. (0.918, 0.674) <a">More options</a>
+2026-06-01 23:21:51,628 - AM. (0.174, 0.688) <a">Smart Home & Security</a>
+2026-06-01 23:21:51,628 - AN. (0.174, 0.743) <a">Office Solutions</a>
+2026-06-01 23:21:51,628 - AO. (0.377, 0.775) <a">parent_node: ABS Cyclone Aqua Gaming PC - Windows...</a>
+2026-06-01 23:21:51,628 - AP. (0.694, 0.775) <a">parent_node: CyberpowerPC Gaming Desktop PC GM70928 AMD Ryzen...</a>
+2026-06-01 23:21:51,628 - AQ. (0.174, 0.799) <a">Software & Services</a>
+2026-06-01 23:21:51,628 - AR. (0.174, 0.854) <a">Automotive & Tools</a>
+2026-06-01 23:21:51,628 - AS. (0.377, 0.859) <a">parent_node: ASUS ROG Strix Scope II 96 RX...</a>
+2026-06-01 23:21:51,628 - AT. (0.524, 0.859) <a">parent_node: ASUS ROG Harpe Ace Mini Wireless Gaming...</a>
+2026-06-01 23:21:51,628 - AU. (0.694, 0.859) <a">parent_node: Acer Nitro 27 " WQHD 2K 1440P...</a>
+2026-06-01 23:21:51,628 - AV. (0.84, 0.859) <a">parent_node: Logitech G PRO X 2 LIGHTSPEED Wireless...</a>
+2026-06-01 23:21:51,628 - AW. (0.174, 0.91) <a">Home & Outdoors</a>
+2026-06-01 23:21:51,630 - AX. (0.174, 0.965) <a">Health & Sports</a>
+2026-06-01 23:21:51,630 - AY. None of the other options match the correct element or the action doesn't involve an element.
+2026-06-01 23:21:57,804 - ELEMENT: C
+2026-06-01 23:21:57,804 - 
+2026-06-01 23:21:57,804 - ACTION: TYPE
+2026-06-01 23:21:57,804 - 
+2026-06-01 23:21:57,804 - VALUE: 32" Curved monitor
+2026-06-01 23:21:58,007 - Typed '32" Curved monitor' into element: title="Search Site"

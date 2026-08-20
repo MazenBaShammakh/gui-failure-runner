@@ -1,0 +1,1 @@
+11:36:14 INFO mobilerun: LLM for task gui-failure-suite-mobile-2709: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile

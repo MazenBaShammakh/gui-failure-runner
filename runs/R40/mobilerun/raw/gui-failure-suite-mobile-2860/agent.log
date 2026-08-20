@@ -1,0 +1,233 @@
+11:31:28 INFO mobilerun: LLM for task gui-failure-suite-mobile-2860: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+11:31:30 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Careers app, open the Featured Role and open the Acme Corp company profile.
+Use the currently opened app only, which includes a springboard of subapps.
+11:31:32 INFO mobilerun: 🔄 Resetting device state before run
+11:31:33 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+11:31:33 INFO mobilerun: 🔄 Step 1/50
+11:31:36 INFO mobilerun: FastAgent response:
+11:31:42 INFO mobilerun: I
+11:31:42 INFO mobilerun:  will tap on the `mobile` app icon on the home screen to open the springboard. <function_calls>
+<
+11:31:42 INFO mobilerun: invoke name="click_at">
+<parameter name="x">617</parameter>
+<parameter name
+11:31:42 INFO mobilerun: ="y">1330</parameter>
+</invoke>
+</function_calls>
+11:31:42 INFO mobilerun: 
+11:31:43 INFO mobilerun: 💡 Tool results:
+11:31:43 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (723, 1559)</output>
+</result>
+</function_results>
+11:31:44 INFO mobilerun: 🔄 Step 2/50
+11:31:45 INFO mobilerun: FastAgent response:
+11:31:48 INFO mobilerun: I will tap on the Careers app icon to open it
+11:31:48 INFO mobilerun: . <function_calls>
+<invoke name="click_at">
+<parameter name="x">38
+11:31:48 INFO mobilerun: 8</parameter>
+<parameter name="y">210</parameter>
+</invoke>
+</function
+11:31:48 INFO mobilerun: _calls>
+11:31:48 INFO mobilerun: 
+11:31:48 INFO mobilerun: 💡 Tool results:
+11:31:48 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (454, 246)</output>
+</result>
+</function_results>
+11:31:49 INFO mobilerun: 🔄 Step 3/50
+11:31:50 INFO mobilerun: FastAgent response:
+11:31:55 INFO mobilerun: I will tap on the Careers app
+11:31:55 INFO mobilerun:  icon in the springboard to open it. <function_calls>
+<invoke name="click_at">
+<parameter name
+11:31:55 INFO mobilerun: ="x">388</parameter>
+<parameter name="y">220</parameter>
+</
+11:31:55 INFO mobilerun: invoke>
+</function_calls>
+11:31:55 INFO mobilerun: 
+11:31:55 INFO mobilerun: 💡 Tool results:
+11:31:55 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (454, 258)</output>
+</result>
+</function_results>
+11:31:56 INFO mobilerun: 🔄 Step 4/50
+11:31:57 INFO mobilerun: FastAgent response:
+11:32:01 INFO mobilerun: I will click on the Careers app
+11:32:01 INFO mobilerun:  icon to open it. <function_calls>
+<invoke name="click_at">
+<parameter name="
+11:32:01 INFO mobilerun: x">388</parameter>
+<parameter name="y">210</parameter>
+</invoke
+11:32:01 INFO mobilerun: >
+</function_calls>
+11:32:01 INFO mobilerun: 
+11:32:01 INFO mobilerun: 💡 Tool results:
+11:32:01 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (454, 246)</output>
+</result>
+</function_results>
+11:32:02 INFO mobilerun: 🔄 Step 5/50
+11:32:04 INFO mobilerun: FastAgent response:
+11:32:08 INFO mobilerun: I will tap directly on the Careers icon to open the Careers app. <function_calls>
+<invoke
+11:32:08 INFO mobilerun:  name="click_at">
+<parameter name="x">388</parameter>
+<parameter name="
+11:32:08 INFO mobilerun: y">270</parameter>
+</invoke>
+</function_calls>
+11:32:08 INFO mobilerun: 
+11:32:08 INFO mobilerun: 💡 Tool results:
+11:32:08 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (454, 316)</output>
+</result>
+</function_results>
+11:32:09 INFO mobilerun: 🔄 Step 6/50
+11:32:10 INFO mobilerun: FastAgent response:
+11:32:14 INFO mobilerun: I will tap on the Careers app icon (around x=388,
+11:32:14 INFO mobilerun:  y=210) to open the Careers app. <function_calls>
+<invoke name="click_
+11:32:14 INFO mobilerun: at">
+<parameter name="x">388</parameter>
+<parameter name="y">21
+11:32:14 INFO mobilerun: 0</parameter>
+</invoke>
+</function_calls>
+11:32:14 INFO mobilerun: 
+11:32:14 INFO mobilerun: 💡 Tool results:
+11:32:14 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (454, 246)</output>
+</result>
+</function_results>
+11:32:15 INFO mobilerun: 🔄 Step 7/50
+11:32:16 INFO mobilerun: FastAgent response:
+11:32:26 INFO mobilerun: I will tap on the Careers app icon (around
+11:32:26 INFO mobilerun:  x=388, y=430) to open the app. <function_calls>
+<invoke name="click
+11:32:26 INFO mobilerun: _at">
+<parameter name="x">388</parameter>
+<parameter name="y">4
+11:32:26 INFO mobilerun: 30</parameter>
+</invoke>
+</function_calls>
+11:32:26 INFO mobilerun: 
+11:32:26 INFO mobilerun: 💡 Tool results:
+11:32:26 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (454, 504)</output>
+</result>
+</function_results>
+11:32:28 INFO mobilerun: 🔄 Step 8/50
+11:32:29 INFO mobilerun: FastAgent response:
+11:32:38 INFO mobilerun: I will tap on "Featured role" to view
+11:32:38 INFO mobilerun:  the details. <function_calls>
+<invoke name="click_at">
+<parameter name="x">460
+11:32:38 INFO mobilerun: </parameter>
+<parameter name="y">260</parameter>
+</invoke>
+</function_calls>
+11:32:38 INFO mobilerun: 
+11:32:38 INFO mobilerun: 💡 Tool results:
+11:32:38 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (539, 305)</output>
+</result>
+</function_results>
+11:32:39 INFO mobilerun: 🔄 Step 9/50
+11:32:40 INFO mobilerun: FastAgent response:
+11:32:43 INFO mobilerun: I will tap on "Acme Corp" to open the company profile. <function_calls
+11:32:43 INFO mobilerun: >
+<invoke name="click_at">
+<parameter name="x">330</parameter>
+
+11:32:43 INFO mobilerun: <parameter name="y">190</parameter>
+</invoke>
+</function_calls>
+11:32:43 INFO mobilerun: 
+11:32:43 INFO mobilerun: 💡 Tool results:
+11:32:43 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (387, 223)</output>
+</result>
+</function_results>
+11:32:44 INFO mobilerun: 🔄 Step 10/50
+11:32:45 INFO mobilerun: FastAgent response:
+11:32:50 INFO mobilerun: I will tap on the AC company icon/avatar to open the Acme Corp
+11:32:50 INFO mobilerun:  company profile. <function_calls>
+<invoke name="click_at">
+<parameter name="x">
+11:32:50 INFO mobilerun: 152</parameter>
+<parameter name="y">175</parameter>
+</invoke>
+</function_
+11:32:50 INFO mobilerun: calls>
+11:32:50 INFO mobilerun: 
+11:32:50 INFO mobilerun: 💡 Tool results:
+11:32:50 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (178, 205)</output>
+</result>
+</function_results>
+11:32:51 INFO mobilerun: 🔄 Step 11/50
+11:32:52 INFO mobilerun: FastAgent response:
+11:32:58 INFO mobilerun: I will tap on "
+11:32:58 INFO mobilerun: Acme Corp" text (at x=330, y=385) to open the Acme Corp
+11:32:58 INFO mobilerun:  company profile. <function_calls>
+<invoke name="click_at">
+<parameter name="x">
+11:32:58 INFO mobilerun: 330</parameter>
+<parameter name="y">385</parameter>
+</invoke>
+
+11:32:58 INFO mobilerun: </function_calls>
+11:32:58 INFO mobilerun: 
+11:32:58 INFO mobilerun: 💡 Tool results:
+11:32:58 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (387, 451)</output>
+</result>
+</function_results>
+11:32:59 INFO mobilerun: 🔄 Step 12/50
+11:33:00 INFO mobilerun: FastAgent response:
+11:33:04 INFO mobilerun: I will tap on the Acme
+11:33:04 INFO mobilerun:  Corp card header to open the company profile page. <function_calls>
+<invoke name="click_at">
+<
+11:33:04 INFO mobilerun: parameter name="x">370</parameter>
+<parameter name="y">235</parameter>
+11:33:04 INFO mobilerun: 
+</invoke>
+</function_calls>
+11:33:04 INFO mobilerun: 
+11:33:04 INFO mobilerun: 💡 Tool results:
+11:33:04 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (433, 275)</output>
+</result>
+</function_results>
+11:33:05 INFO mobilerun: 🔄 Step 13/50
+11:33:06 INFO mobilerun: FastAgent response:

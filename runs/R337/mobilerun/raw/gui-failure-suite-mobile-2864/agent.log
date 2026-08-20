@@ -1,0 +1,3 @@
+11:12:56 INFO mobilerun: LLM for task gui-failure-suite-mobile-2864: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile
+11:12:58 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: Open Settings (gear icon on the Home screen), open Notifications, and mute notifications from the Chirp app.
+Use the currently opened app only.

@@ -1,0 +1,1 @@
+14:52:43 INFO mobilerun: LLM for task aitw-mobile-0114: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text

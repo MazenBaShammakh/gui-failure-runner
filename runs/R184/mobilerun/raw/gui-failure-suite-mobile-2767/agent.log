@@ -1,0 +1,14 @@
+18:00:05 INFO mobilerun: LLM for task gui-failure-suite-mobile-2767: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile
+18:00:13 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Shop app, open Choose Colour and select the green colour.
+Use the currently opened app only.
+18:00:15 INFO mobilerun: 🔄 Resetting device state before run
+18:00:16 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+18:00:16 INFO mobilerun: 🔄 Step 1/50
+18:00:17 WARNING mobilerun: get_state attempt 1 failed: Portal returned error: {'status': 'error', 'error': 'Accessibility service not available'} (retrying in 1s)
+18:00:19 WARNING mobilerun: get_state attempt 2 failed: Portal returned error: {'status': 'error', 'error': 'Accessibility service not available'} (retrying in 2s)
+18:00:22 WARNING mobilerun: get_state attempt 3 failed: Portal returned error: {'status': 'error', 'error': 'Accessibility service not available'} (retrying in 3s)
+18:00:26 WARNING mobilerun: get_state attempt 4 failed: Portal returned error: {'status': 'error', 'error': 'Accessibility service not available'} (retrying in 5s)
+18:00:32 WARNING mobilerun: get_state attempt 5 failed: Portal returned error: {'status': 'error', 'error': 'Accessibility service not available'} (retrying in 8s)
+18:00:32 INFO mobilerun: State retrieval failing, attempting recovery...
+18:00:34 INFO mobilerun: Recovery action completed
+18:00:44 WARNING mobilerun: get_state attempt 6 failed: Portal returned error: {'status': 'error', 'error': 'Accessibility service not available'} (retrying in 10s)

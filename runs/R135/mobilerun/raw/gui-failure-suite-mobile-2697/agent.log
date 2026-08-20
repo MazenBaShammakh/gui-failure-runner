@@ -1,0 +1,51 @@
+18:46:05 INFO mobilerun: LLM for task gui-failure-suite-mobile-2697: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+18:46:11 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: Open the Senior Frontend Engineer role at Acme Corp and save it.
+18:46:12 INFO mobilerun: 🔄 Resetting device state before run
+18:46:13 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+18:46:13 INFO mobilerun: 🔄 Step 1/50
+18:46:16 INFO mobilerun: FastAgent response:
+18:46:19 INFO mobilerun: I will open the LinkedIn app to search for the "Senior Frontend Engineer"
+18:46:19 INFO mobilerun:  role at "Acme Corp".<function_calls>
+<invoke name="open_app">
+<parameter
+18:46:19 INFO mobilerun:  name="text">LinkedIn</parameter>
+</invoke>
+</function_calls>
+18:46:19 INFO mobilerun: 
+18:46:21 INFO mobilerun: 📱 AppOpener response:
+18:46:24 INFO mobilerun: ```json
+{
+    "package": null
+}
+
+18:46:24 INFO mobilerun: ```
+18:46:24 INFO mobilerun: 
+18:46:24 WARNING mobilerun: No matching app found for: LinkedIn
+18:46:25 INFO mobilerun: 💡 Tool results:
+18:46:25 INFO mobilerun: <function_results>
+<result>
+<name>open_app</name>
+<error>Could not open app: no installed app matches 'LinkedIn'</error>
+</result>
+</function_results>
+18:46:26 INFO mobilerun: 🔄 Step 2/50
+18:46:28 INFO mobilerun: FastAgent response:
+18:46:30 INFO mobilerun: I will open the "Careers" app to search for the job role
+18:46:30 INFO mobilerun: .<function_calls>
+<invoke name="click_at">
+<parameter name="x">388</
+18:46:30 INFO mobilerun: parameter>
+<parameter name="y">328</parameter>
+</invoke>
+</function_calls
+18:46:30 INFO mobilerun: >
+18:46:30 INFO mobilerun: 
+18:46:31 INFO mobilerun: 💡 Tool results:
+18:46:31 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (388, 328)</output>
+</result>
+</function_results>
+18:46:32 INFO mobilerun: 🔄 Step 3/50
+18:46:33 INFO mobilerun: FastAgent response:

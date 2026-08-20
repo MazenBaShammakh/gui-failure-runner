@@ -1,0 +1,13 @@
+{
+    "task": [
+        "Invite a new team member by email."
+    ],
+    "website": "http://localhost:3000/failures/popup-outside-dom-hierarchy",
+    "num_step": 4,
+    "action_history": [
+        "[button type=\"button\"] Invite member -> CLICK",
+        "[input type=\"email\"] parent_node: Invite a team member placeholder=\"email@company.com\" -> TYPE: test@example.com",
+        "[button type=\"button\"] Send invite -> CLICK",
+        "TERMINATE"
+    ]
+}

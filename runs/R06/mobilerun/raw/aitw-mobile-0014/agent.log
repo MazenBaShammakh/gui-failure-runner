@@ -1,0 +1,175 @@
+15:44:20 INFO mobilerun: LLM for task aitw-mobile-0014: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision
+15:44:22 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: What time is it in London?
+15:44:24 INFO mobilerun: 🔄 Resetting device state before run
+15:44:25 INFO mobilerun: 🔄 Step 1/50
+15:44:27 INFO mobilerun: FastAgent response:
+15:44:29 INFO mobilerun: I will open the Clock app to check the time in London.
+
+<function_calls
+15:44:29 INFO mobilerun: >
+<invoke name="click_at">
+<parameter name="x">680</parameter>
+
+15:44:29 INFO mobilerun: <parameter name="y">260</parameter>
+</invoke>
+</function_calls>
+15:44:29 INFO mobilerun: 
+15:44:29 INFO mobilerun: 💡 Tool results:
+15:44:29 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (680, 260)</output>
+</result>
+</function_results>
+15:44:30 INFO mobilerun: 🔄 Step 2/50
+15:44:32 INFO mobilerun: FastAgent response:
+15:44:35 INFO mobilerun: I will open the Clock app to check the time in London.
+
+<function_calls>
+<
+15:44:35 INFO mobilerun: invoke name="open_app">
+<parameter name="text">Clock</parameter>
+</invoke>
+</
+15:44:35 INFO mobilerun: function_calls>
+15:44:35 INFO mobilerun: 
+15:44:36 INFO mobilerun: 📱 AppOpener response:
+15:44:39 INFO mobilerun: {
+    "package": "
+15:44:39 INFO mobilerun: com.google.android.deskclock"
+}
+15:44:39 INFO mobilerun: 
+15:44:39 INFO mobilerun: Starting app com.google.android.deskclock
+15:44:40 INFO mobilerun: 💡 Tool results:
+15:44:40 INFO mobilerun: <function_results>
+<result>
+<name>open_app</name>
+<output>App started: com.google.android.deskclock with activity com.android.deskclock.DeskClock</output>
+</result>
+</function_results>
+15:44:41 INFO mobilerun: 🔄 Step 3/50
+15:44:42 INFO mobilerun: FastAgent response:
+15:44:45 INFO mobilerun: I will switch to the "World
+15:44:45 INFO mobilerun:  Clock" tab to see the world times.
+
+<function_calls>
+<invoke name="click_at">
+15:44:45 INFO mobilerun: 
+<parameter name="x">300</parameter>
+<parameter name="y">1900</
+15:44:45 INFO mobilerun: parameter>
+</invoke>
+</function_calls>
+15:44:45 INFO mobilerun: 
+15:44:45 INFO mobilerun: 💡 Tool results:
+15:44:45 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (300, 1900)</output>
+</result>
+</function_results>
+15:44:46 INFO mobilerun: 🔄 Step 4/50
+15:44:47 INFO mobilerun: FastAgent response:
+15:44:49 INFO mobilerun: I will tap on the "World Clock" tab at the bottom of
+15:44:49 INFO mobilerun:  the screen.
+
+<function_calls>
+<invoke name="click_at">
+<parameter name="x
+15:44:49 INFO mobilerun: ">300</parameter>
+<parameter name="y">1800</parameter>
+</invoke
+15:44:49 INFO mobilerun: >
+</function_calls>
+15:44:49 INFO mobilerun: 
+15:44:49 INFO mobilerun: 💡 Tool results:
+15:44:49 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (300, 1800)</output>
+</result>
+</function_results>
+15:44:50 INFO mobilerun: 🔄 Step 5/50
+15:44:51 INFO mobilerun: FastAgent response:
+15:44:53 INFO mobilerun: I will click the "+" button to add a location to the World Clock.
+
+<function_
+15:44:53 INFO mobilerun: calls>
+<invoke name="click_at">
+<parameter name="x">840</parameter>
+15:44:53 INFO mobilerun: 
+<parameter name="y">1440</parameter>
+</invoke>
+</function_calls>
+15:44:53 INFO mobilerun: 
+15:44:53 INFO mobilerun: 💡 Tool results:
+15:44:53 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (840, 1440)</output>
+</result>
+</function_results>
+15:44:54 INFO mobilerun: 🔄 Step 6/50
+15:44:55 INFO mobilerun: FastAgent response:
+15:44:57 INFO mobilerun: I will tap
+15:44:57 INFO mobilerun:  on the search bar to search for "London".
+
+<function_calls>
+<invoke name="click_at
+15:44:57 INFO mobilerun: ">
+<parameter name="x">300</parameter>
+<parameter name="y">90</
+15:44:57 INFO mobilerun: parameter>
+</invoke>
+<invoke name="type_text">
+<parameter name="text">London</
+15:44:57 INFO mobilerun: parameter>
+<parameter name="clear">true</parameter>
+</invoke>
+</function_calls>
+15:44:57 INFO mobilerun: 
+15:44:58 INFO mobilerun: 💡 Tool results:
+15:44:58 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (300, 90)</output>
+</result>
+<result>
+<name>type_text</name>
+<output>Text typed successfully (clear=True)</output>
+</result>
+</function_results>
+15:44:59 INFO mobilerun: 🔄 Step 7/50
+15:45:00 INFO mobilerun: FastAgent response:
+15:45:02 INFO mobilerun: I will press the enter key
+15:45:02 INFO mobilerun:  to search for "London".
+
+<function_calls>
+<invoke name="system_button">
+<parameter
+15:45:02 INFO mobilerun:  name="button">enter</parameter>
+</invoke>
+</function_calls>
+15:45:02 INFO mobilerun: 
+15:45:02 INFO mobilerun: 💡 Tool results:
+15:45:02 INFO mobilerun: <function_results>
+<result>
+<name>system_button</name>
+<output>Pressed ENTER button</output>
+</result>
+</function_results>
+15:45:03 INFO mobilerun: 🔄 Step 8/50
+15:45:03 INFO mobilerun: FastAgent response:
+15:45:05 INFO mobilerun: I have found the time in
+15:45:05 INFO mobilerun:  London, UK from the search results. It is currently 2:45 PM in London.
+
+<function_
+15:45:05 INFO mobilerun: calls>
+<invoke name="complete">
+<parameter name="success">true</parameter>
+<parameter name
+15:45:05 INFO mobilerun: ="message">The time in London, UK is 2:45 PM.</parameter>
+</invoke>
+
+15:45:05 INFO mobilerun: </function_calls>
+15:45:05 INFO mobilerun: 

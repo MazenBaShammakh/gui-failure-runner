@@ -1,0 +1,3 @@
+11:11:53 INFO mobilerun: LLM for task gui-failure-suite-mobile-2862: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile
+11:11:56 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Music app, open Albums and add the album to your queue.
+Use the currently opened app only.

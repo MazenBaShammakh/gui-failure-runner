@@ -1,0 +1,10 @@
+{
+    "task": [
+        "Check whether your subscription needs to be manually renewed, and take care of it if so."
+    ],
+    "website": "http://localhost:3000/failures/dom-present-visually-hidden",
+    "num_step": 1,
+    "action_history": [
+        "TERMINATE"
+    ]
+}

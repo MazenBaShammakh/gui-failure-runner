@@ -1,0 +1,37 @@
+[basic]
+save_file_dir = "results\\runs\\2026-06-01_173627\\seeact\\raw\\mind2web-web-0980"
+default_task = "search gas pickup truck in Fremont with 2010 and 2017 with less than 80000 mile"
+default_website = "https://www.carmax.com"
+crawler_mode = false
+crawler_max_steps = 10
+
+[agent]
+input_info = [ "screenshot",]
+grounding_strategy = "text_choice_som"
+max_auto_op = 50
+max_continuous_no_op = 5
+highlight = false
+
+[openai]
+rate_limit = -1
+model = "gemini-flash-latest"
+temperature = 0.9
+api_key = "Your API key here"
+
+[browser]
+headless = false
+args = []
+browser_app = "chrome"
+persistant = false
+persistant_user_path = ""
+save_video = false
+tracing = false
+
+[browser.viewport]
+width = 1280
+height = 720
+
+[browser.trace]
+screenshots = true
+snapshots = true
+sources = true

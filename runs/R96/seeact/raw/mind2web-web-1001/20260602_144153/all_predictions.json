@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "and select the element \"Accept all\" button marked with label AF.\n\nAction: CLICK on AF",
+        "action_grounding": "ELEMENT: AF\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.328,
+                0.798
+            ],
+            "description": "Accept all",
+            "tag_with_role": "button",
+            "box_raw": [
+                436.51251220703125,
+                795.7999877929688,
+                135,
+                42
+            ],
+            "box": [
+                436.51251220703125,
+                795.7999877929688,
+                571.5125122070312,
+                837.7999877929688
+            ],
+            "selector": 

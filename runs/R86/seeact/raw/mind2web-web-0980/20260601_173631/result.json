@@ -1,0 +1,24 @@
+{
+    "task": [
+        "search gas pickup truck in Fremont with 2010 and 2017 with less than 80000 mile"
+    ],
+    "website": "https://www.carmax.com",
+    "num_step": 15,
+    "action_history": [
+        "[button] Your store for 66204 Kansas City -> CLICK",
+        "[input type=\"search\"] parent_node: Enter zip or state name=\"keyword\" -> TYPE: Fremont",
+        "[button type=\"submit\"] aria-label=\"Search for CarMax stores.\" -> CLICK",
+        "[li] Fremont 44100 Christy St Fremont, CA 94538 Open today 10 AM - 9 PM Set as my store -> CLICK",
+        "[button type=\"button\"] Set as my store -> CLICK",
+        "[input type=\"search\"] parent_node: Search make, model, or keyword name=\"search\" placeholder=\"What kind of car are you looking for?\" -> TYPE: gas pickup truck",
+        "[input type=\"search\"] input value=\"gas pickup truck\" parent_node: Search make, model, or keyword name=\"search\" placeholder=\"What kind of car are you looking for?\" -> PRESS ENTER",
+        "SCROLL DOWN",
+        "[button] Year -> CLICK",
+        "Failed to perform SELECT on From with value '2010': Locator.select_option: Error: Element is not a <select> element\nCall log:\n  - waiting for locator(\"*\").nth(461)\n    - locator resolved to <path fill=\"currentColor\" d=\"M7.49996 11.5L11.5 15.5C11.78 15.78 12.23 15.78 12.5 15.5L16.5 11.5C16.7 11.3 16.76 10.99 16.65 10.73C16.54 10.46 16.28 10.29 15.99 10.29H7.98996C7.69996 10.29 7.43996 10.46 7.32996 10.73C7.21996 10.99 7.27996 11.3 7.47996 11.5H7.49996Z\"></path>\n  - attempting select option action\n    - waiting for element to be visible and enabled\n",
+        "[select] parent_node: 2026 Selected Options: 2014 - Options: 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2015 | 2014 -> SELECT: 2010",
+        "[select] parent_node: 2026 Selected Options: 2021 - Options: 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2015 | 2014 -> SELECT: 2010",
+        "[svg] parent_node: 2021 and Newer -> CLICK",
+        "[select] parent_node: 2026 Selected Options: 2021 - Options: 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2015 | 2014 -> SELECT: 2010",
+        "[svg] parent_node: 2021 and Newer -> CLICK"
+    ]
+}

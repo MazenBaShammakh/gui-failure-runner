@@ -1,0 +1,13 @@
+{
+    "task": [
+        "Set the shipping city to Munich and save the address."
+    ],
+    "website": "http://localhost:3000/failures/combobox-uncommitted-value",
+    "num_step": 4,
+    "action_history": [
+        "[input type=\"text\"] placeholder=\"Start typing a city\u2026\" -> TYPE: Munich",
+        "[ul] Munich -> CLICK",
+        "[button type=\"button\"] Save address -> CLICK",
+        "TERMINATE"
+    ]
+}

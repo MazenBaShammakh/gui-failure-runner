@@ -1,0 +1,11 @@
+10:30:41 INFO mobilerun: LLM for task gui-failure-suite-mobile-2894: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile
+10:30:45 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Careers app, open Reapply and tell me which role you're reapplying for.
+Use the currently opened app only.
+10:30:46 INFO mobilerun: 🔄 Resetting device state before run
+10:30:47 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+10:30:47 INFO mobilerun: 🔄 Step 1/50
+10:30:49 INFO mobilerun: FastAgent response:
+10:30:49 WARNING mobilerun: Attempt 1 failed with error: ClientError('429 Too Many Requests. {\'message\': \'{\\n  "error": {\\n    "code": 429,\\n    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",\\n    "status": "RESOURCE_EXHAUSTED"\\n  }\\n}\\n\', \'status\': \'Too Many Requests\'}')
+10:30:50 WARNING mobilerun: Attempt 2 failed with error: ClientError('429 Too Many Requests. {\'message\': \'{\\n  "error": {\\n    "code": 429,\\n    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",\\n    "status": "RESOURCE_EXHAUSTED"\\n  }\\n}\\n\', \'status\': \'Too Many Requests\'}')
+10:30:52 WARNING mobilerun: Attempt 3 failed with error: ClientError('429 Too Many Requests. {\'message\': \'{\\n  "error": {\\n    "code": 429,\\n    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",\\n    "status": "RESOURCE_EXHAUSTED"\\n  }\\n}\\n\', \'status\': \'Too Many Requests\'}')
+10:30:52 ERROR mobilerun: Error during task execution: 429 Too Many Requests. {'message': '{\n  "error": {\n    "code": 429,\n    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n', 'status': 'Too Many Requests'}

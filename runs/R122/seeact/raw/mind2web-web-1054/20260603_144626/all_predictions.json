@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "Please click on the \"Mac\" link to go to the Mac section of the Apple website.\n\nAction: CLICK on G",
+        "action_grounding": "ELEMENT: G\n\nACTION: CLICK\n\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.258,
+                0.09
+            ],
+            "description": "Mac",
+            "tag_with_role": "a",
+            "box_raw": [
+                376.7124938964844,
+                70,
+                39,
+                44
+            ],
+            "box": [
+                376.7124938964844,
+                70,
+                415.7124938964844,
+                114
+            ],
+            "selector": 

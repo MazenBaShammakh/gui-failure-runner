@@ -1,0 +1,24 @@
+{
+    "task": [
+        "Find the status of March 25 flights from New York airports to Columbus in Ohio."
+    ],
+    "website": "https://www.delta.com",
+    "num_step": 15,
+    "action_history": [
+        "[a role=\"tab\"] Flight Status -> CLICK",
+        "[button] From -> CLICK",
+        "[input role=\"combobox\" type=\"text\"] parent_node: Origin aria-label=\"Origin\" placeholder=\"Search airports...\" -> TYPE: New York",
+        "PRESS ENTER",
+        "[input role=\"combobox\" type=\"text\"] input value=\"NEW YORK\" parent_node: Origin aria-label=\"Origin\" placeholder=\"Search airports...\" -> TYPE: NYC",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "Failed to perform CLICK on NYC - New York City Area Airports, NY with value 'None': Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"*\").nth(1515)\n    - locator resolved to <span class=\"search__input--error-message\">Valid city code or airport name is required</span>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    4 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK",
+        "[li role=\"option\"] NYC - New York City Area Airports, NY -> CLICK"
+    ]
+}

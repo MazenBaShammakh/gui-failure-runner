@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "CLICK: Click the \u201cAccept\u201d button on the cookie consent pop-up located at the bottom-left of the page (black rounded button labeled \u201cAccept\u201d) to dismiss the overlay and proceed.",
+        "action_grounding": "Target element: \u201cAccept\u201d button on the cookie consent pop-up.\nLocation: Bottom-left of the page within the cookie banner; black rounded button labeled \u201cAccept.\u201d\nOperation: Click it to dismiss the banner.\n\nELEMENT: O\nACTION: CLICK\nVALUE: None",
+        "element": {
+            "center_point": [
+                0.073,
+                0.942
+            ],
+            "description": "Accept",
+            "tag_with_role": "button",
+            "box_raw": [
+                40,
+                945,
+                143.33750915527344,
+                40
+            ],
+            "box": [
+                40,
+                945,
+                183.33750915527344,
+                985
+            ],
+            "selector": 

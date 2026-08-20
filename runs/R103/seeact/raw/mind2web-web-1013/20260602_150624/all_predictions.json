@@ -1,0 +1,24 @@
+[
+    {
+        "action_generation": "Action: TYPE\nValue: Smile\nTarget: A",
+        "action_grounding": "I will type \"Smile\" into the search bar to find the movie and then find its director.\n\nELEMENT: A\n\nACTION: TYPE\n\nVALUE: Smile",
+        "element": {
+            "center_point": [
+                0.352,
+                0.127
+            ],
+            "description": "placeholder=\"Search TV Shows and Movies...\"",
+            "tag_with_role": "input type=\"text\"",
+            "box_raw": [
+                176.40000915527344,
+                114,
+                730,
+                32
+            ],
+            "box": [
+                176.40000915527344,
+                114,
+                906.4000091552734,
+                146
+            ],
+            "selector": 

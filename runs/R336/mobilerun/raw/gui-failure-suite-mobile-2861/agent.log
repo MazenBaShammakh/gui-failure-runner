@@ -1,0 +1,3 @@
+11:11:47 INFO mobilerun: LLM for task gui-failure-suite-mobile-2861: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=text prelaunch=com.mazenbashammakh.mobile
+11:11:49 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: In the Banking app, open Add Payee and view the bank details for the sort code.
+Use the currently opened app only.

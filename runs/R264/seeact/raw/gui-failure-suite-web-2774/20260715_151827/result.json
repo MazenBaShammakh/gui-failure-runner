@@ -1,0 +1,11 @@
+{
+    "task": [
+        "Turn on the Desktop Alerts toggle."
+    ],
+    "website": "http://localhost:3000/failures/aria-hidden-swallows-control",
+    "num_step": 2,
+    "action_history": [
+        "[button role=\"switch\" type=\"button\"] parent_node: \ud83d\udda5\ufe0f -> CLICK",
+        "TERMINATE"
+    ]
+}

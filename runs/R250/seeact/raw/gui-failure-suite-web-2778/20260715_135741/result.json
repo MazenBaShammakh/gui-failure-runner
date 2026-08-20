@@ -1,0 +1,11 @@
+{
+    "task": [
+        "Dismiss the storage almost full notice."
+    ],
+    "website": "http://localhost:3000/failures/static-element-styled-actionable",
+    "num_step": 2,
+    "action_history": [
+        "[button type=\"button\"] Dismiss -> CLICK",
+        "TERMINATE"
+    ]
+}

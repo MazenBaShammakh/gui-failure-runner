@@ -1,0 +1,293 @@
+18:43:10 INFO mobilerun: LLM for task gui-failure-suite-mobile-2696: provider=GoogleGenAI model=gemini-flash-latest max_steps=50 modality=vision prelaunch=com.mazenbashammakh.mobile
+18:43:14 INFO mobilerun: 🚀 Running MobileAgent to achieve goal: Find the iOS Developer role and tell me its salary range.
+18:43:18 INFO mobilerun: 🔄 Resetting device state before run
+18:43:19 INFO mobilerun: Pre-launched preferred app com.mazenbashammakh.mobile
+18:43:19 INFO mobilerun: 🔄 Step 1/50
+18:43:25 INFO mobilerun: FastAgent response:
+18:43:27 INFO mobilerun: I will swipe up to open the app drawer and see
+18:43:27 INFO mobilerun:  what apps are available on the device.<function_calls>
+<invoke name="swipe">
+<parameter name="
+18:43:27 INFO mobilerun: coordinate">[540, 1400]</parameter>
+<parameter name="coordinate2">
+18:43:28 INFO mobilerun: [540, 400]</parameter>
+<parameter name="duration">0.5</parameter>
+</invoke>
+</
+18:43:28 INFO mobilerun: function_calls>
+18:43:28 INFO mobilerun: 
+18:43:29 INFO mobilerun: 💡 Tool results:
+18:43:29 INFO mobilerun: <function_results>
+<result>
+<name>swipe</name>
+<output>Swiped from (540, 1400) to (540, 400)</output>
+</result>
+</function_results>
+18:43:30 INFO mobilerun: 🔄 Step 2/50
+18:43:32 INFO mobilerun: FastAgent response:
+18:43:34 INFO mobilerun: I will open the "Careers" app to search for the iOS Developer role.<function_calls>
+<invoke name
+18:43:34 INFO mobilerun: ="click_at">
+<parameter name="x">388</parameter>
+<parameter name="y
+18:43:34 INFO mobilerun: ">300</parameter>
+</invoke>
+</function_calls>
+18:43:34 INFO mobilerun: 
+18:43:35 INFO mobilerun: 💡 Tool results:
+18:43:35 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (388, 300)</output>
+</result>
+</function_results>
+18:43:36 INFO mobilerun: 🔄 Step 3/50
+18:43:38 INFO mobilerun: FastAgent response:
+18:43:44 INFO mobilerun: I will click on the Careers app icon, which is located around (388,
+18:43:44 INFO mobilerun:  480).<function_calls>
+<invoke name="click_at">
+<parameter name="x">
+18:43:44 INFO mobilerun: 388</parameter>
+<parameter name="y">480</parameter>
+</invoke>
+
+18:43:44 INFO mobilerun: </function_calls>
+18:43:44 INFO mobilerun: 
+18:43:44 INFO mobilerun: 💡 Tool results:
+18:43:44 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (388, 480)</output>
+</result>
+</function_results>
+18:43:45 INFO mobilerun: 🔄 Step 4/50
+18:43:46 INFO mobilerun: FastAgent response:
+18:43:48 INFO mobilerun: I will click on the search bar to search for "iOS Developer".<function_calls>
+<invoke name
+18:43:48 INFO mobilerun: ="click_at">
+<parameter name="x">400</parameter>
+<parameter name="y
+18:43:48 INFO mobilerun: ">180</parameter>
+</invoke>
+</function_calls>
+18:43:48 INFO mobilerun: 
+18:43:48 INFO mobilerun: 💡 Tool results:
+18:43:48 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (400, 180)</output>
+</result>
+</function_results>
+18:43:49 INFO mobilerun: 🔄 Step 5/50
+18:43:50 INFO mobilerun: FastAgent response:
+18:43:52 INFO mobilerun: I will tap on the search bar to search for the iOS Developer role.<function_calls>
+<invoke name
+18:43:52 INFO mobilerun: ="click_at">
+<parameter name="x">400</parameter>
+<parameter name="y
+18:43:52 INFO mobilerun: ">180</parameter>
+</invoke>
+</function_calls>
+18:43:52 INFO mobilerun: 
+18:43:53 INFO mobilerun: 💡 Tool results:
+18:43:53 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (400, 180)</output>
+</result>
+</function_results>
+18:43:54 INFO mobilerun: 🔄 Step 6/50
+18:43:55 INFO mobilerun: FastAgent response:
+18:43:56 INFO mobilerun: I will tap on the search bar to edit the search query.<function_calls>
+18:43:56 INFO mobilerun: 
+<invoke name="click_at">
+<parameter name="x">400</parameter>
+<
+18:43:56 INFO mobilerun: parameter name="y">180</parameter>
+</invoke>
+</function_calls>
+18:43:56 INFO mobilerun: 
+18:43:56 INFO mobilerun: 💡 Tool results:
+18:43:56 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (400, 180)</output>
+</result>
+</function_results>
+18:43:57 INFO mobilerun: 🔄 Step 7/50
+18:43:58 INFO mobilerun: FastAgent response:
+18:44:01 INFO mobilerun: I will click the back button to return to the main search screen where we can enter a new search query
+18:44:01 INFO mobilerun: .<function_calls>
+<invoke name="click_at">
+<parameter name="x">80</parameter
+18:44:01 INFO mobilerun: >
+<parameter name="y">80</parameter>
+</invoke>
+</function_calls>
+18:44:01 INFO mobilerun: 
+18:44:01 INFO mobilerun: 💡 Tool results:
+18:44:01 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (80, 80)</output>
+</result>
+</function_results>
+18:44:02 INFO mobilerun: 🔄 Step 8/50
+18:44:03 INFO mobilerun: FastAgent response:
+18:44:05 INFO mobilerun: I will open the Careers app again.<function_calls>
+<invoke name="click_at">
+<parameter
+18:44:05 INFO mobilerun:  name="x">388</parameter>
+<parameter name="y">290</parameter>
+
+18:44:05 INFO mobilerun: </invoke>
+</function_calls>
+18:44:05 INFO mobilerun: 
+18:44:06 INFO mobilerun: 💡 Tool results:
+18:44:06 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (388, 290)</output>
+</result>
+</function_results>
+18:44:07 INFO mobilerun: 🔄 Step 9/50
+18:44:07 INFO mobilerun: FastAgent response:
+18:44:10 INFO mobilerun: I will click on the Careers app icon to open it
+18:44:10 INFO mobilerun: .<function_calls>
+<invoke name="click_at">
+<parameter name="x">388</
+18:44:10 INFO mobilerun: parameter>
+<parameter name="y">300</parameter>
+</invoke>
+</function_calls
+18:44:10 INFO mobilerun: >
+18:44:10 INFO mobilerun: 
+18:44:10 INFO mobilerun: 💡 Tool results:
+18:44:10 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (388, 300)</output>
+</result>
+</function_results>
+18:44:11 INFO mobilerun: 🔄 Step 10/50
+18:44:12 INFO mobilerun: FastAgent response:
+18:44:14 INFO mobilerun: I will click on the Careers app icon to open it.<function_calls>
+<invoke name="
+18:44:14 INFO mobilerun: click_at">
+<parameter name="x">388</parameter>
+<parameter name="y">
+18:44:14 INFO mobilerun: 300</parameter>
+</invoke>
+</function_calls>
+18:44:14 INFO mobilerun: 
+18:44:15 INFO mobilerun: 💡 Tool results:
+18:44:15 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (388, 300)</output>
+</result>
+</function_results>
+18:44:16 INFO mobilerun: 🔄 Step 11/50
+18:44:16 INFO mobilerun: FastAgent response:
+18:44:19 INFO mobilerun: I
+18:44:19 INFO mobilerun:  will open the Careers app using the open_app tool.<function_calls>
+<invoke name="open_app
+18:44:19 INFO mobilerun: ">
+<parameter name="text">Careers</parameter>
+</invoke>
+</function_calls>
+18:44:19 INFO mobilerun: 
+18:44:21 INFO mobilerun: 📱 AppOpener response:
+18:44:25 INFO mobilerun: ```json
+{
+18:44:25 INFO mobilerun: 
+    "package": null
+}
+```
+18:44:25 INFO mobilerun: 
+18:44:25 WARNING mobilerun: No matching app found for: Careers
+18:44:26 INFO mobilerun: 💡 Tool results:
+18:44:26 INFO mobilerun: <function_results>
+<result>
+<name>open_app</name>
+<error>Could not open app: no installed app matches 'Careers'</error>
+</result>
+</function_results>
+18:44:27 INFO mobilerun: 🔄 Step 12/50
+18:44:27 INFO mobilerun: FastAgent response:
+18:44:37 INFO mobilerun: I will tap on the Careers app icon at (388, 480) to open
+18:44:37 INFO mobilerun:  the app.<function_calls>
+<invoke name="click_at">
+<parameter name="x">
+18:44:37 INFO mobilerun: 388</parameter>
+<parameter name="y">480</parameter>
+</invoke>
+
+18:44:37 INFO mobilerun: </function_calls>
+18:44:37 INFO mobilerun: 
+18:44:37 INFO mobilerun: 💡 Tool results:
+18:44:37 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (388, 480)</output>
+</result>
+</function_results>
+18:44:38 INFO mobilerun: 🔄 Step 13/50
+18:44:39 INFO mobilerun: FastAgent response:
+18:44:41 INFO mobilerun: I will tap on the search bar to change the search query to "iOS Developer".<function
+18:44:41 INFO mobilerun: _calls>
+<invoke name="click_at">
+<parameter name="x">400</parameter
+18:44:41 INFO mobilerun: >
+<parameter name="y">180</parameter>
+</invoke>
+</function_calls>
+18:44:41 INFO mobilerun: 
+18:44:41 INFO mobilerun: 💡 Tool results:
+18:44:41 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (400, 180)</output>
+</result>
+</function_results>
+18:44:42 INFO mobilerun: 🔄 Step 14/50
+18:44:43 INFO mobilerun: FastAgent response:
+18:44:47 INFO mobilerun: I will tap on the
+18:44:47 INFO mobilerun:  search bar at (350, 180) to edit the search query.<function_calls>
+18:44:47 INFO mobilerun: 
+<invoke name="click_at">
+<parameter name="x">350</parameter>
+<
+18:44:47 INFO mobilerun: parameter name="y">180</parameter>
+</invoke>
+</function_calls>
+18:44:47 INFO mobilerun: 
+18:44:47 INFO mobilerun: 💡 Tool results:
+18:44:47 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (350, 180)</output>
+</result>
+</function_results>
+18:44:48 INFO mobilerun: 🔄 Step 15/50
+18:44:49 INFO mobilerun: FastAgent response:
+18:44:54 INFO mobilerun: I will tap on the search bar to edit the search query. The search bar is
+18:44:54 INFO mobilerun:  located between y=192 and y=384, so I will tap at (400,
+18:44:54 INFO mobilerun:  288).<function_calls>
+<invoke name="click_at">
+<parameter name="
+18:44:54 INFO mobilerun: x">400</parameter>
+<parameter name="y">288</parameter>
+</invoke
+18:44:54 INFO mobilerun: >
+</function_calls>
+18:44:54 INFO mobilerun: 
+18:44:54 INFO mobilerun: 💡 Tool results:
+18:44:54 INFO mobilerun: <function_results>
+<result>
+<name>click_at</name>
+<output>Tapped at (400, 288)</output>
+</result>
+</function_results>
+18:44:55 INFO mobilerun: 🔄 Step 16/50
+18:44:56 INFO mobilerun: FastAgent response:

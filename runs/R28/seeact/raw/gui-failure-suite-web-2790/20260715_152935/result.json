@@ -1,0 +1,11 @@
+{
+    "task": [
+        "Open invoice #1041 for review, then open invoice #1042 for review, then approve invoice #1041 in its review tab."
+    ],
+    "website": "http://localhost:3000/failures/action-misrouted-across-tabs",
+    "num_step": 2,
+    "action_history": [
+        "[button type=\"button\"] Review in new tab -> CLICK",
+        "CLOSE TAB"
+    ]
+}

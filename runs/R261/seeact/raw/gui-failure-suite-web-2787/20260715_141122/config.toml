@@ -1,0 +1,37 @@
+[basic]
+save_file_dir = "results\\runs\\2026-07-15_141117\\seeact\\raw\\gui-failure-suite-web-2787"
+default_task = "Dismiss the domain renewal reminder."
+default_website = "http://localhost:3000/failures/gesture-only-no-visible-cue"
+crawler_mode = false
+crawler_max_steps = 10
+
+[agent]
+input_info = [ "screenshot",]
+grounding_strategy = "text_choice_som"
+max_auto_op = 50
+max_continuous_no_op = 5
+highlight = false
+
+[openai]
+rate_limit = -1
+model = "gemini-flash-latest"
+temperature = 0.9
+api_key = "Your API key here"
+
+[browser]
+headless = false
+args = []
+browser_app = "chrome"
+persistant = false
+persistant_user_path = ""
+save_video = false
+tracing = false
+
+[browser.viewport]
+width = 1536
+height = 1024
+
+[browser.trace]
+screenshots = true
+snapshots = true
+sources = true
