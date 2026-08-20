@@ -1,4 +1,4 @@
-# GUI Agent Benchmark Runner
+# GUI Failure Runner
 
 A unified benchmark runner that routes tasks from `.jsonl` datasets to GUI agents
 (SeeAct, Mobilerun, Agent S, browser-use, PC-Agent, UFO), captures their raw output,
